@@ -598,6 +598,7 @@ section.ctalist .form-control {
 }
 .categories-slider  .item-cat .card img{
   margin: auto;
+  max-width: 60px;
 }
 
 .job-list-menu .nav-item .nav-link.active {

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SignUp</title>
+    <title>SignIn</title>
     <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
 
 <style>
@@ -272,38 +272,23 @@ li.list-inline-item a i {
         <div class="form-modal">
     
             <div class="form-toggle">
-                <button id="login-toggle" onclick="toggleLogin()">Candidate</button>
-                <button id="signup-toggle" onclick="toggleSignup()">Employer</button>
+                <button id="login-toggle" class="" style="width: 100%; border-bottom-right-radius:0;" >Login</button>
+              
             </div>
         
             <div id="login-form">
                 <form>
-                    <input type="text" placeholder="Full Name"/>
-                    <input type="text" placeholder="Phone Number"/>
-                    <input type="text" placeholder="Email"/>
+                    <input type="text" placeholder="Email/Phone Number"/>
                     <input type="password" placeholder="Enter password"/>
                     <button type="button" class="btn login">create account</button>
-                    <p>Clicking <strong>create account</strong> means that you are agree to our <a href="javascript:void(0)">terms of services</a>.</p>
 
-                    <p>Already have an account? <a href="javascript:void(0)"> Click here to login</a></p>
+                    <p>Don't have an account? <a href="javascript:void(0)"> Click here to Register</a></p>
                     <hr/>
         
                 </form>
             </div>
         
-            <div id="signup-form">
-                <form>
-                    <input type="text" placeholder="Company Name"/>
-                    <input type="text" placeholder="Phone Number"/>
-                    <input type="text" placeholder="Email"/>
-                    <input type="password" placeholder="Enter password"/>
-                    <button type="button" class="btn signup" style="background: #f24334;">create account</button>
-                    <p>Clicking <strong>create account</strong> means that you are agree to our <a href="javascript:void(0)">terms of services</a>.</p>
-                    <p>Already have an account? <a href="javascript:void(0)"> Click here to login</a></p>
-                    <hr/>
-                   
-                </form>
-            </div>
+        
         
         </div>
     </section >
@@ -346,25 +331,6 @@ li.list-inline-item a i {
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script>
-        function toggleSignup(){
-        document.getElementById("login-toggle").style.backgroundColor="#fff";
-            document.getElementById("login-toggle").style.color="#222";
-            document.getElementById("signup-toggle").style.backgroundColor="#f24334";
-            document.getElementById("signup-toggle").style.color="#fff";
-            document.getElementById("login-form").style.cssText="display: none; visibility: hidden;opacity: 0;transition:all 0.5s;";
-            document.getElementById("signup-form").style.cssText="display: block; visibility: visibility;opacity: 1;transition:all 0.5s;";
-        }
-
-        function toggleLogin(){
-            document.getElementById("login-toggle").style.backgroundColor="#28abdd";
-            document.getElementById("login-toggle").style.color="#fff";
-            document.getElementById("signup-toggle").style.backgroundColor="#fff";
-            document.getElementById("signup-toggle").style.color="#222";
-            document.getElementById("signup-form").style.cssText ="display: none; visibility: hidden;opacity: 0;transition:all 0.5s;";
-            document.getElementById("login-form").style.cssText="display: block; visibility: visibility;opacity: 1;transition:all 0.5s;";
-        }
-
-    </script>
+  
 </body>
 </html>
