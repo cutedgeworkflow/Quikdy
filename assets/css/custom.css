@@ -55,7 +55,7 @@ header nav ul:not(.social-menu) li a:hover::after, header nav ul:not(.social-men
   color: white;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 14px;
   border: none;
   display: inline-block;
   min-width: 150px;
@@ -67,32 +67,13 @@ a.btn_1:hover {
   background: transparent;
   outline: 2px solid;
 }
-.btn_2{
-
-background: var(--primary-bg-color);
-
-padding: 15px 35px;
-
-color: white;
-
-text-decoration: none;
-
-text-transform: uppercase;
-
-font-size: 16px;
-
-border: none;
-
-display: inline-block;
-
-border-radius: 5px;
-}
+.btn_2{background: var(--primary-bg-color);padding: 15px 35px;color: white;text-decoration: none;text-transform: uppercase;font-size: 14px;border: none;display: inline-block;border-radius: 5px;}
 .btn-secondary {
   color: #fff;
   background-color: #2baad9;
   border-color: #2aa8d5;
 }
-a.btn_2:hover {
+.btn_2:hover {
   color: var(--primary-bg-color);
   background: transparent;
   outline: 2px solid;
@@ -482,7 +463,7 @@ font-weight: 800;
 
   }
   .Modern-Slider .item h4{font-size: 32px;}
-  .social-menu{
+  /* .social-menu{
     position: fixed;
     bottom: 0;
     background: white;
@@ -492,10 +473,21 @@ font-weight: 800;
     justify-content: center;
     box-shadow: 0 0 100px #ccc;
   
+  } */
+  .social-menu{
+    padding: 0 25px;
+  }
+  .social-menu li a{
+    width: 100%;
+
+  }
+  .social-menu li:not(:last-of-type){
+    margin-bottom: 10px;
+    
   }
   .navbar-collapse {
     border-top: 1px solid #ccc;
-    top: 95px;
+    top: 86px;
     padding-left: 0;
   }
 
@@ -519,7 +511,7 @@ font-weight: 800;
     width: fit-content;
     position: relative;
   }.Modern-Slider .item .img-fill {
-    height: 350px;
+    height: 250px;
     /* background: #000; */
   }
   .navbar-brand .logo-dark {
@@ -773,8 +765,12 @@ ul.slick-dots li.slick-active button{
   border: none;
   color: #fff;
 }
-
-.random-section i{
+.random-section .apply-btn:hover{
+  color:#ee341d;;
+  background: transparent;
+  outline: 2px solid;
+}
+.random-section .icon-box i{
 
   color:#29abda;
 }
@@ -885,5 +881,8 @@ padding: 30px 0;
   .footer-sec {
  
     padding-bottom: 90px;
+  }
+  .ctalist button{
+    width: 100%;
   }
 }
