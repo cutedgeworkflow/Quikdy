@@ -32,10 +32,35 @@
         <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
         <!--Custom Css-->
        
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.sumoselect/3.4.8/sumoselect.min.css" integrity="sha512-vU7JgiHMfDcQR9wyT/Ye0EAAPJDHchJrouBpS9gfnq3vs4UGGE++HNL3laUYQCoxGLboeFD+EwbZafw7tbsLvg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
         <link rel="stylesheet" href="assets/css/all.min.css">
 
         <link rel="stylesheet" href="assets/css/custom.css">
+        <style>
+            .select2-container--default .select2-selection--single {
+                background-color: #fff;
+                border: 0;
+                border-radius: 4px;
+                height: 40px;
+         
+            }
+            
+            .select2-container--default .select2-selection--single .select2-selection__rendered {
+                color: #495057;
+                line-height: 28px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+            }
+            .select2-container--default .select2-selection--single .select2-selection__arrow {
+                height: 26px;
+                position: absolute;
+                top: 50%;
+                right: 1px;
+                width: 20px;
+                transform: translateY(-50%);
+            }
+        </style>
     </head>
 
     <body>
@@ -805,7 +830,7 @@
                                                 </div>
 
                                             <div class="text-center mt-4 pt-2">
-                                                <a href="#" class="btn btn-primary">View More <i class="uil uil-arrow-right"></i></a>
+                                                <a href="#" class="btn_1 ">View More <i class="uil uil-arrow-right"></i></a>
                                             </div>
                                         </div>
                                         <!--end featured-jobs-tab-->
@@ -918,7 +943,7 @@
                                                 </div>
 
                                             <div class="text-center mt-4 pt-2">
-                                                <a href="#" class="btn btn-primary">View More <i class="uil uil-arrow-right"></i></a>
+                                                <a href="#" class="btn_1 ">View More <i class="uil uil-arrow-right"></i></a>
                                             </div>
                                         </div>
                                         <!--end freelancer-tab-->
@@ -1031,7 +1056,7 @@
                                                 </div>
 
                                             <div class="text-center mt-4 pt-2">
-                                                <a href="#" class="btn btn-primary">View More <i class="uil uil-arrow-right"></i></a>
+                                                <a href="#" class="btn_1 ">View More <i class="uil uil-arrow-right"></i></a>
                                             </div>
                                         </div>
                                         <!--end part-time-tab-->
@@ -1144,7 +1169,7 @@
                                                 </div>
 
                                             <div class="text-center mt-4 pt-2">
-                                                <a href="#" class="btn btn-primary">View More <i class="uil uil-arrow-right"></i></a>
+                                                <a href="#" class="btn_1 ">View More <i class="uil uil-arrow-right"></i></a>
                                             </div>
                                         </div>
                                         <!--end full-time-tab-->
@@ -1547,7 +1572,7 @@
         <!-- Choice Js -->
         <script src="assets/scripts/choices.min.js"></script>
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sumoselect/3.4.8/jquery.sumoselect.min.js" integrity="sha512-Ut8/+LO2wW6HfMEz1vxHpiwMMQfw7Yf/0PdpTERAbK2VJQt4eVDsmFL269zUCkeG/QcEcc/tcORSrGHlP89nBQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
         <!-- Swiper Js -->
         <script src="assets/libs/swiper/swiper-bundle.min.js"></script>
 
@@ -1674,11 +1699,9 @@
     <script>
 
         $(document).ready(function () {
-            $('select').SumoSelect({
-			placeholder: 'This is a placeholder',
-			csvDispCount: 3,
-            search:true,
-			});
+            $(document).ready(function() {
+                $('select').select2();
+            });
         });
 
     </script>
