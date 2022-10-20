@@ -1,48 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="author" content="TechyDevs">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Quikdy-Job Portal || Candidate Dashboard</title>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="author" content="TechyDevs">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Quikdy-Job Portal || Profile</title>
+        
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="../assets/images/favicon.ico">
+        
     
-    <!-- App favicon -->
-    <link rel="shortcut icon" href="../assets/images/favicon.ico">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,400,500,700,900&amp;display=swap" rel="stylesheet">
     
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,400,500,700,900&amp;display=swap" rel="stylesheet">
-
-    <!-- Template CSS Files -->
-
+        <!-- Template CSS Files -->
+    
+          
+       <!-- Bootstrap Css -->
+       <link href="../assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    
+    
+       <!-- Swiper Css -->
+       <link rel="stylesheet" href="../assets/libs/swiper/swiper-bundle.min.css">
+       
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+       <!-- Icons Css -->
+       <link href="../assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+       <!-- App Css-->
+       <link href="../assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+       <!--Custom Css-->
       
-   <!-- Bootstrap Css -->
-   <link href="../assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
-
-
-   <!-- Swiper Css -->
-   <link rel="stylesheet" href="../assets/libs/swiper/swiper-bundle.min.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-   <!-- Icons Css -->
-   <link href="../assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-   <!-- App Css-->
-   <link href="../assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
-   <!--Custom Css-->
-  
-   <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
-   <link rel="stylesheet" href="../assets/css/all.min.css">
-
-   <link rel="stylesheet" href="../assets/css/custom.css">
-
-   <!--Admin Assets-->
-   <link rel="stylesheet" href="css/line-awesome.css">
-
-   <link rel="stylesheet" href="css/style.css">
-
-</head>
+       <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    
+       <link rel="stylesheet" href="../assets/css/all.min.css">
+    
+       <link rel="stylesheet" href="../assets/css/custom.css">
+    
+       <!--Admin Assets-->
+       <link rel="stylesheet" href="css/line-awesome.css">
+    
+       <link rel="stylesheet" href="css/style.css">
+    
+    </head>
 <body>
 
       <!--start page Loader -->
@@ -74,7 +76,7 @@
                     <img src="../assets/landingImages/logo.png" alt="" class="logo-dark" />
                     <img src="../assets/landingImages/logo.png"  alt="" class="logo-light" />
                 </a>
-                <div>
+                <div class="order-2 order-lg-0 ms-4 ">
                     <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-label="Toggle navigation">
                         <i class="mdi mdi-menu"></i>
@@ -91,7 +93,7 @@
                         <li><a href="#">Insights</a></li>
 
                     </ul><!--end navbar-nav-->
-                    <ul class="social-menu d-block d-lg-none list-unstyled mb-0">
+                    <ul class="social-menu d-block d-lg-none list-unstyled mb-0 order-1">
                         <li class="me-2">
                             <a href="#" class="btn_1">
                                 LOGIN
@@ -108,20 +110,7 @@
                 </div>
                 <!--end navabar-collapse-->
                 <!--Remove class after login d-lg-flex-->
-                <ul class="social-menu d-none list-unstyled mb-0">
-                    <li class="me-2">
-                        <a href="#" class="btn_1">
-                            LOGIN
-                        </a>
-
-                    </li>
-                    <li>
-                        <a href="#" class="btn_2">
-                            REGISTER
-                        </a>
-
-                    </li>
-                </ul><!--end header-menu-->
+               <!--end header-menu-->
                 <div class="user-action-wrap logo-right-content">
                     <div class="notification-item">
                         <div class="dropdown">
@@ -143,30 +132,30 @@
                                             <span class="email">alitupan@example.com</span>
                                         </div>
                                     </div><!-- end mess__title -->
-                                    <div class="mess__body">
+                                   <div class="mess__body">
                                         <ul class="list-items">
                                             <li class="mb-0">
-                                                <a href="candidate-dashboard.html" class="d-block">
-                                                    <i class="la la-user"></i> Account
+                                                <a href="candidate-profile.html" class="d-block">
+                                                    <i class="la la-user"></i> My Proile
                                                 </a>
                                             </li>
                                             <li class="mb-0">
-                                                <a href="candidate-dashboard-bookmark.html" class="d-block">
-                                                    <i class="la la-bookmark"></i> Bookmarks
+                                                <a href="candidate-applied-jobs.html" class="d-block">
+                                                    <i class="la la-bookmark"></i> Applied Jobs
                                                 </a>
                                             </li>
                                             <li class="mb-0">
-                                                <a href="candidate-add-resume.html" class="d-block">
+                                                <a href="candidate-edit-profile.html" class="d-block">
                                                     <i class="la la-plus"></i> Add a Resume
                                                 </a>
                                             </li>
                                             <li class="mb-0">
-                                                <a href="candidate-dashboard.html" class="d-block">
+                                                <a href="../contact-us.html" class="d-block">
                                                     <i class="la la-question"></i> Help
                                                 </a>
                                             </li>
                                             <li class="mb-0">
-                                                <a href="candidate-dashboard.html" class="d-block">
+                                                <a href="candidate-edit-profile.html" class="d-block">
                                                     <i class="la la-gear"></i> Setting
                                                 </a>
                                             </li>
@@ -174,7 +163,7 @@
                                                 <div class="section-block mt-2 mb-2"></div>
                                             </li>
                                             <li class="mb-0">
-                                                <a href="index.html" class="d-block">
+                                                <a href="../index.html" class="d-block">
                                                     <i class="la la-power-off"></i> Logout
                                                 </a>
                                             </li>
@@ -203,8 +192,8 @@
             START DASHBOARD AREA
         ================================= -->
         <section class="dashboard-area">
-     
-            <div class="dashboard-content-wrap no-sidebar pe-0 ps-0">
+            <!--add pt-0 below-->
+            <div class="dashboard-content-wrap no-sidebar pe-0 ps-0 pt-0">
                 <div class="dashboard-banner">
                     <img src="images/low_poly_banner_design_1711.jpg" class="img-fluid" alt="">
                     <div class="container center-absolute">
@@ -260,10 +249,10 @@
                                                     <a href="#" class="btn_3"><i class="la la-cloud-download font-size-16"></i> Download CV</a>
                                                 </li>
                                                 <li class="me-2">
-                                                    <a href="#" class="btn_2"><i class="fa fa-eye" aria-hidden="true"></i> View Dashboard</a> 
+                                                    <a href="candidate-dashboard.html" class="btn_2"><i class="fa fa-eye" aria-hidden="true"></i> View Dashboard</a> 
                                                 </li>
                                                 <li>
-                                                    <a href="#" class="btn_2  report"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Support</a>
+                                                    <a href="../contact.html" class="btn_2  report"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Support</a>
                                                 </li>
                                             </ul>
                                         </div><!-- end bread-action -->
@@ -506,7 +495,7 @@
                     <section class="section footer-sec">
                         <div class="container-fluid">
                             <div class="row">
-                                <div class="col-lg-3 my-auto">
+                                <div class="col-lg-3 my-auto text-center text-lg-start">
                                     <p class="text-black-50  mb-0">
                                         <script>document.write(new Date().getFullYear())</script>2022 © Copyright.<a href="#" target="_blank" class="text-reset"></a>
                                     </p>
@@ -576,30 +565,30 @@
 </div><!-- end modal-form -->
 
 <!-- Template JS Files -->
-   <!-- JAVASCRIPT -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script src="../assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="https://unicons.iconscout.com/release/v4.0.0/script/monochrome/bundle.js"></script>
+      <!-- JAVASCRIPT -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="../assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="https://unicons.iconscout.com/release/v4.0.0/script/monochrome/bundle.js"></script>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-     
-        <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
-        <!-- Swiper Js -->
-        <script src="../assets/libs/swiper/swiper-bundle.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   
+      <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+      <!-- Swiper Js -->
+      <script src="../assets/libs/swiper/swiper-bundle.min.js"></script>
 
-        <!-- Job-list Init Js -->
-        <!-- <script src="assets/js/pages/job-list.init.js"></script> -->
+      <!-- Job-list Init Js -->
+      <!-- <script src="assets/js/pages/job-list.init.js"></script> -->
 
-        <!-- Switcher Js -->
+      <!-- Switcher Js -->
 
-        
-        <script src="../assets/js/app.js"></script>
+      
+      <script src="../assets/js/app.js"></script>
 
-        <script src="../assets/js/custom.js"></script>
+      <script src="../assets/js/custom.js"></script>
 
-        <!-- Admin Js -->
-        
-        <script src="js/main.js"></script>
+      <!-- Admin Js -->
+      
+      <script src="js/main.js"></script>
 </body>
 
 </html>

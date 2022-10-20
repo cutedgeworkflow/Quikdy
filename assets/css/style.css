@@ -49,54 +49,7 @@ header nav ul:not(.social-menu) li a:hover::after, header nav ul:not(.social-men
 .fixed-top {
    position: relative;
 }
-.btn_1{
-  background: var(--secondary-bg-color);
-  padding: 15px 35px;
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 16px;
-  border: none;
-  display: inline-block;
-  min-width: 150px;
-  text-align: center;
-  border-radius: 5px;
-}
-a.btn_1:hover {
-  color: var(--secondary-bg-color);
-  background: transparent;
-  outline: 2px solid;
-}
-.btn_2{
 
-background: var(--primary-bg-color);
-
-padding: 15px 35px;
-
-color: white;
-
-text-decoration: none;
-
-text-transform: uppercase;
-
-font-size: 16px;
-
-border: none;
-
-display: inline-block;
-
-border-radius: 5px;
-}
-.btn-secondary {
-  color: #fff;
-  background-color: #2baad9;
-  border-color: #2aa8d5;
-}
-a.btn_2:hover {
-  color: var(--primary-bg-color);
-  background: transparent;
-  outline: 2px solid;
-}
 .footer-list li a{
   color: #000;
   font-weight: 400;
@@ -482,15 +435,15 @@ font-weight: 800;
   }
   .Modern-Slider .item h4{font-size: 32px;}
   .social-menu{
-    position: fixed;
-    bottom: 0;
-    background: white;
+    /* position: fixed; */
+    /* bottom: 0; */
+    /* background: white; */
     width: 100%;
     padding: 10px;
     left: 0;
     justify-content: center;
     box-shadow: 0 0 100px #ccc;
-  
+    padding: 0 25px !important;
   }
   .navbar-collapse {
     border-top: 1px solid #ccc;

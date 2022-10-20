@@ -24,6 +24,7 @@
 
    <!-- Swiper Css -->
    <link rel="stylesheet" href="../assets/libs/swiper/swiper-bundle.min.css">
+
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
    <!-- Icons Css -->
@@ -33,6 +34,7 @@
    <!--Custom Css-->
   
    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
    <link rel="stylesheet" href="../assets/css/all.min.css">
 
    <link rel="stylesheet" href="../assets/css/custom.css">
@@ -74,8 +76,8 @@
                     <img src="../assets/landingImages/logo.png" alt="" class="logo-dark" />
                     <img src="../assets/landingImages/logo.png"  alt="" class="logo-light" />
                 </a>
-                <div>
-                    <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse"
+                <div class="order-2 order-lg-0 ms-4 ">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-label="Toggle navigation">
                         <i class="mdi mdi-menu"></i>
                     </button>
@@ -91,7 +93,7 @@
                         <li><a href="#">Insights</a></li>
 
                     </ul><!--end navbar-nav-->
-                    <ul class="social-menu d-block d-lg-none list-unstyled mb-0">
+                    <ul class="social-menu d-none list-unstyled mb-0">
                         <li class="me-2">
                             <a href="#" class="btn_1">
                                 LOGIN
@@ -108,21 +110,8 @@
                 </div>
                 <!--end navabar-collapse-->
                 <!--Remove class after login d-lg-flex-->
-                <ul class="social-menu d-none list-unstyled mb-0">
-                    <li class="me-2">
-                        <a href="#" class="btn_1">
-                            LOGIN
-                        </a>
-
-                    </li>
-                    <li>
-                        <a href="#" class="btn_2">
-                            REGISTER
-                        </a>
-
-                    </li>
-                </ul><!--end header-menu-->
-                <div class="user-action-wrap logo-right-content">
+               <!--end header-menu-->
+                <div class="user-action-wrap logo-right-content order-1">
                     <div class="notification-item">
                         <div class="dropdown">
                             <button class="notification-btn dot-status online-status dropdown-toggle" type="button" id="userDropdownMenu" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -146,27 +135,27 @@
                                     <div class="mess__body">
                                         <ul class="list-items">
                                             <li class="mb-0">
-                                                <a href="candidate-dashboard.html" class="d-block">
-                                                    <i class="la la-user"></i> Account
+                                                <a href="candidate-profile.html" class="d-block">
+                                                    <i class="la la-user"></i> My Proile
                                                 </a>
                                             </li>
                                             <li class="mb-0">
-                                                <a href="candidate-dashboard-bookmark.html" class="d-block">
-                                                    <i class="la la-bookmark"></i> Bookmarks
+                                                <a href="candidate-applied-jobs.html" class="d-block">
+                                                    <i class="la la-bookmark"></i> Applied Jobs
                                                 </a>
                                             </li>
                                             <li class="mb-0">
-                                                <a href="candidate-add-resume.html" class="d-block">
+                                                <a href="candidate-edit-profile.html" class="d-block">
                                                     <i class="la la-plus"></i> Add a Resume
                                                 </a>
                                             </li>
                                             <li class="mb-0">
-                                                <a href="candidate-dashboard.html" class="d-block">
+                                                <a href="../contact-us.html" class="d-block">
                                                     <i class="la la-question"></i> Help
                                                 </a>
                                             </li>
                                             <li class="mb-0">
-                                                <a href="candidate-dashboard.html" class="d-block">
+                                                <a href="candidate-edit-profile.html" class="d-block">
                                                     <i class="la la-gear"></i> Setting
                                                 </a>
                                             </li>
@@ -174,7 +163,7 @@
                                                 <div class="section-block mt-2 mb-2"></div>
                                             </li>
                                             <li class="mb-0">
-                                                <a href="index.html" class="d-block">
+                                                <a href="../index.html" class="d-block">
                                                     <i class="la la-power-off"></i> Logout
                                                 </a>
                                             </li>
@@ -214,16 +203,16 @@
                     <div class="side-menu-wrap">
                         <ul class="side-menu-ul">
                             <li class="page-active"><a href="candidate-dashboard.html"><i class="la la-dashboard icon-element"></i> Dashboard</a></li>
-                            <li><a href="candidate-profile1.html"><i class="la la-user icon-element"></i> View Profile</a></li>
-                            <li><a href="candidate-dashboard-applied-job.html"><i class="la la-bell-o icon-element"></i>  Applied Jobs</a></li>
-                            <li><a href="candidate-job-alert.html"><i class="la la-bell-o icon-element"></i> Suggested Jobs</a></li>
-                            <li><a href="candidate-dashboard-edit-profile.html"><i class="la la-cog icon-element"></i>Edit Profile</a></li>
-                            <li><a href="candidate-profile-change-password1.html"><i class="la la-lock icon-element"></i>Change Password</a></li>
+                            <li><a href="candidate-profile.html"><i class="la la-user icon-element"></i> View Profile</a></li>
+                            <li><a href="candidate-applied-jobs.html"><i class="la la-bell-o icon-element"></i>  Applied Jobs</a></li>
+                            <li><a href="candidate-suggested-jobs.html"><i class="la la-bell-o icon-element"></i> Suggested Jobs</a></li>
+                            <li><a href="candidate-edit-profile.html"><i class="la la-cog icon-element"></i>Edit Profile</a></li>
+                            <li><a href="candidate-change-password.html"><i class="la la-lock icon-element"></i>Change Password</a></li>
                     
                         
                             <li><div class="section-block mt-3 mb-3"></div></li>
                         
-                            <li><a href="index.html"><i class="la la-power-off icon-element"></i> Logout</a></li>
+                            <li><a href="../index.html"><i class="la la-power-off icon-element"></i> Logout</a></li>
                         </ul>
                     </div><!-- end side-menu-wrap -->
                     <div class="skillbar-wrap mt-4">
@@ -388,7 +377,7 @@
                     <section class="section footer-sec">
                         <div class="container-fluid">
                             <div class="row">
-                                <div class="col-lg-3 my-auto">
+                                <div class="col-lg-3 my-auto text-center text-lg-start">
                                     <p class="text-black-50  mb-0">
                                         <script>document.write(new Date().getFullYear())</script>2022 © Copyright.<a href="#" target="_blank" class="text-reset"></a>
                                     </p>
