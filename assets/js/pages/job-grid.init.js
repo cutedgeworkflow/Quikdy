@@ -41,13 +41,13 @@
 		</a>
 	</li>
 	<li class="mb-0">
-		<a href="employer-applied-jobs.html" class="d-block">
+		<a href="employer-applied-candidates.html" class="d-block">
 			<i class="la la-bookmark"></i> Applied Candidates
 		</a>
 	</li>
 	<li class="mb-0">
-		<a href="employer-edit-profile.html" class="d-block">
-			<i class="la la-plus"></i> Add a Resume
+		<a href="employer-posted-jobs.html" class="d-block">
+			<i class="la la-plus"></i>My Jobs
 		</a>
 	</li>
 	<li class="mb-0">
@@ -57,7 +57,7 @@
 	</li>
 	<li class="mb-0">
 		<a href="employer-edit-profile.html" class="d-block">
-			<i class="la la-gear"></i>Profile Setting
+			<i class="la la-gear"></i> Setting
 		</a>
 	</li>
 	<li class="mb-0">
