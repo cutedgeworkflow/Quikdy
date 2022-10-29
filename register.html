@@ -22,6 +22,8 @@
         <link rel="stylesheet" href="assets/libs/choices.js/public/assets/styles/choices.min.css">
 
         <!-- Swiper Css -->
+        <link rel="stylesheet" href="assets/libs/swiper/swiper-bundle.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <!-- Bootstrap Css -->
         <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
         <!-- Icons Css -->
@@ -30,10 +32,16 @@
         <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
         <!--Custom Css-->
        
+        <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
         <link rel="stylesheet" href="assets/css/all.min.css">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/custom.css">
-     
+        <style>
+            .loginsecton {
+               padding: 50px 0;
+               height: auto;
+            }
+        </style>
     </head>
 
     <body>
@@ -74,7 +82,19 @@
                             <ul class="nav-menu mx-auto">
                                
                                 <li><a href="#" class="active">Home</a></li>
-                                <li><a href="#">For You</a></li>
+                                <li class="nav-item dropdown dropdown-hover">
+                                    <a class="nav-link" href="javascript:void(0)" id="jobsdropdown" role="button" data-bs-toggle="dropdown">
+                                        Company <div class="arrow-down"></div>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-center" aria-labelledby="jobsdropdown">
+                                        <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                                        <li><a class="dropdown-item" href="services.html">Services</a></li>
+                                        <li><a class="dropdown-item" href="team.html">Team</a></li>
+                                        <li><a class="dropdown-item" href="pricing.html">Pricing</a></li>
+                                        <li><a class="dropdown-item" href="privacy-policy.html">Priacy & Policy</a></li>
+                                        <li><a class="dropdown-item" href="faqs.html">Faqs</a></li>
+                                    </ul>
+                                </li>
                                 <li><a href="#">About Quikdy</a></li>
                                 <li><a href="#">Services</a></li>
                                 <li><a href="#">Why choose us</a></li>
@@ -124,114 +144,46 @@
             <div class="main-content">
 
                 <div class="page-content">
-                    <section class="page-title-box">
-                        <div class="container">
-                            <div class="row ">
-                                <div class="col-md-12">
-                                    <div class="breadcrumb-content d-flex flex-wrap justify-content-between align-items-center">
-                                        <div class="section-heading">
-                                            <h2 class="sec__title">Contact Us</h2>
-                                        </div><!-- end section-heading -->
-                                        <ul class="list-items d-flex align-items-center">
-                                            <li class="active__list-item"><a href="index.html">Home</a></li>
-                                            <li class="active__list-item"><a href="index.html">Contact</a></li>
-                                            
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!--end col-->
-                            </div>
-                            <!--end row-->
-                        </div>
-                        <!--end container-->
-                    </section>
-                    <div class="position-relative" style="z-index: 1">
-                        <div class="shape">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250">
-                                <path fill="#FFFFFF" fill-opacity="1" d="M0,192L120,202.7C240,213,480,235,720,234.7C960,235,1200,213,1320,202.7L1440,192L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
-                            </svg>
-                        </div>
-                    </div>
 
-                    <section class="section">
-                        <div class="container">
-                            <div class="row align-items-center mt-5">
-                                <div class="col-lg-6">
-                                    <div class="section-title mt-4 mt-lg-0">
-                                        <h3 class="title">Get in touch</h3>
-                                        <p class="text-muted">Start working with Jobcy that can provide everything you need to generate
-                                            awareness, drive traffic, connect.</p>
-                                        <form method="post" onsubmit="return validateForm()" class="contact-form mt-4" name="myForm" id="myForm">
-                                            <span id="error-msg"></span>
-                                            <div class="row">
-                                                <div class="col-lg-12">
-                                                    <div class="mb-3">
-                                                        <label for="nameInput" class="form-label">Name</label>
-                                                        <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name">
-                                                    </div>
-                                                </div><!--end col-->
-                                                <div class="col-md-6">
-                                                    <div class="mb-3">
-                                                        <label for="emailInput" class="form-label">Email</label>
-                                                        <input type="email" class="form-control" id="emaiol" name="email" placeholder="Enter your email">
-                                                    </div>
-                                                </div><!--end col-->
-                                                <div class="col-md-6">
-                                                    <div class="mb-3">
-                                                        <label for="subjectInput" class="form-label">Subject</label>
-                                                        <input type="text" class="form-control" id="subjectInput" name="subject" placeholder="Enter your subject">
-                                                    </div>
-                                                </div><!--end col-->
-                                                <div class="col-lg-12">
-                                                    <div class="mb-3">
-                                                        <label for="meassageInput" class="form-label">Your Message</label>
-                                                        <textarea class="form-control" id="meassageInput" placeholder="Enter your message" name="comments" rows="3"></textarea>
-                                                    </div>
-                                                </div><!--end col-->
-                                            </div><!--end row-->
-                                            <div class="text-end">
-                                                <button type="submit" id="submit" name="submit" class="btn btn-primary"> Send Message <i class="uil uil-message ms-1"></i></button>
-                                            </div>
-                                        </form><!--end form-->
-                                    </div>
-                                </div><!--end col-->
-                                <div class="col-lg-5 ms-auto order-first order-lg-last">
-                                    <div class="text-center">
-                                        <img src="assets/images/contact.png" alt="" class="img-fluid">
-                                    </div>
-                                    <div class="mt-4 pt-3">
-                                        <div class="d-flex text-muted align-items-center mt-2">
-                                            <div class="flex-shrink-0 fs-22 text-primary">
-                                                <i class="uil uil-map-marker"></i>
-                                            </div>
-                                            <div class="flex-grow-1 ms-2">
-                                                <p class="mb-0">2453 Clinton StreetLittle Rock, California, USA</p>
-                                            </div>
-                                        </div>
-                                        <div class="d-flex text-muted align-items-center mt-2">
-                                            <div class="flex-shrink-0 fs-22 text-primary">
-                                                <i class="uil uil-envelope"></i>
-                                            </div>
-                                            <div class="flex-grow-1 ms-2">
-                                                <p class="mb-0">contactus@Jobcy.com</p>
-                                            </div>
-                                        </div>
-                                        <div class="d-flex text-muted align-items-center mt-2">
-                                            <div class="flex-shrink-0 fs-22 text-primary">
-                                                <i class="uil uil-phone-alt"></i>
-                                            </div>
-                                            <div class="flex-grow-1 ms-2">
-                                                <p class="mb-0">(+245) 223 1245</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--end col-->
+                    <section class="loginsecton">
+                        <div class="form-modal">
+                    
+                            <div class="form-toggle">
+                                <button id="login-toggle" onclick="toggleLogin()">Candidate</button>
+                                <button id="signup-toggle" onclick="toggleSignup()">Employer</button>
                             </div>
-                            <!--end row-->
+                        
+                            <div id="login-form">
+                                <form>
+                                    <input type="text" placeholder="Full Name"/>
+                                    <input type="text" placeholder="Phone Number"/>
+                                    <input type="text" placeholder="Email"/>
+                                    <input type="password" placeholder="Enter password"/>
+                                    <button type="button" class="btn login">create account</button>
+                                    <p>Clicking <strong>create account</strong> means that you are agree to our <a href="javascript:void(0)">terms of services</a>.</p>
+                
+                                    <p>Already have an account? <a href="javascript:void(0)"> Click here to login</a></p>
+                                    <hr/>
+                        
+                                </form>
+                            </div>
+                        
+                            <div id="signup-form">
+                                <form>
+                                    <input type="text" placeholder="Company Name"/>
+                                    <input type="text" placeholder="Phone Number"/>
+                                    <input type="text" placeholder="Email"/>
+                                    <input type="password" placeholder="Enter password"/>
+                                    <button type="button" class="btn signup" style="">create account</button>
+                                    <p>Clicking <strong>create account</strong> means that you are agree to our <a href="javascript:void(0)">terms of services</a>.</p>
+                                    <p>Already have an account? <a href="javascript:void(0)"> Click here to login</a></p>
+                                    <hr/>
+                                   
+                                </form>
+                            </div>
+                        
                         </div>
-                        <!--end container-->
-                    </section>
+                    </section >
 
                 <!-- START FOOTER -->
                 <section class="section footer-sec">
@@ -269,8 +221,7 @@
                 </section>
                 <!-- END FOOTER -->
 
-                
-      
+       
 
                 <!--start back-to-top-->
                 <button onclick="topFunction()" id="back-to-top">
@@ -288,7 +239,12 @@
         <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
         <script src="https://unicons.iconscout.com/release/v4.0.0/script/monochrome/bundle.js"></script>
 
-     
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+        
+        <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+        <!-- Swiper Js -->
+        <script src="assets/libs/swiper/swiper-bundle.min.js"></script>
 
         <!-- Job-list Init Js -->
         <!-- <script src="assets/js/pages/job-list.init.js"></script> -->
@@ -301,7 +257,27 @@
         <script src="assets/js/custom.js"></script>
         <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
 
-
+        <script>
+            function toggleSignup(){
+            document.getElementById("login-toggle").style.backgroundColor="#fff";
+                document.getElementById("login-toggle").style.color="#222";
+                document.getElementById("signup-toggle").style.backgroundColor="#f24334";
+                document.getElementById("signup-toggle").style.color="#fff";
+                document.getElementById("login-form").style.cssText="display: none; visibility: hidden;opacity: 0;transition:all 0.5s;";
+                document.getElementById("signup-form").style.cssText="display: block; visibility: visibility;opacity: 1;transition:all 0.5s;";
+            }
+    
+            function toggleLogin(){
+                document.getElementById("login-toggle").style.backgroundColor="#28abdd";
+                document.getElementById("login-toggle").style.color="#fff";
+                document.getElementById("signup-toggle").style.backgroundColor="#fff";
+                document.getElementById("signup-toggle").style.color="#222";
+                document.getElementById("signup-form").style.cssText ="display: none; visibility: hidden;opacity: 0;transition:all 0.5s;";
+                document.getElementById("login-form").style.cssText="display: block; visibility: visibility;opacity: 1;transition:all 0.5s;";
+            }
+    
+        </script>
+  
         
     </body>
 </html>

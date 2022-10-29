@@ -1302,7 +1302,7 @@ body {
     height: 20px;
     line-height: 21px;
     text-align: center;
-    background-color: #ec4b3c;
+    background-color: #263bd6;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -1633,8 +1633,8 @@ body {
     bottom: 0;
     right: 13px;
     width: 5px;
-    height: 5px;
-    background-color: #fff;
+    height: 4px;
+    background-color: #2eacd8;
 }
 .select-option-wrap, .user-chosen-select-container {
     position: relative;
@@ -4123,6 +4123,21 @@ position: relative;
     -ms-transform: translateX(-100%);
     -o-transform: translateX(-100%);
     transform: translateX(-100%);
+}
+.dashboard-nav-container::-webkit-scrollbar-track, .side-nav-container::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+.dashboard-nav-container::-webkit-scrollbar, .side-nav-container::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+.dashboard-nav-container::-webkit-scrollbar-thumb, .side-nav-container::-webkit-scrollbar-thumb
+{
+	background-color: #29abda;
 }
 .dashboard-nav-container .side-menu-wrap, .side-nav-container .side-menu-wrap {
     margin-top: 100px;
@@ -7058,7 +7073,7 @@ position: relative;
     .dashboard-content-wrap {
     padding-left: 0;
     padding-right: 0;
-    padding-top: 40px;
+    padding-top: 0;
 }
 }@media only screen and (min-width:480px) and (max-width:767px) {
     .dashboard-content-wrap .breadcrumb-content {
@@ -7071,6 +7086,13 @@ position: relative;
 }.dashboard-content-wrap .breadcrumb-content .section-heading .sec__title {
     color: #2c2c51;
     font-size: 32px;
+}
+
+@media(max-width:991px){
+    .dashboard-content-wrap .breadcrumb-content .section-heading .sec__title {
+      
+        font-size: 22px;
+    }  
 }
 .dashboard-content-wrap .breadcrumb-content .list-items {
     background-color: rgba(44, 44, 81, .08);
@@ -9508,4 +9530,12 @@ position: relative;
 }
 .select2-container--default .select2-selection--single .select2-selection__arrow {
  display: none;
+}
+.bread-action .btn_2:hover {
+    background-color: #ee4632;
+    color: white;
+    outline: 0;
+}
+.candidate-education {
+    border-bottom: 2px solid #f4f4f4;
 }
