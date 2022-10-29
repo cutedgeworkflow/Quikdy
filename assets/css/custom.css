@@ -1225,7 +1225,13 @@ color: #2aabda !important;
   color: #2aabda;
   padding-left: 14px;
 }
-
+@media(min-width:992px){
+  ul.dropdown-menu.dropdown2 {
+    left: Calc(100% - -15px);
+    transform: initial;
+    top: 0;
+}
+}
 
 
 /*Login*/
