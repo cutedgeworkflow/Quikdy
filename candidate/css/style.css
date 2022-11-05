@@ -1296,6 +1296,7 @@ body {
     font-weight: 700;
     padding-bottom: 15px;
     position: relative;
+    width: fit-content;
 }
 .verified-badge {
     width: 20px;
@@ -2159,13 +2160,13 @@ position: relative;
     -o-transform: translateX(0);
     transform: translateX(0);
     background-color: #fff;
-    width: 344px;
+    width: 250px;
     padding-top: 120px;
     padding-bottom: 100px;
 }
 @media (max-width:1199px) {
     .dashboard-sidebar .dashboard-nav-container {
-    width: 320px;
+    width: 200px;
 }
 }@media (max-width:1024px) {
     .dashboard-sidebar .dashboard-nav-container {
@@ -2851,6 +2852,7 @@ position: relative;
 .billing-title-wrap {
     padding: 30px;
     border-bottom: 1px solid rgba(128, 137, 150, .1);
+    width: fit-content;
 }
 .billing-content {
     padding: 24px 30px 30px 30px;
@@ -3948,8 +3950,21 @@ position: relative;
     align-items: center;
 }
 @media (max-width:1199px) {
+    .dashboard-footer
+    {
+        position: relative !important;
+    }
     .logo-right-content {
     margin-left: auto;
+    position: absolute;
+    right: 70px;
+    top: 15px;
+}
+.navbar .navbar-toggler {
+ 
+    position: absolute;
+    top: 25px;
+    right: 0;
 }
 }@media (max-width:1199px) {
     .logo-right-content .author-access-list {
@@ -7065,7 +7080,7 @@ position: relative;
 .dashboard-content-wrap {
     /* height: 100vh; */
     padding-top: 130px;
-    padding-left: 368px;
+    padding-left: 300px;
     padding-right: 30px;
 }
 .dashboard-content-wrap.no-sidebar{

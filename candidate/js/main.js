@@ -257,4 +257,8 @@
             "password" === t.attr("type") ? t.attr("type", "text") : t.attr("type", "password")
         })
     })
+
+    var titleWidth = $('.billing-title-wrap').width();
+   
+    $('.title-shape').css('width', titleWidth);
 }(jQuery);
