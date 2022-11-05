@@ -2851,7 +2851,7 @@ position: relative;
 }
 .billing-title-wrap {
     padding: 30px;
-    border-bottom: 1px solid rgba(128, 137, 150, .1);
+    /* border-bottom: 1px solid rgba(128, 137, 150, .1); */
     width: fit-content;
 }
 .billing-content {
