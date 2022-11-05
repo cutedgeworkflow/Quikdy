@@ -6736,12 +6736,19 @@ position: relative;
 .header-desktop .logo-right-content {
     /* margin-left: auto; */
 }
-@media(min-width:992px){
+@media(min-width:1300px){
     .header-desktop .logo-right-content {
         width: 318px;
         justify-content: end;
     }
 }
+@media (min-width: 992px){
+    .header-desktop .logo-right-content {
+        width: 250px;
+        justify-content: end;
+    }
+}
+
 .header-desktop .logo-right-content .dropdown-menu {
     left: auto!important;
     -webkit-transform: translate3d(0, 0, 0)!important;
