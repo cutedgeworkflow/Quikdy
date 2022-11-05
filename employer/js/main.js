@@ -257,8 +257,11 @@
             "password" === t.attr("type") ? t.attr("type", "text") : t.attr("type", "password")
         })
     })
-    
-    var titleWidth = $('.billing-title-wrap').width();
+    // $( ".title-shape" ).each(function() {
+    //     var titleWidth = $(this).parent('.billing-title-wrap').();
+    //     $(this).css('width', titleWidth );
+    // });
    
-    $('.title-shape').css('width', titleWidth);
+    
+  
 }(jQuery);
