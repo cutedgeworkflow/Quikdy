@@ -184,10 +184,10 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 body {
-    font-size: 16px;
+    /* font-size: 16px; */
     font-weight: 400;
     line-height: 28px;
-    font-family: "Noto Sans JP", sans-serif;
+    /* font-family: "Noto Sans JP", sans-serif; */
     color: #797f87;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -6735,6 +6735,12 @@ position: relative;
 }
 .header-desktop .logo-right-content {
     /* margin-left: auto; */
+}
+@media(min-width:992px){
+    .header-desktop .logo-right-content {
+        width: 318px;
+        justify-content: end;
+    }
 }
 .header-desktop .logo-right-content .dropdown-menu {
     left: auto!important;
