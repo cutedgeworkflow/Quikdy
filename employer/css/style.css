@@ -1826,11 +1826,11 @@ body {
 }
 .dashboard-banner{
 
-max-height: 230px;
+max-height: 100px;
 
 overflow-y: hidden;
 
-background: #32add6;
+background: #ffffff;
 
 position: relative;
 }
@@ -7060,7 +7060,7 @@ position: relative;
     color: #29abda;
 }
 .dashboard-area {
-    height: 100vh;
+    min-height: 100vh;
 }
 @media (max-width:1024px) {
     .dashboard-area {
@@ -7098,7 +7098,7 @@ position: relative;
     transform: translateY(-50%);
 }
 .dashboard-content-wrap {
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 130px;
     padding-left: 300px;
     padding-right: 30px;
@@ -9562,7 +9562,7 @@ position: relative;
  display: none;
 }
 .dashboard-footer {
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     width: 100%;
     z-index: 999;
@@ -9574,3 +9574,44 @@ position: relative;
 {
     padding-bottom: 100px;
 }
+
+.corner-triangle {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0 50px 50px 0; /* adjust for size of triangle */
+    border-color: transparent #da0039 transparent transparent; /* adjust for color of triangle */
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 99999;
+    color: white;
+    text-shadow: 0 0 25px 9px #fff;
+    /* -webkit-filter: drop-shadow(0 1px 9px #000000); */
+    /* filter: drop-shadow(0 0px 0px #000000); */
+  }
+ .corner-triangle .corner-triangle-text {
+    position: relative;
+    font-size: 20px;
+    top: 3px;
+    right: -25px;
+    font-family: sans-serif, "Helvetica Neue", Helvetica, Arial;
+    font-weight: 200;
+    line-height: 1.1;
+    /* bottom: -6px; */
+    color: white;
+  }
+ .corner-triangle .corner-triangle-text span.corner-triangle-firstline {
+    margin-left: 29px;
+  }
+ .corner-triangle .corner-triangle-text a {
+    color: white;
+  }
+ .corner-triangle .corner-triangle-text a:hover,
+ .corner-triangle .corner-triangle-text a:link,
+ .corner-triangle .corner-triangle-text a:visited,
+ .corner-triangle .corner-triangle-text a:active,
+ .corner-triangle .corner-triangle-text a:focus {
+    text-decoration: none;
+  }

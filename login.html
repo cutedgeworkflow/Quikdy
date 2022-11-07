@@ -229,9 +229,14 @@
                         <div id="login-form">
                             <form>
                                 <input type="text" placeholder="Email/Phone Number"/>
-                                <input type="password" placeholder="Enter password"/>
+                                <input type="password" id="password" placeholder="Enter password"/>
+                                <i class="toggle-password fa fa-fw fa-eye-slash"></i>
                                 <button type="button" class="btn login">create account</button>
-            
+                                <div class="d-sm-flex">                
+                                  
+                                <p>Forgot Password? <a href="javascript:void(0)"> Click here to Reset.</a></p>
+
+                                </div>
                                 <p>Don't have an account? <a href="javascript:void(0)"> Click here to Register</a></p>
                                 <hr/>
                     
@@ -318,103 +323,15 @@
         <script>
             $(document).ready(function(){
 
-                $(".Modern-Slider").slick({
-                    autoplay:true,
-                    autoplaySpeed:10000,
-                    speed:600,
-                    slidesToShow:1,
-                    slidesToScroll:1,
-                    pauseOnHover:false,
-                    dots:true,
-                    pauseOnDotsHover:true,
-                    cssEase:'linear',
-                // fade:true,
-                    draggable:false,
-                    prevArrow:'<button class="PrevArrow"></button>',
-                    nextArrow:'<button class="NextArrow"></button>', 
-                    responsive: [
-                    {
-                        breakpoint: 991,
-                        settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        dots: true,
-                        prevArrow:null,
-                        nextArrow:null
-                        
-                        }
-                    }],
+                $(".toggle-password").click(function() {
+                    $(this).toggleClass("fa-eye fa-eye-slash");
+                    input = $(this).parent().find("input");
+                    if (input.attr("type") == "password") {
+                        input.attr("type", "text");
+                    } else {
+                        input.attr("type", "password");
+                    }
                 });
-
-                var swiper = new Swiper(".services-slider", {
-                    loop:true,
-                  
-                    pagination: {
-                    el: ".swiper-pagination",
-                    clickable: true,
-                    },
-                    breakpoints: {
-                        991: {
-                            slidesPerView: 4,
-                            spaceBetween: 20,
-                        },
-                        576: {
-                            slidesPerView: 2,
-                            spaceBetween: 10,
-                        },
-                        320: {
-                            slidesPerView: 1,
-                            spaceBetween: 10,
-                        },
-                            
-                    },
-                });
-
-                var swiper = new Swiper(".testimonial-slider", {
-                    loop:true,
-                   
-                    pagination: {
-                    el: '.slider__pagination',
-                    clickable: true,
-                    },
-                    breakpoints: {
-                        991: {
-                            slidesPerView: 3,
-                            spaceBetween: 30,
-                        },
-                      
-                        320: {
-                            slidesPerView: 1,
-                            spaceBetween: 10,
-                        },
-                            
-                    },
-                });
-                var swiper = new Swiper(".random-swiper", {
-                    loop:true,
-                
-                    pagination: {
-                    el: '.swiper-pagination',
-                    clickable: true,
-                    
-                    },
-                    breakpoints: {
-                        991: {
-                            slidesPerView: 4,
-                            spaceBetween: 20,
-                        },
-                        576: {
-                            slidesPerView: 2,
-                            spaceBetween: 10,
-                        },
-                        320: {
-                            slidesPerView: 1,
-                            spaceBetween: 10,
-                        },
-                            
-                    },
-                });
-                
 
                 
                 
