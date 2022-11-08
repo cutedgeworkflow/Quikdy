@@ -1,5 +1,9 @@
 
 /*Generic*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Quicksand');
+* {
+  font-family: 'quicksand',Arial, Helvetica, sans-serif;
+}
 :root {
   --primary-bg-color: #ee341d;
   --secondary-bg-color: #24aadd;
@@ -101,7 +105,7 @@ header nav ul:not(.social-menu, .navbar-nav) li a {
   display: block;
   font-size: 14px;
   /* line-height: 1; */
-  font-weight: 500;
+  font-weight: 700;
 }
 
 header nav ul:not(.social-menu,.navbar-nav) li a:hover,
@@ -985,7 +989,8 @@ padding: 30px 0;
 .page-title-box {
 
   background-color: #2aabda;
-  padding-top: 110px;
+  padding-top: 50px;
+  padding-bottom: 80px;
 
 }
 @media only screen and (min-width:480px) and (max-width:767px) {
@@ -1448,9 +1453,12 @@ color: #2aabda !important;
     padding: 100px 0;
 }
 }
-.arrow-down {
-  position: absolute;
+@media(min-width:992px) and (max-width:1300px){
+  .arrow-down {
+    position: absolute;
+  }
 }
+
 
 
 /* define a fixed width for the entire menu */

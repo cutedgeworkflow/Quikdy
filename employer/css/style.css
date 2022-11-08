@@ -541,7 +541,7 @@ body {
     border-radius: 5px;
 }
 .theme-btn:hover {
-    background-color: #1c9c53;
+    background-color: #2eacd8c7;
     color: #fff;
 }
 .btn-rgb {
@@ -1597,8 +1597,8 @@ body {
     padding-left: 20px;
 }
 .bread-details .bread-img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
@@ -1608,9 +1608,9 @@ body {
     display: flex;
 }
 .bread-details .bread-img img {
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
     width: 100%;
     height: 100%;
     max-width: 70px;
@@ -2168,12 +2168,12 @@ position: relative;
     -o-transform: translateX(0);
     transform: translateX(0);
     background-color: #fff;
-    width: 250px;
+    width: 275px;
     padding-top: 120px;
 }
 @media (max-width:1199px) {
     .dashboard-sidebar .dashboard-nav-container {
-    width: 200px;
+    width: 250px;
 }
 }@media (max-width:1024px) {
     .dashboard-sidebar .dashboard-nav-container {
@@ -3343,7 +3343,7 @@ position: relative;
     color: #fff;
 }
 @media only screen and (min-width:320px) and (max-width:479px) {
-    .breadcrumb-content .section-heading .sec__title {
+    .dashboard-content-wrap .breadcrumb-content .section-heading .sec__title {
     font-size: 36px;
 }
 }@media (max-width:320px) {
@@ -3373,7 +3373,7 @@ position: relative;
 @media only screen and (min-width:480px) and (max-width:767px) {
     .breadcrumb-content .list-items {
     display: inline-block!important;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 }@media only screen and (min-width:320px) and (max-width:479px) {
     .breadcrumb-content .list-items {
@@ -5781,14 +5781,6 @@ position: relative;
     display: block!important;
 }
 }@media only screen and (min-width:480px) and (max-width:767px) {
-    .job-card-layout .d-flex {
-    display: block!important;
-}
-}@media only screen and (min-width:320px) and (max-width:479px) {
-    .job-card-layout .d-flex {
-    display: block!important;
-}
-}@media only screen and (min-width:480px) and (max-width:767px) {
     .job-card-layout .card-head {
     display: -ms-flexbox!important;
     display: flex!important;
@@ -7064,7 +7056,7 @@ position: relative;
 }
 @media (max-width:1024px) {
     .dashboard-area {
-    padding-top: 120px;
+    padding-top: 30px;
 }
 }.dashboard-nav-trigger {
     padding: 0 15px 35px 15px;
@@ -7073,6 +7065,7 @@ position: relative;
 @media (max-width:1024px) {
     .dashboard-nav-trigger {
     display: block;
+    padding-bottom: 0;
 }
 }.dashboard-nav-trigger-btn {
     background-color: #2c2c51;
@@ -7104,13 +7097,13 @@ position: relative;
     padding-right: 30px;
 }
 .dashboard-content-wrap.no-sidebar{
-    padding-top: 86px;
+    padding-top: 0;
 }
 @media (max-width:1024px) {
     .dashboard-content-wrap {
     padding-left: 0;
     padding-right: 0;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 }@media only screen and (min-width:480px) and (max-width:767px) {
     .dashboard-content-wrap .breadcrumb-content {
@@ -7267,11 +7260,17 @@ position: relative;
 }
 }.user-profile-action .user-pro-img {
     position: relative;
-    width: 200px;
+    width: 150px;
     margin-right: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: #fafafb;
 }
 .user-profile-action .user-pro-img img {
-    width: 100%}
+    width: 100%;
+    }
 .user-profile-action .file-upload-wrap .MultiFile-list>.MultiFile-label {
     width: auto;
 }
@@ -7323,14 +7322,9 @@ position: relative;
     margin-right: 0;
     margin-bottom: 20px;
 }
-}@media only screen and (min-width:480px) and (max-width:767px) {
-    .manage-candidate-wrap .bread-action {
-    padding-top: 10px;
-    padding-left: 120px;
-}
 }@media (max-width:480px) {
     .manage-candidate-wrap .bread-action {
-    padding-top: 20px;
+    /* padding-top: 20px; */
     padding-left: 0;
 }
 }.manage-candidate-wrap .bread-action .info-list li a {
@@ -9614,4 +9608,28 @@ position: relative;
  .corner-triangle .corner-triangle-text a:active,
  .corner-triangle .corner-triangle-text a:focus {
     text-decoration: none;
+  }
+
+  .manage-candidate-content span i.la{
+    color: #29abda;
+    margin-right: 2px;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(38, 174, 97, .1);
+    line-height: 30px;
+    text-align: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+  }
+
+  .manage-candidate-content span:hover i.la{
+    background-color: #29abda;
+    color: #FFE !important;
   }

@@ -1,5 +1,11 @@
 
 /*Generic*/
+/*Generic*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Quicksand');
+* {
+  font-family: 'quicksand',Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
 :root {
   --primary-bg-color: #ee341d;
   --secondary-bg-color: #24aadd;
@@ -101,7 +107,7 @@ header nav ul:not(.social-menu, .navbar-nav) li a {
   display: block;
   font-size: 14px;
   /* line-height: 1; */
-  font-weight: 500;
+  font-weight: 700;
 }
 
 header nav ul:not(.social-menu,.navbar-nav) li a:hover,
@@ -523,6 +529,10 @@ font-weight: 800;
 .Modern-Slider .slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}
 
 @media(max-width:991px){
+  .header-area {
+     position: relative !important;
+
+}
   .arrow-down::after {
     right: 5px;
     position: absolute;
@@ -583,10 +593,9 @@ width: fit-content;
  
 position: relative;
  
-height: 20px;
+height: 30px;
  
 line-height: 20px;
- 
 }.Modern-Slider .item .img-fill {
     height: 250px;
     /* background: #000; */
@@ -1448,11 +1457,11 @@ color: #2aabda !important;
     padding: 100px 0;
 }
 }
+@media (min-width: 992px) and (max-width: 1300px){
 .arrow-down {
-  position: absolute;
+    position: absolute;
 }
-
-
+}
 /* define a fixed width for the entire menu */
 .navigation {/* width: 300px; */}
 
