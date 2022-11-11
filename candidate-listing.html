@@ -1,0 +1,773 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        
+        
+        <meta charset="utf-8" />
+        <title>Quikdy-Job Portal</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content=" " />
+        <meta name="keywords" content="" />
+        <meta content="Themesdesign" name="author" />
+
+
+        
+
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+      
+
+        <!-- Choise Css -->
+        <link rel="stylesheet" href="assets/css/choices.min.css">
+
+        <!-- Swiper Css -->
+        <link rel="stylesheet" href="assets/libs/swiper/swiper-bundle.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- Bootstrap Css -->
+        <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+        <!-- Icons Css -->
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <!-- App Css-->
+        <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+        <!--Custom Css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css" integrity="sha512-vebUliqxrVkBy3gucMhClmyQP9On/HAWQdKDXRaAlb/FKuTbxkjPKUyqVOxAcGwFDka79eTF+YXwfke1h3/wfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="assets/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/custom.css">
+     
+    </head>
+
+    <body>
+         <!--start page Loader -->
+        <!-- <div id="preloader">
+            <div id="status">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+            </div>
+        </div> -->
+        <!--end page Loader -->
+
+        <!-- Begin page -->
+        <div>
+
+   
+            <header>
+                <!--Navbar Start-->
+                <nav class="navbar navbar-expand-lg fixed-top sticky py-2" id="navbar">
+                    <div class="container-fluid custom-container">
+                        <a class="navbar-brand text-dark fw-bold me-auto" href="index.html">
+                            <img src="assets/landingImages/logo.png" alt="" class="logo-dark" />
+                            <img src="assets/landingImages/logo.png"  alt="" class="logo-light" />
+                        </a>
+                        <div>
+                            <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-label="Toggle navigation">
+                                <i class="mdi mdi-menu"></i>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="navbarCollapse">
+                            <ul class="nav-menu mx-auto">
+                               
+                                <li><a href="#" class="active">Home</a></li>
+                                <li class="nav-item dropdown dropdown-hover">
+                                    <a class="nav-link" href="javascript:void(0)" id="jobsdropdown" role="button" data-bs-toggle="dropdown">
+                                        For You <div class="arrow-down"></div>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-center" aria-labelledby="jobsdropdown">
+                                        <li><a class="dropdown-item" href="#">Login</a></li>
+                                        <li><a class="dropdown-item" href="#">Register</a></li>
+                                        <li><a class="dropdown-item" href="#">Edit Profile</a></li>
+                                        <li><a class="dropdown-item" href="#">Post a Job</a></li>
+                                        <li><a class="dropdown-item" href="#">Candidate Listing</a></li>
+                                        <li><a class="dropdown-item" href="#">FAQs</a></li>
+                                        <li><a class="dropdown-item" href="#">Careers</a></li>
+
+                                        <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                                    
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown dropdown-hover">
+                                    <a class="nav-link" href="javascript:void(0)" id="jobsdropdown" role="button" data-bs-toggle="dropdown">
+                                        About Quikdy <div class="arrow-down"></div>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-center" aria-labelledby="jobsdropdown">
+                                        <li><a class="dropdown-item" href="#">About Us</a></li>
+                                        <li><a class="dropdown-item" href="#">Industry</a></li>
+                                        <li><a class="dropdown-item" href="#">Our Perfect Platform</a></li>
+                                        <li><a class="dropdown-item" href="#">Blog</a></li>
+                                        <li class="nav-item dropdown dropdown-hover">
+                                            <a class="nav-link" href="javascript:void(0)" id="jobsdropdown" role="button" data-bs-toggle="dropdown">
+                                                Policy <div class="arrow-down"></div>
+                                            </a>
+                                            <ul class="dropdown-menu dropdown2 dropdown-menu-center" aria-labelledby="jobsdropdown">
+                                                <li><a class="dropdown-item" href="#">Privacy Policy</a></li>
+                                                <li><a class="dropdown-item" href="#">Disclaimer Policy</a></li>
+                                                <li><a class="dropdown-item" href="#">Terms & Conditions</a></li>
+                                               
+        
+                                            
+                                            </ul>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Careers</a></li>
+                             
+
+                                        <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                                    
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown dropdown-hover">
+                                    <a class="nav-link" href="javascript:void(0)" id="jobsdropdown" role="button" data-bs-toggle="dropdown">
+                                        Services <div class="arrow-down"></div>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-center" aria-labelledby="jobsdropdown">
+                                        <li><a class="dropdown-item" href="#">Staffing Services</a></li>
+                                        <li><a class="dropdown-item" href="#">HR Payroll Management(Finance)</a></li>
+                                        <li><a class="dropdown-item" href="#">Event Marketing(Branding Solutions)</a></li>
+                                        <li><a class="dropdown-item" href="#">Facility Management</a></li>
+                                        <li><a class="dropdown-item" href="#">Business Solutions</a></li>
+                                        <li><a class="dropdown-item" href="#">Outsourcing Process Management</a></li>
+                                        <li><a class="dropdown-item" href="#">Careers</a></li>
+
+                                        <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                                    
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown dropdown-hover">
+                                    <a class="nav-link" href="javascript:void(0)" id="jobsdropdown" role="button" data-bs-toggle="dropdown">
+                                        Why Choose Us <div class="arrow-down"></div>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-center" aria-labelledby="jobsdropdown">
+                                        <li><a class="dropdown-item" href="#">Why Choose Quikdy</a></li>
+                                        <li><a class="dropdown-item" href="#">Our Experience & Expertise</a></li>
+                                        <li><a class="dropdown-item" href="#">location & Leadership</a></li>
+                                        <li><a class="dropdown-item" href="#">Quikdy Stories</a></li>
+                                        <li><a class="dropdown-item" href="#">Careers</a></li>
+                                        
+
+                                        <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                                    
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown dropdown-hover">
+                                    <a class="nav-link" href="javascript:void(0)" id="jobsdropdown" role="button" data-bs-toggle="dropdown">
+                                        Insights <div class="arrow-down"></div>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-center" aria-labelledby="jobsdropdown">
+                                        <li><a class="dropdown-item" href="#">Featured Insights</a></li>
+                                        <li><a class="dropdown-item" href="#">Simplify Process </a></li>
+                                        <li><a class="dropdown-item" href="#">Business Strategy</a></li>
+                                        <li><a class="dropdown-item" href="#">Careers</a></li>
+                                   
+                                        
+
+                                        <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                                    
+                                    </ul>
+                                </li>
+
+                            </ul><!--end navbar-nav-->
+                            <ul class="social-menu d-block d-lg-none list-unstyled mb-0">
+                                <li class="me-2">
+                                    <a href="#" class="btn_1">
+                                        LOGIN
+                                    </a>
+    
+                                </li>
+                                <li>
+                                    <a href="#" class="btn_2">
+                                        REGISTER
+                                    </a>
+    
+                                </li>
+                            </ul>
+                        </div>
+                        <!--end navabar-collapse-->
+                        <ul class="social-menu d-none d-lg-flex list-unstyled mb-0">
+                            <li class="me-2">
+                                <a href="#" class="btn_1">
+                                    LOGIN
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="#" class="btn_2">
+                                    REGISTER
+                                </a>
+
+                            </li>
+                        </ul><!--end header-menu-->
+                    </div>
+                    <!--end container-->
+                </nav>
+                <!-- Navbar End -->
+            </header>
+      
+          
+
+         
+
+            <div class="main-content">
+
+                <div class="page-content">
+                    <section class="page-title-box">
+                        <div class="container">
+                            <div class="row ">
+                                <div class="col-md-12">
+                                    <div class="breadcrumb-content d-flex flex-wrap justify-content-between align-items-center">
+                                        <div class="section-heading">
+                                            <h2 class="sec__title">Candidate Listing</h2>
+                                        </div><!-- end section-heading -->
+                                        <ul class="list-items d-flex align-items-center">
+                                            <li class="active__list-item"><a href="index.html">Home</a></li>
+                                            <li class="active__list-item"><a href="index.html">Candidate Listing</a></li>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!--end col-->
+                            </div>
+                            <!--end row-->
+                        </div>
+                        <!--end container-->
+                    </section>
+                    <div class="position-relative" style="z-index: 1">
+                        <div class="shape">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250">
+                                <path fill="#FFFFFF" fill-opacity="1" d="M0,192L120,202.7C240,213,480,235,720,234.7C960,235,1200,213,1320,202.7L1440,192L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
+                            </svg>
+                        </div>
+                    </div>
+
+                 <!-- START JOB-LIST -->
+                 <section class="section">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-12">
+                                <div class="candidate-list-widgets mb-4">
+                                    <form action="#">
+                                        <div class="row g-2">
+                                            <div class="col-lg-3">
+                                                <div class="filler-job-form">
+                                                    <i class="uil uil-briefcase-alt"></i>
+                                                    <input type="search" class="form-control filter-job-input-box" id="exampleFormControlInput1" placeholder="Job, Company name... ">
+                                                </div>
+                                            </div><!--end col-->
+                                            <div class="col-lg-3">
+                                                <div class="filler-job-form">
+                                                    <i class="uil uil-location-point"></i>
+                                                    <select class="form-select" data-trigger name="choices-single-location" id="choices-single-location" aria-label="Default select example">
+                                                        <option value="SelectState">Select State</option>
+                                                        <option value="Andra Pradesh">Andra Pradesh</option>
+                                                        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                                        <option value="Assam">Assam</option>
+                                                        <option value="Bihar">Bihar</option>
+                                                        <option value="Chhattisgarh">Chhattisgarh</option>
+                                                        <option value="Goa">Goa</option>
+                                                        <option value="Gujarat">Gujarat</option>
+                                                        <option value="Haryana">Haryana</option>
+                                                        <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                                        <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                                                        <option value="Jharkhand">Jharkhand</option>
+                                                        <option value="Karnataka">Karnataka</option>
+                                                        <option value="Kerala">Kerala</option>
+                                                        <option value="Madya Pradesh">Madya Pradesh</option>
+                                                        <option value="Maharashtra">Maharashtra</option>
+                                                        <option value="Manipur">Manipur</option>
+                                                        <option value="Meghalaya">Meghalaya</option>
+                                                        <option value="Mizoram">Mizoram</option>
+                                                        <option value="Nagaland">Nagaland</option>
+                                                        <option value="Orissa">Orissa</option>
+                                                        <option value="Punjab">Punjab</option>
+                                                        <option value="Rajasthan">Rajasthan</option>
+                                                        <option value="Sikkim">Sikkim</option>
+                                                        <option value="Tamil Nadu">Tamil Nadu</option>
+                                                        <option value="Telangana">Telangana</option>
+                                                        <option value="Tripura">Tripura</option>
+                                                        <option value="Uttaranchal">Uttaranchal</option>
+                                                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                                        <option value="West Bengal">West Bengal</option>
+                                                        <option disabled style="background-color:#aaa; color:#fff">UNION Territories</option>
+                                                        <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                                                        <option value="Chandigarh">Chandigarh</option>
+                                                        <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+                                                        <option value="Daman and Diu">Daman and Diu</option>
+                                                        <option value="Delhi">Delhi</option>
+                                                        <option value="Lakshadeep">Lakshadeep</option>
+                                                        <option value="Pondicherry">Pondicherry</option>
+                                                    </select>
+                                                </div>
+                                            </div><!--end col-->
+                                            <div class="col-lg-4">
+                                                <div class="filler-job-form">
+                                                    <i class="uil uil-clipboard-notes"></i>
+                                                    <select class="form-select " data-trigger name="choices-single-categories" id="choices-single-categories" aria-label="Default select example">
+                                                        <option value="4">Accounting</option>
+                                                        <option value="1">IT & Software</option>
+                                                        <option value="3">Marketing</option>
+                                                        <option value="5">Banking</option>
+                                                    </select>
+                                                </div>
+                                            </div><!--end col-->
+                                            <div class="col-lg-2 ">
+                                                <div >
+                                                    <a href="javascript:void(0)" class="btn btn-primary w-100"><i class="uil uil-filter"></i> Filter</a>
+                                                </div>
+                                            </div>
+                                        </div><!--end row-->
+                                    </form><!--end form-->
+                                </div>
+                            </div><!--end col-->
+                        </div><!--end row-->
+
+                        <div class="row align-items-center">
+                            <div class="col-lg-8">
+                                <div class="mb-3 mb-lg-0">
+                                    <h6 class="fs-16 mb-0"> Showing 1 – 8 of 11 results </h6>
+                                </div>
+                            </div><!--end col-->
+
+                            <div class="col-lg-4">
+                                <div class="candidate-list-widgets">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="selection-widget">
+                                                <select class="form-select" data-trigger name="choices-single-filter-orderby" id="choices-single-filter-orderby" aria-label="Default select example">
+                                                    <option value="df">Default</option>
+                                                    <option value="ne">Newest</option>
+                                                    <option value="od">Oldest</option>
+                                                    <option value="rd">Random</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="selection-widget mt-2 mt-lg-0">
+                                                <select class="form-select" data-trigger name="choices-candidate-page" id="choices-candidate-page" aria-label="Default select example">
+                                                    <option value="df">All</option>
+                                                    <option value="ne">8 per Page</option>
+                                                    <option value="ne">12 per Page</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!--end candidate-list-widgets-->
+                            </div><!--end col-->
+                        </div><!--end row-->
+
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="candidate-list">
+                                    <div class="candidate-list-box card mt-4">
+                                        <div class="card-body p-4">
+                                            <div class="row align-items-center">
+                                                <div class="col-lg-auto">
+                                                    <div class="candidate-list-images">
+                                                        <a href="javascript:void(0)"><img src="assets/images/user/img-01.jpg" alt="" class="avatar-md img-thumbnail rounded-circle"></a>
+                                                    </div>
+                                                </div><!--end col-->
+                                                
+                                                <div class="col-lg-6">
+                                                    <div class="company-title-box manage-candidate-content ">
+                                                        <div class="corner-triangle">
+                                                            <div class="corner-triangle-text">
+                                                                <a href="#" target="_blank"><i class="las la-times text-white"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <p class="card-sub mb-1 font-weight-medium">23 Days Ago</p>
+                                                        <h4 class="card-title mb-1"><a class="text-dark" href="job-details.html">BlueTech</a> </h4>
+                                                        <p class="card-sub">
+                                                            <span class="me-2"><i class="la la-building-o color-text-2"></i>Developer</span>
+                                                            <span class="me-2"><i class="la la-map-marker color-text-2"></i> Gurugram, Bengaluru </span>
+                                                            <span class="me-2"><i class="fa fa-inr" aria-hidden="true"></i>40k -50k</span>
+                                                            <span class="me-2"><i class="la la-clock-o color-text-2"></i> Full Time</span>
+                                                        </p>
+                                                    </div>
+                                                </div><!--end col-->
+
+                                                
+                                                <div class="col-lg-auto ms-auto">
+                                                    <div class="">
+                                                        <a href="login.html" class="btn_1">View Details</a>
+                                                    </div>
+                                                </div>
+                                            </div><!--end row-->
+                                            
+                                        </div>
+                                    </div> <!--end card-->
+                                    <div class="candidate-list-box card mt-4">
+                                        <div class="card-body p-4">
+                                            <div class="row align-items-center">
+                                                <div class="col-lg-auto">
+                                                    <div class="candidate-list-images">
+                                                        <a href="javascript:void(0)"><img src="assets/images/user/img-01.jpg" alt="" class="avatar-md img-thumbnail rounded-circle"></a>
+                                                    </div>
+                                                </div><!--end col-->
+                                                
+                                                <div class="col-lg-6">
+                                                    <div class="company-title-box manage-candidate-content ">
+                                                        <div class="corner-triangle">
+                                                            <div class="corner-triangle-text">
+                                                                <a href="#" target="_blank"><i class="las la-times text-white"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <p class="card-sub mb-1 font-weight-medium">23 Days Ago</p>
+                                                        <h4 class="card-title mb-1"><a class="text-dark" href="job-details.html">BlueTech</a> </h4>
+                                                        <p class="card-sub">
+                                                            <span class="me-2"><i class="la la-building-o color-text-2"></i>Developer</span>
+                                                            <span class="me-2"><i class="la la-map-marker color-text-2"></i> Gurugram, Bengaluru </span>
+                                                            <span class="me-2"><i class="fa fa-inr" aria-hidden="true"></i>40k -50k</span>
+                                                            <span class="me-2"><i class="la la-clock-o color-text-2"></i> Full Time</span>
+                                                        </p>
+                                                    </div>
+                                                </div><!--end col-->
+
+                                                
+                                                <div class="col-lg-auto ms-auto">
+                                                    <div class="">
+                                                        <a href="login.html" class="btn_1">View Details</a>
+                                                    </div>
+                                                </div>
+                                            </div><!--end row-->
+                                            
+                                        </div>
+                                    </div> <!--end card-->
+                                    <div class="candidate-list-box card mt-4">
+                                        <div class="card-body p-4">
+                                            <div class="row align-items-center">
+                                                <div class="col-lg-auto">
+                                                    <div class="candidate-list-images">
+                                                        <a href="javascript:void(0)"><img src="assets/images/user/img-01.jpg" alt="" class="avatar-md img-thumbnail rounded-circle"></a>
+                                                    </div>
+                                                </div><!--end col-->
+                                                
+                                                <div class="col-lg-6">
+                                                    <div class="company-title-box manage-candidate-content ">
+                                                        <div class="corner-triangle">
+                                                            <div class="corner-triangle-text">
+                                                                <a href="#" target="_blank"><i class="las la-times text-white"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <p class="card-sub mb-1 font-weight-medium">23 Days Ago</p>
+                                                        <h4 class="card-title mb-1"><a class="text-dark" href="job-details.html">BlueTech</a> </h4>
+                                                        <p class="card-sub">
+                                                            <span class="me-2"><i class="la la-building-o color-text-2"></i>Developer</span>
+                                                            <span class="me-2"><i class="la la-map-marker color-text-2"></i> Gurugram, Bengaluru </span>
+                                                            <span class="me-2"><i class="fa fa-inr" aria-hidden="true"></i>40k -50k</span>
+                                                            <span class="me-2"><i class="la la-clock-o color-text-2"></i> Full Time</span>
+                                                        </p>
+                                                    </div>
+                                                </div><!--end col-->
+
+                                                
+                                                <div class="col-lg-auto ms-auto">
+                                                    <div class="">
+                                                        <a href="login.html" class="btn_1">View Details</a>
+                                                    </div>
+                                                </div>
+                                            </div><!--end row-->
+                                            
+                                        </div>
+                                    </div> <!--end card-->
+                                    <div class="candidate-list-box card mt-4">
+                                        <div class="card-body p-4">
+                                            <div class="row align-items-center">
+                                                <div class="col-lg-auto">
+                                                    <div class="candidate-list-images">
+                                                        <a href="javascript:void(0)"><img src="assets/images/user/img-01.jpg" alt="" class="avatar-md img-thumbnail rounded-circle"></a>
+                                                    </div>
+                                                </div><!--end col-->
+                                                
+                                                <div class="col-lg-6">
+                                                    <div class="company-title-box manage-candidate-content ">
+                                                        <div class="corner-triangle">
+                                                            <div class="corner-triangle-text">
+                                                                <a href="#" target="_blank"><i class="las la-times text-white"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <p class="card-sub mb-1 font-weight-medium">23 Days Ago</p>
+                                                        <h4 class="card-title mb-1"><a class="text-dark" href="job-details.html">BlueTech</a> </h4>
+                                                        <p class="card-sub">
+                                                            <span class="me-2"><i class="la la-building-o color-text-2"></i>Developer</span>
+                                                            <span class="me-2"><i class="la la-map-marker color-text-2"></i> Gurugram, Bengaluru </span>
+                                                            <span class="me-2"><i class="fa fa-inr" aria-hidden="true"></i>40k -50k</span>
+                                                            <span class="me-2"><i class="la la-clock-o color-text-2"></i> Full Time</span>
+                                                        </p>
+                                                    </div>
+                                                </div><!--end col-->
+
+                                                
+                                                <div class="col-lg-auto ms-auto">
+                                                    <div class="">
+                                                        <a href="login.html" class="btn_1">View Details</a>
+                                                    </div>
+                                                </div>
+                                            </div><!--end row-->
+                                            
+                                        </div>
+                                    </div> <!--end card-->
+
+                                    <div class="candidate-list-box card mt-4">
+                                        <div class="card-body p-4">
+                                            <div class="row align-items-center">
+                                                <div class="col-lg-auto">
+                                                    <div class="candidate-list-images">
+                                                        <a href="javascript:void(0)"><img src="assets/images/user/img-01.jpg" alt="" class="avatar-md img-thumbnail rounded-circle"></a>
+                                                    </div>
+                                                </div><!--end col-->
+                                                
+                                                <div class="col-lg-6">
+                                                    <div class="company-title-box manage-candidate-content ">
+                                                        <div class="corner-triangle">
+                                                            <div class="corner-triangle-text">
+                                                                <a href="#" target="_blank"><i class="las la-times text-white"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <p class="card-sub mb-1 font-weight-medium">23 Days Ago</p>
+                                                        <h4 class="card-title mb-1"><a class="text-dark" href="job-details.html">BlueTech</a> </h4>
+                                                        <p class="card-sub">
+                                                            <span class="me-2"><i class="la la-building-o color-text-2"></i>Developer</span>
+                                                            <span class="me-2"><i class="la la-map-marker color-text-2"></i> Gurugram, Bengaluru </span>
+                                                            <span class="me-2"><i class="fa fa-inr" aria-hidden="true"></i>40k -50k</span>
+                                                            <span class="me-2"><i class="la la-clock-o color-text-2"></i> Full Time</span>
+                                                        </p>
+                                                    </div>
+                                                </div><!--end col-->
+
+                                                
+                                                <div class="col-lg-auto ms-auto">
+                                                    <div class="">
+                                                        <a href="login.html" class="btn_1">View Details</a>
+                                                    </div>
+                                                </div>
+                                            </div><!--end row-->
+                                            
+                                        </div>
+                                    </div> <!--end card-->
+                                    <div class="candidate-list-box card mt-4">
+                                        <div class="card-body p-4">
+                                            <div class="row align-items-center">
+                                                <div class="col-lg-auto">
+                                                    <div class="candidate-list-images">
+                                                        <a href="javascript:void(0)"><img src="assets/images/user/img-01.jpg" alt="" class="avatar-md img-thumbnail rounded-circle"></a>
+                                                    </div>
+                                                </div><!--end col-->
+                                                
+                                                <div class="col-lg-6">
+                                                    <div class="company-title-box manage-candidate-content ">
+                                                        <div class="corner-triangle">
+                                                            <div class="corner-triangle-text">
+                                                                <a href="#" target="_blank"><i class="las la-times text-white"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <p class="card-sub mb-1 font-weight-medium">23 Days Ago</p>
+                                                        <h4 class="card-title mb-1"><a class="text-dark" href="job-details.html">BlueTech</a> </h4>
+                                                        <p class="card-sub">
+                                                            <span class="me-2"><i class="la la-building-o color-text-2"></i>Developer</span>
+                                                            <span class="me-2"><i class="la la-map-marker color-text-2"></i> Gurugram, Bengaluru </span>
+                                                            <span class="me-2"><i class="fa fa-inr" aria-hidden="true"></i>40k -50k</span>
+                                                            <span class="me-2"><i class="la la-clock-o color-text-2"></i> Full Time</span>
+                                                        </p>
+                                                    </div>
+                                                </div><!--end col-->
+
+                                                
+                                                <div class="col-lg-auto ms-auto">
+                                                    <div class="">
+                                                        <a href="login.html" class="btn_1">View Details</a>
+                                                    </div>
+                                                </div>
+                                            </div><!--end row-->
+                                            
+                                        </div>
+                                    </div> <!--end card-->
+
+                                    <div class="candidate-list-box card mt-4">
+                                        <div class="card-body p-4">
+                                            <div class="row align-items-center">
+                                                <div class="col-lg-auto">
+                                                    <div class="candidate-list-images">
+                                                        <a href="javascript:void(0)"><img src="assets/images/user/img-01.jpg" alt="" class="avatar-md img-thumbnail rounded-circle"></a>
+                                                    </div>
+                                                </div><!--end col-->
+                                                
+                                                <div class="col-lg-6">
+                                                    <div class="company-title-box manage-candidate-content ">
+                                                        <div class="corner-triangle">
+                                                            <div class="corner-triangle-text">
+                                                                <a href="#" target="_blank"><i class="las la-times text-white"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <p class="card-sub mb-1 font-weight-medium">23 Days Ago</p>
+                                                        <h4 class="card-title mb-1"><a class="text-dark" href="job-details.html">BlueTech</a> </h4>
+                                                        <p class="card-sub">
+                                                            <span class="me-2"><i class="la la-building-o color-text-2"></i>Developer</span>
+                                                            <span class="me-2"><i class="la la-map-marker color-text-2"></i> Gurugram, Bengaluru </span>
+                                                            <span class="me-2"><i class="fa fa-inr" aria-hidden="true"></i>40k -50k</span>
+                                                            <span class="me-2"><i class="la la-clock-o color-text-2"></i> Full Time</span>
+                                                        </p>
+                                                    </div>
+                                                </div><!--end col-->
+
+                                                
+                                                <div class="col-lg-auto ms-auto">
+                                                    <div class="">
+                                                        <a href="login.html" class="btn_1">View Details</a>
+                                                    </div>
+                                                </div>
+                                            </div><!--end row-->
+                                            
+                                        </div>
+                                    </div> <!--end card-->
+
+                                    
+                                </div><!--end candidate-list-->
+                            </div><!--end col-->
+                        </div><!--end row-->
+
+                        <div class="row">
+                            <div class="col-lg-12 mt-5">
+                                <nav aria-label="Page navigation example">
+                                    <ul class="pagination job-pagination mb-0 justify-content-center">
+                                        <li class="page-item disabled">
+                                            <a class="page-link" href="javascript:void(0)" tabindex="-1">
+                                                <i class="mdi mdi-chevron-double-left fs-15"></i>
+                                            </a>
+                                        </li>
+                                        <li class="page-item active"><a class="page-link" href="javascript:void(0)">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="javascript:void(0)">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="javascript:void(0)">3</a></li>
+                                        <li class="page-item"><a class="page-link" href="javascript:void(0)">4</a></li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="javascript:void(0)">
+                                                <i class="mdi mdi-chevron-double-right fs-15"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div><!--end col-->
+                        </div><!-- end row -->
+
+                    </div><!--end container-->
+                </section>
+                <!-- END JOB-LIST -->
+
+            </div>
+            <!-- End Page-content -->
+
+            <!-- START SUBSCRIBE -->
+            <section class="bg-subscribe">
+                <div class="container">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-lg-6">
+                            <div class="text-center text-lg-start">
+                                <h4 class="text-white">Get New Jobs Notification!</h4>
+                                <p class="text-white-50 mb-0">Subscribe & get all related jobs notification.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="mt-4 mt-lg-0">
+                                <form class="subscribe-form" action="#">
+                                    <div class="input-group justify-content-center justify-content-lg-end">
+                                        <input type="text" class="form-control" id="subscribe" placeholder="Enter your email">
+                                        <button class="btn btn-primary" type="button" id="subscribebtn">Subscribe</button>
+                                    </div>
+                                </form><!--end form-->
+                            </div>
+                        </div>
+                        <!--end col-->
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end container-->
+                <div class="email-img d-none d-lg-block">
+                    <img src="assets/images/subscribe.png" alt="" class="img-fluid">
+                </div>
+            </section>
+            <!-- END SUBSCRIBE -->
+                <!-- START FOOTER -->
+                <section class="section footer-sec">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 my-auto">
+                                <p class="text-black-50  mb-0">
+                                    <script>document.write(new Date().getFullYear())</script> &copy; Copyright.<a href="#" target="_blank"
+                                        class="text-reset"></a>
+                                </p>
+                            </div>
+                            <div class="col-lg-6 my-auto">
+                                        
+                                <div class="footer-item mt-4 mt-lg-0">
+                                   
+                                    <ul class="list-unstyled d-flex justify-content-between footer-list mb-0">
+                                       
+                                        <li><a href="#"> Privacy Policy</a></li>
+                                        <li><a href="#"> Terms & Conditions</a></li>
+                                        <li><a href="#"> Services</a></li>
+                                        <li><a href="#"> Pricing</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 social-link mt-4 mt-lg-0 text-center text-lg-end my-auto">
+                                <ul class="footer-social-menu list-inline mb-0">
+                                    <li class="list-inline-item"><a href="#"><i class="uil uil-facebook-f"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="uil uil-linkedin-alt"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="uil uil-google"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="uil uil-twitter"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- END FOOTER -->
+
+                
+      
+
+                <!--start back-to-top-->
+                <button onclick="topFunction()" id="back-to-top">
+                    <i class="mdi mdi-arrow-up"></i>
+                </button>
+                <!--end back-to-top-->
+            </div>
+            <!-- end main content-->
+
+        </div>
+        <!-- END layout-wrapper -->
+
+        <!-- JAVASCRIPT -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="https://unicons.iconscout.com/release/v4.0.0/script/monochrome/bundle.js"></script>
+
+     
+
+        <!-- Job-list Init Js -->
+        <!-- <script src="assets/js/pages/job-list.init.js"></script> -->
+
+        <!-- Switcher Js -->
+        <script src="assets/js/choices.min.js"></script>
+        
+        <script src="assets/js/app.js"></script>
+
+        <script src="assets/js/custom.js"></script>
+        <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+
+<script>
+    var singleCategories,singleLocation=new Choices("#choices-single-location"),singleCategorie=document.getElementById("choices-single-categories");singleCategorie&&(singleCategories=new Choices("#choices-single-categories"));
+</script>
+    </body>
+</html>

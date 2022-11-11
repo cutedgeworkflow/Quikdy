@@ -1086,3 +1086,30 @@ padding: 30px 0;
       font-size: 22px;
   }
 }
+.manage-candidate-content span i.la {
+  color: #29abda;
+  margin-right: 2px;
+  font-size: 16px;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(38, 174, 97, .1);
+  line-height: 30px;
+  text-align: center;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+.manage-candidate-content span:hover i.la {
+  background-color: #29abda;
+  color: #FFE !important;
+}
+
+.card-sub span{
+  font-weight: 600;
+    color: #777;
+}
