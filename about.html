@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+
+    <meta charset="utf-8" />
+    <title>Quikdy-Job Portal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" " />
+    <meta name="keywords" content="" />
+    <meta content="Themesdesign" name="author" />
+
+
+
+
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+
+    <!-- Choise Css -->
+    <link rel="stylesheet" href="assets/libs/choices.js/public/assets/styles/choices.min.css">
+
+    <!-- Swiper Css -->
+    <!-- Bootstrap Css -->
+    <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <!-- Icons Css -->
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- App Css-->
+    <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+    <!--Custom Css-->
+
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+
+
+    <style>
+        .about-section img {
+
+            width: 100%;
+            border-radius: 10px;
+            /* box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); */
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+        }
+
+
+        #about-background {
+
+            background-image: url(assets/images/about/about-bg-image2.png);
+            box-shadow: 0 0 10px black;
+        }
+
+        .about-box {
+
+
+            margin: 5px;
+            color: #fff;
+            border-radius: 10px;
+            width: 20%;
+            box-shadow: 0 0 10px black;
+            padding-top: 20px;
+        }
+
+        section {
+
+            box-shadow: 0 0 10px black;
+        }
+
+        .about-box h4 {
+            font-size: 35px;
+        }
+
+        .about-box:hover {
+
+            background-color: #fff;
+            color: black;
+            transition: 3s;
+        }
+
+        .about-box:hover p {
+            color: black;
+            transition: 3s;
+
+        }
+
+        .about-box p {
+
+
+            color: white;
+        }
+
+
+        .about-page h2 {
+            position: relative;
+            padding: 0;
+            /* color:#24aadd; */
+            line-height: 1;
+            letter-spacing: 0.3px;
+            font-size: 34px;
+            font-weight: 700;
+            text-align: center;
+            text-transform: none;
+            margin-bottom: 30px;
+        }
+
+        .about-page h2:before {
+            content: '';
+            width: 60px;
+            height: 3px;
+            background: #24aadd;
+            position: absolute;
+            left: 0px;
+            bottom: -10px;
+            right: 0;
+            margin: 0 auto;
+        }
+
+        .about-page h2 span {
+            font-weight: 700;
+            padding-bottom: 5px;
+            color: #24aadd;
+        }
+
+
+        .about-page h4 {
+            position: relative;
+            padding: 0;
+            /* color:#24aadd; */
+            line-height: 1;
+            letter-spacing: 0.3px;
+            font-size: 34px;
+            font-weight: 700;
+            text-align: center;
+            text-transform: none;
+            margin-bottom: 30px;
+        }
+
+        .about-page h4:before {
+            content: '';
+            width: 60px;
+            height: 2px;
+            background: #fff;
+            position: absolute;
+            left: 0px;
+            bottom: -10px;
+            right: 0;
+            margin: 0 auto;
+        }
+
+        .box-red {
+
+            background-color: #ee341d;
+        }
+
+        .box-blue {
+
+            background-color: #24aadd;
+        }
+
+        @media (max-width: 768px) {
+
+            h2 {
+                text-align: center;
+            }
+        }
+    </style>
+
+
+</head>
+
+<body>
+   
+
+    <!-- Begin page -->
+    <div>
+
+
+        <header>
+            <!--Navbar Start-->
+            <nav class="navbar navbar-expand-lg fixed-top sticky py-2" id="navbar">
+                <div class="container-fluid custom-container">
+                    <a class="navbar-brand text-dark fw-bold me-auto" href="index.html">
+                        <img src="assets/landingImages/logo.png" alt="" class="logo-dark" />
+                        <img src="assets/landingImages/logo.png" alt="" class="logo-light" />
+                    </a>
+                    <div>
+                        <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarCollapse" aria-controls="navbarCollapse"
+                            aria-label="Toggle navigation">
+                            <i class="mdi mdi-menu"></i>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="nav-menu mx-auto">
+
+                            <li><a href="#" class="active">Home</a></li>
+                            <li><a href="#">For You</a></li>
+                            <li><a href="#">About Quikdy</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Why choose us</a></li>
+                            <li><a href="#">Insights</a></li>
+
+                        </ul>
+                        <!--end navbar-nav-->
+                        <ul class="social-menu d-block d-lg-none list-unstyled mb-0">
+                            <li class="me-2">
+                                <a href="#" class="btn_1">
+                                    LOGIN
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="#" class="btn_2">
+                                    REGISTER
+                                </a>
+
+                            </li>
+                        </ul>
+                    </div>
+                    <!--end navabar-collapse-->
+                    <ul class="social-menu d-none d-lg-flex list-unstyled mb-0">
+                        <li class="me-2">
+                            <a href="#" class="btn_1">
+                                LOGIN
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="#" class="btn_2">
+                                REGISTER
+                            </a>
+
+                        </li>
+                    </ul>
+                    <!--end header-menu-->
+                </div>
+                <!--end container-->
+            </nav>
+            <!-- Navbar End -->
+        </header>
+
+
+
+
+
+        <div class="main-content">
+
+            <div class="about-page page-content">
+
+
+
+                <section class="section">
+                    <div class="container">
+                        <div class=" about-section row justify-content-center">
+                            <div class="col-lg-6">
+                                <h2 class="mb-4">About <span>Us</span></h2>
+                                <p class="about-list list-unstyled text-muted mb-4 pb-2">
+                                    Quikdy is an Indian outsourcing and technology industry. Which is growing rapidly.
+                                    Quikdy industry in India essentially provides Staffing Services, Event Marketing,
+                                    Facilities Management and Business Solutions. Founded 2020 in Gurugram India,
+                                    Founder Sonu Thakur operating in pan India.
+                                    <br>
+                                    <br>
+                                    Indian outsourcing and technology industry. Which is growing rapidly.
+                                    Quikdy industry in India essentially provides Staffing Services, Event Marketing,
+                                    Facilities Management and Business Solutions. Founded 2020 in Gurugram India,
+                                    Founder Sonu Thakur operating in pan India.
+                                </p>
+
+
+                            </div>
+                            <!--end col-->
+                            <div class="col-lg-6">
+                                <img src="assets/images/about/about-dumy.jpeg">
+
+
+                            </div>
+                            <!--end col-->
+                        </div>
+                        <!--end row-->
+                    </div>
+                    <!--end container-->
+                </section>
+                <section id="about-background" class="section">
+                    <div class="container">
+                        <div class=" row justify-content-center">
+                            <div class=" about-box box-red col-lg-3 col-md-6 text-center">
+                                <h4 class="mb-3 ">10+</h4>
+                                <p class="  mb-4">
+                                    Branches</p>
+
+
+                            </div>
+                            <!--end col-->
+                            <div class=" about-box box-blue col-lg-3 col-md-6 text-center">
+                                <h4 class="mb-3 ">100+</h4>
+                                <p class="  mb-4 ">
+                                    Cities </p>
+
+
+                            </div>
+                            <!--end col-->
+                            <div class=" about-box box-red col-lg-3 col-md-6 text-center">
+                                <h4 class="mb-3 ">1000+</h4>
+                                <p class="  mb-4 ">
+                                    Candidate Join
+                                </p>
+
+
+                            </div>
+                            <!--end col-->
+                            <div class=" about-box box-blue col-lg-3 col-md-6 text-center">
+                                <h4 class="mb-3 ">50+</h4>
+                                <p class="  mb-4 ">
+                                    Companies Join
+                                </p>
+
+
+                            </div>
+                            <!--end col-->
+                        </div>
+                        <!--end row-->
+                    </div>
+                    <!--end container-->
+                </section>
+
+
+
+
+                <section class="section">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-12 text-center">
+                                <h2 class="mb-4 ">Our perfect <span>platform</span></h2>
+                                <p class="about-list list-unstyled text-muted mb-4 pb-2">
+                                    our platform helps customer book & finds high quality service- Event Marketing,
+                                    Branding/promotion, Job, Staffing services, HR Payroll Management, Background
+                                    Verification, food and Beverage Sampling, Website Design and social media, Lead
+                                    generation and Facilities Management, User’s requirements and available at the
+                                    requested time and date.
+                                </p>
+
+
+                            </div>
+                            <!--end col-->
+                        </div>
+                        <!--end row-->
+                    </div>
+                    <!--end container-->
+                </section>
+
+
+
+
+
+                <!-- START FOOTER -->
+                <section class="section footer-sec">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 my-auto">
+                                <p class="text-black-50  mb-0">
+                                    <script>document.write(new Date().getFullYear())</script> &copy; Copyright.<a
+                                        href="#" target="_blank" class="text-reset"></a>
+                                </p>
+                            </div>
+                            <div class="col-lg-6 my-auto">
+
+                                <div class="footer-item mt-4 mt-lg-0">
+
+                                    <ul class="list-unstyled d-flex justify-content-between footer-list mb-0">
+
+                                        <li><a href="#"> Privacy Policy</a></li>
+                                        <li><a href="#"> Terms & Conditions</a></li>
+                                        <li><a href="#"> Services</a></li>
+                                        <li><a href="#"> Pricing</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 social-link mt-4 mt-lg-0 text-center text-lg-end my-auto">
+                                <ul class="footer-social-menu list-inline mb-0">
+                                    <li class="list-inline-item"><a href="#"><i class="uil uil-facebook-f"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="uil uil-linkedin-alt"></i></a>
+                                    </li>
+                                    <li class="list-inline-item"><a href="#"><i class="uil uil-google"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="uil uil-twitter"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- END FOOTER -->
+
+
+
+
+                <!--start back-to-top-->
+                <button onclick="topFunction()" id="back-to-top">
+                    <i class="mdi mdi-arrow-up"></i>
+                </button>
+                <!--end back-to-top-->
+            </div>
+            <!-- end main content-->
+
+        </div>
+        <!-- END layout-wrapper -->
+
+        <!-- JAVASCRIPT -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+            integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="https://unicons.iconscout.com/release/v4.0.0/script/monochrome/bundle.js"></script>
+
+
+
+        <!-- Job-list Init Js -->
+        <!-- <script src="assets/js/pages/job-list.init.js"></script> -->
+
+        <!-- Switcher Js -->
+
+
+        <script src="assets/js/app.js"></script>
+
+        <script src="assets/js/custom.js"></script>
+        <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+
+
+
+</body>
+
+</html>
