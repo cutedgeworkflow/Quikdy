@@ -42,6 +42,12 @@
       
          <link rel="stylesheet" href="css/style.css">
     
+         <style>
+            .select2-container--default .select2-selection--multiple .select2-selection__choice {
+   
+                margin-top: -2px;
+            }
+         </style>
     </head>
 <body>
 
@@ -391,7 +397,7 @@
                                                         <div class="input-box">
                                                             <label class="label-text">Employer Category</label>
                                                             <div class="form-group user-chosen-select-container">
-                                                                <select class="user-chosen-select" id="">
+                                                                <select class="user-chosen-select" id="" multiple="multiple">
                                                                     <option selected="selected">IT</option>
                                                                     <option>Services</option>
                                                                     <option>Business Solutions</option>
@@ -923,15 +929,25 @@
         <script src="js/main.js"></script>
       <script>
 
-        $(document).ready(function () {
-            $(document).ready(function() {
-                $('select').select2();
-                $('#JobCategory').select2({
-                    multiple: true
-                });
-               
+    
+        $(document).ready(function() {
+            $('select').select2();
+            $('#JobCategory').select2({
+                multiple: true
             });
+            
+
+
+            // Get the input field
+            $('.select2-search__field').keydown(function (e) {
+               
+                if (e.keyCode == 13) {
+                  alert('Enter is Pressed') 
+                }
+            })
         });
+
+      
 
     </script>
 </body>

@@ -395,11 +395,11 @@ font-weight: 800;
   animation:fadeInDown 1s both 1s;
 }
 
-.Modern-Slider .item.slick-active h5{
+.Modern-Sliderservices-slider .item.slick-active h5{
   animation:fadeInLeft 1s both 1.5s;
 }
 
-.Modern-Slider .item.slick-active{
+.Modern-Sliderservices-slider .item.slick-active{
   animation:Slick-FastSwipeIn 1s both;
 }
 
