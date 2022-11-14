@@ -34,6 +34,8 @@
 
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.min.css">
+
     <link rel="stylesheet" href="css/all.min.css">
 
     <link rel="stylesheet" href="css/custom.css">
@@ -436,21 +438,20 @@
                                                                 </div>
                                                             </div><!-- end input-box -->
                                                         </div><!-- end col-lg-4 -->
-
-
+                                                         
 
                                                         <div class="col-lg-4">
                                                             <div class="input-box">
                                                                 <label class="label-text">Category</label>
                                                                 <div class="form-group user-chosen-select-container">
-                                                                    <select class="user-chosen-select" >
+                                                                    <select class=" livesearch user-chosen-select" multiple >
                                                                         <option selected="selected">UI & UX Design
                                                                         </option>
                                                                         <option>iOS</option>
                                                                         <option>Android</option>
                                                                         <option>Development</option>
                                                                         <option>Laravel</option>
-                                                                        <option selected="selected">Java</option>
+                                                                        <option>Java</option>
                                                                         <option>Javascript</option>
                                                                     </select>
                                                                 </div>
@@ -1277,7 +1278,9 @@
     <script src="https://unicons.iconscout.com/release/v4.0.0/script/monochrome/bundle.js"></script>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
 
 
     <!-- Job-list Init Js -->
@@ -1297,15 +1300,17 @@
 
     <script>
 
-        $(document).ready(function () {
-            $(document).ready(function () {
-                $('select').select2();
-                $('#JobCategory').select2({
-                    multiple: true
-                });
+$(".livesearch").chosen();
 
-            });
-        });
+        // $(document).ready(function () {
+        //     $(document).ready(function () {
+        //         $('select').select2();
+        //         $('#JobCategory').select2({
+        //             multiple: true
+        //         });
+
+        //     });
+        // });
 
     </script>
 </body>
