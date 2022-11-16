@@ -1,0 +1,86 @@
+.jobDetails {   
+    .btns{
+        display: flex;
+        justify-content: center;
+    }
+    a {
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 14px;
+        color: #fff;
+        padding: 10px 24px;
+        display: block;
+        text-align: center;
+        background-color: #29abda;
+        transition: all 0.3s;
+        box-shadow: 0 0 40px rgb(82 85 90 / 10%);
+        position: relative;
+        display: inline-block;
+        outline: 0;
+        border-radius: 5px;
+    }
+    .active {
+        background-color: #ee341d;
+    }
+    .detailsCard {
+        background-color: #eee;
+        padding: 20px;
+        border-radius: 3px;
+        .basicDetails {
+            .name {
+                font-size: 30px;
+                color: #29abda;
+            }
+            .designation {
+                font-size: 16px;
+            }
+            .otherDetails {
+                span {
+                    margin-right: 20px;
+                    i {
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+        .ViewAll {
+            text-align: right;
+            a {
+                font-weight: bold;
+                text-transform: uppercase;
+                border: 1px solid #29abda;
+                padding: 10px 50px;
+                transition: all 0.3s ease;
+                &:hover {
+                    border: 1px solid #ee341d;
+                    transition: all 0.3s ease;
+                    background-color: #ee341d;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .jobDetails {
+        ul {
+            li {
+                a {
+                   font-size: 12px;
+                }
+            }
+        }
+    } 
+}
+@media screen and (max-width: 767px) {
+    .jobDetails {
+        ul {
+            li {
+                a {
+                    padding: 5px 10px;
+                }
+            }
+        }
+    }
+}

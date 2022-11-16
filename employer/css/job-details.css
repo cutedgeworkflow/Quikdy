@@ -1,0 +1,68 @@
+.jobDetails .btns {
+  display: flex;
+  justify-content: center;
+}
+.jobDetails a {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+  padding: 10px 24px;
+  display: block;
+  text-align: center;
+  background-color: #29abda;
+  transition: all 0.3s;
+  box-shadow: 0 0 40px rgba(82, 85, 90, 0.1);
+  position: relative;
+  display: inline-block;
+  outline: 0;
+  border-radius: 5px;
+}
+.jobDetails .active {
+  background-color: #ee341d;
+}
+.jobDetails .detailsCard {
+  background-color: #eee;
+  padding: 20px;
+  border-radius: 3px;
+}
+.jobDetails .detailsCard .basicDetails .name {
+  font-size: 30px;
+  color: #29abda;
+}
+.jobDetails .detailsCard .basicDetails .designation {
+  font-size: 16px;
+}
+.jobDetails .detailsCard .basicDetails .otherDetails span {
+  margin-right: 20px;
+}
+.jobDetails .detailsCard .basicDetails .otherDetails span i {
+  margin-right: 5px;
+}
+.jobDetails .detailsCard .ViewAll {
+  text-align: right;
+}
+.jobDetails .detailsCard .ViewAll a {
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px solid #29abda;
+  padding: 10px 50px;
+  transition: all 0.3s ease;
+}
+.jobDetails .detailsCard .ViewAll a:hover {
+  border: 1px solid #ee341d;
+  transition: all 0.3s ease;
+  background-color: #ee341d;
+  color: #fff;
+}
+
+@media screen and (max-width: 500px) {
+  .jobDetails ul li a {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .jobDetails ul li a {
+    padding: 5px 10px;
+  }
+}/*# sourceMappingURL=job-details.css.map */
