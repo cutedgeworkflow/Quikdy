@@ -1,0 +1,310 @@
+html {
+  padding: 0px;
+  margin: 0px;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: muli;
+  font-size: 1.6rem;
+  overflow-x: hidden;
+}
+body a {
+  text-decoration: none;
+}
+
+header {
+  background-color: transparent;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  left: 0px;
+  z-index: 99999;
+}
+
+.nav-sticky.navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+.navigation .showDropdown:hover .hoverDropdown {
+  display: block;
+}
+.navigation .hoverDropdown {
+  display: none;
+  background-color: #fff;
+  background-color: rgba(59, 59, 58, 0.9);
+  padding: 3rem;
+  width: 25rem;
+  position: absolute;
+  left: 7rem;
+  top: 5rem;
+  z-index: 999999;
+}
+.navigation .hoverDropdown ul {
+  position: relative;
+  -moz-text-align-last: left;
+       text-align-last: left;
+  z-index: 999999;
+}
+.navigation .hoverDropdown ul li {
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+}
+.navigation .hoverDropdown ul li:first-child {
+  padding-top: 0rem;
+  border-right: 0px solid rgba(255, 255, 255, 0.8);
+}
+.navigation .hoverDropdown ul li:nth-child(3n+1) {
+  border-bottom: 2px solid #1f7dbc;
+}
+.navigation .hoverDropdown ul li:nth-child(3n+2) {
+  border-bottom: 2px solid #6db12d;
+}
+.navigation .hoverDropdown ul li:nth-child(3n+3) {
+  border-bottom: 2px solid #e3051f;
+}
+.navigation .hoverDropdown ul li a {
+  color: #fff;
+  padding: 0.4rem 0rem;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.whatWeDo {
+  margin-top: 8rem;
+}
+.whatWeDo h2 {
+  font-size: 4.8rem;
+}
+.whatWeDo h3 {
+  font-size: 2rem;
+  font-weight: normal;
+  margin-top: 4rem;
+  line-height: 2.9rem;
+  color: #1d1d1b;
+}
+.whatWeDo .workCard {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+.whatWeDo .workCard .cardImg {
+  position: relative;
+}
+.whatWeDo .workCard .cardImg:hover {
+  transition: all 0.6s ease;
+}
+.whatWeDo .workCard .cardImg:hover .sideWhiteBlock {
+  width: 11rem;
+  height: 11rem;
+}
+.whatWeDo .workCard .cardImg:hover .sideColorBlock {
+  width: 3rem;
+  height: 3rem;
+}
+.whatWeDo .workCard .cardImg::after {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: multiply;
+  content: "";
+  z-index: 9;
+  background-color: #1f7dbc;
+}
+.whatWeDo .workCard .cardImg img {
+  width: 100%;
+  height: 23rem;
+}
+.whatWeDo .workCard .cardImg .sideWhiteBlock {
+  z-index: 99;
+  transition: all 0.6s ease;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 9rem;
+  height: 9rem;
+  border-right: 2.5rem solid #fff;
+  border-bottom: 2.5rem solid #fff;
+}
+.whatWeDo .workCard .cardImg .sideColorBlock {
+  z-index: 99;
+  transition: all 0.6s ease;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 2rem;
+  height: 2rem;
+  border-right: 0.5rem solid #1f7dbc;
+  border-bottom: 0.5rem solid #1f7dbc;
+}
+.whatWeDo .workCard .cardTitle {
+  font-size: 3.2rem;
+  margin: 4rem 0 2rem 0;
+}
+.whatWeDo .workCard .cardDesc {
+  font-size: 1.6rem;
+}
+.whatWeDo .workCard .cardBtn {
+  margin-top: 5rem;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  padding: 0rem 2.3rem 1.5rem 2.3rem;
+}
+.whatWeDo .workCard .cardBtn::after {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  height: 0.2rem;
+  background-color: #1f7dbc;
+  width: 50%;
+  transition: all 0.2s ease-out 0.1s;
+  content: "";
+}
+.whatWeDo .workCard .cardBtn::before {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  height: 100%;
+  background-color: #1f7dbc;
+  width: 0.2rem;
+  transition: all 0.2s ease-out 0.1s;
+  content: "";
+}
+.whatWeDo .workCard .cardBtn:hover {
+  transition: all 0.2s ease-out 0.1s;
+}
+.whatWeDo .workCard .cardBtn:hover::after {
+  width: 100%;
+}
+.whatWeDo .workCard .cardBtn:hover::before {
+  height: 0%;
+}
+.whatWeDo .workCard .cardBtn span {
+  line-height: 2.2rem;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  letter-spacing: 0.35rem;
+  color: #1d1d1b;
+  font-weight: 800;
+}
+.whatWeDo .workCard1 .cardBtn::after, .whatWeDo .workCard1 .cardBtn::before,
+.whatWeDo .workCard4 .cardBtn::after,
+.whatWeDo .workCard4 .cardBtn::before {
+  background-color: #1f7dbc;
+}
+.whatWeDo .workCard1 .cardImg::after,
+.whatWeDo .workCard4 .cardImg::after {
+  background-color: #1f7dbc;
+}
+.whatWeDo .workCard1 .cardImg .sideColorBlock,
+.whatWeDo .workCard4 .cardImg .sideColorBlock {
+  border-right: 0.5rem solid #1f7dbc;
+  border-bottom: 0.5rem solid #1f7dbc;
+}
+.whatWeDo .workCard2 .cardBtn::after, .whatWeDo .workCard2 .cardBtn::before,
+.whatWeDo .workCard5 .cardBtn::after,
+.whatWeDo .workCard5 .cardBtn::before {
+  background-color: #6db12d;
+}
+.whatWeDo .workCard2 .cardImg::after,
+.whatWeDo .workCard5 .cardImg::after {
+  background-color: #6db12d;
+}
+.whatWeDo .workCard2 .cardImg .sideColorBlock,
+.whatWeDo .workCard5 .cardImg .sideColorBlock {
+  border-right: 0.5rem solid #6db12d;
+  border-bottom: 0.5rem solid #6db12d;
+}
+.whatWeDo .workCard3 .cardBtn::after, .whatWeDo .workCard3 .cardBtn::before,
+.whatWeDo .workCard6 .cardBtn::after,
+.whatWeDo .workCard6 .cardBtn::before {
+  background-color: #e3051f;
+}
+.whatWeDo .workCard3 .cardImg::after,
+.whatWeDo .workCard6 .cardImg::after {
+  background-color: #e3051f;
+}
+.whatWeDo .workCard3 .cardImg .sideColorBlock,
+.whatWeDo .workCard6 .cardImg .sideColorBlock {
+  border-right: 0.5rem solid #e3051f;
+  border-bottom: 0.5rem solid #e3051f;
+}
+.whatWeDo .workCard4 {
+  padding-bottom: 8rem;
+  border-bottom: 1px solid #1f7dbc;
+}
+.whatWeDo .workCard5 {
+  padding-bottom: 8rem;
+  border-bottom: 1px solid #6db12d;
+}
+.whatWeDo .workCard6 {
+  padding-bottom: 8rem;
+  border-bottom: 1px solid #e3051f;
+}
+
+.ourClients {
+  margin-top: 8rem;
+}
+.ourClients h2 {
+  font-size: 4.8rem;
+}
+.ourClients h3 {
+  font-size: 2.6rem;
+  line-height: 2.9rem;
+  color: #1f7dbc;
+}
+.ourClients .ourClints-slider {
+  margin-top: 5rem;
+}
+.ourClients .ourClints-slider .item {
+  padding-top: 2rem;
+}
+.ourClients .ourClints-slider .bbBlue {
+  border-bottom: 1px solid #1f7dbc;
+}
+.ourClients .ourClints-slider .bbRed {
+  border-bottom: 1px solid #6db12d;
+}
+.ourClients .ourClints-slider .bbGreen {
+  border-bottom: 1px solid #e3051f;
+}
+.ourClients .ourClints-slider img {
+  transition: all 0.3s ease;
+  padding-bottom: 1rem;
+  position: relative;
+  top: 0rem;
+}
+.ourClients .ourClints-slider img:hover {
+  transition: all 0.3s ease;
+  top: -2rem;
+}
+
+@media screen and (max-width: 991px) {
+  .whatWeDo h2 {
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .whatWeDo .workCard .cardImg img {
+    height: 19rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .whatWeDo h2 {
+    font-size: 2.5rem;
+  }
+  .whatWeDo h3 {
+    font-size: 1.8rem;
+  }
+  .whatWeDo .workCard .cardImg img {
+    height: auto;
+  }
+  .whatWeDo .workCard .cardBtn {
+    margin-left: 1rem;
+  }
+}/*# sourceMappingURL=hr-payroll.css.map */
