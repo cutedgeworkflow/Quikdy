@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+html {
+  padding: 0px;
+  margin: 0px;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: muli;
+  font-size: 1.6rem;
+  overflow-x: hidden;
+}
+body a {
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  color: #2aabda;
+}
+
+.banner .info .green {
+  width: 100vw;
+  height: 100vh;
+}
+.banner .item {
+  height: 100vh;
+}
+.banner .item .img-fill {
+  min-height: 100%;
+}
+.banner .item .img-fill img {
+  width: 100%;
+}
+.banner .banner-inner h1 {
+  text-align: center;
+  line-height: 4.5rem;
+  word-spacing: 0.3rem;
+  text-transform: capitalize;
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.navigation .showDropdown:hover .hoverDropdown {
+  display: block;
+}
+.navigation .hoverDropdown {
+  display: none;
+  background-color: #24aadd;
+  padding: 3rem;
+  width: 25rem;
+  position: absolute;
+  left: 7rem;
+  top: 5rem;
+  border-radius: 0.5rem;
+  z-index: 999999;
+}
+.navigation .hoverDropdown ul {
+  position: relative;
+  -moz-text-align-last: left;
+       text-align-last: left;
+  z-index: 999999;
+}
+.navigation .hoverDropdown ul li {
+  padding: 0.8rem 0rem;
+  text-align: left;
+  border-bottom: 1px solid rgb(225, 223, 223);
+  transition: all 0.3s ease;
+}
+.navigation .hoverDropdown ul li:hover a {
+  transition: all 0.3s ease;
+  color: #eee !important;
+}
+.navigation .hoverDropdown ul li a {
+  color: #fff;
+  padding: 0.4rem 0rem;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.navigation ul li a {
+  color: #fff !important;
+}
+
+.whatWeDo {
+  padding: 8rem 0rem;
+  border-bottom: 2px solid #eee;
+}
+.whatWeDo h2 {
+  font-size: 4.8rem;
+}
+.whatWeDo h3 {
+  font-size: 2.2rem;
+  margin-top: 2rem;
+  line-height: 2.9rem;
+  color: #1d1d1b;
+}
+
+.whyChooseUs {
+  margin-top: 8rem;
+}
+.whyChooseUs h2 {
+  font-size: 4.8rem;
+}
+.whyChooseUs h3 {
+  font-size: 2.2rem;
+  margin-top: 2rem;
+  line-height: 2.9rem;
+  color: #1d1d1b;
+}
+.whyChooseUs .whyChooseCard {
+  padding: 1rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.whyChooseUs .whyChooseCard img {
+  width: 100%;
+  min-height: 25rem;
+  border-radius: 0.5rem;
+}
+.whyChooseUs .whyChooseCard p {
+  font-size: 2rem;
+  margin-top: 1.6rem;
+  padding: 0rem 1rem;
+  color: #000;
+  font-weight: 500;
+}
+
+.portfolio {
+  margin: 8rem 0rem;
+  padding: 8rem 0rem;
+  background-color: #eee;
+}
+.portfolio h2 {
+  font-size: 4.8rem;
+}
+.portfolio h3 {
+  font-size: 2.2rem;
+  margin-top: 2rem;
+  line-height: 2.9rem;
+  color: #1d1d1b;
+}
+.portfolio .portfolioSlider .imageWrapper {
+  margin-top: 5rem;
+}
+.portfolio .portfolioSlider .imageWrapper img {
+  width: 100%;
+  min-height: 15rem;
+}
+.portfolio .owl-carousel .owl-dots.disabled {
+  display: block;
+}
+.portfolio .owl-dots {
+  text-align: center;
+  padding-top: 15px;
+}
+.portfolio .owl-dots button.owl-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  background: #ccc;
+  margin: 0 0.8rem;
+}
+.portfolio .owl-dots button.owl-dot.active {
+  background-color: #24aadd;
+}
+.portfolio .owl-dots button.owl-dot:focus {
+  outline: none;
+}
+
+.contactForm .imgwrapper img {
+  width: 100%;
+}
+.contactForm h2 {
+  text-transform: capitalize;
+  font-size: 4.8rem;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.contactForm form input {
+  width: 100%;
+}
+.contactForm form .name-wrapper,
+.contactForm form .phone-wrapper,
+.contactForm form .email-wrapper,
+.contactForm form .age-wrapper,
+.contactForm form .marital-wrapper,
+.contactForm form .city-wrapper,
+.contactForm form .message-wrapper {
+  margin-bottom: 30px;
+}
+.contactForm form .name-wrapper input,
+.contactForm form .phone-wrapper input,
+.contactForm form .email-wrapper input,
+.contactForm form .age-wrapper input,
+.contactForm form .marital-wrapper input,
+.contactForm form .city-wrapper input,
+.contactForm form .message-wrapper input {
+  height: 50px;
+  padding-left: 20px;
+  border: none;
+  background-color: #eee;
+}
+.contactForm form .error {
+  opacity: 0;
+  visibility: hidden;
+  color: red;
+  font-size: 14px;
+}
+.contactForm form .marital-wrapper {
+  padding-left: 20px;
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+}
+.contactForm form .marital-wrapper input {
+  border-radius: 0.5rem;
+  width: 20px;
+}
+.contactForm form .marital-wrapper label {
+  padding-left: 10px;
+}
+.contactForm form .marital-wrapper .space {
+  width: 30px;
+}
+.contactForm form .message-wrapper textarea {
+  width: 100%;
+  height: 100px;
+  padding-left: 20px;
+  padding-top: 20px;
+  background-color: #eee;
+  border: none;
+  resize: none;
+  border-radius: 0.5rem;
+}
+.contactForm form .submit-button button {
+  width: 100%;
+  padding: 10px 0px;
+  font-weight: bold;
+  background-color: #24aadd;
+  border: 0;
+  border-radius: 0.5rem;
+  color: #fff;
+  transition: all 0.4s ease;
+}
+.contactForm form .submit-button button:hover {
+  transition: all 0.4s ease;
+}
+
+@media screen and (max-width: 991px) {
+  .mainmenu li a {
+    padding: 1rem 0rem;
+  }
+  .banner .banner-inner h1 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .contactForm .imgwrapper {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .mainmenu li a {
+    font-size: 1.6rem;
+  }
+  .mainmenu {
+    display: block;
+  }
+  .mainmenu li {
+    width: 100%;
+    display: inline-block;
+  }
+  .mainmenu li:last-child {
+    display: block;
+    width: 100%;
+  }
+  .navigation {
+    margin-top: -3rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .whatWeDo h2,
+.whyChooseUs h2,
+.portfolio h2,
+.contactForm h2 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  .whatWeDo h3,
+.whyChooseUs h3,
+.portfolio h3,
+.contactForm h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  .banner .banner-inner h1 {
+    font-size: 1.6rem;
+    line-height: normal;
+  }
+  .showDropdown {
+    display: block;
+  }
+  .navigation .hoverDropdown {
+    left: 50%;
+    transform: translate(-50%);
+  }
+}/*# sourceMappingURL=event-marketing.css.map */

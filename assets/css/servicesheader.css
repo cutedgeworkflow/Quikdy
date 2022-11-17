@@ -1,0 +1,64 @@
+html {
+  padding: 0px;
+  margin: 0px;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: muli;
+  font-size: 1.6rem;
+  overflow-x: hidden;
+}
+body a {
+  text-decoration: none;
+}
+
+header {
+  background-color: transparent;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  left: 0px;
+  z-index: 99999;
+}
+
+.nav-sticky.navbar {
+  background-color: transparent;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  color: #fff;
+}
+
+header nav ul:not(.social-menu, .navbar-nav) li a {
+  color: #fff;
+}
+
+header nav ul:not(.social-menu, .navbar-nav) li ul li a {
+  color: #000 !important;
+}
+
+.mdi {
+  color: #fff;
+}
+
+.btn_1,
+.btn_2 {
+  color: #fff !important;
+}
+.btn_1:hover,
+.btn_2:hover {
+  background-color: #1f7dbc !important;
+  outline: 0 !important;
+}
+
+.dropdown-item {
+  color: #000 !important;
+}
+
+@media screen and (max-width: 991px) {
+  header nav ul:not(.social-menu, .navbar-nav) li a {
+    color: #000;
+  }
+}/*# sourceMappingURL=servicesheader.css.map */
