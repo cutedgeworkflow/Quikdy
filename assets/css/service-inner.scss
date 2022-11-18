@@ -1,0 +1,242 @@
+$color1: #1f7dbc;
+$color2: #6db12d;
+$color3: #e3051f;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+html {
+    padding: 0px;
+    margin: 0px;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: muli;
+    font-size: 1.6rem;
+    overflow-x: hidden;
+    a {
+        text-decoration: none;
+    }
+}
+
+h1,
+h2 {
+    color: #2aabda;
+}
+.banner {
+    .info .green {
+        width: 100vw;
+        height: 100vh;
+    }
+    .item {
+        height: 100vh;
+        .img-fill {
+            min-height: 100%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .banner-inner {
+        h1 {
+            text-align: center;
+            line-height: 4.5rem;
+            word-spacing: 0.3rem;
+            text-transform: capitalize;
+            font-size: 3rem;
+            font-family: "Poppins", sans-serif;
+            color: #fff;
+        }
+    }
+}
+
+.navigation {
+    .showDropdown {
+        &:hover {
+            .hoverDropdown {
+                display: block;
+            }
+        }
+    }
+    .hoverDropdown {
+        display: none;
+        background-color: #24aadd;
+        padding: 3rem;
+        width: 25rem;
+        position: absolute;
+        left: 7rem;
+        top: 5rem;
+        border-radius: 0.5rem;
+        z-index: 999999;
+        ul {
+            position: relative;
+            text-align-last: left;
+            z-index: 999999;
+            li {
+                padding: 0.8rem 0rem;
+                text-align: left;
+                border-bottom: 1px solid rgb(225, 223, 223);
+                transition: all 0.3s ease;
+                &:hover {
+                    a {
+                        transition: all 0.3s ease;
+                        color: #eee !important;
+                    }
+                }
+                a {
+                    color: #fff;
+                    padding: 0.4rem 0rem;
+                    font-size: 1.5rem;
+                    text-transform: capitalize;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    ul {
+        li {
+            a {
+                color: #fff !important;
+            }
+        }
+    }
+}
+
+.retailAndStore {
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+    border-bottom: 1px solid #eee;
+    .imgWrapper {
+        img {
+            width: 100%;
+            border-radius: 0.5rem;
+        }
+    }
+    .contentWrapper {
+        h2 {
+            font-size: 4.5rem;
+        }
+        p {
+            font-size: 1.6rem;
+            font-weight: 600;
+            color: #767676;
+        }
+        span {
+            font-style: italic;
+        }
+    }
+}
+.festivalMarketing {
+    margin-top: 8rem;
+    .imgWrapper {
+        img {
+            width: 100%;
+            border-radius: 0.5rem;
+        }
+    }
+    .contentWrapper {
+        h2 {
+            font-size: 4.5rem;
+        }
+        p {
+            font-size: 1.6rem;
+            font-weight: 600;
+            color: #767676;
+        }
+        span {
+            font-style: italic;
+        }
+    }
+}
+
+.portfolio {
+    margin: 8rem 0rem;
+    padding: 8rem 0rem;
+    background-color: #eee;
+    h2 {
+        font-size: 4.8rem;
+    }
+    h3 {
+        font-size: 2.2rem;
+        margin-top: 2rem;
+        line-height: 2.9rem;
+        color: #1d1d1b;
+    }
+    .portfolioSlider {
+        .imageWrapper {
+            margin-top: 5rem;
+            img {
+                width: 100%;
+                min-height: 15rem;
+            }
+        }
+    }
+    .owl-carousel .owl-dots.disabled {
+        display: block;
+    }
+    .owl-dots {
+        text-align: center;
+        padding-top: 15px;
+    }
+    .owl-dots button.owl-dot {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        display: inline-block;
+        background: #ccc;
+        margin: 0 0.8rem;
+    }
+    .owl-dots button.owl-dot.active {
+        background-color: #24aadd;
+    }
+    .owl-dots button.owl-dot:focus {
+        outline: none;
+    }
+}
+
+//============= media queries ============
+
+@media screen and (max-width: 991px) {
+    .contentWrapper {
+        h2 {
+            text-align: center;
+        }
+        p,
+        span {
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .retailAndStore {
+        .contentWrapper {
+            h2 {
+                font-size: 3rem;
+                text-align: center;
+            }
+            span {
+                display: block;
+                text-align: center;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .portfolio {
+        h2 {
+            font-size: 3.5rem;
+            text-align: center;
+        }
+    }
+    .portfolio {
+        h3 {
+            font-size: 2rem;
+            font-weight: 600;
+            text-align: center;
+        }
+    }
+}
+

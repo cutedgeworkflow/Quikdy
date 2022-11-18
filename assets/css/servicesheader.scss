@@ -23,10 +23,18 @@ header {
     top: 0px;
     width: 100%;
     left: 0px;
-    z-index: 99999;
+    z-index: 99999999999999999;
+}
+.staticNavBar{
+    position: static;
+    background-color: #fff;
+    .textColor{
+        color: #000 !important;
+    }
 }
 .nav-sticky.navbar {
     background-color: transparent;
+    z-index: 99999999999999999;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -54,8 +62,177 @@ header nav ul:not(.social-menu, .navbar-nav) li ul li a{
     color: #000 !important;
 }
 
+
+.banner {
+    .info .green {
+        width: 100vw;
+        height: 100vh;
+    }
+    .item {
+        height: 100vh;
+        .img-fill {
+            min-height: 100%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .banner-inner {
+        width: 70%;
+        h1 {
+            line-height: 4.5rem;
+            word-spacing: 0.3rem;
+            text-transform: capitalize;
+            font-size: 2rem;
+            font-family: "Poppins", sans-serif;
+            color: #fff;
+        }
+        h2{
+            word-spacing: 0.3rem;
+            text-transform: capitalize;
+            font-size: 3rem;
+            font-family: "Poppins", sans-serif;
+            color: #fff;
+            margin-bottom: 1rem;
+        }
+        p{
+            font-size: 1.8rem;
+        }
+    }
+}
+
+.navigation {
+    .showDropdown {
+        &:hover {
+            .hoverDropdown {
+                display: block;
+            }
+        }
+    }
+    .hoverDropdown {
+        display: none;
+        background-color: #24aadd;
+        padding: 3rem;
+        width: 25rem;
+        position: absolute;
+        left: 7rem;
+        top: 5rem;
+        border-radius: 0.5rem;
+        z-index: 999999;
+        ul {
+            position: relative;
+            text-align-last: left;
+            z-index: 999999;
+            li {
+                padding: 0.8rem 0rem;
+                text-align: left;
+                border-bottom: 1px solid rgb(225, 223, 223);
+                transition: all 0.3s ease;
+                &:hover {
+                    a {
+                        transition: all 0.3s ease;
+                        color: #eee !important;
+                    }
+                }
+                a {
+                    color: #fff;
+                    padding: 0.4rem 0rem;
+                    font-size: 1.5rem;
+                    text-transform: capitalize;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    ul {
+        li {
+            a {
+                color: #fff !important;
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 991px) {
     header nav ul:not(.social-menu, .navbar-nav) li a {
         color: #000;
+    }
+    .mainmenu {
+        li {
+            a {
+                padding: 1rem 0rem;
+            }
+        }
+    }
+    .banner {
+        .banner-inner {
+            width: 100%;
+            h1 {
+                line-height: 4.5rem;
+                font-size: 2rem;
+            }
+            h2{
+                font-size: 2.5rem;
+            }
+            p{
+                font-size: 1.6rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .mainmenu {
+        li {
+            a {
+                font-size: 1.6rem;
+            }
+        }
+    }
+    .mainmenu {
+        display: block;
+        li {
+            width: 49%;
+            display: inline-block;
+            &:last-child {
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+    .hoverDropdown ul li{
+        width: 100%;
+    }
+    .navigation {
+        margin-top: -3rem;
+    }
+}
+
+@media screen and (max-width: 500px) {    
+    .banner {
+        .banner-inner {
+            width: 100%;
+            h1 {
+                line-height: normal;
+                font-size: 1.7rem;
+            }
+            h2{
+                font-size: 1.8rem;
+            }
+            p{
+                font-size: 1.4rem;
+            }
+        }
+    }
+    .showDropdown {
+        display: block;
+    }
+    .navigation {
+        margin-top: -5rem;
+        .hoverDropdown {
+            left: 50%;
+            transform: translate(-50%);
+        }
     }
 }

@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+html {
+  padding: 0px;
+  margin: 0px;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: muli;
+  font-size: 1.6rem;
+  overflow-x: hidden;
+}
+body a {
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  color: #2aabda;
+}
+
+.banner .info .green {
+  width: 100vw;
+  height: 100vh;
+}
+.banner .item {
+  height: 100vh;
+}
+.banner .item .img-fill {
+  min-height: 100%;
+}
+.banner .item .img-fill img {
+  width: 100%;
+}
+.banner .banner-inner h1 {
+  text-align: center;
+  line-height: 4.5rem;
+  word-spacing: 0.3rem;
+  text-transform: capitalize;
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.navigation .showDropdown:hover .hoverDropdown {
+  display: block;
+}
+.navigation .hoverDropdown {
+  display: none;
+  background-color: #24aadd;
+  padding: 3rem;
+  width: 25rem;
+  position: absolute;
+  left: 7rem;
+  top: 5rem;
+  border-radius: 0.5rem;
+  z-index: 999999;
+}
+.navigation .hoverDropdown ul {
+  position: relative;
+  -moz-text-align-last: left;
+       text-align-last: left;
+  z-index: 999999;
+}
+.navigation .hoverDropdown ul li {
+  padding: 0.8rem 0rem;
+  text-align: left;
+  border-bottom: 1px solid rgb(225, 223, 223);
+  transition: all 0.3s ease;
+}
+.navigation .hoverDropdown ul li:hover a {
+  transition: all 0.3s ease;
+  color: #eee !important;
+}
+.navigation .hoverDropdown ul li a {
+  color: #fff;
+  padding: 0.4rem 0rem;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.navigation ul li a {
+  color: #fff !important;
+}
+
+.retailAndStore {
+  padding-top: 10rem;
+  padding-bottom: 8rem;
+  border-bottom: 1px solid #eee;
+}
+.retailAndStore .imgWrapper img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+.retailAndStore .contentWrapper h2 {
+  font-size: 4.5rem;
+}
+.retailAndStore .contentWrapper p {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #767676;
+}
+.retailAndStore .contentWrapper span {
+  font-style: italic;
+}
+
+.festivalMarketing {
+  margin-top: 8rem;
+}
+.festivalMarketing .imgWrapper img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+.festivalMarketing .contentWrapper h2 {
+  font-size: 4.5rem;
+}
+.festivalMarketing .contentWrapper p {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #767676;
+}
+.festivalMarketing .contentWrapper span {
+  font-style: italic;
+}
+
+.portfolio {
+  margin: 8rem 0rem;
+  padding: 8rem 0rem;
+  background-color: #eee;
+}
+.portfolio h2 {
+  font-size: 4.8rem;
+}
+.portfolio h3 {
+  font-size: 2.2rem;
+  margin-top: 2rem;
+  line-height: 2.9rem;
+  color: #1d1d1b;
+}
+.portfolio .portfolioSlider .imageWrapper {
+  margin-top: 5rem;
+}
+.portfolio .portfolioSlider .imageWrapper img {
+  width: 100%;
+  min-height: 15rem;
+}
+.portfolio .owl-carousel .owl-dots.disabled {
+  display: block;
+}
+.portfolio .owl-dots {
+  text-align: center;
+  padding-top: 15px;
+}
+.portfolio .owl-dots button.owl-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  background: #ccc;
+  margin: 0 0.8rem;
+}
+.portfolio .owl-dots button.owl-dot.active {
+  background-color: #24aadd;
+}
+.portfolio .owl-dots button.owl-dot:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 991px) {
+  .contentWrapper h2 {
+    text-align: center;
+  }
+  .contentWrapper p,
+.contentWrapper span {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 767px) {
+  .retailAndStore .contentWrapper h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .retailAndStore .contentWrapper span {
+    display: block;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  .portfolio h2 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  .portfolio h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+  }
+}/*# sourceMappingURL=service-inner.css.map */
