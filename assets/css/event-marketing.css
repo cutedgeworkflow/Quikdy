@@ -44,6 +44,7 @@ h2 {
   margin-top: 2rem;
   line-height: 2.9rem;
   color: #545557;
+  font-weight: normal;
 }
 .whyChooseUs .whyChooseCard {
   padding: 1rem;
@@ -545,6 +546,13 @@ h2 {
   .contact-one .inner-container {
     width: 80%;
   }
+  .service-two__main p {
+    text-align: center;
+  }
+  .service-two__main h3 {
+    text-align: center;
+    font-size: 3.5rem;
+  }
 }
 @media screen and (max-width: 767px) {
   .hoverDropdown ul li {
@@ -562,6 +570,9 @@ h2 {
   .contact-one .inner-container {
     width: 90%;
   }
+  .portfolio .portfolioSlider .item .title i {
+    margin: 1rem 0rem 0rem 0rem;
+  }
 }
 @media screen and (max-width: 500px) {
   .whatWeDo h2,
@@ -578,6 +589,21 @@ h2 {
     font-size: 2rem;
     font-weight: 600;
     text-align: center;
+  }
+  .portfolio .portfolioSlider .item .title {
+    padding: 1rem;
+  }
+  .portfolio .portfolioSlider .item .title i {
+    font-size: 4rem;
+  }
+  .portfolio .portfolioSlider .item .title h3 {
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    line-height: normal;
+  }
+  .portfolio .portfolioSlider .item .title p {
+    margin-top: 1rem;
+    font-size: 1.4rem;
   }
 }
 @media (max-width: 480px) {

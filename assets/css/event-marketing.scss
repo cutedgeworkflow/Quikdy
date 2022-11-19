@@ -45,6 +45,7 @@ h2 {
         margin-top: 2rem;
         line-height: 2.9rem;
         color: #545557;
+        font-weight: normal;
     }
     .whyChooseCard {
         padding: 1rem;
@@ -583,6 +584,15 @@ $background-color_2: transparent;
     .contact-one .inner-container {
         width: 80%;
     }
+    .service-two__main {
+        p {
+            text-align: center;
+        }
+        h3 {
+            text-align: center;
+            font-size: 3.5rem;
+        }
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -601,6 +611,9 @@ $background-color_2: transparent;
         .inner-container {
             width: 90%;
         }
+    }
+    .portfolio .portfolioSlider .item .title i {
+        margin: 1rem 0rem 0rem 0rem;
     }
 }
 
@@ -622,6 +635,23 @@ $background-color_2: transparent;
             font-size: 2rem;
             font-weight: 600;
             text-align: center;
+        }
+    }
+    .portfolio .portfolioSlider .item {
+        .title {
+            padding: 1rem;
+            i {
+                font-size: 4rem;
+            }
+            h3 {
+                font-size: 1.8rem;
+                margin-top: 1rem;
+                line-height: normal;
+            }
+            p {
+                margin-top: 1rem;
+                font-size: 1.4rem;
+            }
         }
     }
 }

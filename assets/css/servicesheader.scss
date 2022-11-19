@@ -103,6 +103,10 @@ header nav ul:not(.social-menu, .navbar-nav) li ul li a{
 }
 
 .navigation {
+    .mainmenu > li{
+        width: 31%;
+        margin: 0% 1%;
+    }
     .showDropdown {
         &:hover {
             .hoverDropdown {
@@ -165,6 +169,7 @@ header nav ul:not(.social-menu, .navbar-nav) li ul li a{
             }
         }
     }
+    
     .banner {
         .banner-inner {
             width: 100%;
@@ -193,11 +198,12 @@ header nav ul:not(.social-menu, .navbar-nav) li ul li a{
     .mainmenu {
         display: block;
         li {
-            width: 49%;
+            width: 49% !important;
+            margin: 0% !important;
             display: inline-block;
             &:last-child {
                 display: block;
-                width: 100%;
+                width: 100% !important;
             }
         }
     }

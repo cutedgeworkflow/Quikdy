@@ -33,8 +33,7 @@ h2 {
   width: 100%;
 }
 .banner .banner-inner h1 {
-  text-align: center;
-  line-height: 4.5rem;
+  line-height: 3.5rem;
   word-spacing: 0.3rem;
   text-transform: capitalize;
   font-size: 3rem;
@@ -83,44 +82,66 @@ h2 {
   color: #fff !important;
 }
 
-.retailAndStore {
-  padding-top: 10rem;
-  padding-bottom: 8rem;
+.commonSec {
+  padding: 8rem 0rem;
   border-bottom: 1px solid #eee;
 }
-.retailAndStore .imgWrapper img {
-  width: 100%;
-  border-radius: 0.5rem;
+.commonSec .imgWrapper {
+  overflow: hidden;
+  border-radius: 1rem;
 }
-.retailAndStore .contentWrapper h2 {
-  font-size: 4.5rem;
+.commonSec .imgWrapper img {
+  width: 110%;
+  height: 100%;
+  border-radius: 1rem;
 }
-.retailAndStore .contentWrapper p {
+.commonSec .contentWrapper h2 {
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+.commonSec .contentWrapper p {
   font-size: 1.6rem;
-  font-weight: 600;
   color: #767676;
 }
-.retailAndStore .contentWrapper span {
+.commonSec .contentWrapper span {
+  font-size: 1.6rem;
+  font-weight: 500;
   font-style: italic;
 }
 
 .festivalMarketing {
-  margin-top: 8rem;
+  border: 0;
+  padding-bottom: 0rem;
 }
-.festivalMarketing .imgWrapper img {
-  width: 100%;
-  border-radius: 0.5rem;
+
+.tradeShow {
+  padding-top: 0rem;
 }
-.festivalMarketing .contentWrapper h2 {
-  font-size: 4.5rem;
+
+.retailAndStore {
+  padding-top: 10rem;
 }
-.festivalMarketing .contentWrapper p {
-  font-size: 1.6rem;
-  font-weight: 600;
+
+.leadGeneration, .virtualEvents {
+  background-color: #eee;
+}
+.leadGeneration h2, .virtualEvents h2 {
+  text-align: center;
+  font-size: 3.5rem;
+}
+.leadGeneration .topPara, .virtualEvents .topPara {
+  text-align: center;
   color: #767676;
+  font-weight: bold;
 }
-.festivalMarketing .contentWrapper span {
-  font-style: italic;
+.leadGeneration .imgWrapper, .virtualEvents .imgWrapper {
+  overflow: hidden;
+  border-radius: 1rem;
+}
+.leadGeneration .imgWrapper img, .virtualEvents .imgWrapper img {
+  width: 100%;
+  border-radius: 1rem;
 }
 
 .portfolio {
@@ -129,18 +150,60 @@ h2 {
   background-color: #eee;
 }
 .portfolio h2 {
-  font-size: 4.8rem;
+  font-size: 3.5rem;
+  text-transform: capitalize;
 }
 .portfolio h3 {
-  font-size: 2.2rem;
+  font-size: 2.1rem;
   margin-top: 2rem;
   line-height: 2.9rem;
   color: #1d1d1b;
 }
+.portfolio .portfolioSlider .item {
+  border-radius: 1rem;
+  position: relative;
+  box-shadow: 0px 8.96989px 18.857px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.portfolio .portfolioSlider .item:hover .title {
+  transition: all 0.2s ease;
+  visibility: visible;
+  opacity: 1;
+}
+.portfolio .portfolioSlider .item .title {
+  transition: all 0.2s ease;
+  visibility: hidden;
+  opacity: 0;
+  border-radius: 1rem;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  text-align: center;
+  padding: 2rem;
+}
+.portfolio .portfolioSlider .item .title i {
+  margin: 3rem 0rem 8rem 0rem;
+  font-size: 8rem;
+  color: #1f7dbc;
+}
+.portfolio .portfolioSlider .item .title h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.portfolio .portfolioSlider .item .title p {
+  margin-top: 2rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
 .portfolio .portfolioSlider .imageWrapper {
-  margin-top: 5rem;
+  border-radius: 1rem;
+  overflow: hidden;
 }
 .portfolio .portfolioSlider .imageWrapper img {
+  border-radius: 1rem;
   width: 100%;
   min-height: 15rem;
 }
@@ -167,11 +230,12 @@ h2 {
 }
 
 @media screen and (max-width: 991px) {
-  .contentWrapper h2 {
+  .commonSec .contentWrapper h2 {
     text-align: center;
   }
-  .contentWrapper p,
-.contentWrapper span {
+  .commonSec .contentWrapper p,
+.commonSec .contentWrapper span {
+    display: block;
     text-align: center;
   }
 }
@@ -184,6 +248,9 @@ h2 {
     display: block;
     text-align: center;
   }
+  .portfolio .portfolioSlider .item .title i {
+    margin: 1rem 0rem 0rem 0rem;
+  }
 }
 @media screen and (max-width: 500px) {
   .portfolio h2 {
@@ -194,5 +261,20 @@ h2 {
     font-size: 2rem;
     font-weight: 600;
     text-align: center;
+  }
+  .portfolio .portfolioSlider .item .title {
+    padding: 1rem;
+  }
+  .portfolio .portfolioSlider .item .title i {
+    font-size: 4rem;
+  }
+  .portfolio .portfolioSlider .item .title h3 {
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    line-height: normal;
+  }
+  .portfolio .portfolioSlider .item .title p {
+    margin-top: 1rem;
+    font-size: 1.4rem;
   }
 }/*# sourceMappingURL=service-inner.css.map */
