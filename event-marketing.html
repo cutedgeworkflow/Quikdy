@@ -299,7 +299,7 @@
             <!--end navbar-nav-->
             <ul class="social-menu d-block d-lg-none list-unstyled mb-0">
               <li class="me-2">
-                <a href="#" class="btn_1"> LOGIN </a>
+                <a href="#" class="btn_1 "> LOGIN </a>
               </li>
               <li>
                 <a href="#" class="btn_2"> REGISTER </a>
@@ -741,7 +741,7 @@
                   </div>
                   <!-- /.col-md-6 -->
                   <div class="col-md-12 text-center">
-                    <button type="submit" class="thm-btn contact-one__btn">
+                    <button type="submit"  class="thm-btn contact-one__btn showPopup" >
                       Send Now
                     </button>
                   </div>
@@ -817,6 +817,17 @@
     </div>
     <!-- END layout-wrapper -->
 
+  <!-- <div class="popupwrapper">
+    <div class="thankyouPopupWrapper">
+
+      <div class="thankyouPopup1">
+        <h2>thank you so much for submitting your response</h2>
+        <p> we appreciate your time to efforts. After learning more about you, I feel like we could have a great working relationship. Thank you agin and we conect you to discuss this further.</p>
+        <button class="btn-btn-primery">Ok</button>
+      </div>
+    </div>
+  </div> -->
+
     <!-- JAVASCRIPT -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -835,6 +846,17 @@
 
     <script>
       $(document).ready(function () {
+
+        $('.showPopup').click(function(e){
+          e.preventDefault();
+
+        })
+
+
+
+
+
+
         $(".Modern-Slider").slick({
           autoplay: true,
           autoplaySpeed: 10000,

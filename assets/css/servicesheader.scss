@@ -52,11 +52,7 @@ header nav ul:not(.social-menu, .navbar-nav) li ul li a{
 }
 .btn_1,
 .btn_2 {
-    color: #fff !important;
-    &:hover{
-        background-color: #1f7dbc !important;
-        outline: 0 !important;
-    }
+    color: #fff ;
 }
 .dropdown-item {
     color: #000 !important;
