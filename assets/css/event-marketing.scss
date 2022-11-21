@@ -368,11 +368,13 @@ $background-color_1: #fff;
 $background-color_2: transparent;
 
 .contact-one {
-    margin-bottom: 8rem;
+    // margin-bottom: 8rem;
     position: relative;
     z-index: 20;
     position: relative;
     z-index: 20;
+    background-image: url(assets/images/marketing-contact-bg.png);
+           
     .inner-container {
         overflow: hidden;
         width: 60%;
@@ -381,6 +383,7 @@ $background-color_2: transparent;
         padding-top: 70px;
         padding-bottom: 70px;
         border-radius: 10px;
+        bottom: 50px;
         position: relative;
         background-color: $background-color_1;
         box-shadow: 0px -20px 50px 0px rgba(25, 71, 174, 0.1);

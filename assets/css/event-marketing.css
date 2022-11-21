@@ -65,7 +65,7 @@ h2 {
 .portfolio {
   margin: 8rem 0rem;
   padding: 8rem 0rem;
-  background-color: #eee;
+  background-color: #fff;
 }
 .portfolio h2 {
   font-size: 4.8rem;
@@ -351,11 +351,15 @@ h2 {
 }
 
 .contact-one {
-  margin-bottom: 8rem;
+  /* margin-bottom: 8rem; */
   position: relative;
   z-index: 20;
   position: relative;
   z-index: 20;
+  background-image: url(../images/wave_top.png);
+  background-repeat: no-repeat;
+  background-color: #25aadd;
+ 
 }
 .contact-one .inner-container {
   overflow: hidden;
@@ -366,6 +370,7 @@ h2 {
   padding-bottom: 70px;
   border-radius: 10px;
   position: relative;
+  bottom:50px;
   background-color: #fff;
   box-shadow: 0px -20px 50px 0px rgba(25, 71, 174, 0.1);
 }
@@ -381,7 +386,7 @@ h2 {
   font-size: 3rem;
   font-weight: bold;
   line-height: 1em;
-  color: #1f7dbc;
+  color: #25aadd;
 }
 
 [class*=contact-one__shape-] {
@@ -463,7 +468,7 @@ h2 {
 
 .contact-one__btn {
   margin-top: 34px;
-  background-color: #1f7dbc;
+  background-color: #25aadd;
   color: #fff;
   outline: 0;
   border: 0;
