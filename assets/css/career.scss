@@ -1,0 +1,227 @@
+$color1: #1f7dbc;
+$color2: #6db12d;
+$color3: #e3051f;
+
+html {
+    padding: 0px;
+    margin: 0px;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: muli;
+    font-size: 1.6rem;
+    overflow-x: hidden;
+    a {
+        text-decoration: none;
+    }
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.home {
+    background-color: #eee;
+    .banner {
+        position: relative;
+
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        .bannerContent {
+            width: 60%;
+            h1 {
+                font-size: 5rem;
+                margin-bottom: 2rem;
+                font-weight: bold;
+            }
+            p {
+                font-size: 2.5rem;
+            }
+        }
+    }
+}
+
+.expendYourBusiness {
+    margin-top: 12rem;
+    .heading {
+        border-bottom: 1px solid #eee;
+        margin-bottom: 2rem;
+        h2 {
+            font-size: 4rem;
+            font-weight: bold;
+            position: relative;
+            padding-bottom: 0.5rem;
+            &::after {
+                position: absolute;
+                left: 0rem;
+                bottom: -0.8rem;
+                width: 30%;
+                height: 0.4rem;
+                background-color: $color1;
+                content: "";
+            }
+            &::before {
+                position: absolute;
+                left: 33%;
+                bottom: -0.8rem;
+                width: 10%;
+                height: 0.4rem;
+                background-color: $color1;
+                content: "";
+            }
+        }
+    }
+    .content {
+        p {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #888;
+            &:first-child {
+                margin-bottom: 2rem;
+            }
+        }
+    }
+    .rightSec {
+        margin-top: -22rem;
+        .box {
+            padding: 1rem;
+            text-align: center;
+            border-radius: 2rem;
+            h3 {
+                font-size: 4rem;
+                font-weight: bolder;
+                margin: 2rem 0rem;
+                color: #fff;
+            }
+            p {
+                color: #fff;
+                font-size: 2rem;
+            }
+        }
+        .box1 {
+            background: rgb(188,173,114);
+            background: linear-gradient(117deg, rgba(188,173,114,1) 0%, rgba(125,240,199,1) 53%);
+        }
+        .box2 {
+            background: rgb(101,131,254);
+            background: linear-gradient(180deg, rgba(101,131,254,1) 0%, rgba(37,49,129,1) 53%);
+            margin-top: -3rem;
+        }
+        .box3 {
+            background: rgb(124,151,254);
+            background: linear-gradient(180deg, rgba(124,151,254,1) 0%, rgba(181,107,200,1) 52%);
+            margin-top: 5rem;
+        }
+        .box4 {
+            background: rgb(202, 130, 28);
+            background: linear-gradient(0deg, rgba(202, 130, 28, 1) 0%, rgba(218, 215, 26, 1) 52%);
+            margin-top: -2rem;
+        }
+        .middleHeading{
+            h3{
+                font-size: 3rem;
+                padding: 3rem 1rem;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.statictics{
+    margin-top: 8rem;
+    .statsBox{
+        text-align: center;
+        background-color: #181d1d;
+        color: #fff;
+        padding: 4rem;
+        border-left: 2px solid #373e3e;
+        h3{
+            font-size: 5rem;
+            span{
+                color: $color1;
+            }
+        }
+        p{
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+    }
+}
+
+.futureSec{
+    .bgImg{
+        height: 40rem;
+        position: relative;
+        display: flex;
+        align-items: center;
+        .content{
+            h2{
+                font-size: 3rem;
+                span{
+                    color: #000;
+                }
+            }
+            p{
+                font-size: 1.6rem;
+                margin-top: 1rem;
+                margin-bottom: 1.5rem;
+            }
+            button{
+                font-size: 2rem;
+                padding:.5rem  1rem;
+                border-radius:3rem;
+                font-weight: bold;
+                background-color: #fff;
+                color: #1d8d96;
+            }
+        }
+    }
+    
+}
+
+.ourPlatform{
+    margin-bottom: 5rem;
+    h2{
+        text-align: center;
+        font-size: 5rem;
+        position: relative;
+        padding-bottom: 0.2rem;
+        display: inline-block;
+            &::after {
+                position: absolute;
+                left: 0rem;
+                bottom: -0.8rem;
+                width: 50%;
+                height: 0.4rem;
+                background-color: $color1;
+                content: "";
+            }
+            &::before {
+                position: absolute;
+                left: 58%;
+                bottom: -0.8rem;
+                width: 10%;
+                height: 0.4rem;
+                background-color: $color1;
+                content: "";
+            }
+    }
+    p{
+        font-size: 2rem;
+        text-align: center;
+        margin: 3rem 0rem;
+    }
+    ul{
+        list-style: none;
+        li{
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            i{
+                margin-right: 1rem;
+            }
+        }
+    }
+}

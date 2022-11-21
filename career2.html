@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Career</title>
+
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+
+    <!-- Choise Css -->
+    <link
+      rel="stylesheet"
+      href="assets/libs/choices.js/public/assets/styles/choices.min.css"
+    />
+
+    <!-- Swiper Css -->
+    <link rel="stylesheet" href="assets/libs/swiper/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Bootstrap Css -->
+    <link
+      href="assets/css/bootstrap.min.css"
+      id="bootstrap-style"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Icons Css -->
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- App Css-->
+    <link
+      href="assets/css/app.min.css"
+      id="app-style"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!--Custom Css-->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <!-- bootstrap cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css"
+    />
+    <!-- font-awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/career.css" />
+  </head>
+  <body>
+    <header>
+      <!--Navbar Start-->
+      <nav class="navbar navbar-expand-lg fixed-top sticky py-2" id="navbar">
+        <div class="container-fluid custom-container">
+          <a class="navbar-brand text-dark fw-bold me-auto" href="index.html">
+            <img src="assets/landingImages/logo.png" alt="" class="logo-dark" />
+            <img
+              src="assets/landingImages/logo.png"
+              alt=""
+              class="logo-light"
+            />
+          </a>
+          <div>
+            <button
+              class="navbar-toggler me-3"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarCollapse"
+              aria-controls="navbarCollapse"
+              aria-label="Toggle navigation"
+            >
+              <i class="mdi mdi-menu"></i>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="nav-menu mx-auto">
+              <li><a href="#" class="active">Home</a></li>
+              <li class="nav-item dropdown dropdown-hover">
+                <a
+                  class="nav-link"
+                  href="javascript:void(0)"
+                  id="jobsdropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                >
+                  For You
+                  <div class="arrow-down"></div>
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-menu-center"
+                  aria-labelledby="jobsdropdown"
+                >
+                  <li><a class="dropdown-item" href="#">Login</a></li>
+                  <li><a class="dropdown-item" href="#">Register</a></li>
+                  <li><a class="dropdown-item" href="#">Edit Profile</a></li>
+                  <li><a class="dropdown-item" href="#">Post a Job</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Candidate Listing</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">FAQs</a></li>
+                  <li><a class="dropdown-item" href="#">Careers</a></li>
+
+                  <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown dropdown-hover">
+                <a
+                  class="nav-link"
+                  href="javascript:void(0)"
+                  id="jobsdropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                >
+                  About Quikdy
+                  <div class="arrow-down"></div>
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-menu-center"
+                  aria-labelledby="jobsdropdown"
+                >
+                  <li><a class="dropdown-item" href="#">About Us</a></li>
+                  <li><a class="dropdown-item" href="#">Industry</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Our Perfect Platform</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                  <li class="nav-item dropdown dropdown-hover">
+                    <a
+                      class="nav-link"
+                      href="javascript:void(0)"
+                      id="jobsdropdown"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                    >
+                      Policy
+                      <div class="arrow-down"></div>
+                    </a>
+                    <ul
+                      class="dropdown-menu dropdown2 dropdown-menu-center"
+                      aria-labelledby="jobsdropdown"
+                    >
+                      <li>
+                        <a class="dropdown-item" href="#">Privacy Policy</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Disclaimer Policy</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Terms & Conditions</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Careers</a></li>
+
+                  <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown dropdown-hover">
+                <a
+                  class="nav-link"
+                  href="javascript:void(0)"
+                  id="jobsdropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                >
+                  Services
+                  <div class="arrow-down"></div>
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-menu-center"
+                  aria-labelledby="jobsdropdown"
+                >
+                  <li>
+                    <a class="dropdown-item" href="#">Staffing Services</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >HR Payroll Management(Finance)</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Event Marketing(Branding Solutions)</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Facility Management</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Business Solutions</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Outsourcing Process Management</a
+                    >
+                  </li>
+                  <li><a class="dropdown-item" href="#">Careers</a></li>
+
+                  <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown dropdown-hover">
+                <a
+                  class="nav-link"
+                  href="javascript:void(0)"
+                  id="jobsdropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                >
+                  Why Choose Us
+                  <div class="arrow-down"></div>
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-menu-center"
+                  aria-labelledby="jobsdropdown"
+                >
+                  <li>
+                    <a class="dropdown-item" href="#">Why Choose Quikdy</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Our Experience & Expertise</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">location & Leadership</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Quikdy Stories</a></li>
+                  <li><a class="dropdown-item" href="#">Careers</a></li>
+
+                  <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown dropdown-hover">
+                <a
+                  class="nav-link"
+                  href="javascript:void(0)"
+                  id="jobsdropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                >
+                  Insights
+                  <div class="arrow-down"></div>
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-menu-center"
+                  aria-labelledby="jobsdropdown"
+                >
+                  <li>
+                    <a class="dropdown-item" href="#">Featured Insights</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Simplify Process </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Business Strategy</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Careers</a></li>
+
+                  <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                </ul>
+              </li>
+            </ul>
+            <!--end navbar-nav-->
+            <ul class="social-menu d-block d-lg-none list-unstyled mb-0">
+              <li class="me-2">
+                <a href="#" class="btn_1"> LOGIN </a>
+              </li>
+              <li>
+                <a href="#" class="btn_2"> REGISTER </a>
+              </li>
+            </ul>
+          </div>
+          <!--end navabar-collapse-->
+          <ul class="social-menu d-none d-lg-flex list-unstyled mb-0">
+            <li class="me-2">
+              <a href="#" class="btn_1"> LOGIN </a>
+            </li>
+            <li>
+              <a href="#" class="btn_2"> REGISTER </a>
+            </li>
+          </ul>
+          <!--end header-menu-->
+        </div>
+        <!--end container-->
+      </nav>
+      <!-- Navbar End -->
+    </header>
+
+    <section class="home">
+      <div class="container">
+        <div class="banner">
+          <div class="bannerContent">
+            <h1>What is Lorem Ipsum?</h1>
+            <p>
+              Quikdy is an Indian staffing, outsourcing, and technology industry
+              that is growing rapidly, especially in the area of being a
+              third-party payroll service provider
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="expendYourBusiness">
+      <div class="heading">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <h2>In order to help you expand your business</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="content">
+              <p>
+                Our goal is to successfully alter our clients ' businesses and
+                generate results for them. To achieve the desired result and
+                eventually enhance the value of your company, we put our
+                attention on steady improvement
+              </p>
+              <p>
+                Our goal is to promote innovation in all aspects so we bring
+                technology, teamwork, and our domain expertise together to
+                provide creative solutions for you and your company.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="rightSec">
+              <div class="row">
+                <div class="offset-lg-5 col-4">
+                  <div class="box box1">
+                    <h3>50+</h3>
+                    <p>Lorem Ipsum is simply d</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="box box2">
+                    <h3>50+</h3>
+                    <p>Lorem Ipsum is simply d</p>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="middleHeading">
+                    <h3>We are here with</h3>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="box box3">
+                    <h3>50+</h3>
+                    <p>Lorem Ipsum is simply d</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="offset-lg-3 col-4">
+                  <div class="box box4">
+                    <h3>50+</h3>
+                    <p>Lorem Ipsum is simply d</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="statictics">
+      <div class="container-fluid  g-0">
+        <div class="row g-0">
+          <div class="col-lg-3 g-0">
+            <div class="statsBox">
+              <h3>50<span>+</span></h3>
+              <p>branches in India</p>
+            </div>
+          </div>
+          <div class="col-lg-3 g-0">
+            <div class="statsBox">
+              <h3>50<span>+</span></h3>
+              <p>branches in India</p>
+            </div>
+          </div>
+          <div class="col-lg-3 g-0">
+            <div class="statsBox">
+              <h3>50<span>+</span></h3>
+              <p>branches in India</p>
+            </div>
+          </div>
+          <div class="col-lg-3 g-0">
+            <div class="statsBox">
+              <h3>50<span>+</span></h3>
+              <p>branches in India</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="futureSec">
+      <div class="container">
+        <div class="row">
+          <div class="offset-lg-1 col-lg-5">
+            <div class="bgImg">
+              <div class="content">
+                <h2>
+                  <span>Quikdy</span> is the way to build your bright future
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                  incidunt porro iure odit tenetur quibusdam quidem provident
+                  dolorem obcaecati quod!
+                </p>
+                <button>Our Gurney</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ourPlatform">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="text-center">
+              <h2>Our Platform</h2>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="topPara">
+              <p>
+                We aim each day to help our clients locate and reserve a variety
+                of high-quality services, including
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-4">
+            <ul>
+              <li><i class="fa-solid fa-circle-check"></i>Event Marketing</li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i>Payroll management
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i>Facility management
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <ul>
+              <li>
+                <i class="fa-solid fa-circle-check"></i>Branding and Promotion
+              </li>
+              <li><i class="fa-solid fa-circle-check"></i>Website design</li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i>Background verification
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <ul>
+              <li><i class="fa-solid fa-circle-check"></i>Beverage sampling</li>
+              <li><i class="fa-solid fa-circle-check"></i>Staffing services</li>
+              <li><i class="fa-solid fa-circle-check"></i>Lead generation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- START FOOTER -->
+    <section class="section footer-sec">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 my-auto">
+            <p class="text-black-50 mb-0">
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              &copy; Copyright.<a
+                href="#"
+                target="_blank"
+                class="text-reset"
+              ></a>
+            </p>
+          </div>
+          <div class="col-lg-6 my-auto">
+            <div class="footer-item mt-4 mt-lg-0">
+              <ul
+                class="list-unstyled d-flex justify-content-between footer-list mb-0"
+              >
+                <li><a href="#"> Privacy Policy</a></li>
+                <li><a href="#"> Terms & Conditions</a></li>
+                <li><a href="#"> Services</a></li>
+                <li><a href="#"> Pricing</a></li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 social-link mt-4 mt-lg-0 text-center text-lg-end my-auto"
+          >
+            <ul class="footer-social-menu list-inline mb-0">
+              <li class="list-inline-item">
+                <a href="#"><i class="uil uil-facebook-f"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="uil uil-linkedin-alt"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="uil uil-google"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="uil uil-twitter"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END FOOTER -->
+    <!--start back-to-top-->
+    <button onclick="topFunction()" id="back-to-top">
+      <i class="mdi mdi-arrow-up"></i>
+    </button>
+    <!--end back-to-top-->
+
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unicons.iconscout.com/release/v4.0.0/script/monochrome/bundle.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <!-- jquery cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  </body>
+</html>
