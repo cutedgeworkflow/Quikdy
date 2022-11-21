@@ -45,6 +45,7 @@ h2 {
         margin-top: 2rem;
         line-height: 2.9rem;
         color: #545557;
+        font-weight: normal;
     }
     .whyChooseCard {
         padding: 1rem;
@@ -539,6 +540,51 @@ $background-color_2: transparent;
         margin-top: 14px;
     }
 }
+
+.popupwrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 9999999999;
+    .thankyouPopupWrapper {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        z-index: 999999999999999;
+        .thankyouPopup1 {
+            width: 60vw;
+            height: 50vh;
+            position: absolute;
+            z-index: 999999999999999;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-image: url(https://static.vecteezy.com/system/resources/thumbnails/007/726/061/small/abstract-blue-and-yellow-wave-shape-background-free-vector.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: bottom;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            border-radius: 1rem;
+            padding: 5rem;
+            h2{
+                text-align: center;
+                text-transform: capitalize;
+                font-size: 3.5rem;
+                font-weight: bold;
+            }
+            p{
+                text-align: center;
+                color: #fff;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+//============= media queries ============
 @media (min-width: 1200px) {
     .contact-one {
         .container {
@@ -546,8 +592,6 @@ $background-color_2: transparent;
         }
     }
 }
-
-//============= media queries ============
 
 @media (max-width: 1199px) {
     .service-two__main {
@@ -586,6 +630,15 @@ $background-color_2: transparent;
     .contact-one .inner-container {
         width: 80%;
     }
+    .service-two__main {
+        p {
+            text-align: center;
+        }
+        h3 {
+            text-align: center;
+            font-size: 3.5rem;
+        }
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -604,6 +657,9 @@ $background-color_2: transparent;
         .inner-container {
             width: 90%;
         }
+    }
+    .portfolio .portfolioSlider .item .title i {
+        margin: 1rem 0rem 0rem 0rem;
     }
 }
 
@@ -625,6 +681,23 @@ $background-color_2: transparent;
             font-size: 2rem;
             font-weight: 600;
             text-align: center;
+        }
+    }
+    .portfolio .portfolioSlider .item {
+        .title {
+            padding: 1rem;
+            i {
+                font-size: 4rem;
+            }
+            h3 {
+                font-size: 1.8rem;
+                margin-top: 1rem;
+                line-height: normal;
+            }
+            p {
+                margin-top: 1rem;
+                font-size: 1.4rem;
+            }
         }
     }
 }

@@ -299,7 +299,7 @@
             <!--end navbar-nav-->
             <ul class="social-menu d-block d-lg-none list-unstyled mb-0">
               <li class="me-2">
-                <a href="#" class="btn_1"> LOGIN </a>
+                <a href="#" class="btn_1 "> LOGIN </a>
               </li>
               <li>
                 <a href="#" class="btn_2"> REGISTER </a>
@@ -369,7 +369,7 @@
           <div class="services-banner-cont container">
             <div class="banner-inner text-white">
               <h1>Event Marketing</h1>
-              <h2>
+              <h2 class="my-lg-4 my-md-2 my-sm-0">
                 Including marketing in your plan is the best way to engage more
                 people toward your business, your product, or the services you
                 are providing.
@@ -438,7 +438,7 @@
                   <h2 class="text-center">What we can do for you?</h2>
                 </div>
                 <div class="col-lg-10 col-12">
-                  <h3 class="text-center">
+                  <h3 class="text-center 0">
                     With love and support from consumers, Swiggy expanded far
                     and wide, first through the entire city of Bengaluru and
                     then across the entire country. Today, Swiggy is the leading
@@ -461,7 +461,7 @@
                       <p><span>About Company</span></p>
                       <h3>
                         Boost Your Ranking <br />
-                        <span>with our Service.</span>
+                        <span>with SEO Service.</span>
                       </h3>
                     </div>
                     <!-- /.block-title text-center -->
@@ -494,7 +494,7 @@
                         </div>
                         <!-- /.service-two__box-icon -->
                         <h3>
-                          <a href="service-d-seo.html">Event Marketing</a>
+                          <a href="#">SEO Optimization</a>
                         </h3>
                         <p>
                           Lorem ipsum dolor amet consectetur adipisicing eiusmod
@@ -516,7 +516,7 @@
                         </div>
                         <!-- /.service-two__box-icon -->
                         <h3>
-                          <a href="service-d-seo.html">Event Marketing</a>
+                          <a href="service-d-seo.html">SEO Optimization</a>
                         </h3>
                         <p>
                           Lorem ipsum dolor amet consectetur adipisicing eiusmod
@@ -538,7 +538,7 @@
                           </div>
                           <!-- /.service-two__box-icon -->
                           <h3>
-                            <a href="service-d-seo.html">Event Marketing</a>
+                            <a href="service-d-seo.html">SEO Optimization</a>
                           </h3>
                           <p>
                             Lorem ipsum dolor amet consectetur adipisicing
@@ -721,8 +721,8 @@
                 alt=""
               />
               <div class="block-title text-center">
-                <p><span>Contact-Us</span></p>
-                <h3>Get Free Consultation?</h3>
+                <p><span>Analysis</span></p>
+                <h3>Get Free SEO Analysis?</h3>
               </div>
               <!-- /.block-title text-center -->
               <form  class="contact-one__form">
@@ -736,15 +736,15 @@
                   </div>
                   <!-- /.col-md-6 -->
                   <div class="col-md-6">
-                    <input type="text" placeholder="Website*" />
+                    <input type="text" placeholder="Mobile*" />
                   </div>
                   <!-- /.col-md-6 -->
                   <div class="col-md-6">
-                    <input type="text" placeholder="Subject" />
+                    <input type="text" placeholder="Task" />
                   </div>
                   <!-- /.col-md-6 -->
                   <div class="col-md-12 text-center">
-                    <button type="submit" class="thm-btn contact-one__btn">
+                    <button type="submit"  class="thm-btn contact-one__btn showPopup" >
                       Send Now
                     </button>
                   </div>
@@ -820,6 +820,17 @@
     </div>
     <!-- END layout-wrapper -->
 
+  <!-- <div class="popupwrapper">
+    <div class="thankyouPopupWrapper">
+
+      <div class="thankyouPopup1">
+        <h2>thank you so much for submitting your response</h2>
+        <p> we appreciate your time to efforts. After learning more about you, I feel like we could have a great working relationship. Thank you agin and we conect you to discuss this further.</p>
+        <button class="btn-btn-primery">Ok</button>
+      </div>
+    </div>
+  </div> -->
+
     <!-- JAVASCRIPT -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -838,6 +849,17 @@
 
     <script>
       $(document).ready(function () {
+
+        $('.showPopup').click(function(e){
+          e.preventDefault();
+
+        })
+
+
+
+
+
+
         $(".Modern-Slider").slick({
           autoplay: true,
           autoplaySpeed: 10000,
@@ -948,6 +970,7 @@
             },
           },
         });
+      
       });
     </script>
   </body>

@@ -54,12 +54,7 @@ header nav ul:not(.social-menu, .navbar-nav) li ul li a {
 
 .btn_1,
 .btn_2 {
-  color: #fff !important;
-}
-.btn_1:hover,
-.btn_2:hover {
-  background-color: #1f7dbc !important;
-  outline: 0 !important;
+  color: #fff;
 }
 
 .dropdown-item {
@@ -102,6 +97,10 @@ header nav ul:not(.social-menu, .navbar-nav) li ul li a {
   font-size: 1.8rem;
 }
 
+.navigation .mainmenu > li {
+  width: 31%;
+  margin: 0% 1%;
+}
 .navigation .showDropdown:hover .hoverDropdown {
   display: block;
 }
@@ -172,12 +171,13 @@ header nav ul:not(.social-menu, .navbar-nav) li ul li a {
     display: block;
   }
   .mainmenu li {
-    width: 49%;
+    width: 49% !important;
+    margin: 0% !important;
     display: inline-block;
   }
   .mainmenu li:last-child {
     display: block;
-    width: 100%;
+    width: 100% !important;
   }
   .hoverDropdown ul li {
     width: 100%;
