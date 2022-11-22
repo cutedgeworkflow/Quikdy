@@ -1,0 +1,268 @@
+html {
+  padding: 0px;
+  margin: 0px;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: muli;
+  font-size: 1.6rem;
+  overflow-x: hidden;
+}
+body a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.home {
+  background-color: #eee;
+}
+.home .banner {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.home .banner .bannerContent {
+  width: 60%;
+}
+.home .banner .bannerContent h1 {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+.home .banner .bannerContent p {
+  font-size: 2.5rem;
+}
+
+.expendYourBusiness {
+  margin-top: 12rem;
+}
+.expendYourBusiness .heading {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 2rem;
+}
+.expendYourBusiness .heading h2 {
+  font-size: 4rem;
+  font-weight: bold;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+.expendYourBusiness .heading h2::after {
+  position: absolute;
+  left: 0rem;
+  bottom: -0.8rem;
+  width: 30%;
+  height: 0.4rem;
+  background-color: #1f7dbc;
+  content: "";
+}
+.expendYourBusiness .heading h2::before {
+  position: absolute;
+  left: 33%;
+  bottom: -0.8rem;
+  width: 10%;
+  height: 0.4rem;
+  background-color: #1f7dbc;
+  content: "";
+}
+.expendYourBusiness .content p {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #888;
+}
+.expendYourBusiness .content p:first-child {
+  margin-bottom: 2rem;
+}
+.expendYourBusiness .rightSec {
+  margin-top: -22rem;
+}
+.expendYourBusiness .rightSec .box {
+  padding: 1rem;
+  text-align: center;
+  border-radius: 2rem;
+}
+.expendYourBusiness .rightSec .box h3 {
+  font-size: 4rem;
+  font-weight: bolder;
+  margin: 2rem 0rem;
+  color: #fff;
+}
+.expendYourBusiness .rightSec .box p {
+  color: #fff;
+  font-size: 2rem;
+}
+.expendYourBusiness .rightSec .box1 {
+  background: rgb(188, 173, 114);
+  background: linear-gradient(117deg, rgb(188, 173, 114) 0%, rgb(125, 240, 199) 53%);
+}
+.expendYourBusiness .rightSec .box2 {
+  background: rgb(101, 131, 254);
+  background: linear-gradient(180deg, rgb(101, 131, 254) 0%, rgb(37, 49, 129) 53%);
+  margin-top: -3rem;
+}
+.expendYourBusiness .rightSec .box3 {
+  background: rgb(124, 151, 254);
+  background: linear-gradient(180deg, rgb(124, 151, 254) 0%, rgb(181, 107, 200) 52%);
+  margin-top: 5rem;
+}
+.expendYourBusiness .rightSec .box4 {
+  background: rgb(202, 130, 28);
+  background: linear-gradient(0deg, rgb(202, 130, 28) 0%, rgb(218, 215, 26) 52%);
+  margin-top: -2rem;
+}
+.expendYourBusiness .rightSec .middleHeading h3 {
+  font-size: 3rem;
+  padding: 3rem 1rem;
+  font-weight: bold;
+}
+
+.statictics {
+  margin-top: 8rem;
+}
+.statictics .statsBox {
+  text-align: center;
+  background-color: #181d1d;
+  color: #fff;
+  padding: 4rem;
+  border-left: 2px solid #373e3e;
+}
+.statictics .statsBox h3 {
+  font-size: 5rem;
+}
+.statictics .statsBox h3 span {
+  color: #1f7dbc;
+}
+.statictics .statsBox p {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.futureSec .bgImg {
+  height: 40rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.futureSec .bgImg .content h2 {
+  font-size: 3rem;
+}
+.futureSec .bgImg .content h2 span {
+  color: #000;
+}
+.futureSec .bgImg .content p {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+.futureSec .bgImg .content button {
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 3rem;
+  font-weight: bold;
+  background-color: #fff;
+  color: #1d8d96;
+}
+
+.ourPlatform {
+  margin-bottom: 5rem;
+}
+.ourPlatform h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 5rem;
+  position: relative;
+  padding-bottom: 0.2rem;
+  display: inline-block;
+}
+.ourPlatform h2::after {
+  position: absolute;
+  left: 0rem;
+  bottom: -0.8rem;
+  width: 50%;
+  height: 0.4rem;
+  background-color: #1f7dbc;
+  content: "";
+}
+.ourPlatform h2::before {
+  position: absolute;
+  left: 58%;
+  bottom: -0.8rem;
+  width: 10%;
+  height: 0.4rem;
+  background-color: #1f7dbc;
+  content: "";
+}
+.ourPlatform p {
+  font-size: 2rem;
+  text-align: center;
+  margin: 3rem 0rem;
+}
+.ourPlatform ul {
+  list-style: none;
+}
+.ourPlatform ul li {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.ourPlatform ul li i {
+  margin-right: 1rem;
+  color: #1f7dbc;
+}
+
+@media screen and (max-width: 991px) {
+  .home .banner .bannerContent {
+    width: 90%;
+  }
+  .expendYourBusiness .rightSec {
+    margin-top: 0rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .home .banner .bannerContent {
+    width: 100%;
+  }
+  .bdr-sm {
+    border-bottom: 2px solid #373e3e;
+  }
+}
+@media screen and (max-width: 575px) {
+  .home .banner .bannerContent h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .home .banner .bannerContent p {
+    font-size: 1.6rm;
+    text-align: center;
+  }
+  .expendYourBusiness .rightSec .middleHeading h3 {
+    text-align: center;
+    padding: 3rem 0rem;
+  }
+  .expendYourBusiness .rightSec .box2,
+.expendYourBusiness .rightSec .box4 {
+    margin-top: 3rem;
+  }
+  .expendYourBusiness .rightSec .box3 {
+    margin-top: 0rem;
+  }
+  .expendYourBusiness .heading h2 {
+    font-size: 3rem;
+  }
+  .expendYourBusiness .content p {
+    font-size: 1.6rem;
+  }
+  .bdr-m {
+    border-bottom: 2px solid #373e3e;
+  }
+  .ourPlatform h2 {
+    font-size: 3rem;
+  }
+  .ourPlatform p {
+    font-size: 1.6rem;
+  }
+}/*# sourceMappingURL=aboutUs.css.map */

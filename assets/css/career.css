@@ -17,197 +17,479 @@ h2 {
   font-size: 3rem;
 }
 
-.home {
-  background-color: #eee;
-}
-.home .banner {
+.bannerSec {
+  background-image: url(../images/careerBg-min.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 120vh;
   position: relative;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
 }
-.home .banner .bannerContent {
-  width: 60%;
-}
-.home .banner .bannerContent h1 {
-  font-size: 5rem;
-  margin-bottom: 2rem;
-  font-weight: bold;
-}
-.home .banner .bannerContent p {
-  font-size: 2.5rem;
-}
-
-.expendYourBusiness {
-  margin-top: 12rem;
-}
-.expendYourBusiness .heading {
-  border-bottom: 1px solid #eee;
-  margin-bottom: 2rem;
-}
-.expendYourBusiness .heading h2 {
-  font-size: 4rem;
-  font-weight: bold;
-  position: relative;
-  padding-bottom: 0.5rem;
-}
-.expendYourBusiness .heading h2::after {
+.bannerSec::after {
   position: absolute;
+  top: 0rem;
   left: 0rem;
-  bottom: -0.8rem;
-  width: 30%;
-  height: 0.4rem;
-  background-color: #1f7dbc;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
   content: "";
 }
-.expendYourBusiness .heading h2::before {
+.bannerSec .contentWrapper {
+  position: relative;
+  width: 100%;
+  height: 120vh;
+}
+.bannerSec .contentWrapper .content {
+  text-align: center;
   position: absolute;
-  left: 33%;
-  bottom: -0.8rem;
-  width: 10%;
-  height: 0.4rem;
-  background-color: #1f7dbc;
-  content: "";
+  z-index: 999;
+  bottom: 12rem;
+  color: #fff;
 }
-.expendYourBusiness .content p {
-  font-size: 2rem;
+.bannerSec .contentWrapper .content h1 {
+  font-size: 5rem;
   font-weight: bold;
-  color: #888;
-}
-.expendYourBusiness .content p:first-child {
+  position: relative;
   margin-bottom: 2rem;
 }
-.expendYourBusiness .rightSec {
-  margin-top: -22rem;
+.bannerSec .contentWrapper .content h1::after {
+  position: absolute;
+  bottom: -0.5rem;
+  left: 50%;
+  width: 20%;
+  transform: translate(-50%);
+  height: 0.3rem;
+  background-color: #fff;
+  content: "";
 }
-.expendYourBusiness .rightSec .box {
-  padding: 1rem;
-  text-align: center;
-  border-radius: 2rem;
-}
-.expendYourBusiness .rightSec .box h3 {
-  font-size: 4rem;
-  font-weight: bolder;
-  margin: 2rem 0rem;
-  color: #fff;
-}
-.expendYourBusiness .rightSec .box p {
-  color: #fff;
-  font-size: 2rem;
-}
-.expendYourBusiness .rightSec .box1 {
-  background: rgb(188, 173, 114);
-  background: linear-gradient(117deg, rgb(188, 173, 114) 0%, rgb(125, 240, 199) 53%);
-}
-.expendYourBusiness .rightSec .box2 {
-  background: rgb(101, 131, 254);
-  background: linear-gradient(180deg, rgb(101, 131, 254) 0%, rgb(37, 49, 129) 53%);
-  margin-top: -3rem;
-}
-.expendYourBusiness .rightSec .box3 {
-  background: rgb(124, 151, 254);
-  background: linear-gradient(180deg, rgb(124, 151, 254) 0%, rgb(181, 107, 200) 52%);
-  margin-top: 5rem;
-}
-.expendYourBusiness .rightSec .box4 {
-  background: rgb(202, 130, 28);
-  background: linear-gradient(0deg, rgb(202, 130, 28) 0%, rgb(218, 215, 26) 52%);
-  margin-top: -2rem;
-}
-.expendYourBusiness .rightSec .middleHeading h3 {
-  font-size: 3rem;
-  padding: 3rem 1rem;
+.bannerSec .contentWrapper .content p {
+  font-size: 2.5rem;
   font-weight: bold;
+  padding: 0rem 5rem;
 }
 
-.statictics {
+.hiringProcess {
+  margin-top: -8rem;
+  position: relative;
+  z-index: 99;
+  background-color: #eee;
+  border-radius: 5rem;
+  padding: 5rem;
+}
+.hiringProcess .topHeading {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  color: #434f4f;
+}
+.hiringProcess .topPara {
+  text-align: center;
+  color: #888;
+  font-size: 1.6rem;
+  margin: 1rem 0rem;
+}
+.hiringProcess .processCard {
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid rgb(226, 222, 222);
+  border-radius: 1.5rem;
+}
+.hiringProcess .processCard i {
+  font-size: 5rem;
+  color: #41afb8;
+  margin: 2rem 0rem;
+}
+.hiringProcess .processCard h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #434f4f;
+}
+.hiringProcess .processCard p {
+  margin-top: 1rem;
+  font-size: 1.6rem;
+}
+
+.whoWeAre {
   margin-top: 8rem;
 }
-.statictics .statsBox {
-  text-align: center;
-  background-color: #181d1d;
-  color: #fff;
-  padding: 4rem;
-  border-left: 2px solid #373e3e;
+.whoWeAre h2 {
+  font-size: 4rem;
+  font-weight: bolder;
+  color: #000;
+  margin-bottom: 2rem;
 }
-.statictics .statsBox h3 {
-  font-size: 5rem;
+.whoWeAre ul li {
+  position: relative;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #434f4f;
+  margin-left: 2rem;
 }
-.statictics .statsBox h3 span {
+.whoWeAre ul li i {
+  position: absolute;
+  left: -2rem;
+  font-size: 2.2rem;
   color: #1f7dbc;
+  top: 0.5rem;
 }
-.statictics .statsBox p {
-  font-size: 2.5rem;
-  font-weight: bold;
+.whoWeAre ul li:first-child {
+  margin-bottom: 2rem;
+}
+.whoWeAre .imgWrapper img {
+  width: 100%;
 }
 
-.futureSec .bgImg {
-  height: 40rem;
-  position: relative;
+.mission {
+  margin-top: 8rem;
+  background-image: url(../images/mission\ bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mission .contentWrapper {
+  width: 100%;
+  min-height: 100vh;
   display: flex;
   align-items: center;
 }
-.futureSec .bgImg .content h2 {
-  font-size: 3rem;
+.mission .contentWrapper .content {
+  position: relative;
 }
-.futureSec .bgImg .content h2 span {
-  color: #000;
+.mission .contentWrapper .content .fa-quote-left {
+  position: absolute;
+  left: -3rem;
+  top: -5rem;
+  font-size: 8rem;
+  color: #fff;
 }
-.futureSec .bgImg .content p {
-  font-size: 1.6rem;
-  margin-top: 1rem;
-  margin-bottom: 1.5rem;
+.mission .contentWrapper .content .fa-quote-right {
+  position: absolute;
+  right: -3rem;
+  bottom: -5rem;
+  font-size: 8rem;
+  color: #fff;
 }
-.futureSec .bgImg .content button {
-  font-size: 2rem;
-  padding: 0.5rem 1rem;
-  border-radius: 3rem;
-  font-weight: bold;
+.mission .contentWrapper .content::after {
+  position: absolute;
+  left: 7rem;
+  top: -2rem;
+  width: 18%;
+  height: 0.8rem;
   background-color: #fff;
-  color: #1d8d96;
+  content: "";
+}
+.mission .contentWrapper .content::before {
+  position: absolute;
+  right: 7rem;
+  bottom: -2rem;
+  width: 18%;
+  height: 0.8rem;
+  background-color: #fff;
+  content: "";
+}
+.mission .contentWrapper .content h2 {
+  margin: 3rem 0rem;
+  padding: 0rem 2rem;
+  border-left: 0.8rem solid #fff;
+  border-right: 0.8rem solid #fff;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  line-height: 4.5rem;
 }
 
-.ourPlatform {
-  margin-bottom: 5rem;
+.whyChooseUs {
+  margin-top: 8rem;
+  padding: 0rem 2rem;
 }
-.ourPlatform h2 {
+.whyChooseUs h2 {
+  font-size: 4rem;
+  font-weight: bolder;
+  color: #000;
+}
+.whyChooseUs h3 {
+  font-size: 3rem;
+  font-weight: bolder;
+  color: #000;
+  margin: 2.5rem 0rem;
+}
+.whyChooseUs h3 .fa-quote-left {
+  color: #1f7dbc;
+}
+.whyChooseUs h3 .fa-quote-right {
+  color: #e3051f;
+}
+.whyChooseUs p {
+  font-size: 2rem;
+  color: #000;
+  font-weight: bold;
+}
+.whyChooseUs .rightSec .ourCard {
+  padding: 2rem 1rem;
+  border: 1rem solid #fff;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
   text-align: center;
-  font-size: 5rem;
   position: relative;
-  padding-bottom: 0.2rem;
-  display: inline-block;
 }
-.ourPlatform h2::after {
+.whyChooseUs .rightSec .ourCard p {
+  color: #fff;
+  font-size: 1.6rem;
+}
+.whyChooseUs .rightSec .ourCard .fa-quote-left {
   position: absolute;
-  left: 0rem;
-  bottom: -0.8rem;
-  width: 50%;
-  height: 0.4rem;
-  background-color: #1f7dbc;
-  content: "";
+  left: -3rem;
+  top: -3rem;
+  font-size: 6rem;
 }
-.ourPlatform h2::before {
+.whyChooseUs .rightSec .card1 {
+  background-color: #03989e;
+}
+.whyChooseUs .rightSec .card1 p {
+  color: #000;
+}
+.whyChooseUs .rightSec .card1 i {
+  color: #ee3821;
+}
+.whyChooseUs .rightSec .card2 {
+  background-color: #3db1dd;
+  margin-top: 20rem;
+}
+.whyChooseUs .rightSec .card2 i {
+  color: #03989e;
+}
+.whyChooseUs .rightSec .card3 {
+  margin-top: -20rem;
+  background-color: #ee3821;
+}
+.whyChooseUs .rightSec .card3 i {
+  color: #3db1dd;
+}
+
+.testimonials {
+  padding-top: 8rem;
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+  padding-bottom: 5rem;
+  background-color: #fcfcfc;
+}
+.testimonials .imgWrapper img {
+  width: 100%;
+  border-radius: 2rem;
+}
+.testimonials h2 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+.testimonials h2 span {
+  color: #1f7dbc;
+}
+.testimonials p {
+  margin: 1rem 0rem;
+}
+.testimonials .testimonialsSlider {
+  position: relative;
+  border: 1px dashed #dbd8d8;
+  padding: 3rem;
+}
+.testimonials .testimonialsSlider .clientImg {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.testimonials .testimonialsSlider .clientImg img {
+  width: 100%;
+}
+.testimonials .testimonialsSlider .clientDetails {
+  margin-left: 1rem;
+}
+.testimonials .testimonialsSlider .clientDetails .name {
+  margin: 0rem;
+  font-weight: bold;
+}
+.testimonials .testimonialsSlider .clientDetails .designation {
+  font-style: 1.5rem;
+}
+.testimonials .testimonialsSlider .owl-nav {
+  display: flex;
+  justify-content: space-between;
   position: absolute;
-  left: 58%;
-  bottom: -0.8rem;
-  width: 10%;
-  height: 0.4rem;
-  background-color: #1f7dbc;
-  content: "";
+  width: 90%;
+  left: 2%;
+  top: 50%;
+  transform: translate(0%, -50%);
 }
-.ourPlatform p {
-  font-size: 2rem;
-  text-align: center;
-  margin: 3rem 0rem;
+.testimonials .testimonialsSlider .owl-nav .button span {
+  font-size: 4rem !important;
+  color: #1f7dbc;
 }
-.ourPlatform ul {
-  list-style: none;
+.testimonials .owl-carousel .owl-nav button.owl-next,
+.testimonials .owl-carousel .owl-nav button.owl-prev,
+.testimonials .owl-carousel button.owl-dot {
+  font-size: 4rem;
 }
-.ourPlatform ul li {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+.testimonials .owl-dots {
+  display: none !important;
 }
-.ourPlatform ul li i {
-  margin-right: 1rem;
+
+.tagLine {
+  padding: 3rem 0rem;
+  background-color: #fcfcfc;
+}
+.tagLine h2 {
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.tagLine h2 span {
+  text-transform: uppercase;
+  color: #6db12d;
+}
+.tagLine .btnWrapper {
+  text-align: right;
+}
+.tagLine .btnWrapper button {
+  text-transform: capitalize;
+  padding: 1rem 3rem;
+  color: #fff;
+  background-color: #3db1dd;
+  border-radius: 3rem;
+  border: none;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 991px) {
+  .whoWeAre h2 {
+    text-align: center;
+  }
+  .whyChooseUs h2,
+.whyChooseUs h3,
+.whyChooseUs p {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 767px) {
+  .bannerSec .contentWrapper .content h1 {
+    font-size: 3rem;
+  }
+  .bannerSec .contentWrapper .content p {
+    font-size: 1.8rem;
+  }
+  .hiringProcess .topHeading {
+    font-size: 3rem;
+  }
+  .mission .contentWrapper .content::before {
+    position: absolute;
+    right: 7rem;
+    bottom: -1rem;
+    width: 25%;
+  }
+  .mission .contentWrapper .content::after {
+    position: absolute;
+    left: 7rem;
+    top: -1rem;
+    width: 25%;
+  }
+  .mission .contentWrapper .content i {
+    font-size: 5rem !important;
+  }
+  .mission .contentWrapper .content .fa-quote-left {
+    position: absolute;
+    left: -2rem;
+    top: -3rem;
+  }
+  .mission .contentWrapper .content .fa-quote-right {
+    position: absolute;
+    right: -2rem;
+    bottom: -3rem;
+  }
+  .mission .contentWrapper .content h2 {
+    font-size: 2.5rem;
+  }
+  .whyChooseUs .rightSec .card2,
+.whyChooseUs .rightSec .card3 {
+    margin-top: 3rem;
+  }
+  .testimonialCotent {
+    padding: 0rem 1rem;
+  }
+  .testimonials h2 {
+    text-align: center;
+  }
+  .testimonials p {
+    text-align: center;
+  }
+  .testimonials .sliderUserDetails {
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  .tagLine h2 {
+    text-align: center;
+  }
+  .tagLine .btnWrapper {
+    margin-top: 3rem;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 576px) {
+  .whoWeAre h2 {
+    font-size: 3rem;
+  }
+  .whoWeAre ul li {
+    font-size: 1.6rem;
+  }
+  .hiringProcess {
+    padding: 3rem;
+  }
+  .mission .contentWrapper .content::before {
+    position: absolute;
+    right: 7rem;
+    bottom: -1rem;
+    width: 25%;
+  }
+  .mission .contentWrapper .content::after {
+    position: absolute;
+    left: 7rem;
+    top: -1rem;
+    width: 25%;
+  }
+  .mission .contentWrapper .content i {
+    font-size: 5rem !important;
+  }
+  .mission .contentWrapper .content .fa-quote-left {
+    position: absolute;
+    left: 1rem;
+    top: -3rem;
+  }
+  .mission .contentWrapper .content .fa-quote-right {
+    position: absolute;
+    right: 1rem;
+    bottom: -3rem;
+  }
+  .mission .contentWrapper .content h2 {
+    font-size: 2rem;
+    margin: 2rem 0rem;
+    padding: 0rem 1rem;
+  }
+  .whyChooseUs {
+    padding: 0.5rem;
+  }
+  .whyChooseUs h2 {
+    font-size: 3rem;
+  }
+  .whyChooseUs h3 {
+    font-size: 2.2rem;
+  }
+  .whyChooseUs p {
+    font-size: 1.6rem;
+  }
+  .testimonials h2 {
+    font-size: 3rem;
+  }
+  .testimonials p {
+    padding: 0rem 0.5rem;
+  }
+  .tagLine h2 {
+    font-size: 3rem;
+  }
 }/*# sourceMappingURL=career.css.map */
