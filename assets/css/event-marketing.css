@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
 html {
   padding: 0px;
   margin: 0px;
@@ -10,6 +11,7 @@ body {
   font-size: 1.6rem;
   overflow-x: hidden;
 }
+
 body a {
   text-decoration: none;
 }
@@ -23,9 +25,11 @@ h2 {
   padding: 8rem 0rem;
   border-bottom: 2px solid #eee;
 }
+
 .whatWeDo h2 {
   font-size: 4.8rem;
 }
+
 .whatWeDo h3 {
   font-size: 2.1rem;
   margin-top: 2rem;
@@ -36,9 +40,11 @@ h2 {
 .whyChooseUs {
   margin-top: 8rem;
 }
+
 .whyChooseUs h2 {
   font-size: 4.8rem;
 }
+
 .whyChooseUs h3 {
   font-size: 2.1rem;
   margin-top: 2rem;
@@ -46,15 +52,18 @@ h2 {
   color: #545557;
   font-weight: normal;
 }
+
 .whyChooseUs .whyChooseCard {
   padding: 1rem;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+
 .whyChooseUs .whyChooseCard img {
   width: 100%;
   min-height: 25rem;
   border-radius: 0.5rem;
 }
+
 .whyChooseUs .whyChooseCard p {
   font-size: 2rem;
   margin-top: 1.6rem;
@@ -68,26 +77,31 @@ h2 {
   padding: 8rem 0rem;
   background-color: #eee;
 }
+
 .portfolio h2 {
   font-size: 4.8rem;
 }
+
 .portfolio h3 {
   font-size: 2.1rem;
   margin-top: 2rem;
   line-height: 2.9rem;
   color: #1d1d1b;
 }
+
 .portfolio .portfolioSlider .item {
   border-radius: 1rem;
   position: relative;
   box-shadow: 0px 8.96989px 18.857px rgba(0, 0, 0, 0.25);
   overflow: hidden;
 }
+
 .portfolio .portfolioSlider .item:hover .title {
   transition: all 0.2s ease;
   visibility: visible;
   opacity: 1;
 }
+
 .portfolio .portfolioSlider .item .title {
   transition: all 0.2s ease;
   visibility: hidden;
@@ -102,36 +116,44 @@ h2 {
   text-align: center;
   padding: 2rem;
 }
+
 .portfolio .portfolioSlider .item .title i {
   margin: 3rem 0rem 8rem 0rem;
   font-size: 8rem;
   color: #1f7dbc;
 }
+
 .portfolio .portfolioSlider .item .title h2 {
   font-size: 2.5rem;
   font-weight: bold;
 }
+
 .portfolio .portfolioSlider .item .title p {
   margin-top: 2rem;
   font-size: 1.8rem;
   font-weight: 500;
 }
+
 .portfolio .portfolioSlider .imageWrapper {
   border-radius: 1rem;
   overflow: hidden;
 }
+
 .portfolio .portfolioSlider .imageWrapper img {
   border-radius: 1rem;
   width: 100%;
   min-height: 15rem;
 }
+
 .portfolio .owl-carousel .owl-dots.disabled {
   display: block;
 }
+
 .portfolio .owl-dots {
   text-align: center;
   padding-top: 15px;
 }
+
 .portfolio .owl-dots button.owl-dot {
   width: 15px;
   height: 15px;
@@ -140,9 +162,11 @@ h2 {
   background: #ccc;
   margin: 0 0.8rem;
 }
+
 .portfolio .owl-dots button.owl-dot.active {
   background-color: #24aadd;
 }
+
 .portfolio .owl-dots button.owl-dot:focus {
   outline: none;
 }
@@ -150,15 +174,18 @@ h2 {
 .contactForm .imgwrapper img {
   width: 100%;
 }
+
 .contactForm h2 {
   text-transform: capitalize;
   font-size: 4.8rem;
   text-align: center;
   margin-bottom: 50px;
 }
+
 .contactForm form input {
   width: 100%;
 }
+
 .contactForm form .name-wrapper,
 .contactForm form .phone-wrapper,
 .contactForm form .email-wrapper,
@@ -168,6 +195,7 @@ h2 {
 .contactForm form .message-wrapper {
   margin-bottom: 30px;
 }
+
 .contactForm form .name-wrapper input,
 .contactForm form .phone-wrapper input,
 .contactForm form .email-wrapper input,
@@ -180,28 +208,34 @@ h2 {
   border: none;
   background-color: #eee;
 }
+
 .contactForm form .error {
   opacity: 0;
   visibility: hidden;
   color: red;
   font-size: 14px;
 }
+
 .contactForm form .marital-wrapper {
   padding-left: 20px;
   background-color: #eee;
   display: flex;
   align-items: center;
 }
+
 .contactForm form .marital-wrapper input {
   border-radius: 0.5rem;
   width: 20px;
 }
+
 .contactForm form .marital-wrapper label {
   padding-left: 10px;
 }
+
 .contactForm form .marital-wrapper .space {
   width: 30px;
 }
+
 .contactForm form .message-wrapper textarea {
   width: 100%;
   height: 100px;
@@ -212,6 +246,7 @@ h2 {
   resize: none;
   border-radius: 0.5rem;
 }
+
 .contactForm form .submit-button button {
   width: 100%;
   padding: 10px 0px;
@@ -222,6 +257,7 @@ h2 {
   color: #fff;
   transition: all 0.4s ease;
 }
+
 .contactForm form .submit-button button:hover {
   transition: all 0.4s ease;
 }
@@ -232,12 +268,15 @@ h2 {
   padding-bottom: 8rem;
   position: relative;
 }
+
 .service-two img {
   width: 100%;
 }
+
 .service-two .container {
   position: relative;
 }
+
 .service-two .block-title {
   margin-bottom: 0;
 }
@@ -245,20 +284,24 @@ h2 {
 .service-two__main {
   padding-right: 5rem;
 }
+
 .service-two__main p {
   font-size: 2.1rem;
   margin-top: 2rem;
   line-height: 2.9rem;
   color: #545557;
 }
+
 .service-two__main .block-title p span {
   font-size: 2.2rem;
 }
+
 .service-two__main h3 {
   font-size: 4.8rem;
   color: #1f7dbc;
 }
-.service-two__main > p {
+
+.service-two__main>p {
   margin: 0;
   margin-top: 25px;
   margin-bottom: 36px;
@@ -267,11 +310,13 @@ h2 {
 .service-two__box-wrap {
   margin-top: -40px;
 }
-.service-two__box-wrap > .row {
+
+.service-two__box-wrap>.row {
   margin-left: -20px;
   margin-right: -20px;
 }
-.service-two__box-wrap > .row > [class*=col-] {
+
+.service-two__box-wrap>.row>[class*=col-] {
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -287,10 +332,12 @@ h2 {
   padding-top: 40px;
   padding-bottom: 35px;
 }
+
 .service-two__box:hover .service-two__box-circle {
   -webkit-animation-play-state: running;
   animation-play-state: running;
 }
+
 .service-two__box h3 {
   font-size: 18px;
   font-weight: 600;
@@ -299,9 +346,11 @@ h2 {
   margin-top: 30px;
   margin-bottom: 15px;
 }
+
 .service-two__box h3 a {
   color: inherit;
 }
+
 .service-two__box p {
   margin: 0;
   color: #8a919e;
@@ -346,38 +395,111 @@ h2 {
 .service-two__home-three {
   padding-top: 0;
 }
+
 .service-two__home-three .service-two__main {
   position: relative;
   left: 100px;
 }
 
-.contact-one {
+
+/* success stories */
+
+.sucess-stories {
+
   margin-bottom: 8rem;
-  position: relative;
-  z-index: 20;
-  position: relative;
-  z-index: 20;
+  padding-left: 10px;
+  padding-right: 10px;
 }
+
+.sucess-stories h2 {
+
+  font-size: 4.8rem;
+
+}
+
+.story-content h3 {
+
+  font-size: 25px;
+}
+
+.story-content h4 {
+  color: #1f7dbc;
+}
+
+
+.story-img {
+
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  border: 5px solid black;
+  margin: auto;
+}
+
+.story-img img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+
+
+button.slick-arrow {
+
+  display: none !important;
+}
+
+
+
+@media screen and (min-width: 767px) {
+
+  .story-slider {
+
+    width: 50%;
+    margin: auto;
+   
+  }
+
+}
+
+
+
+.contact-one {
+  margin-bottom: 0;
+  position: relative;
+  z-index: 20;
+  position: relative;
+  z-index: 20;
+  background-color: #062673;
+  background-image: url(../images/wave_top.png);
+  background-repeat: no-repeat;
+
+}
+
 .contact-one .inner-container {
+
   overflow: hidden;
   width: 60%;
   left: 50%;
   transform: translate(-50%);
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 90px;
+  padding-bottom: 90px;
   border-radius: 10px;
+
   position: relative;
   background-color: #fff;
   box-shadow: 0px -20px 50px 0px rgba(25, 71, 174, 0.1);
 }
+
 .contact-one .block-title {
   position: relative;
   margin-bottom: 10rem;
 }
+
 .contact-one .block-title p span {
   font-size: 1.6rem;
   font-weight: bold;
 }
+
 .contact-one .block-title h3 {
   font-size: 3rem;
   font-weight: bold;
@@ -411,6 +533,7 @@ h2 {
   padding-right: 70px;
   position: relative;
 }
+
 .contact-one__form textarea {
   border: none;
   outline: none;
@@ -424,7 +547,8 @@ h2 {
   color: #8a919e;
   height: 95px;
 }
-.contact-one__form .bootstrap-select > .dropdown-toggle {
+
+.contact-one__form .bootstrap-select>.dropdown-toggle {
   border: none;
   outline: none;
   display: block;
@@ -436,6 +560,7 @@ h2 {
   margin-bottom: 16px;
   color: #8a919e;
 }
+
 .contact-one__form input:not([type=checkbox]):not([type=radio]):not([type=submit]) {
   border: none;
   outline: none;
@@ -449,14 +574,17 @@ h2 {
   color: #8a919e;
   font-weight: bold;
 }
+
 .contact-one__form::-moz-placeholder {
   opacity: 1;
   color: #8a919e;
 }
+
 .contact-one__form:-ms-input-placeholder {
   opacity: 1;
   color: #8a919e;
 }
+
 .contact-one__form::placeholder {
   opacity: 1;
   color: #8a919e;
@@ -477,15 +605,24 @@ h2 {
 .contact-two .contact-one__form {
   padding: 0;
 }
+
 .contact-two .contact-one__btn {
   margin: 0;
   margin-top: 14px;
 }
 
+
+
+
+
+
+
+
 .blog-details .contact-one__form {
   padding-left: 0;
   padding-right: 0;
 }
+
 .blog-details .contact-one__btn {
   margin-top: 0;
   margin-top: 14px;
@@ -496,15 +633,169 @@ h2 {
   box-shadow: none;
   background-color: transparent;
 }
+
 .faq-one__form-wrap .contact-one__form {
   padding: 0;
   box-shadow: none;
   background-color: transparent;
   margin-right: 20px;
 }
+
 .faq-one__form-wrap .contact-one__btn {
   margin-top: 14px;
 }
+
+
+/* our misson css start */
+
+.mission {
+  margin-top: 0;
+  background-image: url(../images/mission\ bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mission .contentWrapper {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.mission .contentWrapper .content {
+  position: relative;
+}
+
+.mission .contentWrapper .content .fa-quote-left {
+  position: absolute;
+  left: -3rem;
+  top: -5rem;
+  font-size: 8rem;
+  color: #fff;
+}
+
+.mission .contentWrapper .content .fa-quote-right {
+  position: absolute;
+  right: -3rem;
+  bottom: -5rem;
+  font-size: 8rem;
+  color: #fff;
+}
+
+.mission .contentWrapper .content::after {
+  position: absolute;
+  left: 7rem;
+  top: -2rem;
+  width: 18%;
+  height: 0.8rem;
+  background-color: #fff;
+  content: "";
+}
+
+.mission .contentWrapper .content::before {
+  position: absolute;
+  right: 7rem;
+  bottom: -2rem;
+  width: 18%;
+  height: 0.8rem;
+  background-color: #fff;
+  content: "";
+}
+
+.mission .contentWrapper .content h2 {
+  margin: 3rem 0rem;
+  padding: 0rem 2rem;
+  border-left: 0.8rem solid #fff;
+  border-right: 0.8rem solid #fff;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  line-height: 4.5rem;
+}
+
+@media screen and (max-width: 767px) {
+
+  .mission .contentWrapper .content::before {
+    position: absolute;
+    right: 7rem;
+    bottom: -1rem;
+    width: 25%;
+  }
+
+  .mission .contentWrapper .content::after {
+    position: absolute;
+    left: 7rem;
+    top: -1rem;
+    width: 25%;
+  }
+
+  .mission .contentWrapper .content i {
+    font-size: 5rem !important;
+  }
+
+  .mission .contentWrapper .content .fa-quote-left {
+    position: absolute;
+    left: -2rem;
+    top: -3rem;
+  }
+
+  .mission .contentWrapper .content .fa-quote-right {
+    position: absolute;
+    right: -2rem;
+    bottom: -3rem;
+  }
+
+  .mission .contentWrapper .content h2 {
+    font-size: 2.5rem;
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+
+  .mission .contentWrapper .content::before {
+    position: absolute;
+    right: 7rem;
+    bottom: -1rem;
+    width: 25%;
+  }
+
+  .mission .contentWrapper .content::after {
+    position: absolute;
+    left: 7rem;
+    top: -1rem;
+    width: 25%;
+  }
+
+  .mission .contentWrapper .content i {
+    font-size: 5rem !important;
+  }
+
+  .mission .contentWrapper .content .fa-quote-left {
+    position: absolute;
+    left: 1rem;
+    top: -3rem;
+  }
+
+  .mission .contentWrapper .content .fa-quote-right {
+    position: absolute;
+    right: 1rem;
+    bottom: -3rem;
+  }
+
+  .mission .contentWrapper .content h2 {
+    font-size: 2rem;
+    margin: 2rem 0rem;
+    padding: 0rem 1rem;
+  }
+
+}
+
+/* our misson css end */
+
+
+
 
 .popupwrapper1 {
   display: none;
@@ -516,12 +807,14 @@ h2 {
   left: 0px;
   z-index: 9999999999;
 }
+
 .popupwrapper1 .thankyouPopupWrapper1 {
   position: relative;
   width: 100%;
   height: 100%;
   z-index: 999999999999999;
 }
+
 .popupwrapper1 .thankyouPopupWrapper1 .thankyouPopup1 {
   width: 60vw;
   height: 50vh;
@@ -538,6 +831,7 @@ h2 {
   border-radius: 1rem;
   padding: 4rem;
 }
+
 .popupwrapper1 .thankyouPopupWrapper1 .thankyouPopup1 h2 {
   text-align: center;
   text-transform: capitalize;
@@ -546,12 +840,14 @@ h2 {
   color: #2e24d6;
   font-family: serif;
 }
+
 .popupwrapper1 .thankyouPopupWrapper1 .thankyouPopup1 p {
   text-align: center;
   color: #fff;
   font-weight: bold;
   font-size: 1.8rem;
 }
+
 .popupwrapper1 .thankyouPopupWrapper1 .thankyouPopup1 button {
   background: #6db12d;
   padding: 15px 35px;
@@ -568,6 +864,7 @@ h2 {
   font-weight: 400;
   transition: all 0.3s ease;
 }
+
 .popupwrapper1 .thankyouPopupWrapper1 .thankyouPopup1 button:hover {
   transition: all 0.3s ease;
   background-color: #1f7dbc;
@@ -583,6 +880,7 @@ h2 {
   left: 0px;
   z-index: 9999999999;
 }
+
 .popupwrapper2 .thankyouPopupWrapper2 {
   position: relative;
   width: 100%;
@@ -592,6 +890,7 @@ h2 {
   align-items: center;
   justify-content: center;
 }
+
 .popupwrapper2 .thankyouPopupWrapper2 .thankyouPopup2 {
   position: relative;
   width: 80vw;
@@ -602,15 +901,18 @@ h2 {
   background-color: #fff;
   display: flex;
 }
+
 .popupwrapper2 .thankyouPopupWrapper2 .thankyouPopup2 .popupImg {
   width: 40%;
   border-radius: 1rem;
 }
+
 .popupwrapper2 .thankyouPopupWrapper2 .thankyouPopup2 .popupImg img {
   border-radius: 1rem;
   width: 100%;
   max-height: 100%;
 }
+
 .popupwrapper2 .thankyouPopupWrapper2 .thankyouPopup2 .content {
   width: 60%;
   padding: 0rem 2rem;
@@ -619,6 +921,7 @@ h2 {
   justify-content: center;
   flex-direction: column;
 }
+
 .popupwrapper2 .thankyouPopupWrapper2 .thankyouPopup2 .content h2 {
   text-align: center;
   text-transform: capitalize;
@@ -627,6 +930,7 @@ h2 {
   color: #2e24d6;
   font-family: serif;
 }
+
 .popupwrapper2 .thankyouPopupWrapper2 .thankyouPopup2 .content p {
   text-align: center;
   color: #8a919e;
@@ -634,6 +938,7 @@ h2 {
   font-size: 1.8rem;
   padding: 2rem 0rem;
 }
+
 .popupwrapper2 .thankyouPopupWrapper2 .thankyouPopup2 .content button {
   background: #6db12d;
   padding: 15px 35px;
@@ -650,16 +955,19 @@ h2 {
   font-weight: 400;
   transition: all 0.3s ease;
 }
+
 .popupwrapper2 .thankyouPopupWrapper2 .thankyouPopup2 .content button:hover {
   transition: all 0.3s ease;
   background-color: #1f7dbc;
 }
+
 .popupwrapper2 .thankyouPopupWrapper2 .thankyouPopup2 .closeBtn2 {
   cursor: pointer;
   position: absolute;
   top: 1rem;
   right: 1rem;
 }
+
 .popupwrapper2 .thankyouPopupWrapper2 .thankyouPopup2 .closeBtn2 i {
   font-size: 3rem;
   padding: 1rem;
@@ -675,6 +983,7 @@ h2 {
   left: 0px;
   z-index: 9999999999;
 }
+
 .popupwrapper3 .thankyouPopupWrapper3 {
   position: relative;
   width: 100%;
@@ -684,6 +993,7 @@ h2 {
   align-items: center;
   justify-content: center;
 }
+
 .popupwrapper3 .thankyouPopupWrapper3 .thankyouPopup3 {
   position: relative;
   width: 40vw;
@@ -696,6 +1006,7 @@ h2 {
   align-items: center;
   justify-content: center;
 }
+
 .popupwrapper3 .thankyouPopupWrapper3 .thankyouPopup3 h2 {
   text-align: center;
   text-transform: capitalize;
@@ -704,12 +1015,14 @@ h2 {
   color: #2e24d6;
   font-family: serif;
 }
+
 .popupwrapper3 .thankyouPopupWrapper3 .thankyouPopup3 .closeBtn3 {
   cursor: pointer;
   position: absolute;
   top: 0.2rem;
   right: 0.2rem;
 }
+
 .popupwrapper3 .thankyouPopupWrapper3 .thankyouPopup3 .closeBtn3 i {
   font-size: 2.5rem;
   padding: 1rem;
@@ -720,172 +1033,220 @@ h2 {
     max-width: 700px;
   }
 }
+
 @media (max-width: 1199px) {
   .service-two__main {
     padding-right: 0px;
     margin-bottom: 60px;
   }
+
   .about-two__images {
     right: 220px;
   }
+
   .about-three__home-two__images {
     right: 300px;
   }
+
   .banner-two__content br {
     display: none;
   }
+
   .banner-two {
     background-image: none;
   }
+
   .service-two__home-three .service-two__main {
     left: auto;
     margin-top: 90px;
   }
+
   .faq-one__home-three .faq-one__form-image {
     margin-bottom: 80px;
   }
 }
+
 @media screen and (max-width: 991px) {
   .contactForm .imgwrapper {
     display: none;
   }
+
   .contact-two .contact-one__form {
     margin-top: 60px;
   }
+
   .contact-one .inner-container {
     width: 80%;
   }
+
   .service-two__main p {
     text-align: center;
   }
+
   .service-two__main h3 {
     text-align: center;
     font-size: 3.5rem;
   }
+
   .popupwrapper1 .thankyouPopupWrapper1 .thankyouPopup1 {
     width: 70vw;
   }
+
   .popupwrapper1 .thankyouPopupWrapper1 .thankyouPopup1 h2 {
     font-size: 2.5rem;
   }
+
   .popupwrapper1 .thankyouPopupWrapper1 .thankyouPopup1 p {
     font-size: 1.6rem;
   }
+
   .popupwrapper2 .thankyouPopupWrapper2 .thankyouPopup2 .popupImg {
     width: 30%;
   }
+
   .popupwrapper2 .thankyouPopupWrapper2 .thankyouPopup2 .popupImg img {
     height: 100%;
   }
+
   .popupwrapper2 .thankyouPopupWrapper2 .thankyouPopup2 .content {
     width: 70%;
   }
+
   .popupwrapper3 .thankyouPopupWrapper3 .thankyouPopup3 {
     width: 50vw;
     height: 40vh;
   }
 }
+
 @media screen and (max-width: 767px) {
   .hoverDropdown ul li {
     width: 100%;
   }
+
   .navigation {
     margin-top: -3rem;
   }
+
   .faq-one__form-wrap .contact-one__form {
     margin-right: 0;
   }
+
   .contact-one {
     text-align: center;
   }
+
   .contact-one .inner-container {
     width: 90%;
   }
+
   .portfolio .portfolioSlider .item .title i {
     margin: 1rem 0rem 0rem 0rem;
   }
+
   .popupwrapper1 .thankyouPopupWrapper1 .thankyouPopup1 {
     width: 70vw;
     height: 60vh;
   }
+
   .popupwrapper2 .thankyouPopupWrapper2 .thankyouPopup2 .popupImg {
     width: 35%;
   }
+
   .popupwrapper2 .thankyouPopupWrapper2 .thankyouPopup2 .popupImg img {
     height: 100%;
   }
+
   .popupwrapper2 .thankyouPopupWrapper2 .thankyouPopup2 .content {
     padding: 1rem;
     width: 65%;
   }
+
   .popupwrapper2 .thankyouPopupWrapper2 .thankyouPopup2 .content h2 {
     font-size: 2.5rem;
   }
+
   .popupwrapper2 .thankyouPopupWrapper2 .thankyouPopup2 .content p {
     font-size: 1.6rem;
     padding: 1rem;
   }
+
   .popupwrapper2 .thankyouPopupWrapper2 .thankyouPopup2 .closeBtn2 {
     top: 0.5rem;
     right: 0.5rem;
   }
+
   .popupwrapper2 .thankyouPopupWrapper2 .thankyouPopup2 .closeBtn2 i {
     padding: 0rem;
   }
+
   .popupwrapper3 .thankyouPopupWrapper3 .thankyouPopup3 {
     width: 70vw;
     height: 60vh;
   }
 }
+
 @media screen and (max-width: 500px) {
+
   .whatWeDo h2,
-.whyChooseUs h2,
-.portfolio h2,
-.contactForm h2 {
+  .whyChooseUs h2,
+  .portfolio h2,
+  .contactForm h2 {
     font-size: 3.5rem;
     text-align: center;
   }
+
   .whatWeDo h3,
-.whyChooseUs h3,
-.portfolio h3,
-.contactForm h3 {
+  .whyChooseUs h3,
+  .portfolio h3,
+  .contactForm h3 {
     font-size: 2rem;
     font-weight: 600;
     text-align: center;
   }
+
   .portfolio .portfolioSlider .item .title {
     padding: 1rem;
   }
+
   .portfolio .portfolioSlider .item .title i {
     font-size: 4rem;
   }
+
   .portfolio .portfolioSlider .item .title h3 {
     font-size: 1.8rem;
     margin-top: 1rem;
     line-height: normal;
   }
+
   .portfolio .portfolioSlider .item .title p {
     margin-top: 1rem;
     font-size: 1.4rem;
   }
+
   .popupwrapper1 .thankyouPopupWrapper1 .thankyouPopup1 {
     width: 80vw;
     height: 80vh;
   }
+
   .popupwrapper2 .thankyouPopupWrapper2 .thankyouPopup2 .popupImg {
     display: none;
   }
+
   .popupwrapper2 .thankyouPopupWrapper2 .thankyouPopup2 .content {
     width: 100%;
   }
+
   .popupwrapper3 .thankyouPopupWrapper3 .thankyouPopup3 {
     width: 80vw;
     height: 80vh;
   }
 }
+
 @media (max-width: 480px) {
   .contact-one__form {
     padding-left: 25px;
     padding-right: 25px;
   }
-}/*# sourceMappingURL=event-marketing.css.map */
+}
+
+/*# sourceMappingURL=event-marketing.css.map */

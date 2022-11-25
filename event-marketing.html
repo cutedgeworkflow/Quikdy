@@ -1,69 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Quikdy-Job Portal</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content=" " />
-    <meta name="keywords" content="" />
-    <meta content="Themesdesign" name="author" />
 
-    <!-- App favicon -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+<head>
+  <meta charset="utf-8" />
+  <title>Quikdy-Job Portal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content=" " />
+  <meta name="keywords" content="" />
+  <meta content="Themesdesign" name="author" />
 
-    <!-- Choise Css -->
-    <link
-      rel="stylesheet"
-      href="assets/libs/choices.js/public/assets/styles/choices.min.css"
-    />
+  <!-- App favicon -->
+  <link rel="shortcut icon" href="assets/images/favicon.ico" />
 
-    <!-- Swiper Css -->
-    <link rel="stylesheet" href="assets/libs/swiper/swiper-bundle.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
-    />
-    <!-- Bootstrap Css -->
-    <link
-      href="assets/css/bootstrap.min.css"
-      id="bootstrap-style"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <!-- Icons Css -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
-    />
+  <!-- Choise Css -->
+  <link rel="stylesheet" href="assets/libs/choices.js/public/assets/styles/choices.min.css" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-    />
-    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-    <!-- App Css-->
-    <link
-      href="assets/css/app.min.css"
-      id="app-style"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <!--Custom Css-->
+  <!-- Swiper Css -->
+  <link rel="stylesheet" href="assets/libs/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+  <!-- Bootstrap Css -->
+  <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+  <!-- Icons Css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="assets/css/all.min.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/custom.css" />
-    <link rel="stylesheet" href="assets/css/event-marketing.css" />
-    <link rel="stylesheet" href="assets/css/servicesheader.css" />
-  </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+  <!-- App Css-->
+  <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+  <!--Custom Css-->
 
-  <body>
-    <!--start page Loader -->
-    <!-- <div id="preloader">
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/custom.css" />
+  <link rel="stylesheet" href="assets/css/event-marketing.css" />
+  <link rel="stylesheet" href="assets/css/servicesheader.css" />
+</head>
+
+<body>
+  <!--start page Loader -->
+  <!-- <div id="preloader">
             <div id="status">
                 <ul>
                     <li></li>
@@ -75,757 +51,712 @@
                   </ul>
             </div>
         </div> -->
-    <!--end page Loader -->
+  <!--end page Loader -->
 
-    <!-- Begin page -->
+  <!-- Begin page -->
 
-    <header>
-      <!--Navbar Start-->
-      <nav
-        class="navbar navbar-expand-lg services sticky py-2"
-        id="navbar"
-        style="background-color: transparent"
-      >
-        <div class="container-fluid custom-container">
-          <a class="navbar-brand text-dark fw-bold me-auto" href="index.html">
-            <img src="assets/landingImages/logo.png" alt="" class="logo-dark" />
-            <img
-              src="assets/landingImages/logo.png"
-              alt=""
-              class="logo-light"
-            />
-          </a>
-          <div>
-            <button
-              class="navbar-toggler me-3"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarCollapse"
-              aria-controls="navbarCollapse"
-              aria-label="Toggle navigation"
-            >
-              <i class="mdi mdi-menu"></i>
-            </button>
-          </div>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="nav-menu mx-auto">
-              <li><a href="#" class="active">Home</a></li>
-              <li class="nav-item dropdown dropdown-hover">
-                <a
-                  class="nav-link"
-                  href="javascript:void(0)"
-                  id="jobsdropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                >
-                  For You
-                  <div class="arrow-down"></div>
-                </a>
-                <ul
-                  class="dropdown-menu dropdown-menu-center"
-                  aria-labelledby="jobsdropdown"
-                >
-                  <li><a class="dropdown-item" href="#">Login</a></li>
-                  <li><a class="dropdown-item" href="#">Register</a></li>
-                  <li><a class="dropdown-item" href="#">Edit Profile</a></li>
-                  <li><a class="dropdown-item" href="#">Post a Job</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Candidate Listing</a>
-                  </li>
-                  <li><a class="dropdown-item" href="#">FAQs</a></li>
-                  <li><a class="dropdown-item" href="#">Careers</a></li>
+  <header>
+    <!--Navbar Start-->
+    <nav class="navbar navbar-expand-lg services sticky py-2" id="navbar" style="background-color: transparent">
+      <div class="container-fluid custom-container">
+        <a class="navbar-brand text-dark fw-bold me-auto" href="index.html">
+          <img src="assets/landingImages/logo.png" alt="" class="logo-dark" />
+          <img src="assets/landingImages/logo.png" alt="" class="logo-light" />
+        </a>
+        <div>
+          <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-label="Toggle navigation">
+            <i class="mdi mdi-menu"></i>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="nav-menu mx-auto">
+            <li><a href="#" class="active">Home</a></li>
+            <li class="nav-item dropdown dropdown-hover">
+              <a class="nav-link" href="javascript:void(0)" id="jobsdropdown" role="button" data-bs-toggle="dropdown">
+                For You
+                <div class="arrow-down"></div>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-center" aria-labelledby="jobsdropdown">
+                <li><a class="dropdown-item" href="#">Login</a></li>
+                <li><a class="dropdown-item" href="#">Register</a></li>
+                <li><a class="dropdown-item" href="#">Edit Profile</a></li>
+                <li><a class="dropdown-item" href="#">Post a Job</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Candidate Listing</a>
+                </li>
+                <li><a class="dropdown-item" href="#">FAQs</a></li>
+                <li><a class="dropdown-item" href="#">Careers</a></li>
 
-                  <li><a class="dropdown-item" href="#">Contact Us</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown dropdown-hover">
-                <a
-                  class="nav-link"
-                  href="javascript:void(0)"
-                  id="jobsdropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                >
-                  About Quikdy
-                  <div class="arrow-down"></div>
-                </a>
-                <ul
-                  class="dropdown-menu dropdown-menu-center"
-                  aria-labelledby="jobsdropdown"
-                >
-                  <li><a class="dropdown-item" href="#">About Us</a></li>
-                  <li><a class="dropdown-item" href="#">Industry</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Our Perfect Platform</a>
-                  </li>
-                  <li><a class="dropdown-item" href="#">Blog</a></li>
-                  <li class="nav-item dropdown dropdown-hover">
-                    <a
-                      class="nav-link"
-                      href="javascript:void(0)"
-                      id="jobsdropdown"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                    >
-                      Policy
-                      <div class="arrow-down"></div>
-                    </a>
-                    <ul
-                      class="dropdown-menu dropdown2 dropdown-menu-center"
-                      aria-labelledby="jobsdropdown"
-                    >
-                      <li>
-                        <a class="dropdown-item" href="#">Privacy Policy</a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="#">Disclaimer Policy</a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="#">Terms & Conditions</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li><a class="dropdown-item" href="#">Careers</a></li>
+                <li><a class="dropdown-item" href="#">Contact Us</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown dropdown-hover">
+              <a class="nav-link" href="javascript:void(0)" id="jobsdropdown" role="button" data-bs-toggle="dropdown">
+                About Quikdy
+                <div class="arrow-down"></div>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-center" aria-labelledby="jobsdropdown">
+                <li><a class="dropdown-item" href="#">About Us</a></li>
+                <li><a class="dropdown-item" href="#">Industry</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Our Perfect Platform</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Blog</a></li>
+                <li class="nav-item dropdown dropdown-hover">
+                  <a class="nav-link" href="javascript:void(0)" id="jobsdropdown" role="button"
+                    data-bs-toggle="dropdown">
+                    Policy
+                    <div class="arrow-down"></div>
+                  </a>
+                  <ul class="dropdown-menu dropdown2 dropdown-menu-center" aria-labelledby="jobsdropdown">
+                    <li>
+                      <a class="dropdown-item" href="#">Privacy Policy</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Disclaimer Policy</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Terms & Conditions</a>
+                    </li>
+                  </ul>
+                </li>
+                <li><a class="dropdown-item" href="#">Careers</a></li>
 
-                  <li><a class="dropdown-item" href="#">Contact Us</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown dropdown-hover">
-                <a
-                  class="nav-link"
-                  href="javascript:void(0)"
-                  id="jobsdropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                >
-                  Services
-                  <div class="arrow-down"></div>
-                </a>
-                <ul
-                  class="dropdown-menu dropdown-menu-center"
-                  aria-labelledby="jobsdropdown"
-                >
-                  <li>
-                    <a class="dropdown-item" href="#">Staffing Services</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      >HR Payroll Management(Finance)</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      >Event Marketing(Branding Solutions)</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Facility Management</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Business Solutions</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      >Outsourcing Process Management</a
-                    >
-                  </li>
-                  <li><a class="dropdown-item" href="#">Careers</a></li>
+                <li><a class="dropdown-item" href="#">Contact Us</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown dropdown-hover">
+              <a class="nav-link" href="javascript:void(0)" id="jobsdropdown" role="button" data-bs-toggle="dropdown">
+                Services
+                <div class="arrow-down"></div>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-center" aria-labelledby="jobsdropdown">
+                <li>
+                  <a class="dropdown-item" href="#">Staffing Services</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">HR Payroll Management(Finance)</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Event Marketing(Branding Solutions)</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Facility Management</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Business Solutions</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Outsourcing Process Management</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Careers</a></li>
 
-                  <li><a class="dropdown-item" href="#">Contact Us</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown dropdown-hover">
-                <a
-                  class="nav-link"
-                  href="javascript:void(0)"
-                  id="jobsdropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                >
-                  Why Choose Us
-                  <div class="arrow-down"></div>
-                </a>
-                <ul
-                  class="dropdown-menu dropdown-menu-center"
-                  aria-labelledby="jobsdropdown"
-                >
-                  <li>
-                    <a class="dropdown-item" href="#">Why Choose Quikdy</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      >Our Experience & Expertise</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">location & Leadership</a>
-                  </li>
-                  <li><a class="dropdown-item" href="#">Quikdy Stories</a></li>
-                  <li><a class="dropdown-item" href="#">Careers</a></li>
+                <li><a class="dropdown-item" href="#">Contact Us</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown dropdown-hover">
+              <a class="nav-link" href="javascript:void(0)" id="jobsdropdown" role="button" data-bs-toggle="dropdown">
+                Why Choose Us
+                <div class="arrow-down"></div>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-center" aria-labelledby="jobsdropdown">
+                <li>
+                  <a class="dropdown-item" href="#">Why Choose Quikdy</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Our Experience & Expertise</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">location & Leadership</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Quikdy Stories</a></li>
+                <li><a class="dropdown-item" href="#">Careers</a></li>
 
-                  <li><a class="dropdown-item" href="#">Contact Us</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown dropdown-hover">
-                <a
-                  class="nav-link"
-                  href="javascript:void(0)"
-                  id="jobsdropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                >
-                  Insights
-                  <div class="arrow-down"></div>
-                </a>
-                <ul
-                  class="dropdown-menu dropdown-menu-center"
-                  aria-labelledby="jobsdropdown"
-                >
-                  <li>
-                    <a class="dropdown-item" href="#">Featured Insights</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Simplify Process </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Business Strategy</a>
-                  </li>
-                  <li><a class="dropdown-item" href="#">Careers</a></li>
+                <li><a class="dropdown-item" href="#">Contact Us</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown dropdown-hover">
+              <a class="nav-link" href="javascript:void(0)" id="jobsdropdown" role="button" data-bs-toggle="dropdown">
+                Insights
+                <div class="arrow-down"></div>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-center" aria-labelledby="jobsdropdown">
+                <li>
+                  <a class="dropdown-item" href="#">Featured Insights</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Simplify Process </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Business Strategy</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Careers</a></li>
 
-                  <li><a class="dropdown-item" href="#">Contact Us</a></li>
-                </ul>
-              </li>
-            </ul>
-            <!--end navbar-nav-->
-            <ul class="social-menu d-block d-lg-none list-unstyled mb-0">
-              <li class="me-2">
-                <a href="#" class="btn_1 "> LOGIN </a>
-              </li>
-              <li>
-                <a href="#" class="btn_2"> REGISTER </a>
-              </li>
-            </ul>
-          </div>
-          <!--end navabar-collapse-->
-          <ul class="social-menu d-none d-lg-flex list-unstyled mb-0">
+                <li><a class="dropdown-item" href="#">Contact Us</a></li>
+              </ul>
+            </li>
+          </ul>
+          <!--end navbar-nav-->
+          <ul class="social-menu d-block d-lg-none list-unstyled mb-0">
             <li class="me-2">
-              <a href="#" class="btn_1"> LOGIN </a>
+              <a href="#" class="btn_1 "> LOGIN </a>
             </li>
             <li>
               <a href="#" class="btn_2"> REGISTER </a>
             </li>
           </ul>
-          <!--end header-menu-->
         </div>
-        <!--end container-->
-      </nav>
-      <!-- Navbar End -->
-    </header>
-    <div>
-      <div class="page-content">
-        <!--Banner Start-->
-        <section class="banner">
-          <div class="Modern-Slider services-slider">
-            <!-- Item -->
-            <div class="item">
-              <div class="img-fill">
-                <img
-                  src="https://www.cpm-int.com/hubfs/CPM%20Group/Group%20Branding/CPM%20Branding/CPM%20Pillar%20Images/Physical%20%28Green%29/Bespoke%20%28secondary%29/Full%20Image/CPM_PHYSICAL_SECONDARY_Bespoke_Black&White_WEB_SMALL.jpg"
-                  alt=""
-                />
-                <div class="info green">
-                  <div class="container"></div>
-                </div>
-              </div>
-            </div>
-            <!-- // Item -->
-            <!-- Item -->
-            <div class="item">
-              <div class="img-fill">
-                <img
-                  src="assets/young-couple-buying-car-car-showroom.jpg"
-                  alt=""
-                />
-                <div class="info blue">
-                  <div class="container"></div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="img-fill">
-                <img
-                  src="assets/young-couple-buying-car-car-showroom.jpg"
-                  alt=""
-                />
-                <div class="info red">
-                  <div class="container"></div>
-                </div>
-              </div>
-            </div>
-
-            <!-- // Item -->
-          </div>
-
-          <div class="services-banner-cont container">
-            <div class="banner-inner text-white">
-              <h1>Event Marketing</h1>
-              <h2 class="my-lg-4 my-md-2 my-sm-0">
-                Including marketing in your plan is the best way to engage more
-                people toward your business, your product, or the services you
-                are providing.
-              </h2>
-              <p>
-                Our teams help you to build relationships with your buyers,
-                create brand awareness and recognition, and increase customer
-                engagement. The goal of Quikdy is to generate leads and make the
-                buy happen.
-              </p>
-            </div>
-          </div>
-        </section>
-        <!--Banner End-->
-        <!--Service Menu-->
-        <section class="banner-bottom-nav">
-          <div class="container">
-            <div class="row">
-              <div class="col-12">
-                <nav class="navigation">
-                  <ul class="mainmenu">
-                    <li class="bg-red">
-                      <a href="">Experiential marketing</a>
-                    </li>
-                    <li class="bg-blue">
-                      <a href="">Sampling and Activities</a>
-                    </li>
-                    <li class="bg-green showDropdown">
-                      <a href="javascript:void(0)">Our solutions</a>
-                      <div class="hoverDropdown">
-                        <ul class="list-unstyled">
-                          <li>
-                            <a href="javascript:void(0)">Sales</a>
-                          </li>
-                          <li>
-                            <a href="javascript:void(0)"
-                              >face to face sales and tele sales (b2b, b2c,
-                              d2c)</a
-                            >
-                          </li>
-                          <li><a href="javascript:void(0)">Auditing</a></li>
-                          <li>
-                            <a href="javascript:void(0)"
-                              >costumer experience and research</a
-                            >
-                          </li>
-                          <li><a href="javascript:void(0)">our mission</a></li>
-                        </ul>
-                      </div>
-                    </li>
-                  </ul>
-                </nav>
+        <!--end navabar-collapse-->
+        <ul class="social-menu d-none d-lg-flex list-unstyled mb-0">
+          <li class="me-2">
+            <a href="#" class="btn_1"> LOGIN </a>
+          </li>
+          <li>
+            <a href="#" class="btn_2"> REGISTER </a>
+          </li>
+        </ul>
+        <!--end header-menu-->
+      </div>
+      <!--end container-->
+    </nav>
+    <!-- Navbar End -->
+  </header>
+  <div>
+    <div class="page-content">
+      <!--Banner Start-->
+      <section class="banner">
+        <div class="Modern-Slider services-slider">
+          <!-- Item -->
+          <div class="item">
+            <div class="img-fill">
+              <img
+                src="https://www.cpm-int.com/hubfs/CPM%20Group/Group%20Branding/CPM%20Branding/CPM%20Pillar%20Images/Physical%20%28Green%29/Bespoke%20%28secondary%29/Full%20Image/CPM_PHYSICAL_SECONDARY_Bespoke_Black&White_WEB_SMALL.jpg"
+                alt="" />
+              <div class="info green">
+                <div class="container"></div>
               </div>
             </div>
           </div>
-        </section>
-        <!-- bottom nav end -->
-
-        <!-- what we do sectin start -->
-
-        <section class="whatWeDo">
-          <div class="container">
-            <div class="row">
-              <div class="row justify-content-center">
-                <div class="col-12">
-                  <h2 class="text-center">What we can do for you?</h2>
-                </div>
-                <div class="col-lg-10 col-12">
-                  <h3 class="text-center 0">
-                    With love and support from consumers, Swiggy expanded far
-                    and wide, first through the entire city of Bengaluru and
-                    then across the entire country. Today, Swiggy is the leading
-                    food ordering and delivery platform in India.
-                  </h3>
-                </div>
+          <!-- // Item -->
+          <!-- Item -->
+          <div class="item">
+            <div class="img-fill">
+              <img src="assets/young-couple-buying-car-car-showroom.jpg" alt="" />
+              <div class="info blue">
+                <div class="container"></div>
               </div>
             </div>
           </div>
-        </section>
-        <!-- what we do sectin start -->
+          <div class="item">
+            <div class="img-fill">
+              <img src="assets/young-couple-buying-car-car-showroom.jpg" alt="" />
+              <div class="info red">
+                <div class="container"></div>
+              </div>
+            </div>
+          </div>
 
-        <section class="service-two">
-          <div class="container">
-            <div class="row no-gutters">
-              <div class="col-xl-6 d-flex">
-                <div class="my-auto">
-                  <div class="service-two__main">
-                    <div class="block-title text-left">
-                      <p><span>About Company</span></p>
-                      <h3>
-                        Lorem ipsum dolor <br> sit amet consectetur.</span>
-                      </h3>
+          <!-- // Item -->
+        </div>
+
+        <div class="services-banner-cont container">
+          <div class="banner-inner text-white">
+            <h1>Event Marketing</h1>
+            <h2 class="my-lg-4 my-md-2 my-sm-0">
+              Including marketing in your plan is the best way to engage more
+              people toward your business, your product, or the services you
+              are providing.
+            </h2>
+            <p>
+              Our teams help you to build relationships with your buyers,
+              create brand awareness and recognition, and increase customer
+              engagement. The goal of Quikdy is to generate leads and make the
+              buy happen.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--Banner End-->
+      <!--Service Menu-->
+      <section class="banner-bottom-nav">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <nav class="navigation">
+                <ul class="mainmenu">
+                  <li class="bg-red">
+                    <a href="">Experiential marketing</a>
+                  </li>
+                  <li class="bg-blue">
+                    <a href="">Sampling and Activities</a>
+                  </li>
+                  <li class="bg-green showDropdown">
+                    <a href="javascript:void(0)">Our solutions</a>
+                    <div class="hoverDropdown">
+                      <ul class="list-unstyled">
+                        <li>
+                          <a href="javascript:void(0)">Sales</a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)">face to face sales and tele sales (b2b, b2c,
+                            d2c)</a>
+                        </li>
+                        <li><a href="javascript:void(0)">Auditing</a></li>
+                        <li>
+                          <a href="javascript:void(0)">costumer experience and research</a>
+                        </li>
+                        <li><a href="javascript:void(0)">our mission</a></li>
+                      </ul>
                     </div>
-                    <!-- /.block-title text-center -->
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit
-                      sed eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.enim ad minim veniam quis nostrud.
-                    </p>
-                    <img
-                      src="assets/images/shapes/service-sign-1-1.png"
-                      alt=""
-                    />
-                  </div>
-                  <!-- /.service-two__main -->
-                </div>
-                <!-- /.my-auto -->
-              </div>
-              <!-- /.col-lg-6 -->
-              <div class="col-xl-6">
-                <div class="service-two__box-wrap">
-                  <div class="row">
-                    <div class="col-md-6">
-                      <div class="service-two__box">
-                        <div class="">
-                          <!-- /.service-two__box-circle -->
-                          <img
-                            src="https://img.freepik.com/free-photo/bussiness-people-working-team-office_1303-22863.jpg?w=2000"
-                            alt=""
-                          />
-                        </div>
-                        <!-- /.service-two__box-icon -->
-                        <h3>
-                          <a href="service-d-seo.html">   Lorem ipsum </a>
-                        </h3>
-                        <p>
-                          Lorem ipsum dolor amet consectetur adipisicing eiusmod
-                          tempor.
-                        </p>
-                      </div>
-                      <!-- /.service-two__box -->
-                      <div
-                        class="service-two__box wow flipInY"
-                        data-wow-delay="300ms"
-                        data-wow-duration="1500ms"
-                      >
-                        <div class="">
-                          <!-- /.service-two__box-circle -->
-                          <img
-                            src="https://img.freepik.com/free-photo/group-people-working-out-business-plan-office_1303-15861.jpg"
-                            alt=""
-                          />
-                        </div>
-                        <!-- /.service-two__box-icon -->
-                        <h3>
-                          <a href="service-d-seo.html">   Lorem ipsum </a>
-                        </h3>
-                        <p>
-                          Lorem ipsum dolor amet consectetur adipisicing eiusmod
-                          tempor.
-                        </p>
-                      </div>
-                      <!-- /.service-two__box -->
-                    </div>
-                    <!-- /.col-md-6 -->
-                    <div class="col-md-6 d-flex">
-                      <div class="my-auto">
-                        <div class="service-two__box wow flipInY">
-                          <div class="">
-                            <!-- /.service-two__box-circle -->
-                            <img
-                              src="https://img.freepik.com/free-photo/group-people-working-out-business-plan-office_1303-15818.jpg?w=2000"
-                              alt=""
-                            />
-                          </div>
-                          <!-- /.service-two__box-icon -->
-                          <h3>
-                            <a href="service-d-seo.html">   Lorem ipsum </a>
-                          </h3>
-                          <p>
-                            Lorem ipsum dolor amet consectetur adipisicing
-                            eiusmod tempor.
-                          </p>
-                        </div>
-                        <!-- /.service-two__box -->
-                      </div>
-                      <!-- /.my-auto -->
-                    </div>
-                    <!-- /.col-md-6 d-flex -->
-                  </div>
-                  <!-- /.row -->
-                </div>
-                <!-- /.service-two__box-wrap -->
-              </div>
-              <!-- /.col-lg-6 -->
+                  </li>
+                </ul>
+              </nav>
             </div>
-            <!-- /.row no-gutters -->
           </div>
-          <!-- /.container -->
-        </section>
+        </div>
+      </section>
+      <!-- bottom nav end -->
 
-        <!-- why choose us section  start -->
-        <section class="whyChooseUs">
-          <div class="container">
+      <!-- what we do sectin start -->
+
+      <section class="whatWeDo">
+        <div class="container">
+          <div class="row">
             <div class="row justify-content-center">
               <div class="col-12">
-                <h2 class="text-center">
-                  Why chose from Quikdy Events Marketing?
-                </h2>
+                <h2 class="text-center">What we can do for you?</h2>
               </div>
               <div class="col-lg-10 col-12">
-                <h3 class="text-center">
-                  With love and support from consumers, Swiggy expanded far and
-                  wide, first through the entire city of Bengaluru and then
-                  across the entire country. Today, Swiggy is the leading food
-                  ordering and delivery platform in India.
+                <h3 class="text-center 0">
+                  With love and support from consumers, Swiggy expanded far
+                  and wide, first through the entire city of Bengaluru and
+                  then across the entire country. Today, Swiggy is the leading
+                  food ordering and delivery platform in India.
                 </h3>
               </div>
             </div>
-            <div class="row mt-5">
-              <div class="col-md-4 mt-5 mt-md-0 col-sm-6">
-                <div class="whyChooseCard">
-                  <img
-                    src="https://assets.new.siemens.com/siemens/assets/api/uuid:d06555c5-b13e-466c-8675-4737b8ed141b/width:1125/quality:high/sfs-uk-technique-services-image.jpg"
-                    alt=""
-                  />
-                  <p class="text-center">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Inventore, quis.
-                  </p>
-                </div>
-              </div>
-              <div class="col-md-4 mt-5 mt-md-0 col-sm-6">
-                <div class="whyChooseCard">
-                  <img
-                    src="https://www.startmeup.hk/wp-content/uploads/2022/04/GS1HK-Solution-Day-edm-banner_20220318.jpg"
-                    alt=""
-                  />
-                  <p class="text-center">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Inventore, quis.
-                  </p>
-                </div>
-              </div>
-              <div class="col-md-4 mt-5 mt-lg-0">
-                <div class="whyChooseCard">
-                  <img
-                    src="https://www.simon-kucher.com/sites/default/files/styles/max_2600x2600/public/2019-06/digital%20solutions.jpg?itok=PlcStevq"
-                    alt=""
-                  />
-                  <p class="text-center">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Inventore, quis.
-                  </p>
-                </div>
-              </div>
-            </div>
           </div>
-        </section>
-        <!-- why choose us section end -->
+        </div>
+      </section>
+      <!-- what we do sectin start -->
 
-        <!-- portfolio section -->
-        <section class="portfolio">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-12 mb-5 pb-5">
-                <h2 class="text-center">Our portfolio</h2>
+      <section class="service-two">
+        <div class="container">
+          <div class="row no-gutters">
+            <div class="col-xl-6 d-flex">
+              <div class="my-auto">
+                <div class="service-two__main">
+                  <div class="block-title text-left">
+                    <p><span>About Company</span></p>
+                    <h3>
+                      Lorem ipsum dolor <br> sit amet consectetur.</span>
+                    </h3>
+                  </div>
+                  <!-- /.block-title text-center -->
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit
+                    sed eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.enim ad minim veniam quis nostrud.
+                  </p>
+                  <img src="assets/images/shapes/service-sign-1-1.png" alt="" />
+                </div>
+                <!-- /.service-two__main -->
               </div>
+              <!-- /.my-auto -->
             </div>
-            <div class="portfolioSlider owl-carousel owl-theme">
-              <div class="item">
-                <div class="imageWrapper">
-                  <img
-                    src="https://www.teleperformance.com/media/bsckd113/gmt_cards-website_march2022_welcome01v2.jpg"
-                    alt=""
-                  />
-                </div>
-                <div class="title">
-                  <i class="fa-solid fa-handshake-simple"></i>
-                  <h3>We inspire and motivate</h3>
-                  <p>
-                    We inspire and motivate people to achieve more and make
-                    their mark on our business.
-                  </p>
-                </div>
-              </div>
-              <div class="item">
-                <div class="imageWrapper">
-                  <img
-                    src="https://www.teleperformance.com/media/ghpo2cqy/gmt_cards-website_march2022_welcome02v2.jpg"
-                    alt=""
-                  />
-                </div>
-                <div class="title">
-                  <i class="fa-solid fa-graduation-cap"></i>
-
-                  <h3>We inspire and motivate</h3>
-                  <p>
-                    We inspire and motivate people to achieve more and make
-                    their mark on our business.
-                  </p>
-                </div>
-              </div>
-              <div class="item">
-                <div class="imageWrapper">
-                  <img
-                    src="https://www.teleperformance.com/media/demlh1vs/gmt_cards-website_march2022_welcome03v2.jpg"
-                    alt=""
-                  />
-                </div>
-                <div class="title">
-                  <i class="fa-solid fa-people-arrows"></i>
-                  <h3>We inspire and motivate</h3>
-                  <p>
-                    We inspire and motivate people to achieve more and make
-                    their mark on our business.
-                  </p>
-                </div>
-              </div>
-              <div class="item">
-                <div class="imageWrapper">
-                  <img
-                    src="https://www.teleperformance.com/media/bsckd113/gmt_cards-website_march2022_welcome01v2.jpg"
-                    alt=""
-                  />
-                </div>
-                <div class="title">
-                  <i class="fa-solid fa-handshake-simple"></i>
-                  <h3>We inspire and motivate</h3>
-                  <p>
-                    We inspire and motivate people to achieve more and make
-                    their mark on our business.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="contact-one">
-          <div class="container wow fadeInUp" data-wow-duration="1500ms">
-            <div class="inner-container">
-              <img
-                src="assets/images/contact-form-shape-1-1.png"
-                class="contact-one__shape-1"
-                alt=""
-              />
-              <img
-                src="assets/images/mocups/contact-1-moc-1.png"
-                class="contact-one__shape-2"
-                alt=""
-              />
-              <img
-                src="assets/images/mocups/contact-1-moc-2.png"
-                class="contact-one__shape-3"
-                alt=""
-              />
-              <div class="block-title text-center">
-                <p><span>Contact Us</span></p>
-                <h3>Lorem ipsum dolor sit amet.</h3>
-              </div>
-              <!-- /.block-title text-center -->
-              <form  class="contact-one__form">
+            <!-- /.col-lg-6 -->
+            <div class="col-xl-6">
+              <div class="service-two__box-wrap">
                 <div class="row">
                   <div class="col-md-6">
-                    <input type="text" placeholder="Your Name*" />
+                    <div class="service-two__box">
+                      <div class="">
+                        <!-- /.service-two__box-circle -->
+                        <img
+                          src="https://img.freepik.com/free-photo/bussiness-people-working-team-office_1303-22863.jpg?w=2000"
+                          alt="" />
+                      </div>
+                      <!-- /.service-two__box-icon -->
+                      <h3>
+                        <a href="service-d-seo.html"> Lorem ipsum </a>
+                      </h3>
+                      <p>
+                        Lorem ipsum dolor amet consectetur adipisicing eiusmod
+                        tempor.
+                      </p>
+                    </div>
+                    <!-- /.service-two__box -->
+                    <div class="service-two__box wow flipInY" data-wow-delay="300ms" data-wow-duration="1500ms">
+                      <div class="">
+                        <!-- /.service-two__box-circle -->
+                        <img
+                          src="https://img.freepik.com/free-photo/group-people-working-out-business-plan-office_1303-15861.jpg"
+                          alt="" />
+                      </div>
+                      <!-- /.service-two__box-icon -->
+                      <h3>
+                        <a href="service-d-seo.html"> Lorem ipsum </a>
+                      </h3>
+                      <p>
+                        Lorem ipsum dolor amet consectetur adipisicing eiusmod
+                        tempor.
+                      </p>
+                    </div>
+                    <!-- /.service-two__box -->
                   </div>
                   <!-- /.col-md-6 -->
-                  <div class="col-md-6">
-                    <input type="text" placeholder="Email*" />
+                  <div class="col-md-6 d-flex">
+                    <div class="my-auto">
+                      <div class="service-two__box wow flipInY">
+                        <div class="">
+                          <!-- /.service-two__box-circle -->
+                          <img
+                            src="https://img.freepik.com/free-photo/group-people-working-out-business-plan-office_1303-15818.jpg?w=2000"
+                            alt="" />
+                        </div>
+                        <!-- /.service-two__box-icon -->
+                        <h3>
+                          <a href="service-d-seo.html"> Lorem ipsum </a>
+                        </h3>
+                        <p>
+                          Lorem ipsum dolor amet consectetur adipisicing
+                          eiusmod tempor.
+                        </p>
+                      </div>
+                      <!-- /.service-two__box -->
+                    </div>
+                    <!-- /.my-auto -->
                   </div>
-                  <!-- /.col-md-6 -->
-                  <div class="col-md-6">
-                    <input type="text" placeholder="Mobile*" />
-                  </div>
-                  <!-- /.col-md-6 -->
-                  <div class="col-md-6">
-                    <input type="text" placeholder="Task" />
-                  </div>
-                  <!-- /.col-md-6 -->
-                  <div class="col-md-12 text-center">
-                    <button type="submit"  class="thm-btn contact-one__btn showPopup" >
-                      Send Now
-                    </button>
-                  </div>
-                  <!-- /.col-md-12 -->
+                  <!-- /.col-md-6 d-flex -->
                 </div>
                 <!-- /.row -->
-              </form>
-              <!-- /.contact-one__form -->
+              </div>
+              <!-- /.service-two__box-wrap -->
             </div>
-            <!-- /.inner-container -->
+            <!-- /.col-lg-6 -->
           </div>
-          <!-- /.container -->
-        </section>
-        <!-- portfolio section end -->
-        <!-- START FOOTER -->
-        <section class="section footer-sec">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-3 my-auto">
-                <p class="text-black-50 mb-0">
-                  <script>
-                    document.write(new Date().getFullYear());
-                  </script>
-                  &copy; Copyright.<a
-                    href="#"
-                    target="_blank"
-                    class="text-reset"
-                  ></a>
+          <!-- /.row no-gutters -->
+        </div>
+        <!-- /.container -->
+      </section>
+
+      <!-- why choose us section  start -->
+      <section class="whyChooseUs">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12">
+              <h2 class="text-center">
+                Why chose from Quikdy Events Marketing?
+              </h2>
+            </div>
+            <div class="col-lg-10 col-12">
+              <h3 class="text-center">
+                With love and support from consumers, Swiggy expanded far and
+                wide, first through the entire city of Bengaluru and then
+                across the entire country. Today, Swiggy is the leading food
+                ordering and delivery platform in India.
+              </h3>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-md-3 mt-5 mt-md-0 col-sm-6">
+              <div class="whyChooseCard">
+                <img
+                  src="https://assets.new.siemens.com/siemens/assets/api/uuid:d06555c5-b13e-466c-8675-4737b8ed141b/width:1125/quality:high/sfs-uk-technique-services-image.jpg"
+                  alt="" />
+                <p class="text-center">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+
                 </p>
               </div>
-              <div class="col-lg-6 my-auto">
-                <div class="footer-item mt-4 mt-lg-0">
-                  <ul
-                    class="list-unstyled d-flex justify-content-between footer-list mb-0"
-                  >
-                    <li><a href="#"> Privacy Policy</a></li>
-                    <li><a href="#"> Terms & Conditions</a></li>
-                    <li><a href="#"> Services</a></li>
-                    <li><a href="#"> Pricing</a></li>
-                  </ul>
-                </div>
+            </div>
+            <div class="col-md-3 mt-5 mt-md-0 col-sm-6">
+              <div class="whyChooseCard">
+                <img
+                  src="https://www.startmeup.hk/wp-content/uploads/2022/04/GS1HK-Solution-Day-edm-banner_20220318.jpg"
+                  alt="" />
+                <p class="text-center">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+
+                </p>
               </div>
-              <div
-                class="col-lg-3 social-link mt-4 mt-lg-0 text-center text-lg-end my-auto"
-              >
-                <ul class="footer-social-menu list-inline mb-0">
-                  <li class="list-inline-item">
-                    <a href="#"><i class="uil uil-facebook-f"></i></a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#"><i class="uil uil-linkedin-alt"></i></a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#"><i class="uil uil-google"></i></a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#"><i class="uil uil-twitter"></i></a>
-                  </li>
+            </div>
+
+            <div class="col-md-3 mt-5 mt-md-0 col-sm-6">
+              <div class="whyChooseCard">
+                <img
+                  src="https://assets.new.siemens.com/siemens/assets/api/uuid:d06555c5-b13e-466c-8675-4737b8ed141b/width:1125/quality:high/sfs-uk-technique-services-image.jpg"
+                  alt="" />
+                <p class="text-center">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3 mt-5 mt-lg-0">
+              <div class="whyChooseCard">
+                <img
+                  src="https://www.simon-kucher.com/sites/default/files/styles/max_2600x2600/public/2019-06/digital%20solutions.jpg?itok=PlcStevq"
+                  alt="" />
+                <p class="text-center">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- why choose us section end -->
+
+      <!-- portfolio section -->
+      <section class="portfolio">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 mb-5 pb-5">
+              <h2 class="text-center">Our portfolio</h2>
+            </div>
+          </div>
+          <div class="portfolioSlider owl-carousel owl-theme">
+            <div class="item">
+              <div class="imageWrapper">
+                <img src="https://www.teleperformance.com/media/bsckd113/gmt_cards-website_march2022_welcome01v2.jpg"
+                  alt="" />
+              </div>
+              <div class="title">
+                <i class="fa-solid fa-handshake-simple"></i>
+                <h3>We inspire and motivate</h3>
+                <p>
+                  We inspire and motivate people to achieve more and make
+                  their mark on our business.
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="imageWrapper">
+                <img src="https://www.teleperformance.com/media/ghpo2cqy/gmt_cards-website_march2022_welcome02v2.jpg"
+                  alt="" />
+              </div>
+              <div class="title">
+                <i class="fa-solid fa-graduation-cap"></i>
+
+                <h3>We inspire and motivate</h3>
+                <p>
+                  We inspire and motivate people to achieve more and make
+                  their mark on our business.
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="imageWrapper">
+                <img src="https://www.teleperformance.com/media/demlh1vs/gmt_cards-website_march2022_welcome03v2.jpg"
+                  alt="" />
+              </div>
+              <div class="title">
+                <i class="fa-solid fa-people-arrows"></i>
+                <h3>We inspire and motivate</h3>
+                <p>
+                  We inspire and motivate people to achieve more and make
+                  their mark on our business.
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="imageWrapper">
+                <img src="https://www.teleperformance.com/media/bsckd113/gmt_cards-website_march2022_welcome01v2.jpg"
+                  alt="" />
+              </div>
+              <div class="title">
+                <i class="fa-solid fa-handshake-simple"></i>
+                <h3>We inspire and motivate</h3>
+                <p>
+                  We inspire and motivate people to achieve more and make
+                  their mark on our business.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- sucess Stories -->
+
+
+      <section class="sucess-stories text-center">
+        <div class="conatiner">
+          <div class="row justify-content-center">
+            <div class="col-12 mb-3 pb-3">
+              <h2 class="text-center">Sucess Stories</h2>
+            </div>
+          </div>
+
+          <div class=" story-slider  ">
+
+            <div class="story-box  text-center">
+              <div class="story-img "><img src="assets/images/testimonial.png"></div>
+              <div class="story-content">
+                <h3 class="mt-2">Mohit Nara</h3>
+                <p > <i class="fa-solid fa-quote-left"></i>
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod 
+                  tempor incididunt ut labore et dolore magna  tempor incididunt ut labore labore et dolore magnaet dolore magna <i class="fa-solid fa-quote-right"></i></p>
+                 <h4 class="mt-0 pt-0 ">Web Developer- Policy Bazar</h4>
+                </div>
+            </div>
+
+            <div class="story-box  text-center">
+              <div class="story-img "><img src="assets/images/testimonial.png"></div>
+              <div class="story-content">
+                <h3 class="mt-2">Mohit Nara</h3>
+                <p > <i class="fa-solid fa-quote-left"></i>
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod 
+                  tempor incididunt ut labore et dolore magna  tempor incididunt ut labore et dolore magnalabore et dolore magna <i class="fa-solid fa-quote-right"></i></p>
+                 <h4 class="mt-0 pt-0 ">Web Developer- Policy Bazar</h4>
+                </div>
+            </div>
+            <div class="story-box  text-center">
+              <div class="story-img "><img src="assets/images/testimonial.png"></div>
+              <div class="story-content">
+                <h3 class="mt-2">Mohit Nara</h3>
+                <p > <i class="fa-solid fa-quote-left"></i>
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod 
+                  tempor incididunt ut labore et dolore magna  tempor incididunt ut labore etlabore et dolore magna dolore magna <i class="fa-solid fa-quote-right"></i></p>
+                 <h4 class="mt-0 pt-0 ">Web Developer- Policy Bazar</h4>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section class="contact-one">
+        <div class="container wow fadeInUp" data-wow-duration="1500ms">
+          <div class="inner-container">
+            <img src="assets/images/contact-form-shape-1-1.png" class="contact-one__shape-1" alt="" />
+            <img src="assets/images/mocups/contact-1-moc-1.png" class="contact-one__shape-2" alt="" />
+            <img src="assets/images/mocups/contact-1-moc-2.png" class="contact-one__shape-3" alt="" />
+            <div class="block-title text-center">
+              <p><span>Contact Us</span></p>
+              <h3>Lorem ipsum dolor sit amet.</h3>
+            </div>
+            <!-- /.block-title text-center -->
+            <form class="contact-one__form">
+              <div class="row">
+                <div class="col-md-6">
+                  <input type="text" placeholder="Your Name*" />
+                </div>
+                <!-- /.col-md-6 -->
+                <div class="col-md-6">
+                  <input type="text" placeholder="Email*" />
+                </div>
+                <!-- /.col-md-6 -->
+                <div class="col-md-6">
+                  <input type="text" placeholder="Mobile*" />
+                </div>
+                <!-- /.col-md-6 -->
+                <div class="col-md-6">
+                  <input type="text" placeholder="Task" />
+                </div>
+                <!-- /.col-md-6 -->
+                <div class="col-md-12 text-center">
+                  <button type="submit" class="thm-btn contact-one__btn showPopup">
+                    Send Now
+                  </button>
+                </div>
+                <!-- /.col-md-12 -->
+              </div>
+              <!-- /.row -->
+            </form>
+            <!-- /.contact-one__form -->
+          </div>
+          <!-- /.inner-container -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- portfolio section end -->
+
+
+
+
+      <section class="mission">
+        <div class="container">
+          <div class="contentWrapper">
+            <div class="content">
+              <i class="fa-solid fa-quote-left"></i>
+              <i class="fa-solid fa-quote-right"></i>
+              <h2>
+                Our mission is to elevate the quality life for the urban consumer
+                with unparalleled Conveniences. Conveniences is what makes us
+                tick. its what makes us get out of bed and say, "Let's do this.”
+              </h2>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- START FOOTER -->
+      <section class="section footer-sec">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 my-auto">
+              <p class="text-black-50 mb-0">
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                &copy; Copyright.<a href="#" target="_blank" class="text-reset"></a>
+              </p>
+            </div>
+            <div class="col-lg-6 my-auto">
+              <div class="footer-item mt-4 mt-lg-0">
+                <ul class="list-unstyled d-flex justify-content-between footer-list mb-0">
+                  <li><a href="#"> Privacy Policy</a></li>
+                  <li><a href="#"> Terms & Conditions</a></li>
+                  <li><a href="#"> Services</a></li>
+                  <li><a href="#"> Pricing</a></li>
                 </ul>
               </div>
             </div>
+            <div class="col-lg-3 social-link mt-4 mt-lg-0 text-center text-lg-end my-auto">
+              <ul class="footer-social-menu list-inline mb-0">
+                <li class="list-inline-item">
+                  <a href="#"><i class="uil uil-facebook-f"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#"><i class="uil uil-linkedin-alt"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#"><i class="uil uil-google"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#"><i class="uil uil-twitter"></i></a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </section>
-        <!-- END FOOTER -->
+        </div>
+      </section>
+      <!-- END FOOTER -->
 
-        <!--start back-to-top-->
-        <button onclick="topFunction()" id="back-to-top">
-          <i class="mdi mdi-arrow-up"></i>
-        </button>
-        <!--end back-to-top-->
-      </div>
-      <!-- end main content-->
+      <!--start back-to-top-->
+      <button onclick="topFunction()" id="back-to-top">
+        <i class="mdi mdi-arrow-up"></i>
+      </button>
+      <!--end back-to-top-->
     </div>
-    <!-- END layout-wrapper -->
+    <!-- end main content-->
+  </div>
+  <!-- END layout-wrapper -->
 
   <div class="popupwrapper1">
     <div class="thankyouPopupWrapper1">
 
       <div class="thankyouPopup1">
         <h2>thank you so much for submitting your response</h2>
-        <p> we appreciate your time to efforts. After learning more about you, I feel like we could have a great working relationship. Thank you agin and we conect you to discuss this further.</p>
-       <div class="text-center closeBtn1">
+        <p> we appreciate your time to efforts. After learning more about you, I feel like we could have a great working
+          relationship. Thank you agin and we conect you to discuss this further.</p>
+        <div class="text-center closeBtn1">
 
-         <button class="btn-btn-primery">Close</button>
+          <button class="btn-btn-primery">Close</button>
         </div>
       </div>
     </div>
@@ -833,7 +764,7 @@
 
   <div class="popupwrapper2">
     <div class="thankyouPopupWrapper2">
-    
+
       <div class="thankyouPopup2">
         <div class="popupImg">
           <img src="./assets/images/popup2img.jpg" alt="popup">
@@ -841,7 +772,9 @@
         <div class="content">
 
           <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reiciendis error ea esse? Odit dolorem tempore atque porro similique eaque eos perferendis totam eveniet at! Saepe, molestiae! Iure, voluptas odit.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reiciendis error ea esse? Odit dolorem
+            tempore atque porro similique eaque eos perferendis totam eveniet at! Saepe, molestiae! Iure, voluptas odit.
+          </p>
           <div class="text-center submitBtn2">
             <button class="btn-btn-primery">Get Started</button>
           </div>
@@ -852,180 +785,190 @@
   </div>
 
   <div class="popupwrapper3">
-    <div class="thankyouPopupWrapper3">    
+    <div class="thankyouPopupWrapper3">
       <div class="thankyouPopup3">
-          <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit<h2>        
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit<h2>
             <div class="closeBtn3"><i class="fa-regular fa-circle-xmark"></i></div>
       </div>
     </div>
   </div>
 
-    <!-- JAVASCRIPT -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="https://unicons.iconscout.com/release/v4.0.0/script/monochrome/bundle.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <!-- JAVASCRIPT -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unicons.iconscout.com/release/v4.0.0/script/monochrome/bundle.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
-    <!-- Job-list Init Js -->
-    <!-- <script src="assets/js/pages/job-list.init.js"></script> -->
+  <!-- Job-list Init Js -->
+  <!-- <script src="assets/js/pages/job-list.init.js"></script> -->
 
-    <!-- Switcher Js -->
+  <!-- Switcher Js -->
 
-    <script src="assets/js/app.js"></script>
+  <script src="assets/js/app.js"></script>
 
-    <script src="assets/js/custom.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
-    <script>
-      $(document).ready(function () {
+  <script>
+    $(document).ready(function () {
 
-        $('.showPopup').click(function(e){
-          e.preventDefault();
+      $('.showPopup').click(function (e) {
+        e.preventDefault();
 
-        })
-
-
-
-        $('.closeBtn1 button').click(function(){
-          $('.popupwrapper1').hide();
-        })
-        $('.showPopup').click(function(){
-          $('.popupwrapper1').show();
-        })
-
-        $('.closeBtn2').click(function(){
-          $('.popupwrapper2').hide();
-        })
-        $('.btn_1').click(function(){
-          $('.popupwrapper2').show();
-        })
-
-
-        $('.closeBtn3').click(function(){
-          $('.popupwrapper3').hide();
-        })
-        $('.btn_2').click(function(){
-          $('.popupwrapper3').show();
-        })
+      })
 
 
 
+      $('.closeBtn1 button').click(function () {
+        $('.popupwrapper1').hide();
+      })
+      $('.showPopup').click(function () {
+        $('.popupwrapper1').show();
+      })
+
+      $('.closeBtn2').click(function () {
+        $('.popupwrapper2').hide();
+      })
+      $('.btn_1').click(function () {
+        $('.popupwrapper2').show();
+      })
 
 
-        $(".Modern-Slider").slick({
-          autoplay: true,
-          autoplaySpeed: 10000,
-          speed: 600,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          pauseOnHover: false,
-          dots: true,
-          arrows: false,
-          pauseOnDotsHover: true,
-          cssEase: "ease-out",
-          // fade:true,
-          draggable: false,
-          prevArrow: '<button class="PrevArrow"></button>',
-          nextArrow: '<button class="NextArrow"></button>',
-          responsive: [
-            {
-              breakpoint: 991,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                dots: true,
-                prevArrow: null,
-                nextArrow: null,
-              },
-            },
-          ],
-        });
-
-        $('.mdi').click(function(){
-          $('header').toggleClass('staticNavBar');          
-          $(this).toggleClass('textColor');
-        })
+      $('.closeBtn3').click(function () {
+        $('.popupwrapper3').hide();
+      })
+      $('.btn_2').click(function () {
+        $('.popupwrapper3').show();
+      })
 
 
-        if ($(window).width() > 991) {
-          $(window).scroll(function () {
-            var scrollTopValue = $(window).scrollTop();
 
-            if (scrollTopValue > 0) {
-              $(".navbar ").css({
-                backgroundColor: "#fff",
-              });
 
-              $(" nav ul li a ").css({
-                color: "#000 ",
-              });
-            } else {
-              $(".navbar ").css({
-                backgroundColor: "transparent",
-              });
-              $("nav ul li a ").css({
-                color: "#fff ",
-              });
-            }
-          });
-        } else {
-          $(window).scroll(function () {
-            var scrollTopValue = $(window).scrollTop();
+      
+$('.story-slider').slick({
+  dots: false,
+  infinite: true,
+  speed: 1000,
+  slidesToShow: 1,
+  adaptiveHeight: false
+});
 
-            if (scrollTopValue > 0 ) {
-              $(".navbar ").css({
-                backgroundColor: "#fff",
-              });
 
-              $("#navbarCollapse").css({
-                color: "#000 ",
-                backgroundColor: "#fff",
-              });
-              $(".mdi").css({
-                color: "#000 ",
-              });
-            } else {
-              $(".navbar ").css({
-                backgroundColor: "transparent",
-              });
-              $("#navbarCollapse").css({
-                color: "#000 ",
-                backgroundColor: "#fff",
-              });
-              $(".mdi").css({
-                color: "#fff ",
-              });
-            }
-          });
-        }
-
-        $(".portfolioSlider").owlCarousel({
-          loop: true,
-          margin: 100,
-          nav: false,
-          autoplay: true,
-          autoplayTimeout: 3000,
-          autoplaySpeed: 3000,
-          slideTransition: "linear",
-          autoplayHoverPause: true,
-          responsive: {
-            0: {
-              items: 2,
-              margin: 10,
-            },
-            600: {
-              items: 2,
-              margin: 50,
-            },
-            1000: {
-              items: 3,
+      $(".Modern-Slider").slick({
+        autoplay: true,
+        autoplaySpeed: 10000,
+        speed: 600,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        pauseOnHover: false,
+        dots: true,
+        arrows: false,
+        pauseOnDotsHover: true,
+        cssEase: "ease-out",
+        // fade:true,
+        draggable: false,
+        prevArrow: '<button class="PrevArrow"></button>',
+        nextArrow: '<button class="NextArrow"></button>',
+        responsive: [
+          {
+            breakpoint: 991,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              dots: true,
+              prevArrow: null,
+              nextArrow: null,
             },
           },
-        });
-      
+        ],
       });
-    </script>
-  </body>
+
+      $('.mdi').click(function () {
+        $('header').toggleClass('staticNavBar');
+        $(this).toggleClass('textColor');
+      })
+
+
+      if ($(window).width() > 991) {
+        $(window).scroll(function () {
+          var scrollTopValue = $(window).scrollTop();
+
+          if (scrollTopValue > 0) {
+            $(".navbar ").css({
+              backgroundColor: "#fff",
+            });
+
+            $(" nav ul li a ").css({
+              color: "#000 ",
+            });
+          } else {
+            $(".navbar ").css({
+              backgroundColor: "transparent",
+            });
+            $("nav ul li a ").css({
+              color: "#fff ",
+            });
+          }
+        });
+      } else {
+        $(window).scroll(function () {
+          var scrollTopValue = $(window).scrollTop();
+
+          if (scrollTopValue > 0) {
+            $(".navbar ").css({
+              backgroundColor: "#fff",
+            });
+
+            $("#navbarCollapse").css({
+              color: "#000 ",
+              backgroundColor: "#fff",
+            });
+            $(".mdi").css({
+              color: "#000 ",
+            });
+          } else {
+            $(".navbar ").css({
+              backgroundColor: "transparent",
+            });
+            $("#navbarCollapse").css({
+              color: "#000 ",
+              backgroundColor: "#fff",
+            });
+            $(".mdi").css({
+              color: "#fff ",
+            });
+          }
+        });
+      }
+
+      $(".portfolioSlider").owlCarousel({
+        loop: true,
+        margin: 100,
+        nav: false,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplaySpeed: 3000,
+        slideTransition: "linear",
+        autoplayHoverPause: true,
+        responsive: {
+          0: {
+            items: 2,
+            margin: 10,
+          },
+          600: {
+            items: 2,
+            margin: 50,
+          },
+          1000: {
+            items: 3,
+          },
+        },
+      });
+
+    });
+  </script>
+</body>
+
 </html>
 <!-- popup and
    hide show on job details page 
