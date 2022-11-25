@@ -276,6 +276,9 @@ h2 {
   width: 100%;
   border-radius: 2rem;
 }
+
+
+
 .testimonials h2 {
   font-size: 4rem;
   font-weight: bold;
@@ -328,6 +331,32 @@ h2 {
 .testimonials .owl-carousel button.owl-dot {
   font-size: 4rem;
 }
+
+.rating-box{
+
+  position: relative;
+  bottom: 70px;
+  background-color: #ee3821;
+  color: white;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  text-align: center;
+}
+.rating-box h2{
+
+  font-size: 25px;
+}
+.rating-box p{
+
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+.rating-box i{
+
+  color: yellow;
+  
+}
 .testimonials .owl-dots {
   display: none !important;
 }
@@ -337,13 +366,13 @@ h2 {
   background-color: #fcfcfc;
 }
 .tagLine h2 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: bold;
   text-transform: uppercase;
 }
 .tagLine h2 span {
   text-transform: uppercase;
-  color: #6db12d;
+  color: #3db1dd;
 }
 .tagLine .btnWrapper {
   text-align: right;
