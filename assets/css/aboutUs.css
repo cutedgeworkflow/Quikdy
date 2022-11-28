@@ -46,7 +46,7 @@ background: linear-gradient(180deg, rgba(199,238,252,1) 0%, rgba(255,255,255,1) 
 .banner-shape img{
 
   width: 100%;
-  height: 70px;
+  /* height: 70px; */
 }
 .banner-shape{
 
@@ -61,6 +61,35 @@ background: linear-gradient(180deg, rgba(199,238,252,1) 0%, rgba(255,255,255,1) 
 .home .banner .bannerContent p {
   font-size: 2.5rem;
 }
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 1px 1px 1px rgb(0 0 0 / 4%);
+}
+
+
+.whatWeDo {
+  padding: 8rem 0rem;
+  border-bottom: 1px solid #eee;
+}
+.whatWeDo h2 {
+
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  
+    font-size: 4rem;
+}
+.whatWeDo h3 {
+  font-size: 2.1rem;
+  margin-top: 1rem;
+  line-height: 2.9rem;
+  font-weight: 600;
+  color: #545557;
+}
+
+
 
 .expendYourBusiness {
   margin-top: 12rem;
@@ -165,61 +194,170 @@ background: linear-gradient(180deg, rgba(199,238,252,1) 0%, rgba(255,255,255,1) 
   font-weight: bold;
 }
 
-.futureSec .bgImg {
-  height: 40rem;
+/* our misson css start */
+
+.mission {
+  /* margin-bottom: 8rem; */
+  background-color:#1f7dbc ;
+  /* background-image: url(../images/mission\ bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.mission .contentWrapper {
   width: 100%;
-  position: relative;
+  min-height: 100vh;
   display: flex;
   align-items: center;
 }
-.futureSec .bgImg .content h2 {
+
+.mission .contentWrapper .content {
+  position: relative;
+}
+
+.mission .contentWrapper .content .fa-quote-left {
+  position: absolute;
+  left: -3rem;
+  top: -5rem;
+  font-size: 8rem;
+  color: #fff;
+}
+
+.mission .contentWrapper .content .fa-quote-right {
+  position: absolute;
+  right: -3rem;
+  bottom: -5rem;
+  font-size: 8rem;
+  color: #fff;
+}
+
+.mission .contentWrapper .content::after {
+  position: absolute;
+  left: 7rem;
+  top: -2rem;
+  width: 18%;
+  height: 0.8rem;
+  background-color: #fff;
+  content: "";
+}
+
+.mission .contentWrapper .content::before {
+  position: absolute;
+  right: 7rem;
+  bottom: -2rem;
+  width: 18%;
+  height: 0.8rem;
+  background-color: #fff;
+  content: "";
+}
+
+.mission .contentWrapper .content h2 {
+  margin: 3rem 0rem;
+  padding: 0rem 2rem;
+  border-left: 0.8rem solid #fff;
+  border-right: 0.8rem solid #fff;
   font-size: 3rem;
+  font-weight: bold;
   color: #fff;
-  font-weight: 600;
+  text-align: center;
+  line-height: 4.5rem;
 }
-.futureSec .bgImg .content h2 span {
-  color: #fff;
-}
-.futureSec .bgImg .content p {
-  font-size: 1.6rem;
-  margin-top: 1rem;
-  margin-bottom: 1.5rem;
-  color: #fff;
-}
-.futureSec .bgImg .content button {
-  
-  padding: 0.5rem 2rem;
-  border-radius: 3rem;
- 
-  background-color: #ee341d;
-  color: #fff;
-  border: 0;
-}
-
-.futureSec{
-
-  background-color: #25AADD;
-    }
-    .futureSec img{
-      width: 100%;
-    }
 
 @media screen and (max-width: 767px) {
-  .futureSec-img-box , .futureSec-c-box{
 
-    text-align: center;
+  .mission .contentWrapper .content::before {
+    position: absolute;
+    right: 7rem;
+    bottom: -1rem;
+    width: 25%;
   }
+
+  .mission .contentWrapper .content::after {
+    position: absolute;
+    left: 7rem;
+    top: -1rem;
+    width: 25%;
+  }
+
+  .mission .contentWrapper .content i {
+    font-size: 5rem !important;
+  }
+
+  .mission .contentWrapper .content .fa-quote-left {
+    position: absolute;
+    left: -2rem;
+    top: -3rem;
+  }
+
+  .mission .contentWrapper .content .fa-quote-right {
+    position: absolute;
+    right: -2rem;
+    bottom: -3rem;
+  }
+
+  .mission .contentWrapper .content h2 {
+    font-size: 2.5rem;
+  }
+
 }
+
+@media screen and (max-width: 576px) {
+
+  .mission .contentWrapper .content::before {
+    position: absolute;
+    right: 7rem;
+    bottom: -1rem;
+    width: 25%;
+  }
+
+  .mission .contentWrapper .content::after {
+    position: absolute;
+    left: 7rem;
+    top: -1rem;
+    width: 25%;
+  }
+
+  .mission .contentWrapper .content i {
+    font-size: 5rem !important;
+  }
+
+  .mission .contentWrapper .content .fa-quote-left {
+    position: absolute;
+    left: 1rem;
+    top: -3rem;
+  }
+
+  .mission .contentWrapper .content .fa-quote-right {
+    position: absolute;
+    right: 1rem;
+    bottom: -3rem;
+  }
+
+  .mission .contentWrapper .content h2 {
+    font-size: 2rem;
+    margin: 2rem 0rem;
+    padding: 0rem 1rem;
+  }
+
+}
+
+/* our misson css end */
+
+
+
 
 
 .ourPlatform {
-  margin-bottom: 5rem;
-  margin-top: 5rem;
+  margin-bottom: 0rem;
+  margin-top: 0rem;
+  padding: 6rem 0rem;
+  background-color: aliceblue;
+  
 }
 .ourPlatform h2 {
   text-align: center;
   font-weight: bold;
-  font-size: 5rem;
+  font-size: 4rem;
   position: relative;
   padding-bottom: 0.2rem;
   display: inline-block;
@@ -244,7 +382,7 @@ background: linear-gradient(180deg, rgba(199,238,252,1) 0%, rgba(255,255,255,1) 
 }
 .ourPlatform p {
   font-size: 2rem;
-  text-align: center;
+  text-align: left;
   margin: 3rem 0rem;
 }
 .ourPlatform ul {
