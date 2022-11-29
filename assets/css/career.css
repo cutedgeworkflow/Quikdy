@@ -251,7 +251,7 @@ h2 {
   color: #ee3821;
 }
 .whyChooseUs .rightSec .card2 {
-  background-color: #3db1dd;
+  background-color: #24aadd;
   margin-top: 20rem;
 }
 .whyChooseUs .rightSec .card2 i {
@@ -262,7 +262,7 @@ h2 {
   background-color: #ee3821;
 }
 .whyChooseUs .rightSec .card3 i {
-  color: #3db1dd;
+  color: #24aadd;
 }
 
 .testimonials {
@@ -295,8 +295,8 @@ h2 {
   padding: 3rem;
 }
 .testimonials .testimonialsSlider .clientImg {
-  width: 6rem;
-  height: 6rem;
+  width: 8rem;
+  height: 8rem;
   border-radius: 50%;
   overflow: hidden;
 }

@@ -73,7 +73,7 @@ h2 {
 }
 
 .portfolio {
-  margin: 0rem 0rem;
+  margin-top: 8rem;
   padding: 8rem 0rem;
   /* background-color: #eee; */
   background-color: #f1f0fe;
@@ -407,7 +407,7 @@ h2 {
 /* success stories */
 
 .sucess-stories {
-
+margin: 8rem 0rem;
   margin-bottom: 15rem;
   padding-left: 10px;
   padding-right: 10px;
@@ -471,8 +471,8 @@ button.slick-arrow {
   z-index: 20;
   position: relative;
   z-index: 20;
-  background-color: #24aadd;
-  background-image: url(../images/wave_top.png);
+  background-color: #062673;
+  /* background-image: url(../images/wave_top.png); */
   background-repeat: no-repeat;
 
 }
@@ -652,7 +652,7 @@ button.slick-arrow {
 /* our misson css start */
 
 .mission {
-  margin-bottom: 8rem;
+  /* margin-top: 8rem; */
   background-image: url(../images/mission\ bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
