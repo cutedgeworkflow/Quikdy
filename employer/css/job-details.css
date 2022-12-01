@@ -4,22 +4,25 @@
 }
 .jobDetails a {
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
-  color: #fff;
+  color: black;
   padding: 10px 24px;
   display: block;
   text-align: center;
-  background-color: #29abda;
+  border-bottom: #ee341d;
+  /* background-color: #29abda; */
   transition: all 0.3s;
-  box-shadow: 0 0 40px rgba(82, 85, 90, 0.1);
+  /* box-shadow: 0 0 40px rgba(82, 85, 90, 0.1); */
   position: relative;
   display: inline-block;
   outline: 0;
-  border-radius: 5px;
+  /* border-radius: 5px; */
 }
 .jobDetails .active {
-  background-color: #ee341d;
+  /* background-color: #ee341d; */
+  color:#ee341d;
+  border-bottom: 2px solid #ee341d ;
 }
 .jobDetails .detailsCard {
   background-color: #eee;
