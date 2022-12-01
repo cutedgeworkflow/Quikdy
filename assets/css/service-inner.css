@@ -13,11 +13,15 @@ body {
 body a {
   text-decoration: none;
 }
+body p{
 
-h1,
+  font-size: 15px;
+}
+
+/* h1,
 h2 {
   color: #2aabda;
-}
+} */
 
 .banner .info .green {
   width: 100vw;
@@ -106,9 +110,34 @@ h2 {
 }
 .commonSec .contentWrapper span {
   font-size: 1.6rem;
-  font-weight: 500;
+  font-weight: bold;
   font-style: italic;
 }
+.quotes{
+
+  color: #24aadd;
+  font-weight: bold;
+}
+.quotes i{
+
+  color:#ee341d ;
+}
+#leadGeneration P {
+  
+color: #fff;
+  
+}
+
+#leadGeneration span {
+  color: #fff;
+    
+  }
+  #leadGeneration i {
+    color: #fff;
+
+    
+      
+    }
 
 .festivalMarketing {
   border: 0;
@@ -123,8 +152,59 @@ h2 {
   padding-top: 10rem;
 }
 
-.leadGeneration, .virtualEvents {
-  background-color: #eee;
+.leadGeneration{
+
+  background-color: #ee341d;
+ 
+
+  background-repeat: no-repeat;
+  color: #fff;
+  background-color: #ed3237;
+  /* padding: 50px 0; */
+  background-image: url(../images/wave_top.png);
+  background-repeat: no-repeat;
+  padding-top: 140px;
+  
+} 
+
+.leadGeneration p span{
+  color: #fff;
+}
+.virtualEvents {
+  background-color: #24aadd;
+  /* background-image: url(../images/service-bg-2.png); */
+  
+}
+
+.virtualEvents ul li {
+  position: relative;
+color: #fff;
+
+    font-weight: 500;
+   
+    margin-left: 2rem;
+}
+.virtualEvents ul li i{
+    position: absolute;
+    left: -2rem;
+    font-size: 2.2rem;
+    color: #ed3237;
+    top: 0.5rem;
+}
+
+#virtualEvents h2 {
+  color: #fff;
+
+}
+#virtualEvents p {
+  color: #fff;
+
+}
+#virtualEvents span {
+  color: #fff;
+  font-weight: 800;
+  padding-left: 20px;
+
 }
 .leadGeneration h2, .virtualEvents h2 {
   text-align: center;

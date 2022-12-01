@@ -1590,12 +1590,7 @@ box-shadow: -1px 9px 18px 3px rgba(107,107,107,0.44); */
 .overview-industry-content {
 margin-top: 0.5rem;
 }
-.overview-industry-content span a{
 
-  text-decoration: none;
-  color: #24aadd;
-  font-weight: bold;
-}
 .overview-industry-content h3 a{
   color: #2aabda;
 }
@@ -1677,7 +1672,7 @@ position: relative;
 }
 .services-banner-cont{
 position: absolute;
-top: 50%;
+top: 65%;
 left: 50%;
 transform: translate(-50%, -50%);
 }

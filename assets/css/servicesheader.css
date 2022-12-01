@@ -106,7 +106,7 @@ header nav ul:not(.social-menu, .navbar-nav) li ul li a {
 }
 .navigation .hoverDropdown {
   display: none;
-  background-color: #24aadd;
+  background-color: #6db22d;
   padding: 3rem;
   width: 25rem;
   position: absolute;
