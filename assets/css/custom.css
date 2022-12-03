@@ -1676,3 +1676,109 @@ top: 65%;
 left: 50%;
 transform: translate(-50%, -50%);
 }
+
+/* Forgot-password CSS Start */
+
+.forgot-pass-section{
+
+                    
+  padding: 80px;
+                     
+                  }
+                  .content-area{
+  
+                     border-radius: 10px;
+                     padding: 20px;
+                      -webkit-box-shadow: 0px -1px 83px 14px rgba(0,0,0,0.08);
+  -moz-box-shadow: 0px -1px 83px 14px rgba(0,0,0,0.08);
+  box-shadow: 0px -1px 83px 14px rgba(0,0,0,0.08);
+                  }
+                  .content-section{
+  
+                      padding: 50px;
+                  }
+                  .content-section h2{
+  
+                      color: #24aadd;
+                      font-size: 55px;
+                      font-weight: bold;
+                  }
+                  .content-section p{
+                      font-weight: 500;
+                      font-size: 20px;
+                      color: black;
+                  }
+                  .image-section{
+                      padding: 50px;
+                  }
+                  .image-section img{
+  width: 100%;
+  
+                  }
+  
+  #forgot-form form{
+  
+      display: flex;
+      flex-direction: column;
+      
+      
+  
+  }
+  
+  #forgot-form form input{
+  
+      border: 0;
+      width: 70%;
+      padding-bottom: 5px;
+      border-bottom: 1px solid gray;
+      margin-bottom: 10px;
+      outline: none;
+  }
+  
+  #forgot-form form input:hover{
+      border-bottom: 1px solid #24aadd;
+  }
+  #forgot-form form button {
+  
+      background-color: #24aadd;
+      width: 80px;
+      height: 30px;
+      border: 0;
+      font-weight: 800;
+      border-radius: 20px;
+     color: #fff;
+  }
+  #forgot-form form span{
+  
+     color: #24aadd;
+     font-weight: bold;
+     font-size: 20px;
+     /* padding: 5px; */
+  
+  }
+  @media screen and (max-width:750px){
+  
+      .forgot-pass-section{
+  
+                      
+  padding: 0;
+                     
+                  }
+  
+  
+                  .forgot-pass-section h2{
+                      font-size: 45px;
+                  }
+                  .forgot-pass-section p{
+                      font-size: 16px;
+                  }
+      .image-section{
+          padding:10px 25px;
+          text-align: center;
+      }
+      .content-section{
+          padding: 25px;
+      }
+  }
+
+/* Forgot-password CSS end */

@@ -26,17 +26,17 @@
     <!-- Bootstrap Css -->
     <!-- Bootstrap Css -->
     <link
-      href="css/bootstrap.min.css"
+      href="assets/css/bootstrap.min.css"
       id="bootstrap-style"
       rel="stylesheet"
       type="text/css"
     />
 
     <!-- Icons Css -->
-    <link href="css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
     <!-- App Css-->
     <link
-      href="css/app.min.css"
+      href="assets/css/app.min.css"
       id="app-style"
       rel="stylesheet"
       type="text/css"
@@ -48,27 +48,34 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/all.min.css" />
 
-    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
 
     <!--Admin Assets-->
-    <link rel="stylesheet" href="css/line-awesome.css" />
+    <link rel="stylesheet" href="assets/css/line-awesome.css" />
 
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="assets/css/job-detail-style.css" />
 
-    <link rel="stylesheet" href="css/job-details.css" />
+    <link rel="stylesheet" href="assets/css/job-details.css" />
 
     <style>
-      @media (min-width: 768px) {
-        .profile-title-section {
-          margin-top: 120px !important;
-          padding-left: 12px;
-          padding-right: 12px;
-        }
-      }
+
+.page-title-box {
+    background-color: #2aabda;
+    padding-top: 140px;
+    padding-bottom: 80px;
+}
+  
       .suggestedCandidate,.detailJob,.editJOb{
         display: none;
+      }
+      .page-title-box h2{
+
+        color: #fff;
+      }
+      .page-title-box ul li{
+        color: #fff;
       }
     </style>
   </head>
@@ -98,8 +105,8 @@
         <nav class="navbar navbar-expand-lg fixed-top sticky py-2" id="navbar">
           <div class="container-fluid custom-container">
             <a class="navbar-brand text-dark fw-bold me-auto" href="index.html">
-              <img src="landingImages/logo.png" alt="" class="logo-dark" />
-              <img src="landingImages/logo.png" alt="" class="logo-light" />
+              <img src="assets/landingImages/logo.png" alt="" class="logo-dark" />
+              <img src="assets/landingImages/logo.png" alt="" class="logo-light" />
             </a>
             <div class="order-2 order-lg-0 ms-4">
               <button
@@ -336,14 +343,14 @@
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
-                    <img src="images/Artwork 9.png" alt="John-doe" />
+                    <img src="assets/images/Artwork 9.png" alt="John-doe" />
                   </button>
                   <div class="dropdown-menu" aria-labelledby="userDropdownMenu">
                     <div class="mess-dropdown">
                       <div class="mess__title d-flex align-items-center">
                         <div class="image dot-status online-status">
                           <a href="#">
-                            <img src="images/Artwork 9.png" alt="John Doe" />
+                            <img src="assets/images/Artwork 9.png" alt="John Doe" />
                           </a>
                         </div>
                         <div class="content">
@@ -422,39 +429,62 @@
         <!-- ================================
             START DASHBOARD AREA
         ================================= -->
+
+
+        
         <section class="dashboard-area">
           <!--add pt-0 below-->
           <div class="dashboard-content-wrap no-sidebar pe-0 ps-0">
             <!-- <div class="dashboard-banner bg-white" style="max-height: 130px;">
                     <img src="images/low_poly_banner_design_1711.jpg" class="img-fluid" alt=""> -->
             <!-- <div class="container center-absolute"> -->
-            <div class="container">
-              <div class="row">
-                <div class="profile-title-section col-lg-12">
-                  <div
-                    class="breadcrumb-content d-flex flex-wrap justify-content-between align-items-center"
-                  >
-                    <div class="section-heading">
-                      <h2 class="sec__title line-height-45 text-dark">
-                        Job Details
-                      </h2>
-                    </div>
-                    <!-- end section-heading -->
-                    <ul class="list-items d-flex align-items-center">
-                      <li class="active__list-item">
-                        <a href="index.html">Home</a>
-                      </li>
-                      <li class="active__list-item">Employer</li>
-                      <li>Job Details</li>
-                    </ul>
-                  </div>
-                  <!-- end breadcrumb-content -->
-                </div>
-                <!-- end col-lg-12 -->
-              </div>
-            </div>
+          
             <!-- </div> -->
             <!-- end container-fluid -->
+
+            <style>
+
+.dashboard-content-wrap .breadcrumb-content .section-heading .sec__title {
+    color: #fff;
+    font-size: 36px;
+}
+
+.dashboard-content-wrap .breadcrumb-content .list-items li a {
+    color: #fff;
+}
+.dashboard-content-wrap .breadcrumb-content .list-items li {
+    color: #fff;
+}
+          </style>
+
+                    <section class="page-title-box">
+                        <div class="container">
+                            <div class="row ">
+                                <div class="col-md-12">
+                                    <div class="breadcrumb-content d-flex flex-wrap justify-content-between align-items-center">
+                                        <div class="section-heading">
+                                            <h2 class="sec__title"> Job Detail </h2>
+                                        </div><!-- end section-heading -->
+                                        <ul class="list-items d-flex align-items-center">
+                                            <li class="active__list-item"><a href="index.html">Home</a></li>
+                                            <li class="active__list-item"><a href="index.html"> Job Detail </a></li>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!--end col-->
+                            </div>
+                            <!--end row-->
+                        </div>
+                        <!--end container-->
+                    </section>
+                    <div class="position-relative" style="z-index: 1">
+                        <div class="shape">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250">
+                                <path fill="#FFFFFF" fill-opacity="1" d="M0,192L120,202.7C240,213,480,235,720,234.7C960,235,1200,213,1320,202.7L1440,192L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
+                            </svg>
+                        </div>
+                    </div>
 
             <div class="jobDetails mt-4">
               <div class="container">
@@ -501,7 +531,7 @@
                                       href="candidate-details.html"
                                       class="d-block"
                                     >
-                                      <img src="images/small-team1.jpg" alt="" />
+                                      <img src="assets/images/small-team1.jpg" alt="" />
                                     </a>
                                   </div>
                                   <div class="manage-candidate-content">
@@ -596,7 +626,7 @@
                                       href="candidate-details.html"
                                       class="d-block"
                                     >
-                                      <img src="images/small-team1.jpg" alt="" />
+                                      <img src="assets/images/small-team1.jpg" alt="" />
                                     </a>
                                   </div>
                                   <div class="manage-candidate-content">
@@ -690,7 +720,7 @@
                                       href="candidate-details.html"
                                       class="d-block"
                                     >
-                                      <img src="images/small-team1.jpg" alt="" />
+                                    <img src="assets/images/small-team1.jpg" alt="" />
                                     </a>
                                   </div>
                                   <div class="manage-candidate-content">
@@ -808,7 +838,7 @@
                                         href="candidate-details.html"
                                         class="d-block"
                                       >
-                                        <img src="images/small-team1.jpg" alt="" />
+                                      <img src="assets/images/small-team1.jpg" alt="" />
                                       </a>
                                     </div>
                                     <div class="manage-candidate-content">
@@ -903,7 +933,7 @@
                                         href="candidate-details.html"
                                         class="d-block"
                                       >
-                                        <img src="images/small-team1.jpg" alt="" />
+                                      <img src="assets/images/small-team1.jpg" alt="" />
                                       </a>
                                     </div>
                                     <div class="manage-candidate-content">
@@ -997,7 +1027,7 @@
                                         href="candidate-details.html"
                                         class="d-block"
                                       >
-                                        <img src="images/small-team1.jpg" alt="" />
+                                      <img src="assets/images/small-team1.jpg" alt="" />
                                       </a>
                                     </div>
                                     <div class="manage-candidate-content">
@@ -1115,7 +1145,7 @@
                                         href="candidate-details.html"
                                         class="d-block"
                                       >
-                                        <img src="images/small-team1.jpg" alt="" />
+                                      <img src="assets/images/small-team1.jpg" alt="" />
                                       </a>
                                     </div>
                                     <div class="manage-candidate-content">
@@ -1210,7 +1240,7 @@
                                         href="candidate-details.html"
                                         class="d-block"
                                       >
-                                        <img src="images/small-team1.jpg" alt="" />
+                                      <img src="assets/images/small-team1.jpg" alt="" />
                                       </a>
                                     </div>
                                     <div class="manage-candidate-content">
@@ -1304,7 +1334,7 @@
                                         href="candidate-details.html"
                                         class="d-block"
                                       >
-                                        <img src="images/small-team1.jpg" alt="" />
+                                      <img src="assets/images/small-team1.jpg" alt="" />
                                       </a>
                                     </div>
                                     <div class="manage-candidate-content">
@@ -1422,7 +1452,7 @@
                                         href="candidate-details.html"
                                         class="d-block"
                                       >
-                                        <img src="images/small-team1.jpg" alt="" />
+                                      <img src="assets/images/small-team1.jpg" alt="" />
                                       </a>
                                     </div>
                                     <div class="manage-candidate-content">
@@ -1517,7 +1547,7 @@
                                         href="candidate-details.html"
                                         class="d-block"
                                       >
-                                        <img src="images/small-team1.jpg" alt="" />
+                                      <img src="assets/images/small-team1.jpg" alt="" />
                                       </a>
                                     </div>
                                     <div class="manage-candidate-content">
@@ -1611,7 +1641,7 @@
                                         href="candidate-details.html"
                                         class="d-block"
                                       >
-                                        <img src="images/small-team1.jpg" alt="" />
+                                      <img src="assets/images/small-team1.jpg" alt="" />
                                       </a>
                                     </div>
                                     <div class="manage-candidate-content">
@@ -1813,8 +1843,9 @@
     <!-- Template JS Files -->
     <!-- JAVASCRIPT -->
     <!-- JAVASCRIPT -->
-    <script src="js/jquery-3.6.1.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery-3.6.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+   
     <script src="https://unicons.iconscout.com/release/v4.0.0/script/monochrome/bundle.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
@@ -1824,14 +1855,14 @@
 
     <!-- Switcher Js -->
 
-    <script src="js/app.js"></script>
+    <script src="assets/js/app.js"></script>
 
-    <script src="js/custom.js"></script>
+    <script src="assets/js/custom.js"></script>
 
     <!-- Admin Js -->
-    <script src="js/site/site.js"></script>
+    <script src="assets/js/site/site.js"></script>
 
-    <script src="js/main.js"></script>
+    <script src="assets/js/main.js"></script>
 
     <script>
       $(function(){
@@ -1889,7 +1920,7 @@
           $('.detailJob ').hide();
           $('.editJOb ').show();
         })
-9
+
 
 
 
