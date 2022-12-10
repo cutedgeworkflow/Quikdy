@@ -358,3 +358,167 @@ color: #fff;
     font-size: 1.4rem;
   }
 }/*# sourceMappingURL=service-inner.css.map */
+
+
+/* customer research service */
+
+.customer-support {
+
+  margin:8rem 0rem;
+  
+}
+.customer-support h2{
+
+  font-size: 3.5rem;
+/* text-transform: capitalize; */
+margin-bottom: 2rem;
+text-align: center;
+}
+
+.customer-support .customer-card {
+  padding: 25px 15px;
+
+
+
+}
+
+.icon-box {
+
+  float: center;
+
+}
+
+.customer-card img {
+  width: 65%;
+
+
+
+}
+
+.customer-card .content-box {
+  padding-top: 20px;
+  color: #fff;
+}
+
+.content-box h2 {
+  font-size: 25px;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.b-1 {
+  background-color: #70bc4f !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.b-2 {
+  background-color: #24aadd !important;
+
+}
+
+.b-3 {
+  background-color: #f5b120 !important;
+
+}
+
+.b-4 {
+  background-color: #CDDC39 !important;
+
+}
+
+/* sales start */
+
+
+@media screen and (min-width: 750px){
+  
+.banner-text{
+
+  display: none;
+}
+
+.sales-section {
+
+  position: relative;
+  bottom: 120px;
+
+}
+
+.sales-section h2 {
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  color: #fff;
+
+}
+
+.sales-section p {
+  font-size: 15px;
+  text-transform: capitalize;
+
+
+}
+
+.sales-middle-box {
+
+  padding: 24px;
+  background: #fff;
+
+
+  border-radius: 4px;
+  box-shadow: 0 8px 26px 0 rgb(0 0 0 / 8%);
+  background-color: #fff;
+  margin: 3rem 0rem;
+
+}
+
+.sales-box {
+
+  font-weight: 600;
+}
+
+.sales-box span {
+
+  font-size: 20px;
+  font-weight: 900;
+  color: #24aadd;
+}
+
+.sales-box-2 {
+
+  border-left: 1px solid gainsboro;
+  ;
+  border-right: 1px solid gainsboro;
+}
+
+#virtualEvents{
+
+  background-color: #ee341d;
+  margin-top: 4rem;
+
+}
+#virtualEvents i{
+color: #fff;
+
+}
+
+.retailAndStore {
+padding-top: 0;
+}
+
+.commonSec {
+padding-bottom: 4rem ;
+border-bottom: 0;
+}
+
+}
+
+@media screen and(max-width:750px) {
+  .sales-section{
+    display: none;
+  }
+  .banner-text{
+
+    display: block;
+  }
+}

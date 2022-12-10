@@ -49,8 +49,8 @@ h2 {
 .banner-shape{
 
   position: relative;
-  width: 100%;
-  border: 1px solid;
+  
+  
 }
 .home .banner .bannerContent h1 {
   font-size: 5rem;
@@ -350,7 +350,7 @@ h2 {
   margin-bottom: 0rem;
   margin-top: 0rem;
   padding: 6rem 0rem;
-  background-color: aliceblue;
+  
   
 }
 .ourPlatform h2 {
