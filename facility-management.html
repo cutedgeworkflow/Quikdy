@@ -386,7 +386,7 @@
         }
 
         .services-card {
-          border: 1PX solid gainsboro;
+          border: 1px solid gainsboro;
           border-radius: 4px;
           padding: 3px;
           -webkit-box-shadow: -1px 9px 18px 3px rgba(107, 107, 107, 0.44);
@@ -406,6 +406,24 @@
           font-weight: 800;
 
         }
+        .see-more-btn{
+
+          /* background-color: black; */
+          color: black;
+          text-decoration: none;
+          font-weight: 700;
+          padding-left: 10px;
+          padding-right: 10px;
+          border-bottom: 2px solid black;
+          border-top: 2px solid black;
+          border-radius: 5px;
+        }
+        .see-more-btn:hover{
+
+          border: 2px solid black;
+
+          transition: 10s;
+        }
 
         /* 2nd service */
       </style>
@@ -424,7 +442,7 @@
 
           </div>
           <div class="row mt-5">
-            <div class="col-md-3 mt-5 col-sm-4 mt-md-0 ">
+            <div class="col-md-3 mt-5 col-4 mt-md-0 ">
               <div class=" services-card">
                 <div class="image-box">
                   <img
@@ -442,7 +460,7 @@
                   Book Now
                 </button></div>
             </div>
-            <div class="col-md-3 mt-5 col-sm-4 mt-md-0 ">
+            <div class="col-md-3 mt-5 col-4 mt-md-0 ">
               <div class=" services-card">
                 <div class="image-box">
                   <img
@@ -459,7 +477,7 @@
                 </button></div>
             </div>
 
-            <div class="col-md-3 mt-5 col-sm-4 mt-md-0 ">
+            <div class="col-md-3 mt-5 col-4 mt-md-0 ">
               <div class="whyChooseCard services-card">
                 <div class="image-box">
                   <img
@@ -475,7 +493,7 @@
                   Book Now
                 </button></div>
             </div>
-            <div class="col-md-3 col-sm-4 mt-5 mt-lg-0">
+            <div class="col-md-3 col-5 mt-4 mt-lg-0">
               <div class="whyChooseCard services-card">
                 <div class="image-box">
                   <img
@@ -492,6 +510,14 @@
                 </button></div>
             </div>
           </div>
+
+
+          <div class="row justify-content-center">
+            <div class="col-12 mt-3 text-center">
+             
+              <a class="see-more-btn" href="">See More</a>
+            </div>
+
         </div>
       </section>
       <!-- why choose us section end -->
@@ -499,283 +525,16 @@
 
 
 
-      <style>
-        .services-section-2{
-          padding-left: 20PX;
-          padding-right: 20PX;
-        }
-        .services-section-2 h2 {
-
-          font-weight: 700;
-          font-size: 32px;
-          line-height: 48px;
-          margin: 0;
-
-        }
-
-        .services-section-2 .services-tagline2 {
+      
 
 
-          color: #757575;
-          margin: 4px 0 0;
-          font-size: 18px;
-          text-align: center;
-          font-weight: 600;
-          line-height: 28px;
-        }
-
-        .services-card2 img {
-
-          width: 100%;
-          margin-left: 0;
-
-        }
-
-        .services-section-2 .image-box {
-
-
-
-
-          height: 259px;
-
-          overflow: hidden;
-          cursor: pointer;
-          margin-bottom: 5rem;
-
-          transform-origin: center;
-          z-index: 1;
-        }
-
-        .services-card2 p {
-
-          font-weight: 600;
-          padding: 10px;
-         
-        }
-
-        .services-card2 {
-          border: 1PX solid gainsboro;
-          border-radius: 10px;
-        
-          -webkit-box-shadow: -1px 9px 18px 3px rgba(107, 107, 107, 0.44);
-          -moz-box-shadow: -1px 9px 18px 3px rgba(107, 107, 107, 0.44);
-          box-shadow: -1px 9px 18px 3px rgba(107, 107, 107, 0.44);
-        }
-
-       .services-section-2 button {
-
-          position: relative;
-          
-          
-          bottom: 70px;
-          left: -16px;
-          background-color: #fff;
-          color: black;
-          font-weight: 800;
-          border-radius: 10px;
-          padding-left: 10px;
-          padding-right: 10px;
-          -webkit-box-shadow: -1px 9px 18px 3px rgba(107, 107, 107, 0.44);
-          -moz-box-shadow: -1px 9px 18px 3px rgba(107, 107, 107, 0.44);
-          box-shadow: -1px 9px 18px 3px rgba(107, 107, 107, 0.44);
-     
-        }
-
-        .booking-button2 {
-          background-color: #fff;
-          color: black;
-          font-weight: 800;
-          border-radius: 10px;
-
-        }
-        button span{
-          background-color: black;
-          color: #FFF;
-          border-radius: 100%;
-          padding-left: 5PX;
-          padding-right: 5PX;
-          font-size: 15PX;
-        }
-        .services-card2 i{
-
-          background-color: black;
-          border-radius: 50%;
-          padding: 5px;
-          color: #fff;
-        }
-        .showPopup{
-
-          border: 0;
-        }
-      </style>
-
-      <!-- services section  start -->
-      <section class="services-section-2">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-12">
-              <h2 class="text-center">
-                Cleaning and Pest Control?
-              </h2>
-              <p class="services-tagline2"><i class="mdi account-service"></i>We Provide Best Ever House Cleaning
-                Services</p>
-            </div>
-
-          </div>
-          <div class="row mt-5">
-            <div class="col-md-3 mt-5 col-sm-4 mt-md-0 ">
-              <div class=" services-card2">
-
-
-                <p class=""> <i class="fa-brands fa-discourse"></i>
-                  House Cleaning Services
-
-                </p>
-                <div class="image-box">
-                  <img src="assets/images/cs.jpg" alt="" />
-                </div>
-
-              </div>
-               <button type="submit" class=" .booking-button2 showPopup">
-                 <span>B</span> Book Now
-                </button>
-            </div>
-            <div class="col-md-3 mt-5 col-sm-4 mt-md-0 ">
-              <div class=" services-card2">
-
-
-                <p class=""> <i class="fa-brands fa-discourse"></i>
-                  House Cleaning Services
-
-                </p>
-                <div class="image-box">
-                  <img src="assets/images/cs.jpg" alt="" />
-                </div>
-
-              </div>
-               <button type="submit" class=" .booking-button2 showPopup">
-                 <span>B</span> Book Now
-                </button>
-            </div>
-
-            <div class="col-md-3 mt-5 col-sm-4 mt-md-0 ">
-              <div class=" services-card2">
-
-
-                <p class=""> <i class="fa-brands fa-discourse"></i>
-                  House Cleaning Services
-
-                </p>
-                <div class="image-box">
-                  <img src="assets/images/cs.jpg" alt="" />
-                </div>
-
-              </div>
-               <button type="submit" class=" .booking-button2 showPopup">
-                 <span>B</span> Book Now
-                </button>
-            </div>
-            <div class="col-md-3 mt-5 col-sm-4 mt-md-0 ">
-              <div class=" services-card2">
-
-
-                <p class=""> <i class="fa-brands fa-discourse"></i>
-                  House Cleaning Services
-
-                </p>
-                <div class="image-box">
-                  <img src="assets/images/cs.jpg" alt="" />
-                </div>
-
-              </div>
-               <button type="submit" class=" .booking-button2 showPopup">
-                 Book Now
-                </button>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- why choose us section end -->
-
-      <!-- portfolio section -->
-      <section class="portfolio">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-12 mb-5 pb-5">
-              <h2 class="text-center">Our portfolio</h2>
-            </div>
-          </div>
-          <div class="portfolioSlider owl-carousel owl-theme">
-            <div class="item">
-              <div class="imageWrapper">
-                <img src="https://www.teleperformance.com/media/bsckd113/gmt_cards-website_march2022_welcome01v2.jpg"
-                  alt="" />
-              </div>
-              <div class="title">
-                <i class="fa-solid fa-handshake-simple"></i>
-                <h3>We inspire and motivate</h3>
-                <p>
-                  We inspire and motivate people to achieve more and make
-                  their mark on our business.
-                </p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="imageWrapper">
-                <img src="https://www.teleperformance.com/media/ghpo2cqy/gmt_cards-website_march2022_welcome02v2.jpg"
-                  alt="" />
-              </div>
-              <div class="title">
-                <i class="fa-solid fa-graduation-cap"></i>
-
-                <h3>We inspire and motivate</h3>
-                <p>
-                  We inspire and motivate people to achieve more and make
-                  their mark on our business.
-                </p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="imageWrapper">
-                <img src="https://www.teleperformance.com/media/demlh1vs/gmt_cards-website_march2022_welcome03v2.jpg"
-                  alt="" />
-              </div>
-              <div class="title">
-                <i class="fa-solid fa-people-arrows"></i>
-                <h3>We inspire and motivate</h3>
-                <p>
-                  We inspire and motivate people to achieve more and make
-                  their mark on our business.
-                </p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="imageWrapper">
-                <img src="https://www.teleperformance.com/media/bsckd113/gmt_cards-website_march2022_welcome01v2.jpg"
-                  alt="" />
-              </div>
-              <div class="title">
-                <i class="fa-solid fa-handshake-simple"></i>
-                <h3>We inspire and motivate</h3>
-                <p>
-                  We inspire and motivate people to achieve more and make
-                  their mark on our business.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-      <!-- sucess Stories -->
-
+    
 
       <section class="sucess-stories text-center">
         <div class="conatiner">
           <div class="row justify-content-center">
             <div class="col-12 mb-3 pb-3">
-              <h2 class="text-center">Sucess Stories</h2>
+              <h2 class="text-center">Our Happy Customers Stories</h2>
             </div>
           </div>
 
@@ -822,66 +581,7 @@
 
 
 
-      <section class="mission">
-        <div class="container">
-          <div class="contentWrapper">
-            <div class="content">
-              <i class="fa-solid fa-quote-left"></i>
-              <i class="fa-solid fa-quote-right"></i>
-              <h2>
-                Our mission is to elevate the quality life for the urban consumer
-                with unparalleled Conveniences. Conveniences is what makes us
-                tick. its what makes us get out of bed and say, "Let's do this.”
-              </h2>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="contact-one">
-        <div class="container wow fadeInUp" data-wow-duration="1500ms">
-          <div class="inner-container">
-            <img src="assets/images/contact-form-shape-1-1.png" class="contact-one__shape-1" alt="" />
-            <img src="assets/images/mocups/contact-1-moc-1.png" class="contact-one__shape-2" alt="" />
-            <img src="assets/images/mocups/contact-1-moc-2.png" class="contact-one__shape-3" alt="" />
-            <div class="block-title text-center">
-              <p><span>Contact Us</span></p>
-              <h3>Lorem ipsum dolor sit amet.</h3>
-            </div>
-            <!-- /.block-title text-center -->
-            <form class="contact-one__form">
-              <div class="row">
-                <div class="col-md-6">
-                  <input type="text" placeholder="Your Name*" />
-                </div>
-                <!-- /.col-md-6 -->
-                <div class="col-md-6">
-                  <input type="text" placeholder="Email*" />
-                </div>
-                <!-- /.col-md-6 -->
-                <div class="col-md-6">
-                  <input type="text" placeholder="Mobile*" />
-                </div>
-                <!-- /.col-md-6 -->
-                <div class="col-md-6">
-                  <input type="text" placeholder="Task" />
-                </div>
-                <!-- /.col-md-6 -->
-                <div class="col-md-12 text-center">
-                  <button type="submit" class="thm-btn contact-one__btn showPopup">
-                    Send Now
-                  </button>
-                </div>
-                <!-- /.col-md-12 -->
-              </div>
-              <!-- /.row -->
-            </form>
-            <!-- /.contact-one__form -->
-          </div>
-          <!-- /.inner-container -->
-        </div>
-        <!-- /.container -->
-      </section>
-      <!-- portfolio section end -->
+
 
 
 
