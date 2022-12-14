@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Quikdy-Job Portal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content=" " />
+    <meta name="keywords" content="" />
+    <meta content="Themesdesign" name="author" />
+
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+
+    <!-- Choise Css -->
+    <link rel="stylesheet" href="assets/libs/choices.js/public/assets/styles/choices.min.css" />
+
+    <!-- Swiper Css -->
+    <link rel="stylesheet" href="assets/libs/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <!-- Bootstrap Css -->
+    <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <!-- Icons Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- App Css-->
+    <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+    <!--Custom Css-->
+
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <link rel="stylesheet" href="assets/css/servicesheader.css" />
+    <link rel="stylesheet" href="assets/css/service-inner.css" />
+
+</head>
+
+<body>
+    <!--start page Loader -->
+    <!-- <div id="preloader">
+            <div id="status">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+            </div>
+        </div> -->
+    <!--end page Loader -->
+
+    <!-- Begin page -->
+    <div>
+        <header>
+            <!--Navbar Start-->
+            <nav class="navbar navbar-expand-lg services sticky py-2" id="navbar" style="background-color: transparent">
+                <div class="container-fluid custom-container">
+                    <a class="navbar-brand text-dark fw-bold me-auto" href="index.html">
+                        <img src="assets/landingImages/logo.png" alt="" class="logo-dark" />
+                        <img src="assets/landingImages/logo.png" alt="" class="logo-light" />
+                    </a>
+                    <div>
+                        <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarCollapse" aria-controls="navbarCollapse"
+                            aria-label="Toggle navigation">
+                            <i class="mdi mdi-menu"></i>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="nav-menu mx-auto">
+                            <li><a href="#" class="active">Home</a></li>
+                            <li class="nav-item dropdown dropdown-hover">
+                                <a class="nav-link" href="javascript:void(0)" id="jobsdropdown" role="button"
+                                    data-bs-toggle="dropdown">
+                                    For You
+                                    <div class="arrow-down"></div>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-center" aria-labelledby="jobsdropdown">
+                                    <li><a class="dropdown-item" href="#">Login</a></li>
+                                    <li><a class="dropdown-item" href="#">Register</a></li>
+                                    <li><a class="dropdown-item" href="#">Edit Profile</a></li>
+                                    <li><a class="dropdown-item" href="#">Post a Job</a></li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Candidate Listing</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">FAQs</a></li>
+                                    <li><a class="dropdown-item" href="#">Careers</a></li>
+
+                                    <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown dropdown-hover">
+                                <a class="nav-link" href="javascript:void(0)" id="jobsdropdown" role="button"
+                                    data-bs-toggle="dropdown">
+                                    About Quikdy
+                                    <div class="arrow-down"></div>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-center" aria-labelledby="jobsdropdown">
+                                    <li><a class="dropdown-item" href="#">About Us</a></li>
+                                    <li><a class="dropdown-item" href="#">Industry</a></li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Our Perfect Platform</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Blog</a></li>
+                                    <li class="nav-item dropdown dropdown-hover">
+                                        <a class="nav-link" href="javascript:void(0)" id="jobsdropdown" role="button"
+                                            data-bs-toggle="dropdown">
+                                            Policy
+                                            <div class="arrow-down"></div>
+                                        </a>
+                                        <ul class="dropdown-menu dropdown2 dropdown-menu-center"
+                                            aria-labelledby="jobsdropdown">
+                                            <li>
+                                                <a class="dropdown-item" href="#">Privacy Policy</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">Disclaimer Policy</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">Terms & Conditions</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Careers</a></li>
+
+                                    <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown dropdown-hover">
+                                <a class="nav-link" href="javascript:void(0)" id="jobsdropdown" role="button"
+                                    data-bs-toggle="dropdown">
+                                    Services
+                                    <div class="arrow-down"></div>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-center" aria-labelledby="jobsdropdown">
+                                    <li>
+                                        <a class="dropdown-item" href="#">Staffing Services</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">HR Payroll Management(Finance)</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Event Marketing(Branding Solutions)</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Facility Management</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Business Solutions</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Outsourcing Process Management</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Careers</a></li>
+
+                                    <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown dropdown-hover">
+                                <a class="nav-link" href="javascript:void(0)" id="jobsdropdown" role="button"
+                                    data-bs-toggle="dropdown">
+                                    Why Choose Us
+                                    <div class="arrow-down"></div>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-center" aria-labelledby="jobsdropdown">
+                                    <li>
+                                        <a class="dropdown-item" href="#">Why Choose Quikdy</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Our Experience & Expertise</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">location & Leadership</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Quikdy Stories</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Careers</a></li>
+
+                                    <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown dropdown-hover">
+                                <a class="nav-link" href="javascript:void(0)" id="jobsdropdown" role="button"
+                                    data-bs-toggle="dropdown">
+                                    Insights
+                                    <div class="arrow-down"></div>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-center" aria-labelledby="jobsdropdown">
+                                    <li>
+                                        <a class="dropdown-item" href="#">Featured Insights</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Simplify Process </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Business Strategy</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Careers</a></li>
+
+                                    <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!--end navbar-nav-->
+                        <ul class="social-menu d-block d-lg-none list-unstyled mb-0">
+                            <li class="me-2">
+                                <a href="#" class="btn_1"> LOGIN </a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn_2"> REGISTER </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--end navabar-collapse-->
+                    <ul class="social-menu d-none d-lg-flex list-unstyled mb-0">
+                        <li class="me-2">
+                            <a href="#" class="btn_1"> LOGIN </a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn_2"> REGISTER </a>
+                        </li>
+                    </ul>
+                    <!--end header-menu-->
+                </div>
+                <!--end container-->
+            </nav>
+            <!-- Navbar End -->
+        </header>
+        <div class="page-content">
+            <!--Banner Start-->
+            <section class="banner">
+                <div class="Modern-Slider services-slider">
+                    <div class="item">
+                        <div class="img-fill">
+                            <img src="assets/young-couple-buying-car-car-showroom.jpg" alt="" />
+                            <div class="info red">
+                                <div class="container"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- // Item -->
+                </div>
+
+                <div class="services-banner-cont container">
+                    <div class="banner-inner text-white">
+
+                        <h2 class="my-lg-4 my-md-2 my-sm-0">
+                            Web Design and Media
+                        </h2>
+                        <p>
+                            "We specialise in designing effective product sampling campaigns that reach the maximum
+                            number of people
+                            in your target market."</p>
+                        <p> "We present your product at the perfect time and in the right context to maximise your
+                            Return on
+                            investment (ROI).
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <style>
+                .web-services-content{
+
+                    margin-top: 8rem;
+                }
+                .web-services-content h2{
+
+font-size: 3.5rem;
+font-weight: 600;
+margin-bottom: 1.2rem;
+}
+                .qoutes{
+                    
+                    background-color: #24aadd;
+                    color: #fff;
+                    padding: 50px 70px;
+                    text-align: center;
+                    margin: 4rem 0rem;
+                }
+                .qoutes p{
+
+                    font-size: 20px;
+                    font-weight: 600;
+
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*====== cards style ==========*/
+
+.service-box-section{
+
+    margin-top: 8rem;
+}
+.service-box-section h2{
+
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+}
+.services-card h2{
+
+    font-size: 2rem ;
+    color: #495057;
+}
+
+.services-card {
+   border-radius: 6px;
+   box-shadow: 0 20px 40px 0 rgba(173, 181, 189, 0.1);
+   border: solid 1px rgba(129, 147, 174, 0.12);
+   background-color: #fff;
+   padding: 1.5em;
+   text-align: center;
+   position: relative;
+}
+
+
+
+
+
+.card-blue::before {
+   content: "";
+   position: absolute;
+   background-color: #24aadd;
+   top: -8px;
+   left: -1px;
+   width: calc(100% + 2px);
+   height: 8px;
+   border-radius: 6px 6px 0 0;
+   opacity: 0.5;
+}
+.card-red::before {
+   content: "";
+   position: absolute;
+   background-color:#ee341d;
+   top: -8px;
+   left: -1px;
+   width: calc(100% + 2px);
+   height: 8px;
+   border-radius: 6px 6px 0 0;
+   opacity: 0.5;
+}
+
+            </style>
+
+            <section class="web-services-content ">
+                <div class="row justify-content-center">
+                    <div class="col-12 mb-4 text-center">
+                      <h2>Our Design and Developemt Services</h2>
+
+                    </div>
+                  </div>
+
+                <div class="container p-2 ">
+
+                    <p>We have a great team of experts and provide the services for web development, UI & UX, and
+                        application development to stand out in the competitive marketplace, generate brand awareness,
+                        and enhance sales. Websites and Apps have a wide reach and are successful mediums for
+                        advertising and promoting your business and services.</p>
+                    <p>Quikdy offers you search engine optimization services to rank your website online using various
+                        tools and effective strategies. Ranking your website high will make sure users can see it and
+                        visit it for additional details, and it will enable you in boosting organic customers to your
+                        website.
+
+                      </p>
+                      </div>
+                      <div class="qoutes container-fluid">                        <p>
+                        <i class="fa-solid fa-quote-left"></i>   "It is simple to turn consumers into committed buyers when you have a comprehensive knowledge of
+                        your target market. As a response, your overall sales will grow.
+                        <i class="fa-solid fa-quote-right"></i>
+                      </p>
+                    
+                    </div>
+                      <div class="container p-2">
+                    <p>
+                        We provide you with our experts to maintain and optimize your profile on every social media
+                        platform and help you engage more customers with your business and product. Including these
+                        marketing strategies will help your business generate leads, connect with more people, and build
+                        relationships with consumers.
+                    </p>
+                </div>
+
+
+            </section>
+
+
+    
+
+
+            <section class=" service-box-section ">
+                <div class="container">
+        
+                  <div class="row justify-content-center">
+                    <div class="col-12 mb-4 text-center">
+                      <h2>Services We Offers</h2>
+
+                    </div>
+                  </div>
+        
+                  <div class="row justify-content-center">
+        
+                    <div class=" col-lg-3 col-md-6 col-6 mb-4 text-center">
+                      <div class=" card-blue services-card text-center">
+                        <img src="assets/images/cs-icon-1.png">
+                        <div class="cont-box">
+                          <h2>Web Development </h2>
+                          <p>highly trained personnel respond to all customer inquiries to </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=" col-lg-3 col-md-6 col-6 mb-4 text-center">
+                      <div class=" card-red services-card text-center">
+                        <img src="assets/images/cs-icon-2.png">
+                        <div class="cont-box">
+                          <h2>App Development </h2>
+                          <p>highly trained personnel respond to all customer inquiries to </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=" col-lg-3 col-md-6 col-6 mb-4 text-center">
+                      <div class=" card-blue services-card text-center">
+                        <img src="assets/images/cs-icon-1.png">
+                        <div class="cont-box">
+                          <h2>SEO/SMO  </h2>
+                          <p>highly trained personnel respond to all customer inquiries to </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=" col-lg-3 col-md-6 col-6 mb-4 text-center">
+                      <div class=" card-red services-card text-center">
+                        <img src="assets/images/cs-icon-2.png">
+                        <div class="cont-box">
+                          <h2>UI/UX Design</h2>
+                          <p>highly trained personnel respond to all customer inquiries to  </p>
+                        </div>
+                      </div>
+                    </div>
+        
+        
+                  </div>
+        
+              </section>
+
+
+            <!-- START FOOTER -->
+            <section class="section footer-sec">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 my-auto">
+                            <p class="text-black-50 mb-0">
+                                <script>
+                                    document.write(new Date().getFullYear());
+                                </script>
+                                &copy; Copyright.<a href="#" target="_blank" class="text-reset"></a>
+                            </p>
+                        </div>
+                        <div class="col-lg-6 my-auto">
+                            <div class="footer-item mt-4 mt-lg-0">
+                                <ul class="list-unstyled d-flex justify-content-between footer-list mb-0">
+                                    <li><a href="#"> Privacy Policy</a></li>
+                                    <li><a href="#"> Terms & Conditions</a></li>
+                                    <li><a href="#"> Services</a></li>
+                                    <li><a href="#"> Pricing</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 social-link mt-4 mt-lg-0 text-center text-lg-end my-auto">
+                            <ul class="footer-social-menu list-inline mb-0">
+                                <li class="list-inline-item">
+                                    <a href="#"><i class="uil uil-facebook-f"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#"><i class="uil uil-linkedin-alt"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#"><i class="uil uil-google"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#"><i class="uil uil-twitter"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- END FOOTER -->
+
+            <!--start back-to-top-->
+            <button onclick="topFunction()" id="back-to-top">
+                <i class="mdi mdi-arrow-up"></i>
+            </button>
+            <!--end back-to-top-->
+        </div>
+    </div>
+    <!-- END layout-wrapper -->
+
+    <!-- JAVASCRIPT -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unicons.iconscout.com/release/v4.0.0/script/monochrome/bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Job-list Init Js -->
+    <!-- <script src="assets/js/pages/job-list.init.js"></script> -->
+
+    <!-- Switcher Js -->
+
+    <script src="assets/js/app.js"></script>
+
+    <script src="assets/js/custom.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+    <script>
+        $(document).ready(function () {
+            $(".Modern-Slider").slick({
+                autoplay: true,
+                autoplaySpeed: 10000,
+                speed: 600,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                pauseOnHover: false,
+                dots: true,
+                arrows: false,
+                pauseOnDotsHover: true,
+                cssEase: "ease-out",
+                // fade:true,
+                draggable: false,
+                prevArrow: '<button class="PrevArrow"></button>',
+                nextArrow: '<button class="NextArrow"></button>',
+                responsive: [
+                    {
+                        breakpoint: 991,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            dots: true,
+                            prevArrow: null,
+                            nextArrow: null,
+                        },
+                    },
+                ],
+            });
+
+            $(".usp-slider").slick({
+                autoplay: true,
+                autoplaySpeed: 10000,
+                speed: 600,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                pauseOnHover: false,
+                dots: true,
+                arrows: false,
+                pauseOnDotsHover: true,
+                cssEase: "ease-out",
+                // fade:true,
+                draggable: false,
+                prevArrow: '<button class="PrevArrow"></button>',
+                nextArrow: '<button class="NextArrow"></button>',
+                responsive: [
+                    {
+                        breakpoint: 991,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            dots: true,
+                            prevArrow: null,
+                            nextArrow: null,
+                        },
+                    },
+                ],
+            });
+
+            $('.mdi').click(function () {
+                $('header').toggleClass('staticNavBar');
+                $(this).toggleClass('textColor');
+            })
+
+
+            if ($(window).width() > 991) {
+                $(window).scroll(function () {
+                    var scrollTopValue = $(window).scrollTop();
+
+                    if (scrollTopValue > 0) {
+                        $(".navbar ").css({
+                            backgroundColor: "#fff",
+                        });
+
+                        $(" nav ul li a ").css({
+                            color: "#000 ",
+                        });
+                    } else {
+                        $(".navbar ").css({
+                            backgroundColor: "transparent",
+                        });
+                        $("nav ul li a ").css({
+                            color: "#fff ",
+                        });
+                    }
+                });
+            } else {
+                $(window).scroll(function () {
+                    var scrollTopValue = $(window).scrollTop();
+
+                    if (scrollTopValue > 0) {
+                        $(".navbar ").css({
+                            backgroundColor: "#fff",
+                        });
+
+                        $("#navbarCollapse").css({
+                            color: "#000 ",
+                            backgroundColor: "#fff",
+                        });
+                        $(".mdi").css({
+                            color: "#000 ",
+                        });
+                    } else {
+                        $(".navbar ").css({
+                            backgroundColor: "transparent",
+                        });
+                        $("#navbarCollapse").css({
+                            color: "#000 ",
+                            backgroundColor: "#fff",
+                        });
+                        $(".mdi").css({
+                            color: "#fff ",
+                        });
+                    }
+                });
+            }
+
+            $(".portfolioSlider").owlCarousel({
+                loop: true,
+                margin: 100,
+                nav: false,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                autoplaySpeed: 3000,
+                slideTransition: "linear",
+                autoplayHoverPause: true,
+                responsive: {
+                    0: {
+                        items: 2,
+                        margin: 10,
+                    },
+                    600: {
+                        items: 2,
+                        margin: 50,
+                    },
+                    1000: {
+                        items: 3,
+                    },
+                },
+            });
+        });
+    </script>
+</body>
+
+</html>
+<!-- header hover 
+
+  emopyer edit profie multiple selection 
+  contact form  2 popup
+-->
