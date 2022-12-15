@@ -35,25 +35,11 @@
   <link rel="stylesheet" href="assets/css/custom.css" />
   <link rel="stylesheet" href="assets/css/event-marketing.css" />
   <link rel="stylesheet" href="assets/css/servicesheader.css" />
+  <link rel="stylesheet" href="assets/css/services.css" />
 </head>
 
 <body>
-  <!--start page Loader -->
-  <!-- <div id="preloader">
-            <div id="status">
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                  </ul>
-            </div>
-        </div> -->
-  <!--end page Loader -->
-
-  <!-- Begin page -->
+ 
 
   <header>
     <!--Navbar Start-->
@@ -338,168 +324,205 @@
         </div>
       </section>
       <!-- what we do sectin start -->
+    
+
+
       <style>
-        .sucess-stories h2 {
 
-          font-size: 32px;
+  
+
+
+        #container {
+        /* height: 100vh; */
+        width: 80%;
+        margin: 0;
+        padding: 0;
+        
+        /* display: grid ; */
+        place-items: center
+      }
+      
+      #slider-container {
+       
+        width: 85vw;
+        max-width: 1400px;
+        
+       
+        position: relative;
+        overflow: hidden;
+        padding: 20px;
+      }
+      
+      #slider-container .btn {
+        position: absolute;
+        top: calc(50% - 30px);
+        height: 30px;
+        width: 30px;
+        border-left: 8px solid  #2aabda ;
+        border-top: 8px solid  #2aabda;
+      }
+      
+      #slider-container .btn:hover {
+        transform: scale(1.2);
+      }
+      
+      #slider-container .btn.inactive {
+        border-color: #ee341d;
+      }
+      
+      #slider-container .btn:first-of-type {
+        transform: rotate(-45deg);
+        left: 10px
+      }
+      
+      #slider-container .btn:last-of-type {
+        transform: rotate(135deg);
+        right: 10px;
+      }
+      
+      #slider-container #slider {
+        display: flex;
+        width: 1000%;
+        height: 100%; 
+        transition: all .5s;
+      }
+      
+      #slider-container #slider .slide {
+        height: 90%;
+        margin: auto 10px;
+       
+        box-shadow: 2px 2px 4px 2px white, -2px -2px 4px 2px white;
+        display: grid;
+        place-items: center;
+      }
+      
+      #slider-container #slider .slide span {
+        color: white;
+        font-size: 150px;
+      }
+      
+      @media only screen and (min-width: 1100px) {
+      
+        #slider-container #slider .slide {
+          width: calc(2.5% - 20px);
         }
-
-        .services-section h2 {
-
-          font-weight: 700;
-          font-size: 32px;
-          line-height: 48px;
-          margin: 0;
-
+      
+      }
+      
+      @media only screen and (max-width: 1100px) {
+      
+        #slider-container #slider .slide {
+          width: calc(3.3333333% - 20px);
         }
-
-        .services-section .services-tagline {
-
-
-          color: #757575;
-          margin: 4px 0 0;
-          font-size: 18px;
-          text-align: center;
-          font-weight: 600;
-          line-height: 28px;
+      
+      }
+      
+      @media only screen and (max-width: 900px) {
+      
+        #slider-container #slider .slide {
+          width: calc(5% - 20px);
         }
-
-        .services-card img {
-
-          width: 100%;
-
+      
+      }
+      
+      @media only screen and (max-width: 550px) {
+      
+        #slider-container #slider .slide {
+          width: calc(10% - 20px);
         }
-
-        .services-section .image-box {
-
-
-
-
-          height: 149px;
-          border-radius: 4px;
-          overflow: hidden;
-          cursor: pointer;
-
-          transform-origin: center;
-          z-index: 1;
-        }
-
-        .services-card p {
-          font-size: 13px;
-          font-weight: 600;
-          margin: 2.5rem 0rem;
-        }
-
-        .services-card {
-          border: 1px solid gainsboro;
-          border-top-left-radius: 35px;
-
-
-        }
-
-        .services-card img {
-          border-top-left-radius: 35px;
-        }
-
-        .booking-button {
-
-          margin-top: 10px;
-          font-size: small;
-        }
-
-        .booking-button button {
-          background-color: black;
-          color: #fff;
-          padding-left: 15px;
-          padding-right: 15px;
-          font-weight: 800;
-          border-radius: 5px;
-
-        }
-
-        .service-title {
-
-          position: relative;
-          text-align: center;
-          bottom: 90px;
-          padding-left: 20%;
-          padding-right: 20%;
-          color: white;
-
-
-
-        }
-
-        .service-title p {
-
-          background-color: #2aabda;
-          border-radius: 10px;
-        }
-
-        .see-more-btn {
-
-          /* background-color: black; */
-          color: black;
-          text-decoration: none;
-          font-weight: 700;
-          padding-left: 10px;
-          padding-right: 10px;
-          border-bottom: 2px solid black;
-          border-top: 2px solid black;
-          border-radius: 5px;
-        }
-
-        .see-more-btn:hover {
-
-          border: 2px solid black;
-
-          transition: 10s;
-        }
-        .filter-section {
-
-          margin: 20px;
-          padding: 0 20%;
-          
-        }
-
-        .filter-section .nav{
-
-         justify-content: center;
-         
-         padding: 10px 0;
-         border-radius: 10px;
-         border-radius: 10px;
-          /* box-shadow: -2px 0px 11px -2px rgba(15,15,15,0.47);
--webkit-box-shadow: -2px 0px 11px -2px rgba(15,15,15,0.47);
--moz-box-shadow: -2px 0px 11px -2px rgba(15,15,15,0.47); */
--webkit-box-shadow: 0 3px 10px 0 rgb(49 64 71 / 8%);
-    box-shadow: 0 3px 10px 0 rgb(49 64 71 / 8%);
-
-        }
-        .filter-section .nav .active{
-
-          background-color: #2aabda;
-          border-radius: 10px;
-          padding: 10px 20px;
-          color: #fff;
-        }
-
-
-        @media screen and(min-width:749px) {
-.service-title p{
-
-  font-size: 13px;
-}
-.booking-button button{
-
-  font-size: 13px;
-  background-color: #2aabda;
-}
-          
-        }
-
-        /* 2nd service */
+      
+      }
       </style>
+
+
+      <!-- M & M services section  start -->
+      <section class="services-section">
+        <div class="container">
+
+          <!-- heading sectio start -->
+          <div class="row justify-content-center">
+            <div class="col-12">
+              <h2 class="text-center">
+                Securt Services
+              </h2>
+              <p class="services-tagline">We Provide Best Ever House Cleaning Services</p>
+            </div>
+
+          </div>
+          <!-- heading sectio close -->
+
+
+<div id="container">
+      <div id="slider-container">
+        <span onclick="slideRight()" class="btn"></span>
+          <div id="slider">
+            <div class="slide"><img src="assets/images/cleaning.jpg" width="100%">
+              <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                Book Now
+              </button></div>
+            <div class="service-title">
+              <p>Cleaning service</p>
+            </div>
+            </div>
+           
+              <div class="slide"><img src="assets/images/cleaning.jpg" width="100%">
+                <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                  Book Now
+                </button></div>
+              <div class="service-title">
+                <p>Cleaning service</p>
+              </div>
+              </div>
+              
+                <div class="slide"><img src="assets/images/cleaning.jpg" width="100%">
+                  <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                    Book Now
+                  </button></div>
+                <div class="service-title">
+                  <p>Cleaning service</p>
+                </div>
+                </div>
+               
+                  <div class="slide"><img src="assets/images/cleaning.jpg" width="100%">
+                    <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                      Book Now
+                    </button></div>
+                  <div class="service-title">
+                    <p>Cleaning service</p>
+                  </div>
+                  </div>
+                
+                    <div class="slide"><img src="assets/images/cleaning.jpg" width="100%">
+                      <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                        Book Now
+                      </button></div>
+                    <div class="service-title">
+                      <p>Cleaning service</p>
+                    </div>
+                    </div>
+                 
+                      <div class="slide"><img src="assets/images/cleaning.jpg" width="100%">
+                        <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                          Book Now
+                        </button></div>
+                      <div class="service-title">
+                        <p>Cleaning service</p>
+                      </div>
+                      </div>
+                     
+
+        </div>
+        <span onclick="slideLeft()" class="btn"></span>
+      </div>
+    </div>
+         
+
+          
+
+
+        </div>
+        <!--  main container div  -->
+      </section>
 
 
       <!-- services section  start -->
@@ -516,348 +539,787 @@
             </div>
 
           </div>
-           <!-- heading sectio close -->
+          <!-- heading sectio close -->
 
-          <div class="filter-section text-center">
+          <div class="filter-section container text-center">
+            <!-- <span> <i class="fa-solid fa-caret-left"></i></span> -->
 
 
-            <ul class="nav text-center nav-tabs" id="myTab" role="tablist">
+            <ul class="  nav text-center nav-tabs" id="myTab" role="tablist">
               <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="services-1" data-bs-toggle="tab" data-bs-target="#services-01" type="button"
-                  role="tab" aria-controls="services-01" aria-selected="true">Services One</button>
+                <button class="nav-link active" id="services-1" data-bs-toggle="tab" data-bs-target="#services-01"
+                  type="button" role="tab" aria-controls="services-01" aria-selected="true">Floor/Home/ Bathroom
+                  Cleaning</button>
               </li>
               <li class="nav-item" role="presentation">
-                <button class="nav-link" id="services-2" data-bs-toggle="tab" data-bs-target="#services-02" type="button"
-                  role="tab" aria-controls="services-02" aria-selected="false">Services Two</button>
+                <button class="nav-link" id="services-2" data-bs-toggle="tab" data-bs-target="#services-02"
+                  type="button" role="tab" aria-controls="services-02" aria-selected="false">Carpet & Sofa
+                  Cleaning</button>
               </li>
               <li class="nav-item" role="presentation">
-                <button class="nav-link" id="services-3" data-bs-toggle="tab" data-bs-target="#services-03" type="button"
-                  role="tab" aria-controls="services-03" aria-selected="false">Services Three</button>
+                <button class="nav-link" id="services-3" data-bs-toggle="tab" data-bs-target="#services-03"
+                  type="button" role="tab" aria-controls="services-03" aria-selected="false">Past/ Disinfaction/ Termite
+                  Control</button>
               </li>
-              <li class="nav-item" role="presentation">
-                <button class="nav-link" id="services-4" data-bs-toggle="tab" data-bs-target="#services-04" type="button"
-                  role="tab" aria-controls="services-04" aria-selected="false">Services four</button>
-              </li>
+
             </ul>
+            <!-- <span> <i class="fa-solid fa-caret-right"></i></span> -->
 
           </div>
 
 
-       
 
-          <div class="cleaning-box-section">
+
+          <div class="services-box-section">
 
             <div class="tab-content" id="myTabContent">
 
               <div class="tab-pane fade show active" id="services-01" role="tabpanel" aria-labelledby="services-1">
-            <!-- box start -->
-              <div class="row mt-5">
-                <div class="col-md-3 mt-5 col-6 mt-md-0 ">
-                  <div class=" services-card">
+                <!-- box start -->
+                <div class="row mt-5">
+                  <div class="col-md-3 mt-3 col-6 mt-md-0 ">
+                    <div class=" services-card">
 
-                    <img src="assets/images/cleaning.jpg">
+                      <img src="assets/images/cleaning.jpg">
 
+                    </div>
+
+                    <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                        Book Now
+                      </button></div>
+                    <div class="service-title">
+                      <p>Cleaning service</p>
+                    </div>
+                  </div>
+                  <div class="col-md-3 mt-3 col-6 mt-md-0 ">
+                    <div class=" services-card">
+                      <img src="assets/images/cleaning.jpg">
+                    </div>
+
+                    <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                        Book Now
+                      </button></div>
+                    <div class="service-title">
+                      <p>Cleaning service</p>
+                    </div>
                   </div>
 
-                  <div class="booking-button text-center"> <button type="submit" class="  showPopup">
-                      Book Now
-                    </button></div>
-                  <div class="service-title">
-                    <p>Cleaning service</p>
+                  <div class="col-md-3 mt-3 col-6 mt-md-0 ">
+                    <div class="whyChooseCard services-card">
+                      <img src="assets/images/cleaning.jpg">
+                    </div>
+
+                    <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                        Book Now
+                      </button></div>
+                    <div class="service-title">
+                      <p>Cleaning service</p>
+                    </div>
                   </div>
+
+                  <div class="col-md-3 col-6 mt-3 mt-lg-0">
+                    <div class="whyChooseCard services-card">
+                      <img src="assets/images/cleaning.jpg">
+                    </div>
+
+                    <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                        Book Now
+                      </button></div>
+                    <div class="service-title">
+                      <p>Cleaning service</p>
+                    </div>
+                  </div>
+
                 </div>
-                <div class="col-md-3 mt-5 col-6 mt-md-0 ">
-                  <div class=" services-card">
-                    <img src="assets/images/cleaning.jpg">
-                  </div>
-
-                  <div class="booking-button text-center"> <button type="submit" class="  showPopup">
-                      Book Now
-                    </button></div>
-                  <div class="service-title">
-                    <p>Cleaning service</p>
-                  </div>
-                </div>
-
-                <div class="col-md-3 mt-5 col-6 mt-md-0 ">
-                  <div class="whyChooseCard services-card">
-                    <img src="assets/images/cleaning.jpg">
-                  </div>
-
-                  <div class="booking-button text-center"> <button type="submit" class="  showPopup">
-                      Book Now
-                    </button></div>
-                  <div class="service-title">
-                    <p>Cleaning service</p>
-                  </div>
-                </div>
-
-                <div class="col-md-3 col-6 mt-5 mt-lg-0">
-                  <div class="whyChooseCard services-card">
-                    <img src="assets/images/cleaning.jpg">
-                  </div>
-
-                  <div class="booking-button text-center"> <button type="submit" class="  showPopup">
-                      Book Now
-                    </button></div>
-                  <div class="service-title">
-                    <p>Cleaning service</p>
-                  </div>
-                </div>
-
-              </div>
-              <!-- box end -->
+                <!-- box end -->
               </div>
 
 
               <div class="tab-pane fade show" id="services-02" role="tabpanel" aria-labelledby="services-2">
                 <!-- box start -->
-                  <div class="row mt-5">
-                    <div class="col-md-3 mt-5 col-6 mt-md-0 ">
-                      <div class=" services-card">
-    
-                        <img src="assets/images/cleaning.jpg">
-    
-                      </div>
-    
-                      <div class="booking-button text-center"> <button type="submit" class="  showPopup">
-                          Book Now
-                        </button></div>
-                      <div class="service-title">
-                        <p>Services 2</p>
-                      </div>
+                <div class="row mt-5">
+                  <div class="col-md-3 mt-3 col-6 mt-md-0 ">
+                    <div class=" services-card">
+
+                      <img src="assets/images/cleaning.jpg">
+
                     </div>
-                    <div class="col-md-3 mt-5 col-6 mt-md-0 ">
-                      <div class=" services-card">
-                        <img src="assets/images/cleaning.jpg">
-                      </div>
-    
-                      <div class="booking-button text-center"> <button type="submit" class="  showPopup">
-                          Book Now
-                        </button></div>
-                      <div class="service-title">
-                        <p>Services 2</p>
-                      </div>
+
+                    <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                        Book Now
+                      </button></div>
+                    <div class="service-title">
+                      <p>Services 2</p>
                     </div>
-    
-                    <div class="col-md-3 mt-5 col-6 mt-md-0 ">
-                      <div class="whyChooseCard services-card">
-                        <img src="assets/images/cleaning.jpg">
-                      </div>
-    
-                      <div class="booking-button text-center"> <button type="submit" class="  showPopup">
-                          Book Now
-                        </button></div>
-                      <div class="service-title">
-                        <p>Services 2</p>
-                      </div>
-                    </div>
-    
-                    <div class="col-md-3 col-6 mt-5 mt-lg-0">
-                      <div class="whyChooseCard services-card">
-                        <img src="assets/images/cleaning.jpg">
-                      </div>
-    
-                      <div class="booking-button text-center"> <button type="submit" class="  showPopup">
-                          Book Now
-                        </button></div>
-                      <div class="service-title">
-                        <p>Services 2</p>
-                      </div>
-                    </div>
-    
                   </div>
-                  <!-- box end -->
-                  </div> <!--tab pan div-->
+                  <div class="col-md-3 mt-5 col-6 mt-md-0 ">
+                    <div class=" services-card">
+                      <img src="assets/images/cleaning.jpg">
+                    </div>
 
-                  <div class="tab-pane fade show " id="services-03" role="tabpanel" aria-labelledby="services-3">
-                    <!-- box start -->
-                      <div class="row mt-5">
-                        <div class="col-md-3 mt-5 col-6 mt-md-0 ">
-                          <div class=" services-card">
-        
-                            <img src="assets/images/cleaning.jpg">
-        
-                          </div>
-        
-                          <div class="booking-button text-center"> <button type="submit" class="  showPopup">
-                              Book Now
-                            </button></div>
-                          <div class="service-title">
-                            <p>Services 3</p>
-                          </div>
-                        </div>
-                        <div class="col-md-3 mt-5 col-6 mt-md-0 ">
-                          <div class=" services-card">
-                            <img src="assets/images/cleaning.jpg">
-                          </div>
-        
-                          <div class="booking-button text-center"> <button type="submit" class="  showPopup">
-                              Book Now
-                            </button></div>
-                          <div class="service-title">
-                            <p>Services 3</p>
-                          </div>
-                        </div>
-        
-                        <div class="col-md-3 mt-5 col-6 mt-md-0 ">
-                          <div class="whyChooseCard services-card">
-                            <img src="assets/images/cleaning.jpg">
-                          </div>
-        
-                          <div class="booking-button text-center"> <button type="submit" class="  showPopup">
-                              Book Now
-                            </button></div>
-                          <div class="service-title">
-                            <p>Services 3</p>
-                          </div>
-                        </div>
-        
-                        <div class="col-md-3 col-6 mt-5 mt-lg-0">
-                          <div class="whyChooseCard services-card">
-                            <img src="assets/images/cleaning.jpg">
-                          </div>
-        
-                          <div class="booking-button text-center"> <button type="submit" class="  showPopup">
-                              Book Now
-                            </button></div>
-                          <div class="service-title">
-                            <p>Services 3</p>
-                          </div>
-                        </div>
-        
-                      </div>
-                      <!-- box end -->
-                      </div> <!--tab pan div-->
-    
+                    <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                        Book Now
+                      </button></div>
+                    <div class="service-title">
+                      <p>Services 2</p>
+                    </div>
+                  </div>
 
-                      <div class="tab-pane fade show " id="services-04" role="tabpanel" aria-labelledby="services-4">
-                        <!-- box start -->
-                          <div class="row mt-5">
-                            <div class="col-md-3 mt-5 col-6 mt-md-0 ">
-                              <div class=" services-card">
-            
-                                <img src="assets/images/cleaning.jpg">
-            
-                              </div>
-            
-                              <div class="booking-button text-center"> <button type="submit" class="  showPopup">
-                                  Book Now
-                                </button></div>
-                              <div class="service-title">
-                                <p>Services 4</p>
-                              </div>
-                            </div>
-                            <div class="col-md-3 mt-5 col-6 mt-md-0 ">
-                              <div class=" services-card">
-                                <img src="assets/images/cleaning.jpg">
-                              </div>
-            
-                              <div class="booking-button text-center"> <button type="submit" class="  showPopup">
-                                  Book Now
-                                </button></div>
-                              <div class="service-title">
-                                <p>Services 4</p>
-                              </div>
-                            </div>
-            
-                            <div class="col-md-3 mt-5 col-6 mt-md-0 ">
-                              <div class="whyChooseCard services-card">
-                                <img src="assets/images/cleaning.jpg">
-                              </div>
-            
-                              <div class="booking-button text-center"> <button type="submit" class="  showPopup">
-                                  Book Now
-                                </button></div>
-                              <div class="service-title">
-                                <p>Services 4</p>
-                              </div>
-                            </div>
-            
-                            <div class="col-md-3 col-6 mt-5 mt-lg-0">
-                              <div class="whyChooseCard services-card">
-                                <img src="assets/images/cleaning.jpg">
-                              </div>
-            
-                              <div class="booking-button text-center"> <button type="submit" class="  showPopup">
-                                  Book Now
-                                </button></div>
-                              <div class="service-title">
-                                <p>Services 4</p>
-                              </div>
-                            </div>
-            
-                          </div>
-                          <!-- box end -->
-                          </div> <!--tab pan div-->
-        
+                  <div class="col-md-3 mt-3 col-6 mt-md-0 ">
+                    <div class="whyChooseCard services-card">
+                      <img src="assets/images/cleaning.jpg">
+                    </div>
+
+                    <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                        Book Now
+                      </button></div>
+                    <div class="service-title">
+                      <p>Services 2</p>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 col-6 mt-3 mt-lg-0">
+                    <div class="whyChooseCard services-card">
+                      <img src="assets/images/cleaning.jpg">
+                    </div>
+
+                    <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                        Book Now
+                      </button></div>
+                    <div class="service-title">
+                      <p>Services 2</p>
+                    </div>
+                  </div>
+
+                </div>
+                <!-- box end -->
+              </div> <!--tab pan div-->
+
+              <div class="tab-pane fade show " id="services-03" role="tabpanel" aria-labelledby="services-3">
+                <!-- box start -->
+                <div class="row mt-5">
+                  <div class="col-md-3 mt-5 col-6 mt-md-0 ">
+                    <div class=" services-card">
+
+                      <img src="assets/images/cleaning.jpg">
+
+                    </div>
+
+                    <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                        Book Now
+                      </button></div>
+                    <div class="service-title">
+                      <p>Services 3</p>
+                    </div>
+                  </div>
+                  <div class="col-md-3 mt-5 col-6 mt-md-0 ">
+                    <div class=" services-card">
+                      <img src="assets/images/cleaning.jpg">
+                    </div>
+
+                    <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                        Book Now
+                      </button></div>
+                    <div class="service-title">
+                      <p>Services 3</p>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 mt-5 col-6 mt-md-0 ">
+                    <div class="whyChooseCard services-card">
+                      <img src="assets/images/cleaning.jpg">
+                    </div>
+
+                    <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                        Book Now
+                      </button></div>
+                    <div class="service-title">
+                      <p>Services 3</p>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 col-6 mt-5 mt-lg-0">
+                    <div class="whyChooseCard services-card">
+                      <img src="assets/images/cleaning.jpg">
+                    </div>
+
+                    <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                        Book Now
+                      </button></div>
+                    <div class="service-title">
+                      <p>Services 3</p>
+                    </div>
+                  </div>
+
+                </div>
+                <!-- box end -->
+              </div> <!--tab pan div-->
 
 
+              <div class="tab-pane fade show " id="services-04" role="tabpanel" aria-labelledby="services-4">
+                <!-- box start -->
+                <div class="row mt-5">
+                  <div class="col-md-3 mt-5 col-6 mt-md-0 ">
+                    <div class=" services-card">
 
+                      <img src="assets/images/cleaning.jpg">
+
+                    </div>
+
+                    <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                        Book Now
+                      </button></div>
+                    <div class="service-title">
+                      <p>Services 4</p>
+                    </div>
+                  </div>
+                  <div class="col-md-3 mt-5 col-6 mt-md-0 ">
+                    <div class=" services-card">
+                      <img src="assets/images/cleaning.jpg">
+                    </div>
+
+                    <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                        Book Now
+                      </button></div>
+                    <div class="service-title">
+                      <p>Services 4</p>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 mt-5 col-6 mt-md-0 ">
+                    <div class="whyChooseCard services-card">
+                      <img src="assets/images/cleaning.jpg">
+                    </div>
+
+                    <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                        Book Now
+                      </button></div>
+                    <div class="service-title">
+                      <p>Services 4</p>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 col-6 mt-5 mt-lg-0">
+                    <div class="whyChooseCard services-card">
+                      <img src="assets/images/cleaning.jpg">
+                    </div>
+
+                    <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                        Book Now
+                      </button></div>
+                    <div class="service-title">
+                      <p>Services 4</p>
+                    </div>
+                  </div>
+
+                </div>
+                <!-- box end -->
+              </div> <!--tab pan div-->
+
+
+
+
+            </div>
+          </div>
+
+
+        </div>
+        <!--  main container div  -->
+      </section>
+     
+     
+
+
+
+      <section class="subscription-section">
+
+        <div class=" container text-center">
+          <div class="subscribe-content">
+
+            <h2>Schedule Your Janitorial <br> Cleaning Today</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+          </div>
+          <div class=" subscribe-btn"><img src="assets/images/arrow-btn.png"></div>
+          <span class="btn-name"><a href="#">Subscribe</a></span>
+        </div>
+      </section>
+
+
+
+      <!-- services section  start -->
+      <section class="services-section">
+        <div class="container">
+
+          <!-- heading sectio start -->
+          <div class="row justify-content-center">
+            <div class="col-12">
+              <h2 class="text-center">
+                Maintenance and Repair
+              </h2>
+              <p class="services-tagline">We Provide Best Ever House Cleaning Services</p>
+            </div>
+
+          </div>
+          <!-- heading sectio close -->
+
+          <div class="filter-section container text-center">
+            <!-- <span> <i class="fa-solid fa-caret-left"></i></span> -->
+
+
+            <ul class="  nav text-center nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="services-1" data-bs-toggle="tab" data-bs-target="#services-01"
+                  type="button" role="tab" aria-controls="services-01" aria-selected="true">Floor/Home/ Bathroom
+                  Cleaning</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="services-2" data-bs-toggle="tab" data-bs-target="#services-02"
+                  type="button" role="tab" aria-controls="services-02" aria-selected="false">Carpet & Sofa
+                  Cleaning</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="services-3" data-bs-toggle="tab" data-bs-target="#services-03"
+                  type="button" role="tab" aria-controls="services-03" aria-selected="false">Past/ Disinfaction/ Termite
+                  Control</button>
+              </li>
+
+            </ul>
+            <!-- <span> <i class="fa-solid fa-caret-right"></i></span> -->
+
+          </div>
+
+
+
+
+          <div class="services-box-section">
+
+            <div class="tab-content" id="myTabContent">
+
+              <div class="tab-pane fade show active" id="services-01" role="tabpanel" aria-labelledby="services-1">
+                <!-- box start -->
+                <div class="row mt-5">
+                  <div class="col-md-3 mt-3 col-6 mt-md-0 ">
+                    <div class=" services-card">
+
+                      <img src="assets/images/cleaning.jpg">
+
+                    </div>
+
+                    <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                        Book Now
+                      </button></div>
+                    <div class="service-title">
+                      <p>Cleaning service</p>
+                    </div>
+                  </div>
+                  <div class="col-md-3 mt-3 col-6 mt-md-0 ">
+                    <div class=" services-card">
+                      <img src="assets/images/cleaning.jpg">
+                    </div>
+
+                    <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                        Book Now
+                      </button></div>
+                    <div class="service-title">
+                      <p>Cleaning service</p>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 mt-3 col-6 mt-md-0 ">
+                    <div class="whyChooseCard services-card">
+                      <img src="assets/images/cleaning.jpg">
+                    </div>
+
+                    <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                        Book Now
+                      </button></div>
+                    <div class="service-title">
+                      <p>Cleaning service</p>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 col-6 mt-3 mt-lg-0">
+                    <div class="whyChooseCard services-card">
+                      <img src="assets/images/cleaning.jpg">
+                    </div>
+
+                    <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                        Book Now
+                      </button></div>
+                    <div class="service-title">
+                      <p>Cleaning service</p>
+                    </div>
+                  </div>
+
+                </div>
+                <!-- box end -->
               </div>
+
+
+              <div class="tab-pane fade show" id="services-02" role="tabpanel" aria-labelledby="services-2">
+                <!-- box start -->
+                <div class="row mt-5">
+                  <div class="col-md-3 mt-3 col-6 mt-md-0 ">
+                    <div class=" services-card">
+
+                      <img src="assets/images/cleaning.jpg">
+
+                    </div>
+
+                    <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                        Book Now
+                      </button></div>
+                    <div class="service-title">
+                      <p>Services 2</p>
+                    </div>
+                  </div>
+                  <div class="col-md-3 mt-5 col-6 mt-md-0 ">
+                    <div class=" services-card">
+                      <img src="assets/images/cleaning.jpg">
+                    </div>
+
+                    <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                        Book Now
+                      </button></div>
+                    <div class="service-title">
+                      <p>Services 2</p>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 mt-3 col-6 mt-md-0 ">
+                    <div class="whyChooseCard services-card">
+                      <img src="assets/images/cleaning.jpg">
+                    </div>
+
+                    <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                        Book Now
+                      </button></div>
+                    <div class="service-title">
+                      <p>Services 2</p>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 col-6 mt-3 mt-lg-0">
+                    <div class="whyChooseCard services-card">
+                      <img src="assets/images/cleaning.jpg">
+                    </div>
+
+                    <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                        Book Now
+                      </button></div>
+                    <div class="service-title">
+                      <p>Services 2</p>
+                    </div>
+                  </div>
+
+                </div>
+                <!-- box end -->
+              </div> <!--tab pan div-->
+
+              <div class="tab-pane fade show " id="services-03" role="tabpanel" aria-labelledby="services-3">
+                <!-- box start -->
+                <div class="row mt-5">
+                  <div class="col-md-3 mt-5 col-6 mt-md-0 ">
+                    <div class=" services-card">
+
+                      <img src="assets/images/cleaning.jpg">
+
+                    </div>
+
+                    <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                        Book Now
+                      </button></div>
+                    <div class="service-title">
+                      <p>Services 3</p>
+                    </div>
+                  </div>
+                  <div class="col-md-3 mt-5 col-6 mt-md-0 ">
+                    <div class=" services-card">
+                      <img src="assets/images/cleaning.jpg">
+                    </div>
+
+                    <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                        Book Now
+                      </button></div>
+                    <div class="service-title">
+                      <p>Services 3</p>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 mt-5 col-6 mt-md-0 ">
+                    <div class="whyChooseCard services-card">
+                      <img src="assets/images/cleaning.jpg">
+                    </div>
+
+                    <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                        Book Now
+                      </button></div>
+                    <div class="service-title">
+                      <p>Services 3</p>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 col-6 mt-5 mt-lg-0">
+                    <div class="whyChooseCard services-card">
+                      <img src="assets/images/cleaning.jpg">
+                    </div>
+
+                    <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                        Book Now
+                      </button></div>
+                    <div class="service-title">
+                      <p>Services 3</p>
+                    </div>
+                  </div>
+
+                </div>
+                <!-- box end -->
+              </div> <!--tab pan div-->
+
+
+              <div class="tab-pane fade show " id="services-04" role="tabpanel" aria-labelledby="services-4">
+                <!-- box start -->
+                <div class="row mt-5">
+                  <div class="col-md-3 mt-5 col-6 mt-md-0 ">
+                    <div class=" services-card">
+
+                      <img src="assets/images/cleaning.jpg">
+
+                    </div>
+
+                    <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                        Book Now
+                      </button></div>
+                    <div class="service-title">
+                      <p>Services 4</p>
+                    </div>
+                  </div>
+                  <div class="col-md-3 mt-5 col-6 mt-md-0 ">
+                    <div class=" services-card">
+                      <img src="assets/images/cleaning.jpg">
+                    </div>
+
+                    <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                        Book Now
+                      </button></div>
+                    <div class="service-title">
+                      <p>Services 4</p>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 mt-5 col-6 mt-md-0 ">
+                    <div class="whyChooseCard services-card">
+                      <img src="assets/images/cleaning.jpg">
+                    </div>
+
+                    <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                        Book Now
+                      </button></div>
+                    <div class="service-title">
+                      <p>Services 4</p>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 col-6 mt-5 mt-lg-0">
+                    <div class="whyChooseCard services-card">
+                      <img src="assets/images/cleaning.jpg">
+                    </div>
+
+                    <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                        Book Now
+                      </button></div>
+                    <div class="service-title">
+                      <p>Services 4</p>
+                    </div>
+                  </div>
+
+                </div>
+                <!-- box end -->
+              </div> <!--tab pan div-->
+
+
+
+
+            </div>
+          </div>
+
+
+        </div>
+        <!--  main container div  -->
+      </section>
+
+
+
+
+      <!-- Electricity section  start -->
+      <section class="services-section">
+        <div class="container">
+
+          <!-- heading sectio start -->
+          <div class="row justify-content-center">
+            <div class="col-12">
+              <h2 class="text-center">
+                Electricity
+              </h2>
+
+            </div>
+
+          </div>
+          <!-- heading sectio close -->
+
+
+
+
+
+
+          <div class="services-box-section">
+
+
+
+
+            <!-- box start -->
+            <div class="row mt-5">
+              <div class="col-md-3 mt-3 col-6 mt-md-0 ">
+                <div class=" services-card">
+
+                  <img src="assets/images/cleaning.jpg">
+
+                </div>
+
+                <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                    Book Now
+                  </button></div>
+                <div class="service-title">
+                  <p>Cleaning service</p>
+                </div>
               </div>
-              
+              <div class="col-md-3 mt-3 col-6 mt-md-0 ">
+                <div class=" services-card">
+                  <img src="assets/images/cleaning.jpg">
+                </div>
 
-      </div>
-    <!--  main container div  -->
-    </section>
-    <!-- why choose us section end -->
+                <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                    Book Now
+                  </button></div>
+                <div class="service-title">
+                  <p>Cleaning service</p>
+                </div>
+              </div>
+
+              <div class="col-md-3 mt-3 col-6 mt-md-0 ">
+                <div class="whyChooseCard services-card">
+                  <img src="assets/images/cleaning.jpg">
+                </div>
+
+                <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                    Book Now
+                  </button></div>
+                <div class="service-title">
+                  <p>Cleaning service</p>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-6 mt-3 mt-lg-0">
+                <div class="whyChooseCard services-card">
+                  <img src="assets/images/cleaning.jpg">
+                </div>
+
+                <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                    Book Now
+                  </button></div>
+                <div class="service-title">
+                  <p>Cleaning service</p>
+                </div>
+              </div>
+
+            </div>
+            <!-- box end -->
+          </div>
 
 
+        </div>
+        <!--  main container div  -->
+      </section>
+      <!-- why choose us section end -->
 
 
+      <section class="sucess-stories text-center">
+        <div class="conatiner">
+          <div class="row justify-content-center">
+            <div class="col-12 mb-3 pb-3">
+              <h2 class="text-center">Our Happy Customers</h2>
+            </div>
+          </div>
 
+          <div class=" story-slider  ">
 
+            <div class="story-box  text-center">
+              <div class="story-img "><img src="assets/images/testimonial.png"></div>
+              <div class="story-content">
+                <h3 class="mt-2">Mohit Nara</h3>
+                <p> <i class="fa-solid fa-quote-left"></i>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod
+                  tempor incididunt ut labore et dolore magna tempor incididunt ut labore labore et dolore magnaet
+                  dolore magna <i class="fa-solid fa-quote-right"></i></p>
+                <h4 class="mt-0 pt-0 ">Web Developer- Policy Bazar</h4>
+              </div>
+            </div>
 
-
-
-    <section class="sucess-stories text-center">
-      <div class="conatiner">
-        <div class="row justify-content-center">
-          <div class="col-12 mb-3 pb-3">
-            <h2 class="text-center">Our Happy Customers Stories</h2>
+            <div class="story-box  text-center">
+              <div class="story-img "><img src="assets/images/testimonial.png"></div>
+              <div class="story-content">
+                <h3 class="mt-2">Mohit Nara</h3>
+                <p> <i class="fa-solid fa-quote-left"></i>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod
+                  tempor incididunt ut labore et dolore magna tempor incididunt ut labore et dolore magnalabore et
+                  dolore magna <i class="fa-solid fa-quote-right"></i></p>
+                <h4 class="mt-0 pt-0 ">Web Developer- Policy Bazar</h4>
+              </div>
+            </div>
+            <div class="story-box  text-center">
+              <div class="story-img "><img src="assets/images/testimonial.png"></div>
+              <div class="story-content">
+                <h3 class="mt-2">Mohit Nara</h3>
+                <p> <i class="fa-solid fa-quote-left"></i>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod
+                  tempor incididunt ut labore et dolore magna tempor incididunt ut labore etlabore et dolore magna
+                  dolore magna <i class="fa-solid fa-quote-right"></i></p>
+                <h4 class="mt-0 pt-0 ">Web Developer- Policy Bazar</h4>
+              </div>
+            </div>
           </div>
         </div>
+      </section>
 
-        <div class=" story-slider  ">
+ 
+      <section class="contact-section">
+        <div class="contact-inner">
 
-          <div class="story-box  text-center">
-            <div class="story-img "><img src="assets/images/testimonial.png"></div>
-            <div class="story-content">
-              <h3 class="mt-2">Mohit Nara</h3>
-              <p> <i class="fa-solid fa-quote-left"></i>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod
-                tempor incididunt ut labore et dolore magna tempor incididunt ut labore labore et dolore magnaet
-                dolore magna <i class="fa-solid fa-quote-right"></i></p>
-              <h4 class="mt-0 pt-0 ">Web Developer- Policy Bazar</h4>
+
+          <div class="row align-items-center">
+
+            <div class="contact-form col-lg-6">
+              <h3>Contact Us</h2>
+                <form>
+                  <label for="name">Name</label>
+                  <input type="text" name="name" id="name">
+                  <label for="email">Email</label>
+                  <input type="email" name="email" id="email">
+                  <label for="tel">Phone Number</label>
+                  <input type="tel" name="tel" id="tel">
+                  <label for="msg">Message</label>
+                  <textarea id="msg"></textarea>
+                </form>
+                <div class="form-btn text-center "><a href="#"> Submit</a></div>
+
+
             </div>
+            <div class="contact-img col-lg-6"><img src="assets/images/contect_bg.png" width="100%"></div>
           </div>
 
-          <div class="story-box  text-center">
-            <div class="story-img "><img src="assets/images/testimonial.png"></div>
-            <div class="story-content">
-              <h3 class="mt-2">Mohit Nara</h3>
-              <p> <i class="fa-solid fa-quote-left"></i>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod
-                tempor incididunt ut labore et dolore magna tempor incididunt ut labore et dolore magnalabore et
-                dolore magna <i class="fa-solid fa-quote-right"></i></p>
-              <h4 class="mt-0 pt-0 ">Web Developer- Policy Bazar</h4>
-            </div>
-          </div>
-          <div class="story-box  text-center">
-            <div class="story-img "><img src="assets/images/testimonial.png"></div>
-            <div class="story-content">
-              <h3 class="mt-2">Mohit Nara</h3>
-              <p> <i class="fa-solid fa-quote-left"></i>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod
-                tempor incididunt ut labore et dolore magna tempor incididunt ut labore etlabore et dolore magna
-                dolore magna <i class="fa-solid fa-quote-right"></i></p>
-              <h4 class="mt-0 pt-0 ">Web Developer- Policy Bazar</h4>
-            </div>
-          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
 
 
@@ -865,59 +1327,56 @@
 
 
 
-
-
-
-    <!-- START FOOTER -->
-    <section class="section footer-sec">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 my-auto">
-            <p class="text-black-50 mb-0">
-              <script>
-                document.write(new Date().getFullYear());
-              </script>
-              &copy; Copyright.<a href="#" target="_blank" class="text-reset"></a>
-            </p>
-          </div>
-          <div class="col-lg-6 my-auto">
-            <div class="footer-item mt-4 mt-lg-0">
-              <ul class="list-unstyled d-flex justify-content-between footer-list mb-0">
-                <li><a href="#"> Privacy Policy</a></li>
-                <li><a href="#"> Terms & Conditions</a></li>
-                <li><a href="#"> Services</a></li>
-                <li><a href="#"> Pricing</a></li>
+      <!-- START FOOTER -->
+      <section class="section footer-sec">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 my-auto">
+              <p class="text-black-50 mb-0">
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                &copy; Copyright.<a href="#" target="_blank" class="text-reset"></a>
+              </p>
+            </div>
+            <div class="col-lg-6 my-auto">
+              <div class="footer-item mt-4 mt-lg-0">
+                <ul class="list-unstyled d-flex justify-content-between footer-list mb-0">
+                  <li><a href="#"> Privacy Policy</a></li>
+                  <li><a href="#"> Terms & Conditions</a></li>
+                  <li><a href="#"> Services</a></li>
+                  <li><a href="#"> Pricing</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 social-link mt-4 mt-lg-0 text-center text-lg-end my-auto">
+              <ul class="footer-social-menu list-inline mb-0">
+                <li class="list-inline-item">
+                  <a href="#"><i class="uil uil-facebook-f"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#"><i class="uil uil-linkedin-alt"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#"><i class="uil uil-google"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#"><i class="uil uil-twitter"></i></a>
+                </li>
               </ul>
             </div>
           </div>
-          <div class="col-lg-3 social-link mt-4 mt-lg-0 text-center text-lg-end my-auto">
-            <ul class="footer-social-menu list-inline mb-0">
-              <li class="list-inline-item">
-                <a href="#"><i class="uil uil-facebook-f"></i></a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#"><i class="uil uil-linkedin-alt"></i></a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#"><i class="uil uil-google"></i></a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#"><i class="uil uil-twitter"></i></a>
-              </li>
-            </ul>
-          </div>
         </div>
-      </div>
-    </section>
-    <!-- END FOOTER -->
+      </section>
+      <!-- END FOOTER -->
 
-    <!--start back-to-top-->
-    <button onclick="topFunction()" id="back-to-top">
-      <i class="mdi mdi-arrow-up"></i>
-    </button>
-    <!--end back-to-top-->
-  </div>
-  <!-- end main content-->
+      <!--start back-to-top-->
+      <button onclick="topFunction()" id="back-to-top">
+        <i class="mdi mdi-arrow-up"></i>
+      </button>
+      <!--end back-to-top-->
+    </div>
+    <!-- end main content-->
   </div>
   <!-- END layout-wrapper -->
 
@@ -1024,6 +1483,13 @@
         infinite: true,
         speed: 1000,
         slidesToShow: 1,
+        adaptiveHeight: false
+      });
+      $('.filter-slider').slick({
+        dots: false,
+        infinite: true,
+        speed: 1000,
+        slidesToShow: 3,
         adaptiveHeight: false
       });
 
@@ -1141,6 +1607,95 @@
 
     });
   </script>
+
+
+
+<script>
+
+  var container = document.getElementById('container')
+  var slider = document.getElementById('slider');
+  var slides = document.getElementsByClassName('slide').length;
+  var buttons = document.getElementsByClassName('btn');
+  
+  
+  var currentPosition = 0;
+  var currentMargin = 0;
+  var slidesPerPage = 0;
+  var slidesCount = slides - slidesPerPage;
+  var containerWidth = container.offsetWidth;
+  var prevKeyActive = false;
+  var nextKeyActive = true;
+  
+  window.addEventListener("resize", checkWidth);
+  
+  function checkWidth() {
+      containerWidth = container.offsetWidth;
+      setParams(containerWidth);
+  }
+  
+  function setParams(w) {
+      if (w < 551) {
+          slidesPerPage = 1;
+      } else {
+          if (w < 901) {
+              slidesPerPage = 2;
+          } else {
+              if (w < 1101) {
+                  slidesPerPage = 3;
+              } else {
+                  slidesPerPage = 4;
+              }
+          }
+      }
+      slidesCount = slides - slidesPerPage;
+      if (currentPosition > slidesCount) {
+          currentPosition -= slidesPerPage;
+      };
+      currentMargin = - currentPosition * (100 / slidesPerPage);
+      slider.style.marginLeft = currentMargin + '%';
+      if (currentPosition > 0) {
+          buttons[0].classList.remove('inactive');
+      }
+      if (currentPosition < slidesCount) {
+          buttons[1].classList.remove('inactive');
+      }
+      if (currentPosition >= slidesCount) {
+          buttons[1].classList.add('inactive');
+      }
+  }
+  
+  setParams();
+  
+  function slideRight() {
+      if (currentPosition != 0) {
+          slider.style.marginLeft = currentMargin + (100 / slidesPerPage) + '%';
+          currentMargin += (100 / slidesPerPage);
+          currentPosition--;
+      };
+      if (currentPosition === 0) {
+          buttons[0].classList.add('inactive');
+      }
+      if (currentPosition < slidesCount) {
+          buttons[1].classList.remove('inactive');
+      }
+  };
+  
+  function slideLeft() {
+      if (currentPosition != slidesCount) {
+          slider.style.marginLeft = currentMargin - (100 / slidesPerPage) + '%';
+          currentMargin -= (100 / slidesPerPage);
+          currentPosition++;
+      };
+      if (currentPosition == slidesCount) {
+          buttons[1].classList.add('inactive');
+      }
+      if (currentPosition > 0) {
+          buttons[0].classList.remove('inactive');
+      }
+  };
+    </script>
+
+
 </body>
 
 </html>

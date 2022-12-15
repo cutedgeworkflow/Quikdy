@@ -1,0 +1,309 @@
+/* ..............................................Facility Mangament CSS...................................... */
+
+.sucess-stories{
+
+    margin-top:8rem 0 ;
+}
+.sucess-stories h2 {
+
+    font-size: 32px;
+}
+
+.services-section {
+    margin: 6rem 0;
+}
+
+.services-section h2 {
+
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    margin: 0;
+
+}
+
+.services-section .services-tagline {
+
+
+    color: #757575;
+    margin: 4px 0 0;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.services-card img {
+
+    width: 100%;
+
+}
+
+.services-section .image-box {
+
+
+
+
+    height: 149px;
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+
+    transform-origin: center;
+    z-index: 1;
+}
+
+.services-card p {
+    font-size: 13px;
+    font-weight: 600;
+    margin: 2.5rem 0rem;
+}
+
+.services-card {
+    border: 1px solid gainsboro;
+    border-top-left-radius: 35px;
+
+
+}
+
+.services-card img {
+    border-top-left-radius: 35px;
+}
+
+.booking-button {
+
+    margin-top: 10px;
+    font-size: small;
+}
+
+.booking-button button {
+    background-color: black;
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 800;
+    border-radius: 5px;
+
+}
+
+.service-title {
+
+    position: relative;
+    text-align: center;
+    bottom: 90px;
+    padding: 2rem 2rem;
+    color: white;
+
+
+
+}
+
+.service-title p {
+
+    background-color: #2aabda;
+    border-radius: 10px;
+}
+
+.see-more-btn {
+
+    /* background-color: black; */
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-radius: 5px;
+}
+
+.see-more-btn:hover {
+
+    border: 2px solid black;
+
+    transition: 10s;
+}
+
+.filter-section {
+
+    margin: 40px 0;
+    padding: 10px 5px;
+
+
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-radius: 10px;
+    /* box-shadow: -2px 0px 11px -2px rgba(15,15,15,0.47);
+-webkit-box-shadow: -2px 0px 11px -2px rgba(15,15,15,0.47);
+-moz-box-shadow: -2px 0px 11px -2px rgba(15,15,15,0.47); */
+    -webkit-box-shadow: 0 3px 10px 0 rgb(49 64 71 / 8%);
+    box-shadow: 0 3px 10px 0 rgb(49 64 71 / 8%);
+
+}
+
+.filter-section .nav {
+
+    justify-content: center;
+
+    border: 0;
+
+
+}
+
+.filter-section .nav .active {
+
+    background-color: #2aabda;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+
+@media screen and(min-width:749px) {
+    .service-title p {
+
+        font-size: 13px;
+    }
+
+    .booking-button button {
+
+        font-size: 13px;
+        background-color: #2aabda;
+    }
+
+}
+
+
+/*.......................................... Subscription section CSS .......................................*/
+
+.subscription-section {
+    padding: 8rem 0;
+
+    background-image: url(../images/subscription-bg.jpg);
+    background-repeat: no-repeat;
+
+}
+
+.subscribe-content h2 {
+
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.subscribe-content p {
+    margin: 20px 0;
+    color: #fff;
+}
+
+
+.subscribe-btn {
+
+
+    width: 200px;
+    margin: auto;
+
+}
+
+.subscribe-btn img {
+
+    width: 100%;
+}
+
+.btn-name {
+
+    display: block;
+    position: relative;
+    bottom: 40px;
+
+}
+
+.btn-name a {
+
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/*................................ Service Contact Form CSS Start .......................................*/
+
+.contact-section {
+
+    border-bottom: 4px solid #2aabda;
+}
+
+.contact-inner h3 {
+
+    font-size: 25px;
+    color: #2aabda;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+
+    padding-left: 60px;
+    /* border: 1px solid; */
+}
+
+form {
+
+    display: flex;
+    flex-direction: column;
+
+    /* border: 1px solid; */
+
+
+}
+
+form input {
+
+    border: 0;
+    border-bottom: 1px solid #2aabda;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+form textarea {
+
+    border: 0;
+    border-bottom: 1px solid #2aabda;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.form-btn {
+
+    margin: 15px 0;
+}
+
+.form-btn a {
+
+    text-decoration: none;
+    color: #fff;
+    background-color: #2aabda;
+
+
+    background: rgba(248, 80, 50, 1);
+
+    border-radius: 10px;
+    padding: 10px 40px;
+    font-size: 13px;
+    font-weight: bold;
+
+    -webkit-box-shadow: 7px 7px 15px 0px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 7px 7px 15px 0px rgba(0, 0, 0, 0.22);
+    box-shadow: 7px 7px 15px 0px rgba(0, 0, 0, 0.22);
+
+}
+
+@media screen and(max-width:749px) {
+
+    .contact-form {
+
+        padding: 10px;
+    }
+}
