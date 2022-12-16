@@ -1,0 +1,559 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+html {
+  padding: 0px;
+  margin: 0px;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: muli;
+  font-size: 1.6rem;
+  overflow-x: hidden;
+}
+body a {
+  text-decoration: none;
+}
+body p{
+
+  font-size: 15px;
+}
+
+/* h1,
+h2 {
+  color: #2aabda;
+} */
+
+.banner .info .green {
+  width: 100vw;
+  height: 100vh;
+}
+.banner .item {
+  height: 100vh;
+}
+.banner .item .img-fill {
+  min-height: 100%;
+}
+.banner .item .img-fill img {
+  width: 100%;
+}
+.banner .banner-inner h1 {
+  line-height: 3.5rem;
+  word-spacing: 0.3rem;
+  text-transform: capitalize;
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.navigation .showDropdown:hover .hoverDropdown {
+  display: block;
+}
+.navigation .hoverDropdown {
+  display: none;
+  background-color: #24aadd;
+  padding: 3rem;
+  width: 25rem;
+  position: absolute;
+  left: 7rem;
+  top: 5rem;
+  border-radius: 0.5rem;
+  z-index: 999999;
+}
+.navigation .hoverDropdown ul {
+  position: relative;
+  -moz-text-align-last: left;
+       text-align-last: left;
+  z-index: 999999;
+}
+.navigation .hoverDropdown ul li {
+  padding: 0.8rem 0rem;
+  text-align: left;
+  border-bottom: 1px solid rgb(225, 223, 223);
+  transition: all 0.3s ease;
+}
+.navigation .hoverDropdown ul li:hover a {
+  transition: all 0.3s ease;
+  color: #eee !important;
+}
+.navigation .hoverDropdown ul li a {
+  color: #fff;
+  padding: 0.4rem 0rem;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.navigation ul li a {
+  color: #fff !important;
+}
+
+.commonSec {
+  padding: 8rem 0rem;
+  border-bottom: 1px solid #eee;
+}
+.commonSec .imgWrapper {
+  overflow: hidden;
+  border-radius: 1rem;
+}
+.commonSec .imgWrapper img {
+  width: 110%;
+  height: 100%;
+  border-radius: 1rem;
+}
+.commonSec .contentWrapper h2 {
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+.commonSec .contentWrapper p {
+  font-size: 1.6rem;
+  color: #767676;
+}
+.commonSec .contentWrapper span {
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-style: italic;
+}
+.quotes{
+
+  color: #24aadd;
+  font-weight: bold;
+}
+.quotes i{
+
+  color:#ee341d ;
+}
+#leadGeneration P {
+  
+color: #fff;
+  
+}
+
+#leadGeneration span {
+  color: #fff;
+    
+  }
+  #leadGeneration i {
+    color: #fff;
+
+    
+      
+    }
+
+.festivalMarketing {
+  border: 0;
+  padding-bottom: 0rem;
+}
+
+.tradeShow {
+  padding-top: 0rem;
+}
+
+.retailAndStore {
+  padding-top: 10rem;
+}
+
+.leadGeneration{
+
+  background-color: #ee341d;
+ 
+
+  background-repeat: no-repeat;
+  color: #fff;
+  background-color: #ed3237;
+  /* padding: 50px 0; */
+  background-image: url(../images/wave_top.png);
+  background-repeat: no-repeat;
+  padding-top: 140px;
+  
+} 
+
+.leadGeneration p span{
+  color: #fff;
+}
+.virtualEvents {
+  background-color: #24aadd;
+  /* background-image: url(../images/service-bg-2.png); */
+  
+}
+
+.virtualEvents ul li {
+  position: relative;
+color: #fff;
+
+    font-weight: 500;
+   
+    margin-left: 2rem;
+}
+.virtualEvents ul li i{
+    position: absolute;
+    left: -2rem;
+    font-size: 2.2rem;
+    color: #ed3237;
+    top: 0.5rem;
+}
+
+#virtualEvents h2 {
+  color: #fff;
+
+}
+#virtualEvents p {
+  color: #fff;
+
+}
+#virtualEvents span {
+  color: #fff;
+  font-weight: 800;
+  padding-left: 20px;
+
+}
+.leadGeneration h2, .virtualEvents h2 {
+  text-align: center;
+  font-size: 3.5rem;
+}
+.leadGeneration .topPara, .virtualEvents .topPara {
+  text-align: center;
+  color: #767676;
+  font-weight: bold;
+}
+.leadGeneration .imgWrapper, .virtualEvents .imgWrapper {
+  overflow: hidden;
+  border-radius: 1rem;
+}
+.leadGeneration .imgWrapper img, .virtualEvents .imgWrapper img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.portfolio {
+  margin: 8rem 0rem;
+  padding: 8rem 0rem;
+  background-color: #eee;
+}
+.portfolio h2 {
+  font-size: 3.5rem;
+  text-transform: capitalize;
+}
+.portfolio h3 {
+  font-size: 2.1rem;
+  margin-top: 2rem;
+  line-height: 2.9rem;
+  color: #1d1d1b;
+}
+.portfolio .portfolioSlider .item {
+  border-radius: 1rem;
+  position: relative;
+  box-shadow: 0px 8.96989px 18.857px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.portfolio .portfolioSlider .item:hover .title {
+  transition: all 0.2s ease;
+  visibility: visible;
+  opacity: 1;
+}
+.portfolio .portfolioSlider .item .title {
+  transition: all 0.2s ease;
+  visibility: hidden;
+  opacity: 0;
+  border-radius: 1rem;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  text-align: center;
+  padding: 2rem;
+}
+.portfolio .portfolioSlider .item .title i {
+  margin: 3rem 0rem 8rem 0rem;
+  font-size: 8rem;
+  color: #1f7dbc;
+}
+.portfolio .portfolioSlider .item .title h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.portfolio .portfolioSlider .item .title p {
+  margin-top: 2rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.portfolio .portfolioSlider .imageWrapper {
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.portfolio .portfolioSlider .imageWrapper img {
+  border-radius: 1rem;
+  width: 100%;
+  min-height: 15rem;
+}
+.portfolio .owl-carousel .owl-dots.disabled {
+  display: block;
+}
+.portfolio .owl-dots {
+  text-align: center;
+  padding-top: 15px;
+}
+.portfolio .owl-dots button.owl-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  background: #ccc;
+  margin: 0 0.8rem;
+}
+.portfolio .owl-dots button.owl-dot.active {
+  background-color: #24aadd;
+}
+.portfolio .owl-dots button.owl-dot:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 991px) {
+  .commonSec .contentWrapper h2 {
+    text-align: center;
+  }
+  .commonSec .contentWrapper p,
+.commonSec .contentWrapper span {
+    display: block;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 767px) {
+  .retailAndStore .contentWrapper h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .retailAndStore .contentWrapper span {
+    display: block;
+    text-align: center;
+  }
+  .portfolio .portfolioSlider .item .title i {
+    margin: 1rem 0rem 0rem 0rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .portfolio h2 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  .portfolio h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  .portfolio .portfolioSlider .item .title {
+    padding: 1rem;
+  }
+  .portfolio .portfolioSlider .item .title i {
+    font-size: 4rem;
+  }
+  .portfolio .portfolioSlider .item .title h3 {
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    line-height: normal;
+  }
+  .portfolio .portfolioSlider .item .title p {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+  }
+}/*# sourceMappingURL=service-inner.css.map */
+
+
+/* customer research service */
+
+.customer-support {
+
+  margin:8rem 0rem;
+  
+}
+.customer-support h2{
+
+  font-size: 3.5rem;
+/* text-transform: capitalize; */
+margin-bottom: 2rem;
+text-align: center;
+}
+
+.customer-support .customer-card {
+  padding: 25px 15px;
+
+
+
+}
+
+.icon-box {
+
+  float: center;
+
+}
+
+.customer-card img {
+  width: 65%;
+
+
+
+}
+
+.customer-card .content-box {
+  padding-top: 20px;
+  color: #fff;
+}
+
+.content-box h2 {
+  font-size: 25px;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.b-1 {
+  background-color: #70bc4f !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.b-2 {
+  background-color: #24aadd !important;
+
+}
+
+.b-3 {
+  background-color: #f5b120 !important;
+
+}
+
+.b-4 {
+  background-color: #CDDC39 !important;
+
+}
+
+/* sales start */
+
+
+@media screen and (min-width: 750px){
+  
+.banner-text{
+
+  display: none;
+}
+
+.sales-section {
+
+  position: relative;
+  bottom: 120px;
+
+}
+
+.sales-section h2 {
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  color: #fff;
+
+}
+
+.sales-section p {
+  font-size: 15px;
+  text-transform: capitalize;
+
+
+}
+
+.sales-middle-box {
+
+  padding: 24px;
+  background: #fff;
+
+
+  border-radius: 4px;
+  box-shadow: 0 8px 26px 0 rgb(0 0 0 / 8%);
+  background-color: #fff;
+  margin: 3rem 0rem;
+
+}
+
+.sales-box {
+
+  font-weight: 600;
+}
+
+.sales-box span {
+
+  font-size: 20px;
+  font-weight: 900;
+  color: #24aadd;
+}
+
+.sales-box-2 {
+
+  border-left: 1px solid gainsboro;
+  ;
+  border-right: 1px solid gainsboro;
+}
+
+#virtualEvents{
+
+  background-color: #ee341d;
+  margin-top: 4rem;
+
+}
+#virtualEvents i{
+color: #fff;
+
+}
+
+.retailAndStore {
+padding-top: 0;
+}
+
+.commonSec {
+padding-bottom: 4rem ;
+border-bottom: 0;
+}
+
+}
+
+@media screen and(max-width:750px) {
+  .sales-section{
+    display: none;
+  }
+  .banner-text{
+
+    display: block;
+  }
+}
+
+
+/*....................................... Smart Shoring CSS .............................*/
+
+.qoutes-section{
+
+  background-image: url(../images/blue-bg-2.jpg);
+  padding-top:100px;
+  text-align: center;
+  color: #fff;
+ 
+}
+.qoutes-section p{
+
+  font-size: 20px;
+  font-weight: 600;
+
+}
+.content-section h2{
+text-align: center;
+font-size: 32px;
+margin-bottom: 2rem;
+
+}
+.content-section p{
+  font-size: 15px;
+}
+.content-section{
+
+  border: 1px solid;
+}
+.image-portfolio{
+
+  margin-top: 8rem;
+}

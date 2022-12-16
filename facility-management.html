@@ -358,7 +358,7 @@
         top: calc(50% - 30px);
         height: 30px;
         width: 30px;
-        border-left: 8px solid  #2aabda ;
+        border-left: 8px solid  #2aabda;
         border-top: 8px solid  #2aabda;
       }
       
@@ -367,7 +367,9 @@
       }
       
       #slider-container .btn.inactive {
-        border-color: #ee341d;
+        
+        border-left: 8px solid  #ee341d ;
+        border-top: 8px solid  #ee341d;
       }
       
       #slider-container .btn:first-of-type {
@@ -394,6 +396,14 @@
         box-shadow: 2px 2px 4px 2px white, -2px -2px 4px 2px white;
         display: grid;
         place-items: center;
+        position: relative;
+
+       
+      }
+      .slide .service-title{
+
+        position: absolute;
+        bottom: 30px;
       }
       
       #slider-container #slider .slide span {
@@ -453,61 +463,70 @@
 
 
 <div id="container">
+  
       <div id="slider-container">
         <span onclick="slideRight()" class="btn"></span>
           <div id="slider">
             <div class="slide"><img src="assets/images/cleaning.jpg" width="100%">
-              <div class="booking-button text-center"> <button type="submit" class="  showPopup">
-                Book Now
-              </button></div>
-            <div class="service-title">
-              <p>Cleaning service</p>
-            </div>
-            </div>
-           
-              <div class="slide"><img src="assets/images/cleaning.jpg" width="100%">
-                <div class="booking-button text-center"> <button type="submit" class="  showPopup">
-                  Book Now
-                </button></div>
               <div class="service-title">
                 <p>Cleaning service</p>
               </div>
-              </div>
-              
-                <div class="slide"><img src="assets/images/cleaning.jpg" width="100%">
-                  <div class="booking-button text-center"> <button type="submit" class="  showPopup">
-                    Book Now
-                  </button></div>
+              <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                Book Now
+              </button></div>
+            
+            </div>
+           
+              <div class="slide"><img src="assets/images/cleaning.jpg" width="100%">
                 <div class="service-title">
                   <p>Cleaning service</p>
                 </div>
-                </div>
-               
-                  <div class="slide"><img src="assets/images/cleaning.jpg" width="100%">
-                    <div class="booking-button text-center"> <button type="submit" class="  showPopup">
-                      Book Now
-                    </button></div>
+                <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                  Book Now
+                </button></div>
+              
+              </div>
+              
+                <div class="slide"><img src="assets/images/cleaning.jpg" width="100%">
                   <div class="service-title">
                     <p>Cleaning service</p>
                   </div>
-                  </div>
+                  
+                  <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                    Book Now
+                  </button></div>
                 
-                    <div class="slide"><img src="assets/images/cleaning.jpg" width="100%">
-                      <div class="booking-button text-center"> <button type="submit" class="  showPopup">
-                        Book Now
-                      </button></div>
+                </div>
+               
+                  <div class="slide"><img src="assets/images/cleaning.jpg" width="100%">
                     <div class="service-title">
                       <p>Cleaning service</p>
                     </div>
-                    </div>
-                 
-                      <div class="slide"><img src="assets/images/cleaning.jpg" width="100%">
-                        <div class="booking-button text-center"> <button type="submit" class="  showPopup">
-                          Book Now
-                        </button></div>
+                    <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                      Book Now
+                    </button></div>
+                  
+                  </div>
+                
+                    <div class="slide"><img src="assets/images/cleaning.jpg" width="100%">
                       <div class="service-title">
                         <p>Cleaning service</p>
                       </div>
+                      <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                        Book Now
+                      </button></div>
+                    
+                    </div>
+                 
+                      <div class="slide"><img src="assets/images/cleaning.jpg" width="100%">
+                       
+                        <div class="service-title">
+                          <p>Cleaning service</p>
+                        </div>
+                        <div class="booking-button text-center"> <button type="submit" class="  showPopup">
+                          Book Now
+                        </button></div>
+                      
                       </div>
                      
 
@@ -577,44 +596,47 @@
               <div class="tab-pane fade show active" id="services-01" role="tabpanel" aria-labelledby="services-1">
                 <!-- box start -->
                 <div class="row mt-5">
-                  <div class="col-md-3 mt-3 col-6 mt-md-0 ">
+                  <div class="  col-md-3 mt-3 col-6 mt-md-0 ">
                     <div class=" services-card">
 
                       <img src="assets/images/cleaning.jpg">
-
+                      <div class="service-title">
+                        <p>Cleaning service</p>
+                      </div>
                     </div>
+                    
 
                     <div class="booking-button text-center"> <button type="submit" class="  showPopup">
                         Book Now
                       </button></div>
-                    <div class="service-title">
-                      <p>Cleaning service</p>
-                    </div>
+                      
                   </div>
                   <div class="col-md-3 mt-3 col-6 mt-md-0 ">
                     <div class=" services-card">
                       <img src="assets/images/cleaning.jpg">
+                      <div class="service-title">
+                        <p>Cleaning service</p>
+                      </div>
                     </div>
 
                     <div class="booking-button text-center"> <button type="submit" class="  showPopup">
                         Book Now
                       </button></div>
-                    <div class="service-title">
-                      <p>Cleaning service</p>
-                    </div>
+                    
                   </div>
 
                   <div class="col-md-3 mt-3 col-6 mt-md-0 ">
                     <div class="whyChooseCard services-card">
                       <img src="assets/images/cleaning.jpg">
+                      <div class="service-title">
+                        <p>Cleaning service</p>
+                      </div>
                     </div>
 
                     <div class="booking-button text-center"> <button type="submit" class="  showPopup">
                         Book Now
                       </button></div>
-                    <div class="service-title">
-                      <p>Cleaning service</p>
-                    </div>
+                    
                   </div>
 
                   <div class="col-md-3 col-6 mt-3 mt-lg-0">
@@ -625,9 +647,7 @@
                     <div class="booking-button text-center"> <button type="submit" class="  showPopup">
                         Book Now
                       </button></div>
-                    <div class="service-title">
-                      <p>Cleaning service</p>
-                    </div>
+                    
                   </div>
 
                 </div>
@@ -642,53 +662,58 @@
                     <div class=" services-card">
 
                       <img src="assets/images/cleaning.jpg">
+                      <div class="service-title">
+                        <p>Services 2</p>
+                      </div>
 
                     </div>
 
                     <div class="booking-button text-center"> <button type="submit" class="  showPopup">
                         Book Now
                       </button></div>
-                    <div class="service-title">
-                      <p>Services 2</p>
-                    </div>
+                    
                   </div>
                   <div class="col-md-3 mt-5 col-6 mt-md-0 ">
                     <div class=" services-card">
                       <img src="assets/images/cleaning.jpg">
+                      <div class="service-title">
+                        <p>Services 2</p>
+                      </div>
                     </div>
 
                     <div class="booking-button text-center"> <button type="submit" class="  showPopup">
                         Book Now
                       </button></div>
-                    <div class="service-title">
-                      <p>Services 2</p>
-                    </div>
+                    
                   </div>
 
                   <div class="col-md-3 mt-3 col-6 mt-md-0 ">
                     <div class="whyChooseCard services-card">
                       <img src="assets/images/cleaning.jpg">
+                      <div class="service-title">
+                        <p>Services 2</p>
+                      </div>
                     </div>
 
                     <div class="booking-button text-center"> <button type="submit" class="  showPopup">
                         Book Now
                       </button></div>
-                    <div class="service-title">
-                      <p>Services 2</p>
-                    </div>
+                    
                   </div>
 
                   <div class="col-md-3 col-6 mt-3 mt-lg-0">
                     <div class="whyChooseCard services-card">
                       <img src="assets/images/cleaning.jpg">
+
+                      <div class="service-title">
+                        <p>Services 2</p>
+                      </div>
                     </div>
 
                     <div class="booking-button text-center"> <button type="submit" class="  showPopup">
                         Book Now
                       </button></div>
-                    <div class="service-title">
-                      <p>Services 2</p>
-                    </div>
+                    
                   </div>
 
                 </div>
@@ -702,53 +727,58 @@
                     <div class=" services-card">
 
                       <img src="assets/images/cleaning.jpg">
-
+                      <div class="service-title">
+                        <p>Services 2</p>
+                      </div>
                     </div>
 
                     <div class="booking-button text-center"> <button type="submit" class="  showPopup">
                         Book Now
                       </button></div>
-                    <div class="service-title">
-                      <p>Services 3</p>
-                    </div>
+                    
                   </div>
                   <div class="col-md-3 mt-5 col-6 mt-md-0 ">
                     <div class=" services-card">
                       <img src="assets/images/cleaning.jpg">
+                      <div class="service-title">
+                        <p>Services 2</p>
+                      </div>
                     </div>
 
                     <div class="booking-button text-center"> <button type="submit" class="  showPopup">
                         Book Now
                       </button></div>
-                    <div class="service-title">
-                      <p>Services 3</p>
-                    </div>
+                   
                   </div>
 
                   <div class="col-md-3 mt-5 col-6 mt-md-0 ">
                     <div class="whyChooseCard services-card">
                       <img src="assets/images/cleaning.jpg">
+
+                      <div class="service-title">
+                        <p>Services 3</p>
+                      </div>
                     </div>
 
                     <div class="booking-button text-center"> <button type="submit" class="  showPopup">
                         Book Now
                       </button></div>
-                    <div class="service-title">
-                      <p>Services 3</p>
-                    </div>
+                    
                   </div>
 
                   <div class="col-md-3 col-6 mt-5 mt-lg-0">
                     <div class="whyChooseCard services-card">
                       <img src="assets/images/cleaning.jpg">
+
+                      <div class="service-title">
+                        <p>Services 3</p>
+                      </div>
                     </div>
 
                     <div class="booking-button text-center"> <button type="submit" class="  showPopup">
                         Book Now
                       </button></div>
-                    <div class="service-title">
-                      <p>Services 3</p>
-                    </div>
+                   
                   </div>
 
                 </div>
@@ -763,53 +793,57 @@
                     <div class=" services-card">
 
                       <img src="assets/images/cleaning.jpg">
+                      <div class="service-title">
+                        <p>Services 4</p>
+                      </div>
 
                     </div>
 
                     <div class="booking-button text-center"> <button type="submit" class="  showPopup">
                         Book Now
                       </button></div>
-                    <div class="service-title">
-                      <p>Services 4</p>
-                    </div>
+                   
                   </div>
                   <div class="col-md-3 mt-5 col-6 mt-md-0 ">
                     <div class=" services-card">
                       <img src="assets/images/cleaning.jpg">
+                      <div class="service-title">
+                        <p>Services 4</p>
+                      </div>
                     </div>
 
                     <div class="booking-button text-center"> <button type="submit" class="  showPopup">
                         Book Now
                       </button></div>
-                    <div class="service-title">
-                      <p>Services 4</p>
-                    </div>
+                  
                   </div>
 
                   <div class="col-md-3 mt-5 col-6 mt-md-0 ">
                     <div class="whyChooseCard services-card">
                       <img src="assets/images/cleaning.jpg">
+                      <div class="service-title">
+                        <p>Services 4</p>
+                      </div>
                     </div>
 
                     <div class="booking-button text-center"> <button type="submit" class="  showPopup">
                         Book Now
                       </button></div>
-                    <div class="service-title">
-                      <p>Services 4</p>
-                    </div>
+                    
                   </div>
 
                   <div class="col-md-3 col-6 mt-5 mt-lg-0">
-                    <div class="whyChooseCard services-card">
+                    <div class="services-card">
                       <img src="assets/images/cleaning.jpg">
+                      <div class="service-title">
+                        <p>Services 4</p>
+                      </div>
                     </div>
 
                     <div class="booking-button text-center"> <button type="submit" class="  showPopup">
                         Book Now
                       </button></div>
-                    <div class="service-title">
-                      <p>Services 4</p>
-                    </div>
+                  
                   </div>
 
                 </div>
@@ -903,53 +937,56 @@
                     <div class=" services-card">
 
                       <img src="assets/images/cleaning.jpg">
-
+                      <div class="service-title">
+                        <p>Cleaning service</p>
+                      </div>
                     </div>
 
                     <div class="booking-button text-center"> <button type="submit" class="  showPopup">
                         Book Now
                       </button></div>
-                    <div class="service-title">
-                      <p>Cleaning service</p>
-                    </div>
+                    
                   </div>
                   <div class="col-md-3 mt-3 col-6 mt-md-0 ">
                     <div class=" services-card">
                       <img src="assets/images/cleaning.jpg">
+                      <div class="service-title">
+                        <p>Cleaning service</p>
+                      </div>
                     </div>
 
                     <div class="booking-button text-center"> <button type="submit" class="  showPopup">
                         Book Now
                       </button></div>
-                    <div class="service-title">
-                      <p>Cleaning service</p>
-                    </div>
+                    
                   </div>
 
                   <div class="col-md-3 mt-3 col-6 mt-md-0 ">
                     <div class="whyChooseCard services-card">
                       <img src="assets/images/cleaning.jpg">
+                      <div class="service-title">
+                        <p>Cleaning service</p>
+                      </div>
                     </div>
 
                     <div class="booking-button text-center"> <button type="submit" class="  showPopup">
                         Book Now
                       </button></div>
-                    <div class="service-title">
-                      <p>Cleaning service</p>
-                    </div>
+                  
                   </div>
 
                   <div class="col-md-3 col-6 mt-3 mt-lg-0">
                     <div class="whyChooseCard services-card">
                       <img src="assets/images/cleaning.jpg">
+                      <div class="service-title">
+                        <p>Cleaning service</p>
+                      </div>
                     </div>
 
                     <div class="booking-button text-center"> <button type="submit" class="  showPopup">
                         Book Now
                       </button></div>
-                    <div class="service-title">
-                      <p>Cleaning service</p>
-                    </div>
+                    
                   </div>
 
                 </div>
@@ -964,53 +1001,57 @@
                     <div class=" services-card">
 
                       <img src="assets/images/cleaning.jpg">
+                      <div class="service-title">
+                        <p>Services 2</p>
+                      </div>
 
                     </div>
 
                     <div class="booking-button text-center"> <button type="submit" class="  showPopup">
                         Book Now
                       </button></div>
-                    <div class="service-title">
-                      <p>Services 2</p>
-                    </div>
+                    
                   </div>
                   <div class="col-md-3 mt-5 col-6 mt-md-0 ">
                     <div class=" services-card">
                       <img src="assets/images/cleaning.jpg">
+                      <div class="service-title">
+                        <p>Services 2</p>
+                      </div>
                     </div>
 
                     <div class="booking-button text-center"> <button type="submit" class="  showPopup">
                         Book Now
                       </button></div>
-                    <div class="service-title">
-                      <p>Services 2</p>
-                    </div>
+                   
                   </div>
 
                   <div class="col-md-3 mt-3 col-6 mt-md-0 ">
                     <div class="whyChooseCard services-card">
                       <img src="assets/images/cleaning.jpg">
+                      <div class="service-title">
+                        <p>Services 2</p>
+                      </div>
                     </div>
 
                     <div class="booking-button text-center"> <button type="submit" class="  showPopup">
                         Book Now
                       </button></div>
-                    <div class="service-title">
-                      <p>Services 2</p>
-                    </div>
+                    
                   </div>
 
                   <div class="col-md-3 col-6 mt-3 mt-lg-0">
                     <div class="whyChooseCard services-card">
                       <img src="assets/images/cleaning.jpg">
+                      <div class="service-title">
+                        <p>Services 2</p>
+                      </div>
                     </div>
 
                     <div class="booking-button text-center"> <button type="submit" class="  showPopup">
                         Book Now
                       </button></div>
-                    <div class="service-title">
-                      <p>Services 2</p>
-                    </div>
+                   
                   </div>
 
                 </div>
@@ -1024,53 +1065,57 @@
                     <div class=" services-card">
 
                       <img src="assets/images/cleaning.jpg">
+                      <div class="service-title">
+                        <p>Services 3</p>
+                      </div>
 
                     </div>
 
                     <div class="booking-button text-center"> <button type="submit" class="  showPopup">
                         Book Now
                       </button></div>
-                    <div class="service-title">
-                      <p>Services 3</p>
-                    </div>
+                   
                   </div>
                   <div class="col-md-3 mt-5 col-6 mt-md-0 ">
                     <div class=" services-card">
                       <img src="assets/images/cleaning.jpg">
+                      <div class="service-title">
+                        <p>Services 3</p>
+                      </div>
                     </div>
 
                     <div class="booking-button text-center"> <button type="submit" class="  showPopup">
                         Book Now
                       </button></div>
-                    <div class="service-title">
-                      <p>Services 3</p>
-                    </div>
+                    
                   </div>
 
                   <div class="col-md-3 mt-5 col-6 mt-md-0 ">
                     <div class="whyChooseCard services-card">
                       <img src="assets/images/cleaning.jpg">
+                      <div class="service-title">
+                        <p>Services 3</p>
+                      </div>
                     </div>
 
                     <div class="booking-button text-center"> <button type="submit" class="  showPopup">
                         Book Now
                       </button></div>
-                    <div class="service-title">
-                      <p>Services 3</p>
-                    </div>
+                    
                   </div>
 
                   <div class="col-md-3 col-6 mt-5 mt-lg-0">
                     <div class="whyChooseCard services-card">
                       <img src="assets/images/cleaning.jpg">
+                      <div class="service-title">
+                        <p>Services 3</p>
+                      </div>
                     </div>
 
                     <div class="booking-button text-center"> <button type="submit" class="  showPopup">
                         Book Now
                       </button></div>
-                    <div class="service-title">
-                      <p>Services 3</p>
-                    </div>
+                   
                   </div>
 
                 </div>
@@ -1085,53 +1130,57 @@
                     <div class=" services-card">
 
                       <img src="assets/images/cleaning.jpg">
+                      <div class="service-title">
+                        <p>Services 4</p>
+                      </div>
 
                     </div>
 
                     <div class="booking-button text-center"> <button type="submit" class="  showPopup">
                         Book Now
                       </button></div>
-                    <div class="service-title">
-                      <p>Services 4</p>
-                    </div>
+                    
                   </div>
                   <div class="col-md-3 mt-5 col-6 mt-md-0 ">
                     <div class=" services-card">
                       <img src="assets/images/cleaning.jpg">
+                      <div class="service-title">
+                        <p>Services 4</p>
+                      </div>
                     </div>
 
                     <div class="booking-button text-center"> <button type="submit" class="  showPopup">
                         Book Now
                       </button></div>
-                    <div class="service-title">
-                      <p>Services 4</p>
-                    </div>
+                    
                   </div>
 
                   <div class="col-md-3 mt-5 col-6 mt-md-0 ">
                     <div class="whyChooseCard services-card">
                       <img src="assets/images/cleaning.jpg">
+                      <div class="service-title">
+                        <p>Services 4</p>
+                      </div>
                     </div>
 
                     <div class="booking-button text-center"> <button type="submit" class="  showPopup">
                         Book Now
                       </button></div>
-                    <div class="service-title">
-                      <p>Services 4</p>
-                    </div>
+                   
                   </div>
 
                   <div class="col-md-3 col-6 mt-5 mt-lg-0">
                     <div class="whyChooseCard services-card">
                       <img src="assets/images/cleaning.jpg">
+                      <div class="service-title">
+                        <p>Services 4</p>
+                      </div>
                     </div>
 
                     <div class="booking-button text-center"> <button type="submit" class="  showPopup">
                         Book Now
                       </button></div>
-                    <div class="service-title">
-                      <p>Services 4</p>
-                    </div>
+                    
                   </div>
 
                 </div>
@@ -1184,53 +1233,57 @@
                 <div class=" services-card">
 
                   <img src="assets/images/cleaning.jpg">
+                  <div class="service-title">
+                    <p>Cleaning service</p>
+                  </div>
 
                 </div>
 
                 <div class="booking-button text-center"> <button type="submit" class="  showPopup">
                     Book Now
                   </button></div>
-                <div class="service-title">
-                  <p>Cleaning service</p>
-                </div>
+               
               </div>
               <div class="col-md-3 mt-3 col-6 mt-md-0 ">
                 <div class=" services-card">
                   <img src="assets/images/cleaning.jpg">
+                  <div class="service-title">
+                    <p>Cleaning service</p>
+                  </div>
                 </div>
 
                 <div class="booking-button text-center"> <button type="submit" class="  showPopup">
                     Book Now
                   </button></div>
-                <div class="service-title">
-                  <p>Cleaning service</p>
-                </div>
+               
               </div>
 
               <div class="col-md-3 mt-3 col-6 mt-md-0 ">
                 <div class="whyChooseCard services-card">
                   <img src="assets/images/cleaning.jpg">
+                  <div class="service-title">
+                    <p>Cleaning service</p>
+                  </div>
                 </div>
 
                 <div class="booking-button text-center"> <button type="submit" class="  showPopup">
                     Book Now
                   </button></div>
-                <div class="service-title">
-                  <p>Cleaning service</p>
-                </div>
+                
               </div>
 
               <div class="col-md-3 col-6 mt-3 mt-lg-0">
                 <div class="whyChooseCard services-card">
                   <img src="assets/images/cleaning.jpg">
+                  <div class="service-title">
+                    <p>Cleaning service</p>
+                  </div>
                 </div>
 
                 <div class="booking-button text-center"> <button type="submit" class="  showPopup">
                     Book Now
                   </button></div>
-                <div class="service-title">
-                  <p>Cleaning service</p>
-                </div>
+               
               </div>
 
             </div>
