@@ -529,9 +529,10 @@ border-bottom: 0;
 .qoutes-section{
 
   background-image: url(../images/blue-bg-2.jpg);
-  padding-top:100px;
+  padding:6rem 0;
   text-align: center;
   color: #fff;
+  margin-top: 6rem;
  
 }
 .qoutes-section p{
@@ -553,31 +554,51 @@ margin-bottom: 2rem;
 
   border: 1px solid;
 }
-.image-portfolio{
 
-  margin-top: 8rem;
+/* ................................................Collection service ................................................*/
+
+
+
+.image-portfolio .box-card{
+  border-radius: 10px;
+
+  -webkit-box-shadow: -4px 4px 33px 0px rgba(0,0,0,0.23);
+  -moz-box-shadow: -4px 4px 33px 0px rgba(0,0,0,0.23);
+  box-shadow: -4px 4px 33px 0px rgba(0,0,0,0.23);
+}
+
+.image-portfolio .box-card img{
+
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.image-portfolio .box-card p{
+
+  font-size: 15px;
+ padding: 10px 20px;
+ font-weight: 100px;
 }
 
 
 
-/*..................... HR Payroll Managment CSS...................................... */
 
-.payroll-title-content{
+
+/*............................................. HR Payroll Managment CSS...................................... */
+
+.inner-title-section{
 
   margin-top: 6rem;
  
 }
     
-.payroll-title-content h2{
+.inner-title-section h3{
+  color: #24aadd;
+}
+.inner-title-section h2{
 
   font-size: 32px;
-  margin-bottom: 1.5rem;
-}
-.payroll-title-content h1{
-
-  font-size: 37px;
   margin-bottom: 1rem;
-  color: #24aadd;
+  
 }
 .sec-1{
   padding: 40px 0;
@@ -1584,4 +1605,29 @@ box-shadow: -2px 2px 19px -12px rgba(0,0,0,0.69);
   }
 }
 
+/*..................................... Responsive Section ........................................*/
+@media screen and (max-width: 500px) {
 
+
+
+}
+
+@media screen and (max-width: 991px) {
+
+.qoutes-section p{
+
+  font-size: 16px;
+}
+
+
+
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+
+
+
+}

@@ -77,26 +77,56 @@ header nav ul:not(.social-menu, .navbar-nav) li ul li a {
 .banner .banner-inner {
   width: 70%;
 }
-.banner .banner-inner h1 {
-  line-height: 4.5rem;
-  word-spacing: 0.3rem;
-  text-transform: capitalize;
-  font-size: 2rem;
-  font-family: "Poppins", sans-serif;
-  color: #fff;
-}
+
 .banner .banner-inner h2 {
   word-spacing: 0.3rem;
   text-transform: capitalize;
-  font-size: 3rem;
-  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  
   color: #fff;
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
+  margin-top: 0rem !important;
+}
+.banner .banner-inner span {
+  font-size: 30px;
+  margin-bottom: 0;
+  /* background: #24AADD;
+background: linear-gradient(to right, #24AADD 0%, #EE341D 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; */
+
+ 
 }
 .banner .banner-inner p {
-  font-size: 1.8rem;
+  font-size: 20px;
+  max-width: 700px;
+  font-weight: 100;
+  font-style: normal;
+}
+.banner .banner-inner span a{
+
+text-decoration: none;
+color:#fff ;
+
+border-bottom: 2px solid #ee341d;
+  border-top: 2px solid #24aadd;
+ 
+border-radius: 15px;
+font-size: 15px;
+padding: 3px 18px;
+
 }
 
+.banner .banner-inner span a:hover{
+
+  border-top: 2px solid #ee341d;
+  border-bottom: 2px solid #24aadd;
+  border-right:2px solid #24aadd;
+  border-left: 2px solid #ee341d;
+  transition: 1s;
+  transition-duration: 2s;
+
+}
 .navigation .mainmenu > li {
   width: 31%;
   margin: 0% 1%;
@@ -157,10 +187,10 @@ header nav ul:not(.social-menu, .navbar-nav) li ul li a {
     font-size: 2rem;
   }
   .banner .banner-inner h2 {
-    font-size: 2.5rem;
+    font-size: 50px;
   }
   .banner .banner-inner p {
-    font-size: 1.6rem;
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -188,17 +218,19 @@ header nav ul:not(.social-menu, .navbar-nav) li ul li a {
 }
 @media screen and (max-width: 500px) {
   .banner .banner-inner {
-    width: 100%;
+    width: 90%;
   }
-  .banner .banner-inner h1 {
-    line-height: normal;
-    font-size: 1.7rem;
-  }
+  
   .banner .banner-inner h2 {
-    font-size: 1.8rem;
+    font-size: 35px;
   }
   .banner .banner-inner p {
-    font-size: 1.4rem;
+    font-size: 16px;
+  }
+
+  .banner .banner-inner span{
+
+    font-size: 20px;
   }
   .showDropdown {
     display: block;
