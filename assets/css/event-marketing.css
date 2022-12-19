@@ -401,25 +401,29 @@ h2 {
 /* success stories */
 
 .sucess-stories {
-margin: 8rem 0rem;
-  margin-bottom: 15rem;
+margin-top: 6rem;
   padding-left: 10px;
   padding-right: 10px;
 }
 
 .sucess-stories h2 {
 
-  font-size: 4.8rem;
+  font-size: 32px;
 
 }
 
 .story-content h3 {
 
-  font-size: 25px;
+  font-size: 22px;
+}
+.story-content p {
+
+  font-size: 16px;
 }
 
 .story-content h4 {
   color: #1f7dbc;
+  font-size: 13px;
 }
 
 

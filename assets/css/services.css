@@ -1,17 +1,35 @@
+
+
+
+.service-title-section {
+margin-top: 6rem;
+
+
+}
+.service-title-section h3 {
+    
+    color: #2aabda !important;
+    font-weight: 600;
+
+    }
+
+    .service-title-section h2{
+
+        font-size: 37px;
+        margin-bottom: 1rem;
+    }
+
+
 /* ..............................................Facility Mangament CSS...................................... */
 
-.sucess-stories{
 
-    margin-top:8rem 0 ;
-}
-.sucess-stories h2 {
-
-    font-size: 32px;
-}
 
 .services-section {
-    margin: 6rem 0;
+    margin-top: 6rem ;
 }
+
+
+
 
 .services-section h2 {
 
@@ -146,9 +164,25 @@
     padding: 10px 20px;
     color: #fff;
 }
+.s-m-btn a{
+    background-color: #2aabda;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    text-align: center;
+    margin-top: 4rem ;
+    padding: 5px 0;
+    font-size: 16px;
+    font-weight: 600;
+    border-top-left-radius: 20px;
+}
 
 
-@media screen and(min-width:749px) {
+
+
+
+
+@media (max-width:749px) {
     .service-title p {
 
         font-size: 13px;
@@ -157,7 +191,18 @@
     .booking-button button {
 
         font-size: 13px;
-        background-color: #2aabda;
+        background-color: black;
+    }
+h2{
+
+    font-size: 25px !important;
+}
+
+    .contact-form {
+        padding-left: 0;
+        padding: 30px;
+        margin: auto;
+      
     }
 
 }
@@ -170,6 +215,7 @@
 /*.......................................... Subscription section CSS .......................................*/
 
 .subscription-section {
+    margin-top:6rem ;
     padding: 8rem 0;
 
     background-image: url(../images/subscription-bg.jpg);
@@ -223,7 +269,7 @@
 /*................................ Service Contact Form CSS Start .......................................*/
 
 .contact-section {
-
+margin-top: 4rem;
     border-bottom: 4px solid #2aabda;
 }
 
@@ -291,10 +337,10 @@ form textarea {
 
 }
 
-@media screen and(max-width:749px) {
+@media (max-width:749px) {
 
     .contact-form {
-
-        padding: 10px;
+padding-left: 0;
+        padding: 40px;
     }
 }
